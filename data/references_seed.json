@@ -1,0 +1,193 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "references": [
+    {
+      "id": "pantheon_rome",
+      "name": "Panthéon",
+      "architect_or_period": "Antiquité romaine, période d'Hadrien",
+      "location": "Rome, Italie",
+      "year": "vers 120-126",
+      "physical_tags": ["light:zénithale", "light:variable", "spatiality:monumental", "framing:oculus"],
+      "subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:sublime", "legibility_orientation:ordonné"],
+      "keywords_fr": ["oculus", "coupole", "lumière du ciel", "temps", "sphère", "cosmique"],
+      "sources": ["https://www.britannica.com/list/19-essential-italian-churches/Pantheon"]
+    },
+    {
+      "id": "sainte_chapelle_paris",
+      "name": "Sainte-Chapelle",
+      "architect_or_period": "Gothique rayonnant",
+      "location": "Paris, France",
+      "year": "1240s",
+      "physical_tags": ["light:colorée", "light:intense", "filtering:vitrail", "spatiality:haut"],
+      "subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:impressionnant", "mystery_exploration:initiatique"],
+      "keywords_fr": ["vitrail", "couleur", "vaisseau de lumière", "verticalité", "immersion"],
+      "sources": ["https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"]
+    },
+    {
+      "id": "alhambra_generalife",
+      "name": "Alhambra et Generalife",
+      "architect_or_period": "Architecture nasride",
+      "location": "Grenade, Espagne",
+      "year": "13e-14e siècles",
+      "physical_tags": ["water:bassin", "water:fontaine", "thermal_air:frais", "movement_path:sinueux", "shadow_contrast:pénombre"],
+      "subjective_tags": ["intimacy_refuge:intime", "mystery_exploration:mystérieux", "wellbeing_restoration:ressourçant"],
+      "keywords_fr": ["eau", "cour", "jardin", "fraîcheur", "oasis", "ornement", "paradis"],
+      "sources": ["https://whc.unesco.org/en/list/314/"]
+    },
+    {
+      "id": "fallingwater",
+      "name": "Fallingwater",
+      "architect_or_period": "Frank Lloyd Wright",
+      "location": "Mill Run, Pennsylvanie, États-Unis",
+      "year": "1935-1939",
+      "physical_tags": ["water:cascade", "sound:aquatique", "material_texture:pierre", "opening_landscape:panoramique", "nature_living:organique"],
+      "subjective_tags": ["intimacy_refuge:refuge", "wellbeing_restoration:ressourçant", "calm_contemplation:paisible"],
+      "keywords_fr": ["cascade", "porte-à-faux", "rocher", "organique", "terrasses", "nature"],
+      "sources": ["https://fallingwater.org/what-is-fallingwater/"]
+    },
+    {
+      "id": "casa_luis_barragan",
+      "name": "Casa Luis Barragán",
+      "architect_or_period": "Luis Barragán",
+      "location": "Mexico, Mexique",
+      "year": "1948",
+      "physical_tags": ["color:rose", "light:réfléchie", "shadow_contrast:pénombre", "material_texture:patiné", "movement_path:progressif"],
+      "subjective_tags": ["intimacy_refuge:intime", "calm_contemplation:silencieux", "mystery_exploration:mystérieux"],
+      "keywords_fr": ["couleur", "pénombre dorée", "jardin", "reflet", "silence", "maison-refuge"],
+      "sources": ["https://whc.unesco.org/en/list/1136/", "https://www.casaluisbarragan.org/eng/en_vestibulo.html"]
+    },
+    {
+      "id": "ronchamp",
+      "name": "Chapelle Notre-Dame du Haut",
+      "architect_or_period": "Le Corbusier",
+      "location": "Ronchamp, France",
+      "year": "1950-1955",
+      "physical_tags": ["light:filtrée", "light:colorée", "material_texture:béton", "spatiality:épais", "movement_path:ritualisé"],
+      "subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "mystery_exploration:mystérieux"],
+      "keywords_fr": ["mur épais", "verre coloré", "toiture flottante", "colline", "procession"],
+      "sources": ["https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"]
+    },
+    {
+      "id": "salk_institute",
+      "name": "Salk Institute",
+      "architect_or_period": "Louis I. Kahn",
+      "location": "La Jolla, Californie, États-Unis",
+      "year": "1960s",
+      "physical_tags": ["light:naturelle", "water:canal", "material_texture:travertin", "opening_landscape:horizon", "spatiality:axial"],
+      "subjective_tags": ["calm_contemplation:calme", "monumental_sublime:solennel", "inspiration_concentration:inspirant"],
+      "keywords_fr": ["cour", "travertin", "océan", "canal", "laboratoire", "horizon"],
+      "sources": ["https://www.salk.edu/de/about/about-salk-architecture/"]
+    },
+    {
+      "id": "kimbell_art_museum",
+      "name": "Kimbell Art Museum",
+      "architect_or_period": "Louis I. Kahn",
+      "location": "Fort Worth, Texas, États-Unis",
+      "year": "1972",
+      "physical_tags": ["light:diffuse", "light:réfléchie", "material_texture:béton", "material_texture:travertin", "spatiality:voûte"],
+      "subjective_tags": ["calm_contemplation:contemplatif", "legibility_orientation:clair", "inspiration_concentration:concentré"],
+      "keywords_fr": ["lumière diffuse", "voûte cycloïde", "réflecteur", "argenté", "musée"],
+      "sources": ["https://kimbellart.org/art-architecture/architecture/kahn-building"]
+    },
+    {
+      "id": "phillips_exeter_library",
+      "name": "Phillips Exeter Academy Library",
+      "architect_or_period": "Louis I. Kahn",
+      "location": "Exeter, New Hampshire, États-Unis",
+      "year": "1971-1972",
+      "physical_tags": ["spatiality:atrium", "material_texture:brique", "material_texture:bois", "light:naturelle", "prospect_refuge:alcôve"],
+      "subjective_tags": ["inspiration_concentration:studieux", "intimacy_refuge:refuge", "legibility_orientation:structuré"],
+      "keywords_fr": ["atrium", "carrel", "brique", "bois", "lecture", "centre communautaire"],
+      "sources": ["https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"]
+    },
+    {
+      "id": "church_of_the_light",
+      "name": "Church of the Light",
+      "architect_or_period": "Tadao Ando",
+      "location": "Ibaraki, Osaka, Japon",
+      "year": "1989",
+      "physical_tags": ["light:intense", "shadow_contrast:clair-obscur", "material_texture:béton", "framing:fente", "spatiality:vide"],
+      "subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "monumental_sublime:solennel"],
+      "keywords_fr": ["croix de lumière", "béton", "vide", "ascèse", "contraste"],
+      "sources": ["https://ibaraki-kasugaoka-church.jp/e-top.html"]
+    },
+    {
+      "id": "therme_vals",
+      "name": "Therme Vals",
+      "architect_or_period": "Peter Zumthor",
+      "location": "Vals, Suisse",
+      "year": "1996",
+      "physical_tags": ["material_texture:pierre", "water:source", "thermal_air:chaud", "thermal_air:humide", "shadow_contrast:pénombre", "sound:aquatique"],
+      "subjective_tags": ["wellbeing_restoration:réparateur", "calm_contemplation:méditatif", "mystery_exploration:mystérieux"],
+      "keywords_fr": ["pierre", "eau", "bain", "vapeur", "caverne", "rituel", "tactilité"],
+      "sources": ["https://vals.ch/en/enjoy/wellness/7132-therme/", "https://www.archdaily.com/13358/the-therme-vals/1721170689_outdoor-pool2"]
+    },
+    {
+      "id": "bruder_klaus_field_chapel",
+      "name": "Bruder Klaus Field Chapel",
+      "architect_or_period": "Peter Zumthor",
+      "location": "Mechernich, Allemagne",
+      "year": "2007",
+      "physical_tags": ["material_texture:béton", "smell:fumé", "light:zénithale", "framing:oculus", "shadow_contrast:sombre"],
+      "subjective_tags": ["sacred_ritual:mystique", "unease_oppression:austère", "monumental_sublime:sublime"],
+      "keywords_fr": ["béton brûlé", "tronc", "fumée", "oculus", "pluie", "cavité"],
+      "sources": ["https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"]
+    },
+    {
+      "id": "kolumba_museum",
+      "name": "Kolumba Museum",
+      "architect_or_period": "Peter Zumthor",
+      "location": "Cologne, Allemagne",
+      "year": "2007",
+      "physical_tags": ["material_texture:brique", "filtering:perforation", "light:diffuse", "palimpsest:ruine", "movement_path:progressif"],
+      "subjective_tags": ["memory_absence:mémoriel", "calm_contemplation:contemplatif", "mystery_exploration:suggestif"],
+      "keywords_fr": ["ruine", "brique perforée", "lumière diffuse", "palimpseste", "musée de contemplation"],
+      "sources": ["https://www.museen.koeln/en/visit/museums/kolumba"]
+    },
+    {
+      "id": "jewish_museum_berlin",
+      "name": "Jewish Museum Berlin",
+      "architect_or_period": "Daniel Libeskind",
+      "location": "Berlin, Allemagne",
+      "year": "1999-2001",
+      "physical_tags": ["spatiality:vide", "material_texture:béton", "shadow_contrast:sombre", "movement_path:contraint", "thermal_air:froid"],
+      "subjective_tags": ["memory_absence:absent", "unease_oppression:oppressant", "mystery_exploration:ambigu"],
+      "keywords_fr": ["vide", "absence", "désorientation", "béton froid", "mémoire", "ligne brisée"],
+      "sources": ["https://www.jmberlin.de/en/libeskind-building"]
+    },
+    {
+      "id": "chapel_st_ignatius",
+      "name": "Chapel of St. Ignatius",
+      "architect_or_period": "Steven Holl Architects",
+      "location": "Seattle, Washington, États-Unis",
+      "year": "1997",
+      "physical_tags": ["light:colorée", "light:réfléchie", "filtering:volume", "material_texture:béton", "framing:lanterne"],
+      "subjective_tags": ["sacred_ritual:spirituel", "mystery_exploration:suggestif", "calm_contemplation:contemplatif"],
+      "keywords_fr": ["bouteilles de lumière", "couleurs complémentaires", "chapelle", "réflexion", "volumes lumineux"],
+      "sources": ["https://www.stevenholl.com/projects/st-ignatius-chapel"]
+    },
+    {
+      "id": "cy_twombly_gallery",
+      "name": "Cy Twombly Gallery",
+      "architect_or_period": "Renzo Piano",
+      "location": "Houston, Texas, États-Unis",
+      "year": "1995",
+      "physical_tags": ["light:filtrée", "material_texture:plâtre", "material_texture:toile", "spatiality:symétrique"],
+      "subjective_tags": ["calm_contemplation:calme", "inspiration_concentration:concentré", "wellbeing_restoration:doux"],
+      "keywords_fr": ["lumière filtrée", "toile de lin", "plâtre", "délicatesse", "musée"],
+      "sources": ["https://www.menil.org/campus/cy-twombly-gallery"]
+    },
+    {
+      "id": "fondation_beyeler",
+      "name": "Fondation Beyeler",
+      "architect_or_period": "Renzo Piano Building Workshop",
+      "location": "Riehen, Suisse",
+      "year": "1997",
+      "physical_tags": ["light:naturelle", "light:filtrée", "opening_landscape:paysage", "nature_living:verdure", "spatiality:ordonné", "material_texture:toit léger"],
+      "subjective_tags": ["calm_contemplation:serein", "legibility_orientation:clair", "wellbeing_restoration:équilibré"],
+      "keywords_fr": ["lumière naturelle", "verdure", "toit flottant", "musée", "sérénité"],
+      "sources": ["https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"]
+    }
+  ]
+}
