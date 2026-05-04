@@ -6,6 +6,7 @@ const DATA_PATHS = {
 const PRESETS = {
   light: ["light:filtrée", "light:colorée"],
   water: ["water:source", "water:bassin", "wellbeing_restoration:ressourçant"],
+  sound: ["sound:réverbérant", "sound:cérémoniel", "sacred_ritual:sacré", "sacred_ritual:rituel"],
   memory: ["memory_absence:mémoriel", "memory_absence:absent"],
   refuge: ["intimacy_refuge:refuge", "inspiration_concentration:studieux"],
   matter: ["material_texture:pierre", "material_texture:béton"]
@@ -14,6 +15,7 @@ const PRESETS = {
 const TILE_PALETTES = {
   light: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],
   water: ["#356c8b", "#d5e4e6", "#6a8c8e", "#f3f6f3"],
+  sound: ["#49515f", "#d8d2c2", "#8a6f45", "#f4f1ea"],
   material_texture: ["#8c7861", "#d5c5ad", "#5d544b", "#eee8de"],
   shadow_contrast: ["#242621", "#b8b19f", "#5b5a52", "#efeade"],
   color: ["#9b3f2f", "#d8a34f", "#2f6c76", "#f2e8d2"],
@@ -341,10 +343,10 @@ function renderAtmosphereTile(reference, className = "atmosphere-tile") {
 }
 
 function getFilteredReferences() {
-  const selected = [...state.selectedTags];
+  const selectedGroups = groupSelectedTagsByRubric();
   const results = state.references.filter((reference) => {
     const tags = getAllTags(reference);
-    const matchesTags = selected.every((tag) => tags.includes(tag));
+    const matchesTags = matchesSelectedGroups(tags, selectedGroups);
     const matchesQuery = !state.query || getSearchText(reference).includes(state.query);
     return matchesTags && matchesQuery;
   });
@@ -364,6 +366,20 @@ function scoreReference(reference) {
   }
   if (state.query && getSearchText(reference).includes(state.query)) score += 2;
   return score + reference.sources.length * 0.2 + reference.keywords_fr.length * 0.05;
+}
+
+function groupSelectedTagsByRubric() {
+  const groups = new Map();
+  for (const tag of state.selectedTags) {
+    const rubricId = tag.split(":")[0];
+    if (!groups.has(rubricId)) groups.set(rubricId, []);
+    groups.get(rubricId).push(tag);
+  }
+  return [...groups.values()];
+}
+
+function matchesSelectedGroups(referenceTags, selectedGroups) {
+  return selectedGroups.every((group) => group.some((tag) => referenceTags.includes(tag)));
 }
 
 function toggleTag(tag) {

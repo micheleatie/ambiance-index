@@ -22,11 +22,15 @@
 - [x] Valider le lot 4 et intégrer 20 nouvelles références, ce qui porte l'app à 90 références indexées.
 - [x] Traiter le lot 5 public/urbain/contemporain : 10 références, 30 sources, mots extraits et tags proposés.
 - [x] Valider le lot 5 et intégrer les 10 dernières références, ce qui porte l'app à 100 références indexées.
+- [x] Enrichir transversalement les 100 références avec des qualités sonores, olfactives, thermiques et immersives v1.
+- [x] Ajouter un thème rapide `Son et rituel` dans le prototype.
+- [x] Vérifier le prototype après enrichissement : 100 références chargées, filtres sonores visibles, thème `Son et rituel` fonctionnel.
+- [x] Corriger la logique des combinaisons : OU entre valeurs d'une même rubrique, ET entre rubriques différentes.
 
 ## À Faire Ensuite
 
 - [ ] Transformer les justifications v0 du lot 1 en citations courtes ou paraphrases affichables dans l'app.
-- [ ] Recharger le prototype et tester les combinaisons qui étaient vides, notamment lumière + matière + subjectif.
+- [ ] Tester plus finement les combinaisons multisensorielles restantes, notamment silence + matière, eau + son et odeur + matière.
 - [ ] Ajouter dans l'interface un indicateur de nombre de sources et de niveau de confiance par référence.
 - [ ] Relire et corriger la taxonomie avec un vocabulaire d'architecte plus précis.
 - [ ] Ajouter un champ de score : fréquence de citation, autorité de la source, pertinence pédagogique.

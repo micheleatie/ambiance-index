@@ -12,7 +12,12 @@
         "light:zénithale",
         "light:variable",
         "spatiality:monumental",
-        "framing:oculus"
+        "framing:oculus",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:écho",
+        "sound:cérémoniel",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -25,7 +30,12 @@
         "lumière du ciel",
         "temps",
         "sphère",
-        "cosmique"
+        "cosmique",
+        "son réverbérant",
+        "son ample",
+        "son écho",
+        "son cérémoniel",
+        "immersion son"
       ],
       "sources": [
         "https://www.britannica.com/list/19-essential-italian-churches/Pantheon"
@@ -41,7 +51,11 @@
         "light:colorée",
         "light:intense",
         "filtering:vitrail",
-        "spatiality:haut"
+        "spatiality:haut",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:cérémoniel",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -53,7 +67,11 @@
         "couleur",
         "vaisseau de lumière",
         "verticalité",
-        "immersion"
+        "immersion",
+        "son réverbérant",
+        "son ample",
+        "son cérémoniel",
+        "immersion son"
       ],
       "sources": [
         "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"
@@ -70,7 +88,13 @@
         "water:fontaine",
         "thermal_air:frais",
         "movement_path:sinueux",
-        "shadow_contrast:pénombre"
+        "shadow_contrast:pénombre",
+        "sound:aquatique",
+        "sound:continu",
+        "sound:masquant",
+        "smell:végétal",
+        "smell:humide",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "intimacy_refuge:intime",
@@ -84,7 +108,13 @@
         "fraîcheur",
         "oasis",
         "ornement",
-        "paradis"
+        "paradis",
+        "son aquatique",
+        "son continu",
+        "son masquant",
+        "odeur végétal",
+        "odeur humide",
+        "air humide"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/314/"
@@ -101,7 +131,15 @@
         "sound:aquatique",
         "material_texture:pierre",
         "opening_landscape:panoramique",
-        "nature_living:organique"
+        "nature_living:organique",
+        "sound:continu",
+        "sound:masquant",
+        "sound:naturel",
+        "smell:humide",
+        "smell:végétal",
+        "immersion:son",
+        "thermal_air:frais",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "intimacy_refuge:refuge",
@@ -114,7 +152,15 @@
         "rocher",
         "organique",
         "terrasses",
-        "nature"
+        "nature",
+        "son continu",
+        "son masquant",
+        "son naturel",
+        "odeur humide",
+        "odeur végétal",
+        "immersion son",
+        "air frais",
+        "air humide"
       ],
       "sources": [
         "https://fallingwater.org/what-is-fallingwater/"
@@ -131,7 +177,10 @@
         "light:réfléchie",
         "shadow_contrast:pénombre",
         "material_texture:patiné",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:silencieux",
+        "sound:feutré",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "intimacy_refuge:intime",
@@ -144,7 +193,10 @@
         "jardin",
         "reflet",
         "silence",
-        "maison-refuge"
+        "maison-refuge",
+        "son silencieux",
+        "son feutré",
+        "odeur végétal"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/1136/",
@@ -162,7 +214,11 @@
         "light:colorée",
         "material_texture:béton",
         "spatiality:épais",
-        "movement_path:ritualisé"
+        "movement_path:ritualisé",
+        "sound:silencieux",
+        "sound:réverbérant",
+        "sound:cérémoniel",
+        "sound:feutré"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -174,7 +230,11 @@
         "verre coloré",
         "toiture flottante",
         "colline",
-        "procession"
+        "procession",
+        "son silencieux",
+        "son réverbérant",
+        "son cérémoniel",
+        "son feutré"
       ],
       "sources": [
         "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"
@@ -191,7 +251,12 @@
         "water:canal",
         "material_texture:travertin",
         "opening_landscape:horizon",
-        "spatiality:axial"
+        "spatiality:axial",
+        "sound:continu",
+        "sound:extérieur",
+        "sound:naturel",
+        "sound:aquatique",
+        "thermal_air:exposé"
       ],
       "subjective_tags": [
         "calm_contemplation:calme",
@@ -204,7 +269,12 @@
         "océan",
         "canal",
         "laboratoire",
-        "horizon"
+        "horizon",
+        "son continu",
+        "son extérieur",
+        "son naturel",
+        "son aquatique",
+        "air exposé"
       ],
       "sources": [
         "https://www.salk.edu/de/about/about-salk-architecture/"
@@ -221,7 +291,10 @@
         "light:réfléchie",
         "material_texture:béton",
         "material_texture:travertin",
-        "spatiality:voûte"
+        "spatiality:voûte",
+        "sound:feutré",
+        "sound:mat",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -233,7 +306,10 @@
         "voûte cycloïde",
         "réflecteur",
         "argenté",
-        "musée"
+        "musée",
+        "son feutré",
+        "son mat",
+        "son murmuré"
       ],
       "sources": [
         "https://kimbellart.org/art-architecture/architecture/kahn-building"
@@ -250,7 +326,10 @@
         "material_texture:brique",
         "material_texture:bois",
         "light:naturelle",
-        "prospect_refuge:alcôve"
+        "prospect_refuge:alcôve",
+        "sound:silencieux",
+        "sound:feutré",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "inspiration_concentration:studieux",
@@ -263,7 +342,10 @@
         "brique",
         "bois",
         "lecture",
-        "centre communautaire"
+        "centre communautaire",
+        "son silencieux",
+        "son feutré",
+        "son murmuré"
       ],
       "sources": [
         "https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"
@@ -280,7 +362,10 @@
         "shadow_contrast:clair-obscur",
         "material_texture:béton",
         "framing:fente",
-        "spatiality:vide"
+        "spatiality:vide",
+        "sound:silencieux",
+        "sound:cérémoniel",
+        "sound:réverbérant"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -292,7 +377,10 @@
         "béton",
         "vide",
         "ascèse",
-        "contraste"
+        "contraste",
+        "son silencieux",
+        "son cérémoniel",
+        "son réverbérant"
       ],
       "sources": [
         "https://ibaraki-kasugaoka-church.jp/e-top.html"
@@ -310,7 +398,15 @@
         "thermal_air:chaud",
         "thermal_air:humide",
         "shadow_contrast:pénombre",
-        "sound:aquatique"
+        "sound:aquatique",
+        "sound:continu",
+        "sound:réverbérant",
+        "smell:minéral",
+        "smell:humide",
+        "immersion:vapeur",
+        "immersion:bain",
+        "immersion:son",
+        "smell:chloré"
       ],
       "subjective_tags": [
         "wellbeing_restoration:réparateur",
@@ -324,7 +420,15 @@
         "vapeur",
         "caverne",
         "rituel",
-        "tactilité"
+        "tactilité",
+        "son continu",
+        "son réverbérant",
+        "odeur minéral",
+        "odeur humide",
+        "immersion vapeur",
+        "immersion bain",
+        "immersion son",
+        "odeur chloré"
       ],
       "sources": [
         "https://vals.ch/en/enjoy/wellness/7132-therme/",
@@ -342,7 +446,10 @@
         "smell:fumé",
         "light:zénithale",
         "framing:oculus",
-        "shadow_contrast:sombre"
+        "shadow_contrast:sombre",
+        "sound:silencieux",
+        "sound:réverbérant",
+        "smell:minéral"
       ],
       "subjective_tags": [
         "sacred_ritual:mystique",
@@ -355,7 +462,10 @@
         "fumée",
         "oculus",
         "pluie",
-        "cavité"
+        "cavité",
+        "son silencieux",
+        "son réverbérant",
+        "odeur minéral"
       ],
       "sources": [
         "https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"
@@ -372,7 +482,11 @@
         "filtering:perforation",
         "light:diffuse",
         "palimpsest:ruine",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:feutré",
+        "sound:silencieux",
+        "smell:ancien",
+        "smell:minéral"
       ],
       "subjective_tags": [
         "memory_absence:mémoriel",
@@ -384,7 +498,11 @@
         "brique perforée",
         "lumière diffuse",
         "palimpseste",
-        "musée de contemplation"
+        "musée de contemplation",
+        "son feutré",
+        "son silencieux",
+        "odeur ancien",
+        "odeur minéral"
       ],
       "sources": [
         "https://www.museen.koeln/en/visit/museums/kolumba"
@@ -401,7 +519,11 @@
         "material_texture:béton",
         "shadow_contrast:sombre",
         "movement_path:contraint",
-        "thermal_air:froid"
+        "thermal_air:froid",
+        "sound:silencieux",
+        "sound:creux",
+        "sound:résonant",
+        "immersion:son"
       ],
       "subjective_tags": [
         "memory_absence:absent",
@@ -414,7 +536,11 @@
         "désorientation",
         "béton froid",
         "mémoire",
-        "ligne brisée"
+        "ligne brisée",
+        "son silencieux",
+        "son creux",
+        "son résonant",
+        "immersion son"
       ],
       "sources": [
         "https://www.jmberlin.de/en/libeskind-building"
@@ -431,7 +557,11 @@
         "light:réfléchie",
         "filtering:volume",
         "material_texture:béton",
-        "framing:lanterne"
+        "framing:lanterne",
+        "sound:cérémoniel",
+        "sound:réverbérant",
+        "sound:enveloppant",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:spirituel",
@@ -443,7 +573,11 @@
         "couleurs complémentaires",
         "chapelle",
         "réflexion",
-        "volumes lumineux"
+        "volumes lumineux",
+        "son cérémoniel",
+        "son réverbérant",
+        "son enveloppant",
+        "immersion son"
       ],
       "sources": [
         "https://www.stevenholl.com/projects/st-ignatius-chapel"
@@ -459,7 +593,10 @@
         "light:filtrée",
         "material_texture:plâtre",
         "material_texture:toile",
-        "spatiality:symétrique"
+        "spatiality:symétrique",
+        "sound:feutré",
+        "sound:silencieux",
+        "sound:mat"
       ],
       "subjective_tags": [
         "calm_contemplation:calme",
@@ -471,7 +608,10 @@
         "toile de lin",
         "plâtre",
         "délicatesse",
-        "musée"
+        "musée",
+        "son feutré",
+        "son silencieux",
+        "son mat"
       ],
       "sources": [
         "https://www.menil.org/campus/cy-twombly-gallery"
@@ -489,7 +629,10 @@
         "opening_landscape:paysage",
         "nature_living:verdure",
         "spatiality:ordonné",
-        "material_texture:toit léger"
+        "material_texture:toit léger",
+        "sound:feutré",
+        "sound:silencieux",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "calm_contemplation:serein",
@@ -501,7 +644,10 @@
         "verdure",
         "toit flottant",
         "musée",
-        "sérénité"
+        "sérénité",
+        "son feutré",
+        "son silencieux",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"
@@ -518,7 +664,12 @@
         "light:diffuse",
         "spatiality:monumental",
         "spatiality:voûte",
-        "material_texture:pierre"
+        "material_texture:pierre",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:écho",
+        "sound:cérémoniel",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -531,7 +682,12 @@
         "pendentifs",
         "mosaïque",
         "flottement",
-        "sacré"
+        "sacré",
+        "son réverbérant",
+        "son ample",
+        "son écho",
+        "son cérémoniel",
+        "immersion son"
       ],
       "sources": [
         "https://www.hagiasophia.com/architecture",
@@ -550,7 +706,11 @@
         "spatiality:labyrinthique",
         "spatiality:vaste",
         "material_texture:pierre",
-        "movement_path:exploratoire"
+        "movement_path:exploratoire",
+        "sound:réverbérant",
+        "sound:cérémoniel",
+        "sound:feutré",
+        "smell:ancien"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -563,7 +723,11 @@
         "salle hypostyle",
         "pénombre",
         "marbre",
-        "rythme"
+        "rythme",
+        "son réverbérant",
+        "son cérémoniel",
+        "son feutré",
+        "odeur ancien"
       ],
       "sources": [
         "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba",
@@ -582,7 +746,11 @@
         "light:filtrée",
         "filtering:vitrail",
         "spatiality:haut",
-        "spatiality:monumental"
+        "spatiality:monumental",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:cérémoniel",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -595,7 +763,11 @@
         "gothique",
         "rose",
         "pèlerinage",
-        "hauteur"
+        "hauteur",
+        "son réverbérant",
+        "son ample",
+        "son cérémoniel",
+        "immersion son"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/81",
@@ -615,7 +787,12 @@
         "filtering:vitrail",
         "spatiality:haut",
         "spatiality:voûte",
-        "material_texture:pierre"
+        "material_texture:pierre",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:cérémoniel",
+        "smell:ancien",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -628,7 +805,12 @@
         "voûte",
         "nef",
         "pierre",
-        "mémoire collective"
+        "mémoire collective",
+        "son réverbérant",
+        "son ample",
+        "son cérémoniel",
+        "odeur ancien",
+        "immersion son"
       ],
       "sources": [
         "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/",
@@ -648,7 +830,11 @@
         "light:variable",
         "filtering:vitrail",
         "spatiality:haut",
-        "nature_living:organique"
+        "nature_living:organique",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:cérémoniel",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -662,7 +848,11 @@
         "couleurs froides",
         "structure arborescente",
         "verticalité",
-        "temple de lumière"
+        "temple de lumière",
+        "son réverbérant",
+        "son ample",
+        "son cérémoniel",
+        "immersion son"
       ],
       "sources": [
         "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/",
@@ -682,7 +872,11 @@
         "material_texture:béton",
         "material_texture:brut",
         "spatiality:fermé",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:silencieux",
+        "sound:réverbérant",
+        "sound:cérémoniel",
+        "smell:minéral"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -696,7 +890,11 @@
         "cellules",
         "cloître",
         "pans ondulatoires",
-        "retraite"
+        "retraite",
+        "son silencieux",
+        "son réverbérant",
+        "son cérémoniel",
+        "odeur minéral"
       ],
       "sources": [
         "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/",
@@ -716,7 +914,10 @@
         "material_texture:bois",
         "material_texture:verre",
         "opening_landscape:ouvert",
-        "nature_living:domestiqué"
+        "nature_living:domestiqué",
+        "sound:feutré",
+        "sound:silencieux",
+        "smell:boisé"
       ],
       "subjective_tags": [
         "calm_contemplation:calme",
@@ -729,7 +930,10 @@
         "quartier résidentiel",
         "galeries",
         "ombrage",
-        "musée domestique"
+        "musée domestique",
+        "son feutré",
+        "son silencieux",
+        "odeur boisé"
       ],
       "sources": [
         "https://www.menil.org/campus/main-building",
@@ -749,7 +953,10 @@
         "material_texture:béton",
         "material_texture:verre",
         "spatiality:fermé",
-        "opening_landscape:introverti"
+        "opening_landscape:introverti",
+        "sound:silencieux",
+        "sound:feutré",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -763,7 +970,10 @@
         "béton",
         "Monet",
         "Turrell",
-        "variation saisonnière"
+        "variation saisonnière",
+        "son silencieux",
+        "son feutré",
+        "son murmuré"
       ],
       "sources": [
         "https://benesse-artsite.jp/en/art/chichu.html",
@@ -783,7 +993,14 @@
         "light:naturelle",
         "opening_landscape:ouvert",
         "nature_living:naturel",
-        "material_texture:béton"
+        "material_texture:béton",
+        "sound:silencieux",
+        "sound:aquatique",
+        "sound:vent",
+        "sound:naturel",
+        "immersion:son",
+        "thermal_air:ventilé",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -796,7 +1013,14 @@
         "ouvertures ovales",
         "vent",
         "rizières",
-        "silence"
+        "silence",
+        "son silencieux",
+        "son aquatique",
+        "son vent",
+        "son naturel",
+        "immersion son",
+        "air ventilé",
+        "air humide"
       ],
       "sources": [
         "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
@@ -817,7 +1041,11 @@
         "water:miroir",
         "thermal_air:frais",
         "filtering:perforation",
-        "spatiality:vaste"
+        "spatiality:vaste",
+        "sound:aquatique",
+        "sound:extérieur",
+        "sound:feutré",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "calm_contemplation:serein",
@@ -831,7 +1059,11 @@
         "eau",
         "reflet",
         "microclimat",
-        "médina"
+        "médina",
+        "son aquatique",
+        "son extérieur",
+        "son feutré",
+        "air humide"
       ],
       "sources": [
         "https://www.louvreabudhabi.ae/en/about-us/architecture",
@@ -884,7 +1116,10 @@
         "movement_path:progressif",
         "movement_path:fluide",
         "material_texture:béton",
-        "framing:oculus"
+        "framing:oculus",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:public"
       ],
       "subjective_tags": [
         "mystery_exploration:initiatique",
@@ -898,7 +1133,10 @@
         "atrium",
         "verrière",
         "béton",
-        "parcours continu"
+        "parcours continu",
+        "son réverbérant",
+        "son ample",
+        "son public"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/1496/",
@@ -918,7 +1156,11 @@
         "filtering:vitrail",
         "material_texture:béton",
         "spatiality:haut",
-        "spatiality:monumental"
+        "spatiality:monumental",
+        "sound:réverbérant",
+        "sound:cérémoniel",
+        "sound:ample",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -932,7 +1174,11 @@
         "béton",
         "anges suspendus",
         "lumière bleue",
-        "élévation"
+        "élévation",
+        "son réverbérant",
+        "son cérémoniel",
+        "son ample",
+        "immersion son"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/445/",
@@ -994,7 +1240,11 @@
         "nature_living:saisonnier",
         "movement_path:sinueux",
         "opening_landscape:cadré",
-        "light:tamisée"
+        "light:tamisée",
+        "sound:feutré",
+        "sound:naturel",
+        "smell:boisé",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "calm_contemplation:serein",
@@ -1014,7 +1264,11 @@
         "saisons",
         "raffinement",
         "wabi-sabi",
-        "calme"
+        "calme",
+        "son feutré",
+        "son naturel",
+        "odeur boisé",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.britannica.com/topic/Katsura-Imperial-Villa",
@@ -1199,7 +1453,9 @@
         "opening_landscape:transparent",
         "opening_landscape:paysage",
         "light:naturelle",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:naturel",
+        "sound:extérieur"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -1219,7 +1475,9 @@
         "nature",
         "sérénité",
         "exposition",
-        "minimalisme"
+        "minimalisme",
+        "son naturel",
+        "son extérieur"
       ],
       "sources": [
         "https://edithfarnsworthhouse.org/history-farnsworth-house/",
@@ -1404,7 +1662,11 @@
         "light:colorée",
         "shadow_contrast:pénombre",
         "spatiality:haut",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:réverbérant",
+        "sound:cérémoniel",
+        "sound:enveloppant",
+        "immersion:son"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -1424,7 +1686,11 @@
         "sacré",
         "intime",
         "grand mais contenu",
-        "contemplation"
+        "contemplation",
+        "son réverbérant",
+        "son cérémoniel",
+        "son enveloppant",
+        "immersion son"
       ],
       "sources": [
         "https://www.flwright.org/explore/unity-temple",
@@ -1445,7 +1711,12 @@
         "light:diffuse",
         "thermal_air:sec",
         "opening_landscape:paysage",
-        "nature_living:sauvage"
+        "nature_living:sauvage",
+        "sound:naturel",
+        "sound:vent",
+        "smell:minéral",
+        "smell:terreux",
+        "thermal_air:exposé"
       ],
       "subjective_tags": [
         "inspiration_concentration:stimulant",
@@ -1465,7 +1736,12 @@
         "lumière filtrée",
         "expérimentation",
         "abri",
-        "vie collective"
+        "vie collective",
+        "son naturel",
+        "son vent",
+        "odeur minéral",
+        "odeur terreux",
+        "air exposé"
       ],
       "sources": [
         "https://franklloydwright.org/taliesin-west/",
@@ -1526,7 +1802,11 @@
         "light:naturelle",
         "light:tamisée",
         "opening_landscape:ouvert",
-        "movement_path:fluide"
+        "movement_path:fluide",
+        "sound:feutré",
+        "sound:naturel",
+        "smell:boisé",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "intimacy_refuge:intime",
@@ -1546,7 +1826,11 @@
         "intérieur ouvert au jardin",
         "intime",
         "chaleureux",
-        "naturel"
+        "naturel",
+        "son feutré",
+        "son naturel",
+        "odeur boisé",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
@@ -1567,7 +1851,10 @@
         "thermal_air:ventilé",
         "nature_living:naturel",
         "opening_landscape:paysage",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:silencieux",
+        "sound:feutré",
+        "thermal_air:frais"
       ],
       "subjective_tags": [
         "wellbeing_restoration:réparateur",
@@ -1587,7 +1874,10 @@
         "bien-être",
         "guérison",
         "santé",
-        "calme"
+        "calme",
+        "son silencieux",
+        "son feutré",
+        "air frais"
       ],
       "sources": [
         "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
@@ -1608,7 +1898,9 @@
         "movement_path:progressif",
         "threshold:entrée",
         "spatiality:haut",
-        "light:naturelle"
+        "light:naturelle",
+        "sound:feutré",
+        "sound:public"
       ],
       "subjective_tags": [
         "intimacy_refuge:chaleureux",
@@ -1628,7 +1920,9 @@
         "chaleur",
         "civicité",
         "solennité",
-        "communauté"
+        "communauté",
+        "son feutré",
+        "son public"
       ],
       "sources": [
         "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
@@ -1776,7 +2070,15 @@
         "movement_path:ritualisé",
         "threshold:transition",
         "palimpsest:mémoire",
-        "spatiality:fermé"
+        "spatiality:fermé",
+        "sound:aquatique",
+        "sound:silencieux",
+        "sound:cérémoniel",
+        "smell:humide",
+        "smell:minéral",
+        "immersion:son",
+        "thermal_air:frais",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "memory_absence:mémoriel",
@@ -1797,7 +2099,15 @@
         "parcours séquencé",
         "jardin funéraire",
         "mémoire",
-        "deuil"
+        "deuil",
+        "son aquatique",
+        "son silencieux",
+        "son cérémoniel",
+        "odeur humide",
+        "odeur minéral",
+        "immersion son",
+        "air frais",
+        "air humide"
       ],
       "sources": [
         "https://www.architecturelab.net/brion-vega-tomb-by-carlo-scarpa/",
@@ -1819,7 +2129,10 @@
         "palimpsest:réparation",
         "palimpsest:strate",
         "movement_path:progressif",
-        "light:naturelle"
+        "light:naturelle",
+        "sound:feutré",
+        "sound:mat",
+        "smell:ancien"
       ],
       "subjective_tags": [
         "memory_absence:historique",
@@ -1840,7 +2153,10 @@
         "jardin",
         "éclairage muséal",
         "stratification",
-        "mémoire historique"
+        "mémoire historique",
+        "son feutré",
+        "son mat",
+        "odeur ancien"
       ],
       "sources": [
         "https://archiviocarloscarpa.it/en/",
@@ -1862,7 +2178,10 @@
         "color:doré",
         "light:diffuse",
         "movement_path:fluide",
-        "spatiality:étroit"
+        "spatiality:étroit",
+        "sound:feutré",
+        "sound:aquatique",
+        "smell:humide"
       ],
       "subjective_tags": [
         "intimacy_refuge:intime",
@@ -1883,7 +2202,10 @@
         "détail artisanal",
         "bijou",
         "intimité",
-        "raffinement"
+        "raffinement",
+        "son feutré",
+        "son aquatique",
+        "odeur humide"
       ],
       "sources": [
         "https://fondoambiente.it/negozio-olivetti-eng",
@@ -1905,7 +2227,11 @@
         "framing:fente",
         "spatiality:monumental",
         "spatiality:voûte",
-        "shadow_contrast:profond"
+        "shadow_contrast:profond",
+        "sound:cérémoniel",
+        "sound:extérieur",
+        "sound:aquatique",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "monumental_sublime:monumental",
@@ -1926,7 +2252,11 @@
         "eau",
         "solennité civique",
         "sublime",
-        "majesté"
+        "majesté",
+        "son cérémoniel",
+        "son extérieur",
+        "son aquatique",
+        "air humide"
       ],
       "sources": [
         "https://the.akdn/akdn/akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/national-assembly-building",
@@ -1948,7 +2278,14 @@
         "movement_path:progressif",
         "light:colorée",
         "light:filtrée",
-        "shadow_contrast:pénombre"
+        "shadow_contrast:pénombre",
+        "sound:aquatique",
+        "sound:silencieux",
+        "sound:cérémoniel",
+        "immersion:son",
+        "thermal_air:frais",
+        "thermal_air:humide",
+        "smell:humide"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -1969,7 +2306,14 @@
         "parcours",
         "collines",
         "passage au sacré",
-        "initiation"
+        "initiation",
+        "son aquatique",
+        "son silencieux",
+        "son cérémoniel",
+        "immersion son",
+        "air frais",
+        "air humide",
+        "odeur humide"
       ],
       "sources": [
         "https://www.archweb.com/en/architettures/water-temple/",
@@ -1991,7 +2335,9 @@
         "light:naturelle",
         "thermal_air:exposé",
         "movement_path:contraint",
-        "opening_landscape:introverti"
+        "opening_landscape:introverti",
+        "sound:extérieur",
+        "sound:mat"
       ],
       "subjective_tags": [
         "intimacy_refuge:intime",
@@ -2012,7 +2358,9 @@
         "trois volumes",
         "parcours contraint",
         "austérité",
-        "domesticité radicale"
+        "domesticité radicale",
+        "son extérieur",
+        "son mat"
       ],
       "sources": [
         "https://www.archweb.com/en/-civilians-architectures/azuma-house/",
@@ -2034,7 +2382,11 @@
         "framing:lanterne",
         "opening_landscape:paysage",
         "nature_living:naturel",
-        "spatiality:bas"
+        "spatiality:bas",
+        "sound:silencieux",
+        "sound:feutré",
+        "sound:cérémoniel",
+        "smell:boisé"
       ],
       "subjective_tags": [
         "calm_contemplation:serein",
@@ -2055,7 +2407,11 @@
         "artisanat",
         "simplicité",
         "recueillement",
-        "chaleur du bois"
+        "chaleur du bois",
+        "son silencieux",
+        "son feutré",
+        "son cérémoniel",
+        "odeur boisé"
       ],
       "sources": [
         "https://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor",
@@ -2119,7 +2475,11 @@
         "light:naturelle",
         "spatiality:vaste",
         "spatiality:ouvert",
-        "movement_path:traversant"
+        "movement_path:traversant",
+        "sound:urbain",
+        "sound:public",
+        "sound:mécanique",
+        "sound:amplifié"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -2140,7 +2500,11 @@
         "place urbaine",
         "vivant",
         "ludique",
-        "populaire"
+        "populaire",
+        "son urbain",
+        "son public",
+        "son mécanique",
+        "son amplifié"
       ],
       "sources": [
         "https://www.centrepompidou.fr/en/collection/our-building",
@@ -2162,7 +2526,9 @@
         "opening_landscape:transparent",
         "light:naturelle",
         "movement_path:traversant",
-        "legibility_orientation:structuré"
+        "sound:mécanique",
+        "sound:urbain",
+        "sound:amplifié"
       ],
       "subjective_tags": [
         "inspiration_concentration:stimulant",
@@ -2183,7 +2549,10 @@
         "plan flexible",
         "futuriste",
         "radical",
-        "impressionnant"
+        "impressionnant",
+        "son mécanique",
+        "son urbain",
+        "son amplifié"
       ],
       "sources": [
         "https://www.lloyds.com/about-lloyds/our-home",
@@ -2205,7 +2574,13 @@
         "opening_landscape:paysage",
         "nature_living:végétal",
         "sound:vibrant",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:vent",
+        "sound:naturel",
+        "sound:extérieur",
+        "smell:boisé",
+        "smell:végétal",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "memory_absence:mémoriel",
@@ -2226,7 +2601,13 @@
         "végétation",
         "cheminements",
         "culture kanak",
-        "mémoire"
+        "mémoire",
+        "son vent",
+        "son naturel",
+        "son extérieur",
+        "odeur boisé",
+        "odeur végétal",
+        "air humide"
       ],
       "sources": [
         "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
@@ -2248,7 +2629,11 @@
         "light:naturelle",
         "light:diffuse",
         "spatiality:vaste",
-        "movement_path:fluide"
+        "movement_path:fluide",
+        "sound:public",
+        "sound:mécanique",
+        "sound:amplifié",
+        "sound:continu"
       ],
       "subjective_tags": [
         "legibility_orientation:guidant",
@@ -2269,7 +2654,11 @@
         "terminal de 1,7 km",
         "fluidité",
         "orientation",
-        "clarté"
+        "clarté",
+        "son public",
+        "son mécanique",
+        "son amplifié",
+        "son continu"
       ],
       "sources": [
         "https://www.britannica.com/topic/Terminal-1-at-Kansai-International-Airport",
@@ -2333,7 +2722,11 @@
         "spatiality:monumental",
         "movement_path:fluide",
         "sound:enveloppant",
-        "sound:réverbérant"
+        "sound:réverbérant",
+        "sound:musical",
+        "sound:intime",
+        "sound:clair",
+        "immersion:son"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -2354,7 +2747,11 @@
         "énergie créative",
         "intimité sonore",
         "spectacle",
-        "joie"
+        "joie",
+        "son musical",
+        "son intime",
+        "son clair",
+        "immersion son"
       ],
       "sources": [
         "https://www.musiccenter.org/visit-explore/visit-explore/campus/walt-disney-concert-hall/",
@@ -2418,7 +2815,12 @@
         "spatiality:vaste",
         "movement_path:progressif",
         "palimpsest:réparation",
-        "palimpsest:strate"
+        "palimpsest:strate",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:creux",
+        "sound:public",
+        "immersion:son"
       ],
       "subjective_tags": [
         "memory_absence:historique",
@@ -2439,7 +2841,12 @@
         "topographie urbaine",
         "plateforme",
         "mémoire industrielle",
-        "monumentalité publique"
+        "monumentalité publique",
+        "son réverbérant",
+        "son ample",
+        "son creux",
+        "son public",
+        "immersion son"
       ],
       "sources": [
         "https://www.herzogdemeuron.com/projects/126-tate-modern/",
@@ -2504,7 +2911,11 @@
         "light:naturelle",
         "spatiality:monumental",
         "spatiality:ouvert",
-        "movement_path:traversant"
+        "movement_path:traversant",
+        "sound:amplifié",
+        "sound:public",
+        "sound:vibrant",
+        "immersion:son"
       ],
       "subjective_tags": [
         "monumental_sublime:grandiose",
@@ -2525,7 +2936,11 @@
         "sièges rouges",
         "spectacle",
         "fête",
-        "puissance"
+        "puissance",
+        "son amplifié",
+        "son public",
+        "son vibrant",
+        "immersion son"
       ],
       "sources": [
         "https://www.britannica.com/place/Beijing-National-Stadium",
@@ -2547,7 +2962,10 @@
         "spatiality:vide",
         "spatiality:monumental",
         "opening_landscape:transparent",
-        "threshold:entrée"
+        "threshold:entrée",
+        "sound:urbain",
+        "sound:public",
+        "sound:amplifié"
       ],
       "subjective_tags": [
         "joy_social_intensity:convivial",
@@ -2568,7 +2986,10 @@
         "transparence",
         "ouverture publique",
         "pluralité",
-        "icône moderne"
+        "icône moderne",
+        "son urbain",
+        "son public",
+        "son amplifié"
       ],
       "sources": [
         "https://masp.org.br/en/about",
@@ -2590,7 +3011,11 @@
         "palimpsest:strate",
         "movement_path:traversant",
         "spatiality:haut",
-        "framing:fente"
+        "framing:fente",
+        "sound:public",
+        "sound:vibrant",
+        "sound:urbain",
+        "sound:amplifié"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -2611,7 +3036,11 @@
         "centre social",
         "galerie d’eau souterraine",
         "vitalité populaire",
-        "convivialité"
+        "convivialité",
+        "son public",
+        "son vibrant",
+        "son urbain",
+        "son amplifié"
       ],
       "sources": [
         "https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/",
@@ -2633,7 +3062,14 @@
         "thermal_air:frais",
         "nature_living:végétal",
         "movement_path:axial",
-        "spatiality:axial"
+        "spatiality:axial",
+        "sound:aquatique",
+        "sound:continu",
+        "sound:masquant",
+        "smell:végétal",
+        "smell:humide",
+        "immersion:son",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "joy_social_intensity:ludique",
@@ -2653,7 +3089,14 @@
         "végétation",
         "eau vive",
         "merveille",
-        "théâtralité"
+        "théâtralité",
+        "son aquatique",
+        "son continu",
+        "son masquant",
+        "odeur végétal",
+        "odeur humide",
+        "immersion son",
+        "air humide"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/1025/",
@@ -2718,7 +3161,12 @@
         "spatiality:bas",
         "light:naturelle",
         "nature_living:végétal",
-        "water:bassin"
+        "water:bassin",
+        "sound:silencieux",
+        "sound:feutré",
+        "smell:minéral",
+        "smell:végétal",
+        "thermal_air:sec"
       ],
       "subjective_tags": [
         "calm_contemplation:méditatif",
@@ -2739,7 +3187,12 @@
         "cadre clos",
         "méditation",
         "énigme",
-        "calme"
+        "calme",
+        "son silencieux",
+        "son feutré",
+        "odeur minéral",
+        "odeur végétal",
+        "air sec"
       ],
       "sources": [
         "https://whc.unesco.org/en/list/688/",
@@ -2761,7 +3214,12 @@
         "smell:boisé",
         "light:tamisée",
         "movement_path:ritualisé",
-        "threshold:entrée"
+        "threshold:entrée",
+        "sound:feutré",
+        "sound:cérémoniel",
+        "sound:naturel",
+        "smell:végétal",
+        "thermal_air:frais"
       ],
       "subjective_tags": [
         "sacred_ritual:sacré",
@@ -2782,7 +3240,12 @@
         "seuils",
         "ombre végétale",
         "sacré",
-        "renouvellement"
+        "renouvellement",
+        "son feutré",
+        "son cérémoniel",
+        "son naturel",
+        "odeur végétal",
+        "air frais"
       ],
       "sources": [
         "https://www.isejingu.or.jp/en/about/index.html",
@@ -2804,7 +3267,13 @@
         "color:rouge",
         "color:bleu",
         "nature_living:végétal",
-        "opening_landscape:introverti"
+        "opening_landscape:introverti",
+        "sound:aquatique",
+        "sound:feutré",
+        "sound:continu",
+        "smell:végétal",
+        "thermal_air:humide",
+        "smell:humide"
       ],
       "subjective_tags": [
         "joy_social_intensity:ludique",
@@ -2825,7 +3294,13 @@
         "parcelle étroite",
         "intimité",
         "jeu de couleur",
-        "surprise"
+        "surprise",
+        "son aquatique",
+        "son feutré",
+        "son continu",
+        "odeur végétal",
+        "air humide",
+        "odeur humide"
       ],
       "sources": [
         "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
@@ -2847,7 +3322,10 @@
         "sound:aquatique",
         "nature_living:domestiqué",
         "movement_path:ritualisé",
-        "opening_landscape:cadré"
+        "opening_landscape:cadré",
+        "sound:continu",
+        "sound:extérieur",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -2868,7 +3346,10 @@
         "couleurs",
         "hacienda moderne",
         "silence",
-        "spectacle du quotidien"
+        "spectacle du quotidien",
+        "son continu",
+        "son extérieur",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
@@ -2890,7 +3371,11 @@
         "nature_living:saisonnier",
         "light:réfléchie",
         "light:variable",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:naturel",
+        "sound:urbain",
+        "sound:feutré",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "strangeness_displacement:irréel",
@@ -2911,7 +3396,11 @@
         "saisons",
         "ambiguïté",
         "évanescence",
-        "légèreté"
+        "légèreté",
+        "son naturel",
+        "son urbain",
+        "son feutré",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.fondationcartier.com/en/garden",
@@ -2933,7 +3422,9 @@
         "nature_living:végétal",
         "spatiality:bas",
         "movement_path:sinueux",
-        "filtering:volume lumineux"
+        "filtering:volume lumineux",
+        "sound:feutré",
+        "sound:mat"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -2954,7 +3445,9 @@
         "calme lumineux",
         "contemplation",
         "immersion dans le paysage",
-        "douceur"
+        "douceur",
+        "son feutré",
+        "son mat"
       ],
       "sources": [
         "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
@@ -2976,7 +3469,10 @@
         "movement_path:exploratoire",
         "light:naturelle",
         "nature_living:domestiqué",
-        "spatiality:bas"
+        "spatiality:bas",
+        "sound:public",
+        "sound:feutré",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "joy_social_intensity:convivial",
@@ -2997,7 +3493,10 @@
         "accessibilité",
         "rencontre",
         "casualness",
-        "joie"
+        "joie",
+        "son public",
+        "son feutré",
+        "son murmuré"
       ],
       "sources": [
         "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
@@ -3019,7 +3518,10 @@
         "opening_landscape:ouvert",
         "light:naturelle",
         "nature_living:domestiqué",
-        "framing:lanterne"
+        "framing:lanterne",
+        "sound:feutré",
+        "sound:murmuré",
+        "sound:public"
       ],
       "subjective_tags": [
         "inspiration_concentration:studieux",
@@ -3040,7 +3542,10 @@
         "lumière",
         "fluidité",
         "étude",
-        "interaction"
+        "interaction",
+        "son feutré",
+        "son murmuré",
+        "son public"
       ],
       "sources": [
         "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
@@ -3062,7 +3567,10 @@
         "opening_landscape:transparent",
         "nature_living:naturel",
         "movement_path:progressif",
-        "spatiality:bas"
+        "spatiality:bas",
+        "sound:feutré",
+        "sound:mat",
+        "sound:silencieux"
       ],
       "subjective_tags": [
         "memory_absence:historique",
@@ -3083,7 +3591,10 @@
         "transition douce",
         "renouveau",
         "discrétion",
-        "calme"
+        "calme",
+        "son feutré",
+        "son mat",
+        "son silencieux"
       ],
       "sources": [
         "https://www.louvrelens.fr/en/architecture-et-parc/",
@@ -3105,7 +3616,10 @@
         "spatiality:ouvert",
         "movement_path:fluide",
         "spatiality:haut",
-        "framing:lanterne"
+        "framing:lanterne",
+        "sound:public",
+        "sound:murmuré",
+        "sound:urbain"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -3126,7 +3640,10 @@
         "structure organique",
         "liberté",
         "ouverture publique",
-        "fluidité"
+        "fluidité",
+        "son public",
+        "son murmuré",
+        "son urbain"
       ],
       "sources": [
         "https://www.smt.city.sendai.jp/en/",
@@ -3148,7 +3665,10 @@
         "opening_landscape:paysage",
         "nature_living:naturel",
         "movement_path:fluide",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:silencieux",
+        "sound:feutré",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "inspiration_concentration:studieux",
@@ -3169,7 +3689,10 @@
         "lecture parmi les arbres",
         "ouverture",
         "calme",
-        "inspiration"
+        "inspiration",
+        "son silencieux",
+        "son feutré",
+        "son murmuré"
       ],
       "sources": [
         "https://www.tamabi.ac.jp/en/about/library/",
@@ -3191,7 +3714,10 @@
         "opening_landscape:paysage",
         "spatiality:monumental",
         "movement_path:progressif",
-        "framing:panorama"
+        "framing:panorama",
+        "sound:extérieur",
+        "sound:vent",
+        "sound:naturel"
       ],
       "subjective_tags": [
         "monumental_sublime:impressionnant",
@@ -3212,7 +3738,10 @@
         "vue à 360 degrés",
         "icône",
         "lévitation",
-        "émerveillement"
+        "émerveillement",
+        "son extérieur",
+        "son vent",
+        "son naturel"
       ],
       "sources": [
         "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
@@ -3234,7 +3763,14 @@
         "light:naturelle",
         "spatiality:vaste",
         "movement_path:fluide",
-        "opening_landscape:paysage"
+        "opening_landscape:paysage",
+        "sound:aquatique",
+        "sound:public",
+        "sound:amplifié",
+        "sound:enveloppant",
+        "immersion:son",
+        "thermal_air:humide",
+        "smell:chloré"
       ],
       "subjective_tags": [
         "joy_social_intensity:vivant",
@@ -3255,7 +3791,14 @@
         "grande halle",
         "santé",
         "énergie sportive",
-        "orientation"
+        "orientation",
+        "son aquatique",
+        "son public",
+        "son amplifié",
+        "son enveloppant",
+        "immersion son",
+        "air humide",
+        "odeur chloré"
       ],
       "sources": [
         "https://londonaquaticscentre.org/about/architecture/",
@@ -3277,7 +3820,15 @@
         "opening_landscape:paysage",
         "movement_path:progressif",
         "threshold:transition",
-        "thermal_air:exposé"
+        "thermal_air:exposé",
+        "sound:naturel",
+        "sound:vent",
+        "sound:aquatique",
+        "sound:extérieur",
+        "smell:minéral",
+        "smell:humide",
+        "thermal_air:ventilé",
+        "thermal_air:humide"
       ],
       "subjective_tags": [
         "calm_contemplation:contemplatif",
@@ -3298,7 +3849,15 @@
         "exposition aux vents",
         "transition ville-nature",
         "abri",
-        "contemplation"
+        "contemplation",
+        "son naturel",
+        "son vent",
+        "son aquatique",
+        "son extérieur",
+        "odeur minéral",
+        "odeur humide",
+        "air ventilé",
+        "air humide"
       ],
       "sources": [
         "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
@@ -3320,7 +3879,10 @@
         "color:blanc",
         "light:naturelle",
         "movement_path:progressif",
-        "spatiality:bas"
+        "spatiality:bas",
+        "sound:feutré",
+        "sound:silencieux",
+        "smell:végétal"
       ],
       "subjective_tags": [
         "calm_contemplation:calme",
@@ -3341,7 +3903,10 @@
         "blanc",
         "terrain en pente",
         "harmonie",
-        "calme"
+        "calme",
+        "son feutré",
+        "son silencieux",
+        "odeur végétal"
       ],
       "sources": [
         "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
@@ -3363,7 +3928,11 @@
         "framing:panorama",
         "movement_path:traversant",
         "compression_expansion:vaste",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:public",
+        "sound:amplifié",
+        "sound:extérieur",
+        "sound:réverbérant"
       ],
       "subjective_tags": [
         "monumental_sublime:impressionnant",
@@ -3384,7 +3953,11 @@
         "architecture dans la montagne",
         "échelle monumentale",
         "puissance",
-        "étrangeté"
+        "étrangeté",
+        "son public",
+        "son amplifié",
+        "son extérieur",
+        "son réverbérant"
       ],
       "sources": [
         "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
@@ -3406,7 +3979,12 @@
         "thermal_air:chaud",
         "light:naturelle",
         "shadow_contrast:pénombre",
-        "opening_landscape:ouvert"
+        "opening_landscape:ouvert",
+        "sound:public",
+        "sound:naturel",
+        "sound:feutré",
+        "smell:terreux",
+        "thermal_air:sec"
       ],
       "subjective_tags": [
         "wellbeing_restoration:sain",
@@ -3427,7 +4005,12 @@
         "ombre",
         "santé",
         "protection",
-        "communauté"
+        "communauté",
+        "son public",
+        "son naturel",
+        "son feutré",
+        "odeur terreux",
+        "air sec"
       ],
       "sources": [
         "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
@@ -3449,7 +4032,11 @@
         "movement_path:fluide",
         "opening_landscape:ouvert",
         "spatiality:monumental",
-        "spatiality:ouvert"
+        "spatiality:ouvert",
+        "sound:réverbérant",
+        "sound:ample",
+        "sound:public",
+        "immersion:son"
       ],
       "subjective_tags": [
         "strangeness_displacement:irréel",
@@ -3470,7 +4057,11 @@
         "intérieur extérieur",
         "topographie",
         "fluidité",
-        "optimisme"
+        "optimisme",
+        "son réverbérant",
+        "son ample",
+        "son public",
+        "immersion son"
       ],
       "sources": [
         "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
@@ -3534,7 +4125,10 @@
         "light:zénithale",
         "light:naturelle",
         "movement_path:progressif",
-        "framing:lanterne"
+        "framing:lanterne",
+        "sound:feutré",
+        "sound:mat",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "legibility_orientation:rationnel",
@@ -3555,7 +4149,10 @@
         "lanterneaux",
         "galeries",
         "parcours continu",
-        "rationalité"
+        "rationalité",
+        "son feutré",
+        "son mat",
+        "son murmuré"
       ],
       "sources": [
         "https://www.nmwa.go.jp/en/about/building.html",
@@ -3577,7 +4174,13 @@
         "color:blanc",
         "filtering:grille",
         "nature_living:végétal",
-        "opening_landscape:ouvert"
+        "opening_landscape:ouvert",
+        "sound:naturel",
+        "sound:vent",
+        "sound:feutré",
+        "smell:végétal",
+        "thermal_air:frais",
+        "thermal_air:ventilé"
       ],
       "subjective_tags": [
         "calm_contemplation:calme",
@@ -3598,7 +4201,13 @@
         "espace ouvert",
         "pente du site",
         "continuité intérieur extérieur",
-        "sérénité"
+        "sérénité",
+        "son naturel",
+        "son vent",
+        "son feutré",
+        "odeur végétal",
+        "air frais",
+        "air ventilé"
       ],
       "sources": [
         "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
@@ -3621,7 +4230,10 @@
         "movement_path:sinueux",
         "movement_path:fluide",
         "water:bassin",
-        "water:cascade"
+        "water:cascade",
+        "sound:aquatique",
+        "sound:feutré",
+        "sound:murmuré"
       ],
       "subjective_tags": [
         "inspiration_concentration:stimulant",
@@ -3642,7 +4254,10 @@
         "escaliers torsadés",
         "bassins",
         "cascade d’eau",
-        "Reglit glass"
+        "Reglit glass",
+        "son aquatique",
+        "son feutré",
+        "son murmuré"
       ],
       "sources": [
         "https://kiasma.fi/en/architecture/",
@@ -3664,7 +4279,11 @@
         "spatiality:atrium",
         "spatiality:vaste",
         "movement_path:fluide",
-        "movement_path:progressif"
+        "movement_path:progressif",
+        "sound:public",
+        "sound:murmuré",
+        "sound:feutré",
+        "sound:urbain"
       ],
       "subjective_tags": [
         "inspiration_concentration:intellectuel",
@@ -3686,7 +4305,11 @@
         "transparence",
         "lumière urbaine",
         "circulation continue",
-        "espace civique"
+        "espace civique",
+        "son public",
+        "son murmuré",
+        "son feutré",
+        "son urbain"
       ],
       "sources": [
         "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
@@ -3706,7 +4329,10 @@
         "spatiality:monumental",
         "movement_path:fluide",
         "opening_landscape:extraverti",
-        "compression_expansion:expansion"
+        "compression_expansion:expansion",
+        "sound:urbain",
+        "sound:extérieur",
+        "sound:public"
       ],
       "subjective_tags": [
         "monumental_sublime:impressionnant",
@@ -3727,7 +4353,10 @@
         "plateforme commune",
         "grande échelle",
         "silhouette urbaine",
-        "défi gravitaire"
+        "défi gravitaire",
+        "son urbain",
+        "son extérieur",
+        "son public"
       ],
       "sources": [
         "https://www.oma.com/projects/cctv-headquarters",
@@ -3748,7 +4377,12 @@
         "sound:enveloppant",
         "spatiality:vaste",
         "movement_path:fluide",
-        "opening_landscape:transparent"
+        "opening_landscape:transparent",
+        "sound:musical",
+        "sound:réverbérant",
+        "sound:clair",
+        "sound:intime",
+        "immersion:son"
       ],
       "subjective_tags": [
         "joy_social_intensity:animé",
@@ -3769,7 +4403,12 @@
         "escalators",
         "parcours continu",
         "vues sur Porto",
-        "terrasse"
+        "terrasse",
+        "son musical",
+        "son réverbérant",
+        "son clair",
+        "son intime",
+        "immersion son"
       ],
       "sources": [
         "https://www.oma.com/projects/casa-da-musica",
@@ -3790,7 +4429,10 @@
         "light:filtrée",
         "movement_path:traversant",
         "movement_path:fluide",
-        "opening_landscape:poreux"
+        "opening_landscape:poreux",
+        "sound:public",
+        "sound:urbain",
+        "sound:résonant"
       ],
       "subjective_tags": [
         "mystery_exploration:suggestif",
@@ -3811,7 +4453,10 @@
         "troncs rugueux",
         "filtrage de la lumière",
         "passage public",
-        "Museumpark"
+        "Museumpark",
+        "son public",
+        "son urbain",
+        "son résonant"
       ],
       "sources": [
         "https://www.kunsthal.nl/en/about-kunsthal/building/",
@@ -3833,7 +4478,10 @@
         "opening_landscape:ouvert",
         "material_texture:béton",
         "color:blanc",
-        "framing:axe"
+        "framing:axe",
+        "sound:cérémoniel",
+        "sound:public",
+        "sound:extérieur"
       ],
       "subjective_tags": [
         "monumental_sublime:monumental",
@@ -3855,7 +4503,10 @@
         "béton",
         "Place des Trois Pouvoirs",
         "perspectives",
-        "ciel ouvert"
+        "ciel ouvert",
+        "son cérémoniel",
+        "son public",
+        "son extérieur"
       ],
       "sources": [
         "https://www2.congressonacional.leg.br/visite/arquitetura",
@@ -3878,7 +4529,10 @@
         "movement_path:fluide",
         "movement_path:sinueux",
         "movement_path:exploratoire",
-        "opening_landscape:poreux"
+        "opening_landscape:poreux",
+        "sound:feutré",
+        "sound:murmuré",
+        "sound:public"
       ],
       "subjective_tags": [
         "inspiration_concentration:stimulant",
@@ -3899,7 +4553,10 @@
         "lumière naturelle filtrée",
         "hall haut",
         "continuité intérieur extérieur",
-        "parcours dynamique"
+        "parcours dynamique",
+        "son feutré",
+        "son murmuré",
+        "son public"
       ],
       "sources": [
         "https://www.zaha-hadid.com/architecture/maxxi/",

@@ -92,7 +92,14 @@ Pour éviter un corpus artificiel, traiter les 100 références par lots de 20 :
 2. 20 références modernistes et domestiques.
 3. 20 références matière, béton, tactilité, ruine, mémoire.
 4. 20 références paysage, eau, climat, jardin, nature.
-5. 20 références publiques, urbaines, sociales ou contemporaines.
+5. 10 références publiques, urbaines, sociales ou contemporaines restantes.
+
+Après intégration des 100 références, faire une passe transversale d'équilibrage sensoriel, car certaines rubriques apparaissent moins spontanément dans les textes généraux :
+
+- son : silence, réverbération, absorption, écho, son d'eau, son public, bruit mécanique, son naturel ;
+- air et thermique : humidité, fraîcheur, ventilation, exposition ;
+- odeur : bois, humidité, végétal, minéral, terre, fumée, chlore ;
+- immersion : bain, vapeur, son, pénombre, couleur.
 
 À la fin de chaque lot, vérifier si les combinaisons de filtres dans le prototype donnent plus de résultats.
 

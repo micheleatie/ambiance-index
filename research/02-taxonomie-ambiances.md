@@ -16,7 +16,7 @@ Cette taxonomie sert de base de départ. Elle doit rester ouverte : une référe
 | A2 | Ombre et contraste | clair-obscur, pénombre, silhouette, profondeur, découpe | sombre, dramatique, contrasté, profond, noir, découpé, strié, gradient, semi-obscur |
 | A3 | Couleur | saturation, température chromatique, réflexion, dominante, contraste coloré | blanc, doré, rose, rouge, bleu, vert, chaud, froid, sourd, éclatant, polychrome |
 | A4 | Matière et texture | rugosité, grain, poids, patine, température tactile, absorption | pierre, béton, bois, métal, verre, terre, rugueux, lisse, brut, poli, poreux, stratifié, patiné |
-| A5 | Son | silence, réverbération, absorption, écho, bruit d'eau, bruit de pas, seuil sonore | silencieux, feutré, réverbérant, sourd, vibrant, amplifié, aquatique, creux, enveloppant |
+| A5 | Son | silence, réverbération, absorption, écho, diffusion, masque sonore, bruit d'eau, bruit de pas, son naturel, son public, seuil sonore | silencieux, feutré, réverbérant, sourd, vibrant, amplifié, aquatique, creux, enveloppant, ample, écho, mat, diffus, clair, intime, musical, cérémoniel, murmuré, continu, masquant, urbain, public, mécanique, extérieur, vent, naturel, résonant |
 | A6 | Thermique et air | chaleur, fraîcheur, humidité, ventilation, courant d'air, rayonnement | chaud, frais, humide, sec, ventilé, stagnant, tempéré, enveloppant, exposé |
 | A7 | Odeur | minéral, bois, végétal, eau, fumée, poussière, air confiné | boisé, humide, minéral, végétal, fumé, terreux, chloré, ancien, clos |
 | A8 | Eau | présence visible, son, reflet, évaporation, bain, pluie, canal | miroir, ruisselant, bassin, fontaine, vapeur, source, cascade, humidité, fraîcheur |

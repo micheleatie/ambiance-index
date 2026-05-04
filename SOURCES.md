@@ -12,11 +12,13 @@ Sources consultées le 4 mai 2026 pour constituer la première taxonomie et le p
 - [Juhani Pallasmaa, "Space, place and atmosphere"](https://riviste.unimi.it/index.php/Lebenswelt/article/view/4202) : expérience architecturale multisensorielle et périphérique.
 - [Wiley - The Eyes of the Skin](https://www.wiley-vch.de/en/areas-interest/engineering/architecture-planning-10ar/general-introductory-architecture-10ar0/architectural-theory-10ar02/the-eyes-of-the-skin-978-1-394-20067-2) : critique de la domination du visuel et revalorisation des sens.
 - [CRESSON / Réseau SON:S - Lexique illustré des effets sonores](https://sons.cnrs.fr/2020/04/01/enregistrements-lexique-illustre-des-effets-sonores/) : effets sonores et vocabulaire qualitatif.
+- [CRESSON - Petit lexique illustré des effets sonores](https://aau.archi.fr/cresson/cressound-2025/la-boite-a-effets/) : effets de coloration, coupure, vague, masque, filtrage et transitions d'ambiances sonores.
 
 ## Paramètres Sensoriels Et Environnementaux
 
 - [Danish Architecture Center - Light in Architecture](https://dac.dk/en/magazine/light-in-architecture-how-light-shapes-space-atmosphere-and-experience) : lumière, espace, matériaux, proportions et atmosphère.
 - [Britannica - Architectural Acoustics](https://www.britannica.com/science/architectural-acoustics) : réverbération, absorption, écho, bruit extérieur et qualité acoustique.
+- [Britannica - Acoustic Criteria](https://www.britannica.com/science/acoustics/Acoustic-criteria) : correspondances entre critères acoustiques et vocabulaire qualitatif comme clarté, ampleur, intimité, texture et mélange sonore.
 - [CBE Berkeley - PMV Model](https://cbe-berkeley.gitbook.io/thermal-comfort-tool/documentation/pmv) : facteurs du confort thermique.
 - [ASHRAE Handbook - Thermal Comfort](https://handbook.ashrae.org/Handbooks/F17/SI/f17_ch09/f17_ch09_si.aspx) : température de l'air, température radiante, humidité, vitesse d'air, vêtement, activité.
 - [Frontiers - Using Ambient Scent in the Built Environment](https://www.frontiersin.org/articles/10.3389/fpsyg.2020.598859/full) : rôle des odeurs dans l'environnement bâti multisensoriel.
@@ -190,3 +192,14 @@ Sources institutionnelles, patrimoniales, critiques et techniques importantes ut
 - [UNESCO - Brasilia](https://whc.unesco.org/en/list/445/)
 - [Zaha Hadid Architects - MAXXI](https://www.zaha-hadid.com/architecture/maxxi/)
 - [MAXXI - Progetto architettonico](https://www.maxxi.art/progetto-architettonico/)
+
+## Sources Pour L'Enrichissement Sensoriel V1
+
+Le détail des ajouts est structuré dans `data/reference_sensory_enrichment_v1.json`. Cette passe ne remplace pas les scans par lots : elle approfondit transversalement les dimensions moins représentées, surtout le son, l'odeur, l'air et l'immersion.
+
+Principes de cadrage utilisés :
+
+- [Britannica - Architectural Acoustics](https://www.britannica.com/science/architectural-acoustics)
+- [Britannica - Acoustic Criteria](https://www.britannica.com/science/acoustics/Acoustic-criteria)
+- [CRESSON - Petit lexique illustré des effets sonores](https://aau.archi.fr/cresson/cressound-2025/la-boite-a-effets/)
+- [Réseau SON:S - Lexique illustré des effets sonores](https://sons.cnrs.fr/2020/04/01/enregistrements-lexique-illustre-des-effets-sonores/)
