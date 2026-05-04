@@ -1,0 +1,3861 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "design_intentions_v1",
+  "scope": "Troisième couche d’indexation : intentions de conception, distinctes des ambiances physiques et subjectives.",
+  "validation_rule": "Les intentions v1 sont déduites des sources déjà collectées, des axes canoniques du corpus candidat, des programmes et des tags physiques/subjectifs validés. Elles restent des hypothèses pédagogiques à renforcer par citations courtes ou annotations expertes.",
+  "taxonomy_family": {
+    "id": "design_intentions",
+    "label": "Intentions de conception",
+    "rubrics": [
+      {
+        "id": "site_intention",
+        "label": "Rapport au site",
+        "micro_rubrics": [
+          "implantation",
+          "paysage",
+          "ville",
+          "existant",
+          "repère"
+        ],
+        "values": [
+          "ancrer dans le site",
+          "cadrer le paysage",
+          "fusionner avec la nature",
+          "s'isoler du contexte",
+          "ouvrir sur la ville",
+          "reconvertir l'existant",
+          "composer avec l'existant",
+          "créer un repère"
+        ]
+      },
+      {
+        "id": "spatial_intention",
+        "label": "Stratégie spatiale",
+        "micro_rubrics": [
+          "parcours",
+          "axe",
+          "plan",
+          "rampe",
+          "séquence",
+          "centralité"
+        ],
+        "values": [
+          "promenade architecturale",
+          "séquence rituelle",
+          "axe monumental",
+          "plan libre",
+          "rampe continue",
+          "boucle",
+          "parcours fluide",
+          "fragmentation",
+          "centralité",
+          "labyrinthe"
+        ]
+      },
+      {
+        "id": "climate_intention",
+        "label": "Stratégie climatique",
+        "micro_rubrics": [
+          "lumière",
+          "soleil",
+          "air",
+          "eau",
+          "inertie",
+          "microclimat"
+        ],
+        "values": [
+          "filtrer la lumière",
+          "protéger du soleil",
+          "ventiler naturellement",
+          "rafraîchir par l'eau",
+          "créer un microclimat",
+          "exploiter l'inertie",
+          "exposer au climat",
+          "contrôler l'éclairage"
+        ]
+      },
+      {
+        "id": "material_intention",
+        "label": "Intention matérielle",
+        "micro_rubrics": [
+          "brut",
+          "tactilité",
+          "artisanat",
+          "transparence",
+          "légèreté",
+          "patine"
+        ],
+        "values": [
+          "exprimer le brut",
+          "rendre tactile",
+          "mettre en valeur l'artisanat",
+          "chercher la transparence",
+          "alléger la construction",
+          "faire monolithe",
+          "laisser vieillir",
+          "réemployer"
+        ]
+      },
+      {
+        "id": "structure_intention",
+        "label": "Expression structurelle",
+        "micro_rubrics": [
+          "structure visible",
+          "franchissement",
+          "suspension",
+          "grille",
+          "forme porteuse"
+        ],
+        "values": [
+          "montrer la structure",
+          "franchir",
+          "suspendre",
+          "libérer le plan",
+          "exprimer la grille",
+          "faire forme porteuse",
+          "défi gravitaire",
+          "activer l’enveloppe"
+        ]
+      },
+      {
+        "id": "social_intention",
+        "label": "Programme et usage",
+        "micro_rubrics": [
+          "collectif",
+          "étude",
+          "soin",
+          "habitat",
+          "exposition",
+          "célébration",
+          "travail"
+        ],
+        "values": [
+          "rassembler",
+          "étudier",
+          "soigner",
+          "habiter",
+          "exposer",
+          "célébrer",
+          "démocratiser la culture",
+          "travailler",
+          "se retirer",
+          "apprendre"
+        ]
+      },
+      {
+        "id": "symbolic_intention",
+        "label": "Symbolique et récit",
+        "micro_rubrics": [
+          "sacré",
+          "mémoire",
+          "pouvoir",
+          "identité",
+          "tradition",
+          "institution",
+          "quotidien"
+        ],
+        "values": [
+          "sacraliser",
+          "commémorer",
+          "représenter le pouvoir",
+          "exprimer une identité",
+          "renouveler une tradition",
+          "moderniser une institution",
+          "mettre en scène le quotidien",
+          "faire icône"
+        ]
+      },
+      {
+        "id": "perceptual_intention",
+        "label": "Effet perceptif recherché",
+        "micro_rubrics": [
+          "lenteur",
+          "surprise",
+          "désorientation",
+          "enveloppement",
+          "intensité",
+          "apaisement",
+          "orientation"
+        ],
+        "values": [
+          "ralentir",
+          "surprendre",
+          "désorienter",
+          "envelopper",
+          "intensifier",
+          "apaiser",
+          "orienter",
+          "ouvrir l'imaginaire"
+        ]
+      }
+    ]
+  },
+  "reference_count": 100,
+  "entries": [
+    {
+      "reference_id": "pantheon_rome",
+      "name": "Panthéon",
+      "canonical_axes": [
+        "lumière zénithale",
+        "coupole",
+        "sacré"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:faire forme porteuse",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "forme et structure fortement liées",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "immersion ou enveloppement",
+        "intensité sociale, monumentale ou sensible",
+        "lisibilité ou guidage"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/list/19-essential-italian-churches/Pantheon"
+      ]
+    },
+    {
+      "reference_id": "sainte_chapelle_paris",
+      "name": "Sainte-Chapelle",
+      "canonical_axes": [
+        "vitrail",
+        "lumière colorée",
+        "verticalité"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "présence iconique ou repère urbain",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "surprise, mystère ou étrangeté",
+        "immersion ou enveloppement",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"
+      ]
+    },
+    {
+      "reference_id": "alhambra_generalife",
+      "name": "Alhambra et Generalife",
+      "canonical_axes": [
+        "eau",
+        "jardin",
+        "ombre"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "social_intention:se retirer",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "rapport au soleil, climat ou exposition",
+        "eau ou fraîcheur comme dispositif",
+        "retrait, refuge ou recueillement",
+        "identité culturelle ou locale",
+        "effets de calme ou restauration",
+        "surprise, mystère ou étrangeté",
+        "mystère, abstraction ou imagination"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/314/"
+      ]
+    },
+    {
+      "reference_id": "fallingwater",
+      "name": "Fallingwater",
+      "canonical_axes": [
+        "cascade",
+        "pierre",
+        "nature"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "structure_intention:franchir",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "franchissement ou portée",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://fallingwater.org/what-is-fallingwater/"
+      ]
+    },
+    {
+      "reference_id": "casa_luis_barragan",
+      "name": "Casa Luis Barragán",
+      "canonical_axes": [
+        "couleur",
+        "pénombre",
+        "intimité"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:laisser vieillir",
+        "social_intention:habiter",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "patine, traces ou temporalité",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "identité culturelle ou locale",
+        "quotidien domestique ou social mis en scène",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/1136/",
+        "https://www.casaluisbarragan.org/eng/en_vestibulo.html"
+      ]
+    },
+    {
+      "reference_id": "ronchamp",
+      "name": "Chapelle Notre-Dame du Haut",
+      "canonical_axes": [
+        "lumière filtrée",
+        "béton",
+        "sacré"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"
+      ]
+    },
+    {
+      "reference_id": "salk_institute",
+      "name": "Salk Institute",
+      "canonical_axes": [
+        "cour",
+        "canal",
+        "horizon"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition axiale",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "eau ou fraîcheur comme dispositif",
+        "exposition climatique assumée",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "structure visible ou exprimée"
+      ],
+      "source_sample": [
+        "https://www.salk.edu/de/about/about-salk-architecture/"
+      ]
+    },
+    {
+      "reference_id": "kimbell_art_museum",
+      "name": "Kimbell Art Museum",
+      "canonical_axes": [
+        "lumière diffuse",
+        "voûte",
+        "béton"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:rendre tactile"
+      ],
+      "basis": [
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://kimbellart.org/art-architecture/architecture/kahn-building"
+      ]
+    },
+    {
+      "reference_id": "phillips_exeter_library",
+      "name": "Phillips Exeter Academy Library",
+      "canonical_axes": [
+        "atrium",
+        "brique",
+        "refuge de lecture"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:centralité",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:orienter",
+        "material_intention:mettre en valeur l'artisanat",
+        "social_intention:apprendre"
+      ],
+      "basis": [
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "programme d’étude, bibliothèque ou école",
+        "programme pédagogique",
+        "retrait, refuge ou recueillement",
+        "institution modernisée par l’architecture",
+        "lisibilité ou guidage",
+        "ancrage minimal au lieu"
+      ],
+      "source_sample": [
+        "https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"
+      ]
+    },
+    {
+      "reference_id": "church_of_the_light",
+      "name": "Church of the Light",
+      "canonical_axes": [
+        "croix lumineuse",
+        "béton",
+        "clair-obscur"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://ibaraki-kasugaoka-church.jp/e-top.html"
+      ]
+    },
+    {
+      "reference_id": "therme_vals",
+      "name": "Therme Vals",
+      "canonical_axes": [
+        "pierre",
+        "eau",
+        "vapeur"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:protéger du soleil",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:rafraîchir par l'eau",
+        "climate_intention:exploiter l'inertie",
+        "perceptual_intention:surprendre"
+      ],
+      "basis": [
+        "rapport au soleil, climat ou exposition",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "surprise, mystère ou étrangeté",
+        "immersion ou enveloppement",
+        "mystère, abstraction ou imagination",
+        "ancrage minimal au lieu"
+      ],
+      "source_sample": [
+        "https://vals.ch/en/enjoy/wellness/7132-therme/",
+        "https://www.archdaily.com/13358/the-therme-vals/1721170689_outdoor-pool2"
+      ]
+    },
+    {
+      "reference_id": "bruder_klaus_field_chapel",
+      "name": "Bruder Klaus Field Chapel",
+      "canonical_axes": [
+        "béton brûlé",
+        "odeur",
+        "oculus"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:intensifier",
+        "climate_intention:exploiter l'inertie",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "intensité sociale, monumentale ou sensible",
+        "ancrage minimal au lieu"
+      ],
+      "source_sample": [
+        "https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"
+      ]
+    },
+    {
+      "reference_id": "kolumba_museum",
+      "name": "Kolumba Museum",
+      "canonical_axes": [
+        "brique perforée",
+        "ruine",
+        "lumière diffuse"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:composer avec l'existant"
+      ],
+      "basis": [
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "patine, traces ou temporalité",
+        "reconversion ou réusage du bâti",
+        "programme muséal ou galerie"
+      ],
+      "source_sample": [
+        "https://www.museen.koeln/en/visit/museums/kolumba"
+      ]
+    },
+    {
+      "reference_id": "jewish_museum_berlin",
+      "name": "Jewish Museum Berlin",
+      "canonical_axes": [
+        "vide",
+        "désorientation",
+        "mémoire"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "social_intention:démocratiser la culture",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "retrait, refuge ou recueillement",
+        "mémoire, absence ou monument funéraire",
+        "institution modernisée par l’architecture",
+        "surprise, mystère ou étrangeté",
+        "désorientation ou instabilité perceptive",
+        "immersion ou enveloppement"
+      ],
+      "source_sample": [
+        "https://www.jmberlin.de/en/libeskind-building"
+      ]
+    },
+    {
+      "reference_id": "chapel_st_ignatius",
+      "name": "Chapel of St. Ignatius",
+      "canonical_axes": [
+        "lumière colorée",
+        "volumes lumineux",
+        "béton"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://www.stevenholl.com/projects/st-ignatius-chapel"
+      ]
+    },
+    {
+      "reference_id": "cy_twombly_gallery",
+      "name": "Cy Twombly Gallery",
+      "canonical_axes": [
+        "lumière filtrée",
+        "toile",
+        "calme"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière",
+        "social_intention:démocratiser la culture"
+      ],
+      "basis": [
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "ancrage minimal au lieu"
+      ],
+      "source_sample": [
+        "https://www.menil.org/campus/cy-twombly-gallery"
+      ]
+    },
+    {
+      "reference_id": "fondation_beyeler",
+      "name": "Fondation Beyeler",
+      "canonical_axes": [
+        "lumière filtrée",
+        "paysage",
+        "toit léger"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:alléger la construction",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:filtrer la lumière"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "toiture légère ou structure légère",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"
+      ]
+    },
+    {
+      "reference_id": "hagia_sophia",
+      "name": "Hagia Sophia",
+      "canonical_axes": [
+        "coupole",
+        "lumière",
+        "sacré"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:faire forme porteuse",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "masse monumentale minérale",
+        "forme et structure fortement liées",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "immersion ou enveloppement"
+      ],
+      "source_sample": [
+        "https://www.hagiasophia.com/architecture",
+        "https://whc.unesco.org/en/list/356/",
+        "https://www.britannica.com/topic/Hagia-Sophia"
+      ]
+    },
+    {
+      "reference_id": "great_mosque_cordoba",
+      "name": "Grande Mosquée-Cathédrale de Cordoue",
+      "canonical_axes": [
+        "forêt de colonnes",
+        "ombre",
+        "rythme"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "spatial_intention:labyrinthe"
+      ],
+      "basis": [
+        "présence iconique ou repère urbain",
+        "usage rituel ou séquence sacrée",
+        "parcours exploratoire ou non linéaire",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "identité culturelle ou locale",
+        "tradition réinterprétée"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba",
+        "https://whc.unesco.org/en/list/313/",
+        "https://mezquita-catedraldecordoba.es/en/discover-the-monument/"
+      ]
+    },
+    {
+      "reference_id": "chartres_cathedral",
+      "name": "Cathédrale de Chartres",
+      "canonical_axes": [
+        "vitrail",
+        "hauteur",
+        "sacré"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "mémoire, absence ou monument funéraire",
+        "immersion ou enveloppement",
+        "intensité sociale, monumentale ou sensible",
+        "ancrage minimal au lieu"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/81",
+        "https://www.chartres-csm.org/en/the-cathedral/the-stained-glass-windows-of-chartres-cathedral/",
+        "https://www.britannica.com/topic/Chartres-Cathedral"
+      ]
+    },
+    {
+      "reference_id": "notre_dame_paris",
+      "name": "Notre-Dame de Paris",
+      "canonical_axes": [
+        "nef",
+        "lumière gothique",
+        "monument urbain"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "climate_intention:filtrer la lumière",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "mémoire, absence ou monument funéraire"
+      ],
+      "source_sample": [
+        "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/",
+        "https://www.friendsofnotredamedeparis.org/cathedral/artifacts/rose-windows/",
+        "https://whc.unesco.org/en/list/600/"
+      ]
+    },
+    {
+      "reference_id": "sagrada_familia",
+      "name": "Sagrada Família",
+      "canonical_axes": [
+        "lumière colorée",
+        "structure organique",
+        "sacré"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:créer un repère"
+      ],
+      "basis": [
+        "présence végétale/naturelle ou continuité paysagère",
+        "présence iconique ou repère urbain",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "structure visible ou exprimée",
+        "forme et structure fortement liées",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée"
+      ],
+      "source_sample": [
+        "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/",
+        "https://sagradafamilia.org/en/sagrada-familia-ticket?inheritRedirect=true",
+        "https://whc.unesco.org/en/list/320/"
+      ]
+    },
+    {
+      "reference_id": "monastery_la_tourette",
+      "name": "Couvent Sainte-Marie de La Tourette",
+      "canonical_axes": [
+        "cellule",
+        "béton",
+        "lumière monastique"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:séquence rituelle"
+      ],
+      "basis": [
+        "parcours progressif ou promenade",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/",
+        "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-couvent-sainte-marie-de-la-tourette-eveux-sur-larbresle-france-1953-1960/",
+        "https://www.strateforme.com/"
+      ]
+    },
+    {
+      "reference_id": "menil_collection",
+      "name": "Menil Collection",
+      "canonical_axes": [
+        "lumière naturelle",
+        "toiture",
+        "domesticité muséale"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "material_intention:mettre en valeur l'artisanat"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "retrait, refuge ou recueillement",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.menil.org/campus/main-building",
+        "https://www.menil.org/index.php/campus/main-building",
+        "https://www.cntraveler.com/story/why-your-next-art-pilgrimage-should-be-to-houston-menil-collection-rothko"
+      ]
+    },
+    {
+      "reference_id": "chichu_art_museum",
+      "name": "Chichu Art Museum",
+      "canonical_axes": [
+        "souterrain",
+        "lumière naturelle",
+        "art"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:chercher la transparence"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/art/",
+        "https://www.gltjp.com/en/directory/item/11313/"
+      ]
+    },
+    {
+      "reference_id": "teshima_art_museum",
+      "name": "Teshima Art Museum",
+      "canonical_axes": [
+        "gouttes d'eau",
+        "silence",
+        "ouverture"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:ventiler naturellement",
+        "climate_intention:rafraîchir par l'eau"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "travail documenté de la lumière",
+        "ventilation ou circulation d’air",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "immersion ou enveloppement"
+      ],
+      "source_sample": [
+        "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+        "https://benesse-artsite.jp/en/about/teshima.html",
+        "https://www.wallpaper.com/architecture/seto-inland-sea-tour-japan"
+      ]
+    },
+    {
+      "reference_id": "louvre_abu_dhabi",
+      "name": "Louvre Abu Dhabi",
+      "canonical_axes": [
+        "pluie de lumière",
+        "dôme",
+        "eau"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:activer l’enveloppe",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "site_intention:créer un repère"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "présence iconique ou repère urbain",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "rapport au soleil, climat ou exposition",
+        "eau ou fraîcheur comme dispositif",
+        "microclimat explicitement décrit",
+        "enveloppe active, filtrante ou structurante",
+        "programme muséal ou galerie"
+      ],
+      "source_sample": [
+        "https://www.louvreabudhabi.ae/en/about-us/architecture",
+        "https://www.louvreabudhabi.ae/fr/about-us/architecture",
+        "https://www.architecturaldigest.com/story/jean-nouvel-louvre-abu-dhabi"
+      ]
+    },
+    {
+      "reference_id": "institut_monde_arabe",
+      "name": "Institut du Monde Arabe",
+      "canonical_axes": [
+        "diaphragmes",
+        "lumière filtrée",
+        "motif"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:activer l’enveloppe",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:orienter",
+        "climate_intention:filtrer la lumière",
+        "social_intention:démocratiser la culture"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "enveloppe active, filtrante ou structurante",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "usage collectif ou public",
+        "institution modernisée par l’architecture",
+        "surprise, mystère ou étrangeté",
+        "lisibilité ou guidage"
+      ],
+      "source_sample": [
+        "https://www.imarabe.org/fr/batiment-et-son-histoire",
+        "https://dome.mit.edu/handle/1721.3/121823",
+        "https://www.architecturelab.net/institut-du-monde-arabe-jean-nouvel/"
+      ]
+    },
+    {
+      "reference_id": "guggenheim_museum_new_york",
+      "name": "Solomon R. Guggenheim Museum",
+      "canonical_axes": [
+        "spirale",
+        "rampe",
+        "lumière zénithale"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:créer un repère",
+        "spatial_intention:rampe continue"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "parcours progressif ou promenade",
+        "rampe ou mouvement continu",
+        "circulation fluide",
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "usage collectif ou public"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/1496/",
+        "https://www.guggenheim.org/about-us/architecture",
+        "https://www.architecturaldigest.com/story/you-didnt-know-new-york-city-guggenheim-museum"
+      ]
+    },
+    {
+      "reference_id": "brasilia_cathedral",
+      "name": "Cathédrale de Brasília",
+      "canonical_axes": [
+        "lumière",
+        "structure",
+        "sacré moderne"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
+      ],
+      "basis": [
+        "présence iconique ou repère urbain",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "structure visible ou exprimée",
+        "mise en suspension ou pilotis",
+        "forme et structure fortement liées"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/445/",
+        "https://www.architecturelab.net/cathedral-of-brasilia-oscar-niemeyer/",
+        "https://www.loc.gov/item/22886782"
+      ]
+    },
+    {
+      "reference_id": "villa_rotonda",
+      "name": "Villa Rotonda",
+      "canonical_axes": [
+        "symétrie",
+        "paysage",
+        "proportion"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:centralité",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "composition axiale",
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "programme domestique ou villa",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/712/",
+        "https://www.villalarotonda.it/en/",
+        "https://www.villalarotonda.it/en/villa/"
+      ]
+    },
+    {
+      "reference_id": "katsura_imperial_villa",
+      "name": "Katsura Imperial Villa",
+      "canonical_axes": [
+        "seuil",
+        "paysage cadré",
+        "parcours"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "symbolic_intention:renouveler une tradition",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "tradition réinterprétée"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/topic/Katsura-Imperial-Villa",
+        "https://www.japan.travel/en/spot/1137",
+        "https://www.japan-guide.com/e/e3914.html"
+      ]
+    },
+    {
+      "reference_id": "villa_savoye",
+      "name": "Villa Savoye",
+      "canonical_axes": [
+        "promenade architecturale",
+        "blanc",
+        "pilotis"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:habiter",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "spatial_intention:plan libre"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "parcours progressif ou promenade",
+        "plan ouvert ou libéré",
+        "rampe ou mouvement continu",
+        "circulation fluide",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "mise en suspension ou pilotis"
+      ],
+      "source_sample": [
+        "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+        "https://whc.unesco.org/en/list/1321/",
+        "https://www.architecturelab.net/villa-savoye-le-corbusier/"
+      ]
+    },
+    {
+      "reference_id": "unite_habitation_marseille",
+      "name": "Unité d'habitation de Marseille",
+      "canonical_axes": [
+        "béton brut",
+        "rue intérieure",
+        "vie collective"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:rassembler",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:créer un repère",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence iconique ou repère urbain",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "mise en suspension ou pilotis",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://lecorbusier-worldheritage.org/en/unite-habitation/",
+        "https://sites-le-corbusier.org/en/oeuvres/unite-dhabitation-marseille/",
+        "https://www.britannica.com/topic/Unite-dHabitation-urban-complex-Marseille-France"
+      ]
+    },
+    {
+      "reference_id": "maison_curutchet",
+      "name": "Maison Curutchet",
+      "canonical_axes": [
+        "promenade",
+        "brise-soleil",
+        "cour"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:orienter",
+        "spatial_intention:rampe continue",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "parcours progressif ou promenade",
+        "rampe ou mouvement continu",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "lenteur, progression ou contemplation",
+        "lisibilité ou guidage"
+      ],
+      "source_sample": [
+        "https://lecorbusier-worldheritage.org/en/maison-du-docteur-curutchet/",
+        "https://whc.unesco.org/en/list/1321/",
+        "https://whc.unesco.org/en/documents/140718"
+      ]
+    },
+    {
+      "reference_id": "barcelona_pavilion",
+      "name": "Pavillon de Barcelone",
+      "canonical_axes": [
+        "marbre",
+        "reflet",
+        "plan libre"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:libérer le plan",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:parcours fluide"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence"
+      ],
+      "source_sample": [
+        "https://miesbcn.com/the-pavilion/",
+        "https://miesbcn.com/project/luftwerk-iker-gil-geometry-of-light/",
+        "https://www.expo-barcelona.com/exhibition/mies-van-der-rohe-pavilion"
+      ]
+    },
+    {
+      "reference_id": "farnsworth_house",
+      "name": "Farnsworth House",
+      "canonical_axes": [
+        "verre",
+        "transparence",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:suspendre",
+        "social_intention:habiter",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence",
+        "mise en suspension ou pilotis",
+        "plan libre ou grand espace dégagé",
+        "programme domestique ou villa"
+      ],
+      "source_sample": [
+        "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+        "https://savingplaces.org/places/farnsworth-house",
+        "https://www.britannica.com/topic/Farnsworth-House"
+      ]
+    },
+    {
+      "reference_id": "tugendhat_house",
+      "name": "Villa Tugendhat",
+      "canonical_axes": [
+        "verre",
+        "onyx",
+        "plan libre"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:libérer le plan",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:parcours fluide"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "verre ou transparence",
+        "plan libre ou grand espace dégagé",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement"
+      ],
+      "source_sample": [
+        "https://www.tugendhat.eu/en/about-the-house/",
+        "https://whc.unesco.org/en/list/1052/",
+        "https://www.tugendhat.eu/en/"
+      ]
+    },
+    {
+      "reference_id": "seagram_building",
+      "name": "Seagram Building",
+      "canonical_axes": [
+        "acier",
+        "verre",
+        "retrait urbain"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:travailler",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "plan libre ou grand espace dégagé",
+        "grille constructive ou façade structurée",
+        "programme tertiaire, technique ou logistique",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/topic/Seagram-Building",
+        "https://www.som.com/projects/seagram-building/",
+        "https://en.wikipedia.org/wiki/Seagram_Building"
+      ]
+    },
+    {
+      "reference_id": "crown_hall",
+      "name": "S. R. Crown Hall",
+      "canonical_axes": [
+        "grand espace libre",
+        "acier",
+        "lumière"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "spatial_intention:parcours fluide"
+      ],
+      "basis": [
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "plan libre ou grand espace dégagé",
+        "grille constructive ou façade structurée",
+        "intensité sociale, monumentale ou sensible",
+        "lisibilité ou guidage"
+      ],
+      "source_sample": [
+        "https://www.iit.edu/admissions-aid/visit-and-tour/virtual-tour/crown-hall",
+        "https://docomomo-us.org/register/s-r-crown-hall",
+        "https://www.archdaily.com/59816/ad-classics-s-r-crown-hall-mies-van-der-rohe"
+      ]
+    },
+    {
+      "reference_id": "robie_house",
+      "name": "Robie House",
+      "canonical_axes": [
+        "prairie house",
+        "horizontalité",
+        "foyer"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:franchir",
+        "social_intention:habiter",
+        "symbolic_intention:mettre en scène le quotidien",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "franchissement ou portée",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement"
+      ],
+      "source_sample": [
+        "https://www.flwright.org/explore/frederick-c-robie-house",
+        "https://www.flwright.org/tour/robie-house",
+        "https://whc.unesco.org/en/list/1496/"
+      ]
+    },
+    {
+      "reference_id": "unity_temple",
+      "name": "Unity Temple",
+      "canonical_axes": [
+        "béton",
+        "lumière zénithale",
+        "communauté"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:se retirer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
+      ],
+      "basis": [
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "immersion ou enveloppement"
+      ],
+      "source_sample": [
+        "https://www.flwright.org/explore/unity-temple",
+        "https://www.architecture.org/learn/resources/buildings-of-chicago/building/unity-temple/",
+        "https://whc.unesco.org/en/list/1496/"
+      ]
+    },
+    {
+      "reference_id": "taliesin_west",
+      "name": "Taliesin West",
+      "canonical_axes": [
+        "désert",
+        "pierre",
+        "abri"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:protéger du soleil",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "masse minérale ou inertie matérielle",
+        "exposition climatique assumée",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "toiture légère ou structure légère",
+        "programme domestique ou villa"
+      ],
+      "source_sample": [
+        "https://franklloydwright.org/taliesin-west/",
+        "https://whc.unesco.org/en/list/1496/",
+        "https://www.architecturaldigest.com/story/taliesin-west-everything-you-need-to-know-about-frank-lloyd-wrights-winter-home-and-studio"
+      ]
+    },
+    {
+      "reference_id": "bauhaus_dessau",
+      "name": "Bauhaus Dessau",
+      "canonical_axes": [
+        "verre",
+        "atelier",
+        "modernisme"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:exprimer la grille",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:orienter",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "grille constructive ou façade structurée",
+        "programme d’étude, bibliothèque ou école",
+        "programme pédagogique",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://bauhaus-dessau.de/en/institution/foundation/",
+        "https://whc.unesco.org/en/list/729/",
+        "https://www.visitdessau.com/en/world-heritage/bauhaus/"
+      ]
+    },
+    {
+      "reference_id": "villa_mairea",
+      "name": "Villa Mairea",
+      "canonical_axes": [
+        "bois",
+        "forêt",
+        "domesticité"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "effets de calme ou restauration"
+      ],
+      "source_sample": [
+        "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
+        "https://www.villamairea.fi/",
+        "https://www.archdaily.com/85390/ad-classics-villa-mairea-alvar-aalto"
+      ]
+    },
+    {
+      "reference_id": "paimio_sanatorium",
+      "name": "Paimio Sanatorium",
+      "canonical_axes": [
+        "soin",
+        "lumière",
+        "air"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "programme d’étude, bibliothèque ou école"
+      ],
+      "source_sample": [
+        "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
+        "https://paimiosanatorium.com/",
+        "https://paimiosanatorium.com/sanatorium/foundation/"
+      ]
+    },
+    {
+      "reference_id": "saynatsalo_town_hall",
+      "name": "Säynätsalo Town Hall",
+      "canonical_axes": [
+        "brique",
+        "cour",
+        "civicité"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "présence végétale/naturelle ou continuité paysagère",
+        "dimension urbaine ou publique",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement",
+        "programme civique ou institutionnel",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+        "https://visitjyvaskyla.fi/en/attractions/saynatsalo-town-hall/",
+        "https://www.architecturelab.net/saynatsalo-town-hall-alvar-aalto/"
+      ]
+    },
+    {
+      "reference_id": "eames_house",
+      "name": "Eames House",
+      "canonical_axes": [
+        "structure légère",
+        "domesticité",
+        "couleur"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:habiter",
+        "symbolic_intention:mettre en scène le quotidien",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "programme domestique ou villa",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement",
+        "quotidien domestique ou social mis en scène"
+      ],
+      "source_sample": [
+        "https://eamesfoundation.org/eames-house/",
+        "https://www.eamesoffice.com/visit-learn/eames-house/",
+        "https://www.archdaily.com/66302/ad-classics-eames-house-charles-and-ray-eames"
+      ]
+    },
+    {
+      "reference_id": "glass_house_philip_johnson",
+      "name": "Glass House",
+      "canonical_axes": [
+        "verre",
+        "transparence",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:fragmentation"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "plan ouvert ou libéré",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence",
+        "programme domestique ou villa",
+        "effets de calme ou restauration"
+      ],
+      "source_sample": [
+        "https://theglasshouse.org/explore/the-glass-house/",
+        "https://savingplaces.org/places/glass-house",
+        "https://theglasshouse.org/explore/landscape/"
+      ]
+    },
+    {
+      "reference_id": "maison_de_verre",
+      "name": "Maison de Verre",
+      "canonical_axes": [
+        "verre",
+        "translucidité",
+        "mécanique"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:habiter",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:ouvrir l'imaginaire",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "verre ou transparence",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "surprise, mystère ou étrangeté",
+        "mystère, abstraction ou imagination"
+      ],
+      "source_sample": [
+        "https://www.centrepompidou.fr/fr/ressources/oeuvre/cKxjGX8",
+        "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-secret-history-of-the-maison-de-verre-a-masterpiece-of-modern-architecture",
+        "https://dome.mit.edu/handle/1721.3/119743"
+      ]
+    },
+    {
+      "reference_id": "brion_cemetery",
+      "name": "Cimetière Brion",
+      "canonical_axes": [
+        "eau",
+        "béton",
+        "mémoire"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:exprimer le brut",
+        "social_intention:se retirer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:reconvertir l'existant"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "usage rituel ou séquence sacrée",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "patine, traces ou temporalité",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée"
+      ],
+      "source_sample": [
+        "https://www.architecturelab.net/brion-vega-tomb-by-carlo-scarpa/",
+        "https://www.archdaily.com/1002226/carlo-scarpa-a-virtuous-architect-of-water",
+        "https://www.carloscarpa.es/OBRAS/Brion.html"
+      ]
+    },
+    {
+      "reference_id": "castelvecchio_museum",
+      "name": "Musée de Castelvecchio",
+      "canonical_axes": [
+        "palimpseste",
+        "détail",
+        "parcours"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:composer avec l'existant"
+      ],
+      "basis": [
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "patine, traces ou temporalité",
+        "reconversion ou réusage du bâti"
+      ],
+      "source_sample": [
+        "https://archiviocarloscarpa.it/en/",
+        "https://archiviocarloscarpa.it/carlo-scarpa-a-castelvecchio/",
+        "https://www.carloscarpa.es/Castelvecchio.html"
+      ]
+    },
+    {
+      "reference_id": "olivetti_showroom",
+      "name": "Olivetti Showroom",
+      "canonical_axes": [
+        "détail",
+        "eau",
+        "matière"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:mettre en valeur l'artisanat"
+      ],
+      "basis": [
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement",
+        "surprise, mystère ou étrangeté",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://fondoambiente.it/negozio-olivetti-eng",
+        "https://en.venezia.net/olivetti-showroom-venice.html",
+        "https://architectuul.com/architecture/olivetti-showroom"
+      ]
+    },
+    {
+      "reference_id": "national_assembly_bangladesh",
+      "name": "Assemblée nationale du Bangladesh",
+      "canonical_axes": [
+        "géométrie",
+        "eau",
+        "monumentalité"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "climate_intention:rafraîchir par l'eau"
+      ],
+      "basis": [
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "masse monumentale minérale",
+        "structure visible ou exprimée",
+        "programme ou ambiance sacrée",
+        "programme civique ou institutionnel",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://the.akdn/akdn/akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/national-assembly-building",
+        "https://www.archdaily.com/83071/ad-classics-national-assembly-building-of-bangladesh-louis-kahn",
+        "https://dome.mit.edu/handle/1721.3/72428"
+      ]
+    },
+    {
+      "reference_id": "water_temple_ando",
+      "name": "Temple de l'Eau",
+      "canonical_axes": [
+        "eau",
+        "descente",
+        "rituel"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:séquence rituelle"
+      ],
+      "basis": [
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement"
+      ],
+      "source_sample": [
+        "https://www.archweb.com/en/architettures/water-temple/",
+        "https://arquitecturaviva.com/works/templo-del-agua-higashiura",
+        "https://en.wikiarquitectura.com/building/Water-Temple/"
+      ]
+    },
+    {
+      "reference_id": "row_house_sumiyoshi",
+      "name": "Row House in Sumiyoshi",
+      "canonical_axes": [
+        "cour",
+        "béton",
+        "intériorité"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:orienter",
+        "climate_intention:protéger du soleil",
+        "climate_intention:exploiter l'inertie"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "masse minérale ou inertie matérielle",
+        "exposition climatique assumée",
+        "béton brut ou matérialité directe",
+        "programme domestique ou villa",
+        "retrait, refuge ou recueillement",
+        "surprise, mystère ou étrangeté"
+      ],
+      "source_sample": [
+        "https://www.archweb.com/en/-civilians-architectures/azuma-house/",
+        "https://arquitecturaviva.com/works/casa-entre-medianeras",
+        "https://en.wikiarquitectura.com/building/azuma-house/"
+      ]
+    },
+    {
+      "reference_id": "saint_benedict_chapel",
+      "name": "Chapelle Saint-Benoît",
+      "canonical_axes": [
+        "bois",
+        "lumière douce",
+        "abri"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "toiture légère ou structure légère",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée"
+      ],
+      "source_sample": [
+        "https://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor",
+        "https://www.graubuenden.ch/en/attractions/kapelle-s-benedetg",
+        "https://www.archdaily.com/419367/a-photographer-s-journey-through-peter-zumthor-valley"
+      ]
+    },
+    {
+      "reference_id": "holocaust_memorial_berlin",
+      "name": "Mémorial aux Juifs assassinés d'Europe",
+      "canonical_axes": [
+        "stèles",
+        "désorientation",
+        "mémoire"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:labyrinthe",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "structure_intention:exprimer la grille",
+        "social_intention:se retirer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:désorienter",
+        "site_intention:composer avec l'existant"
+      ],
+      "basis": [
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "parcours exploratoire ou non linéaire",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "patine, traces ou temporalité",
+        "grille constructive ou façade structurée",
+        "retrait, refuge ou recueillement",
+        "mémoire, absence ou monument funéraire",
+        "désorientation ou instabilité perceptive"
+      ],
+      "source_sample": [
+        "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe/",
+        "https://www.visitberlin.de/en/memorial-murdered-jews-europe",
+        "https://www.cipdh.gob.ar/memorias-situadas/en/lugar-de-memoria/monumento-a-los-judios-asesinados-en-europa/"
+      ]
+    },
+    {
+      "reference_id": "centre_pompidou",
+      "name": "Centre Pompidou",
+      "canonical_axes": [
+        "structure apparente",
+        "couleur technique",
+        "urbanité"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:exposer",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.centrepompidou.fr/en/collection/our-building",
+        "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/larchitecture-du-centre-pompidou/structure-et-modules",
+        "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/secrets-darchi-les-tuyaux-du-centre-pompidou"
+      ]
+    },
+    {
+      "reference_id": "lloyds_building",
+      "name": "Lloyd's Building",
+      "canonical_axes": [
+        "services apparents",
+        "métal",
+        "intensité urbaine"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:centralité",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "lieu culturel public ou ouvert",
+        "usage collectif ou public",
+        "programme tertiaire, technique ou logistique"
+      ],
+      "source_sample": [
+        "https://www.lloyds.com/about-lloyds/our-home",
+        "https://www.cityoflondon.gov.uk/things-to-do/architecture/modern-architecture/lloyds-building",
+        "https://www.archweb.com/en/architettures/lloyd-s-building/"
+      ]
+    },
+    {
+      "reference_id": "jean_marie_tjibaou_cultural_centre",
+      "name": "Centre culturel Jean-Marie Tjibaou",
+      "canonical_axes": [
+        "bois",
+        "vent",
+        "culture kanak"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "usage collectif ou public"
+      ],
+      "source_sample": [
+        "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
+        "https://www.architectour.net/opere/opera.php?architetto=Renzo+Piano&id_opera=2733&nome_opera=Centre+culturel+Tjibaou",
+        "https://www.archilovers.com/projects/90850/jean-marie-tjibaou-cultural-center.html"
+      ]
+    },
+    {
+      "reference_id": "kansai_airport_terminal",
+      "name": "Terminal de l'aéroport du Kansai",
+      "canonical_axes": [
+        "flux",
+        "structure légère",
+        "horizon"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:travailler",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "verre ou transparence",
+        "toiture légère ou structure légère",
+        "structure visible ou exprimée"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/topic/Terminal-1-at-Kansai-International-Airport",
+        "https://www.architonic.com/en/project/renzo-piano-building-workshop-kansai-international-airport-passenger-terminal-building/5102405",
+        "https://www.nikken.jp/en/projects/transportation/kansai_international_airport_passenger_terminal_building.html"
+      ]
+    },
+    {
+      "reference_id": "guggenheim_bilbao",
+      "name": "Guggenheim Museum Bilbao",
+      "canonical_axes": [
+        "titane",
+        "reflet",
+        "icône urbaine"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:labyrinthe",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:défi gravitaire",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "parcours exploratoire ou non linéaire",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "verre ou transparence",
+        "masse monumentale minérale",
+        "défi structurel ou forme spectaculaire"
+      ],
+      "source_sample": [
+        "https://www.guggenheim-bilbao.eus/en/the-building/the-construction/",
+        "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry",
+        "https://www.britannica.com/topic/Guggenheim-Museum-Bilbao"
+      ]
+    },
+    {
+      "reference_id": "walt_disney_concert_hall",
+      "name": "Walt Disney Concert Hall",
+      "canonical_axes": [
+        "métal",
+        "acoustique",
+        "mouvement"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:défi gravitaire",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "défi structurel ou forme spectaculaire",
+        "lieu culturel public ou ouvert",
+        "rituel, événement ou rassemblement cérémoniel",
+        "usage collectif ou public"
+      ],
+      "source_sample": [
+        "https://www.musiccenter.org/visit-explore/visit-explore/campus/walt-disney-concert-hall/",
+        "https://www.permasteelisagroup.com/project-detail?project=2290",
+        "https://www.archilovers.com/projects/329/walt-disney-concert-hall.html"
+      ]
+    },
+    {
+      "reference_id": "vitra_design_museum",
+      "name": "Vitra Design Museum",
+      "canonical_axes": [
+        "forme fragmentée",
+        "blanc",
+        "mouvement"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "spatial_intention:rampe continue",
+        "spatial_intention:labyrinthe"
+      ],
+      "basis": [
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "rampe ou mouvement continu",
+        "parcours exploratoire ou non linéaire",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "usage collectif ou public",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.vitra.com/fr-fr/campus/architecture/architecture-vitra-design-museum",
+        "https://www.vitra.com/en-dk/campus/architecture/architecture-vitra-design-museum",
+        "https://www.vitra.com/en-us/campus/architecture/architecture-factory-building-gehry"
+      ]
+    },
+    {
+      "reference_id": "tate_modern",
+      "name": "Tate Modern",
+      "canonical_axes": [
+        "halle turbine",
+        "brique",
+        "reconversion"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:envelopper",
+        "site_intention:reconvertir l'existant"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "présence iconique ou repère urbain",
+        "parcours progressif ou promenade",
+        "rampe ou mouvement continu",
+        "organisation par centre, atrium ou coeur",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain"
+      ],
+      "source_sample": [
+        "https://www.herzogdemeuron.com/projects/126-tate-modern/",
+        "https://dome.mit.edu/handle/1721.3/180163",
+        "https://www.tate.org.uk/visit/tate-modern"
+      ]
+    },
+    {
+      "reference_id": "dominus_winery",
+      "name": "Dominus Winery",
+      "canonical_axes": [
+        "gabions",
+        "pierre",
+        "filtrage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:filtrer la lumière"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "surprise, mystère ou étrangeté"
+      ],
+      "source_sample": [
+        "https://www.dominusestate.com/architecture/",
+        "https://www.herzogdemeuron.com/projects/137-dominus-winery/",
+        "https://architectquoin.com/dominus-winery-by-herzog-de-meuron-shaping-stone/"
+      ]
+    },
+    {
+      "reference_id": "beijing_national_stadium",
+      "name": "Beijing National Stadium",
+      "canonical_axes": [
+        "nid",
+        "structure",
+        "événement"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "structure visible ou exprimée",
+        "forme et structure fortement liées"
+      ],
+      "source_sample": [
+        "https://www.britannica.com/place/Beijing-National-Stadium",
+        "https://www.herzogdemeuron.com/projects/226-national-stadium/",
+        "https://olympics.com/en/news/beijing-national-stadium-birds-nest-olympics"
+      ]
+    },
+    {
+      "reference_id": "masp_sao_paulo",
+      "name": "MASP",
+      "canonical_axes": [
+        "vide public",
+        "béton",
+        "structure rouge"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "masse monumentale minérale",
+        "structure visible ou exprimée",
+        "franchissement ou portée",
+        "mise en suspension ou pilotis"
+      ],
+      "source_sample": [
+        "https://masp.org.br/en/about",
+        "https://masp.org.br/en/about/keeping-modern",
+        "https://masp.com.br/en/sobre-o-masp"
+      ]
+    },
+    {
+      "reference_id": "sesc_pompeia",
+      "name": "SESC Pompéia",
+      "canonical_axes": [
+        "béton",
+        "réutilisation",
+        "vie sociale"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:intensifier",
+        "site_intention:reconvertir l'existant",
+        "site_intention:composer avec l'existant",
+        "material_intention:rendre tactile"
+      ],
+      "basis": [
+        "dimension urbaine ou publique",
+        "réemploi, reconversion ou palimpseste",
+        "dialogue avec traces ou contexte existant",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "patine, traces ou temporalité",
+        "reconversion ou réusage du bâti",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/",
+        "https://arquitecturaviva.com/obras/sesc-fabrica-pompeia",
+        "https://architectuul.com/architecture/sesc-pompeia"
+      ]
+    },
+    {
+      "reference_id": "villa_deste_tivoli",
+      "name": "Villa d'Este",
+      "canonical_axes": [
+        "eau",
+        "jardin",
+        "théâtre sensoriel"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:protéger du soleil",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau",
+        "perceptual_intention:envelopper"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition axiale",
+        "rapport au soleil, climat ou exposition",
+        "eau ou fraîcheur comme dispositif",
+        "usage collectif ou public",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "immersion ou enveloppement",
+        "intensité sociale, monumentale ou sensible"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/1025/",
+        "https://www.unesco.org/archives/multimedia/document-1086",
+        "https://villae.cultura.gov.it/en/villa-deste/"
+      ]
+    },
+    {
+      "reference_id": "taj_mahal",
+      "name": "Taj Mahal",
+      "canonical_axes": [
+        "marbre",
+        "symétrie",
+        "mémoire"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "social_intention:se retirer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition axiale",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "retrait, refuge ou recueillement",
+        "mémoire, absence ou monument funéraire",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/252/",
+        "https://www.unesco.org/en/articles/taj-mahal",
+        "https://www.britannica.com/topic/Taj-Mahal"
+      ]
+    },
+    {
+      "reference_id": "ryoanji",
+      "name": "Ryōan-ji",
+      "canonical_axes": [
+        "vide",
+        "contemplation",
+        "abstraction"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "programme ou ambiance sacrée",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation"
+      ],
+      "source_sample": [
+        "https://whc.unesco.org/en/list/688/",
+        "https://www.japan.travel/en/spot/1145/",
+        "https://www.discoverkyoto.com/places-go/ryoan-ji/"
+      ]
+    },
+    {
+      "reference_id": "ise_jingu",
+      "name": "Ise Jingū",
+      "canonical_axes": [
+        "bois",
+        "rituel",
+        "renouvellement"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:rafraîchir par l'eau"
+      ],
+      "basis": [
+        "présence végétale/naturelle ou continuité paysagère",
+        "usage rituel ou séquence sacrée",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "toiture légère ou structure légère",
+        "rituel, événement ou rassemblement cérémoniel",
+        "retrait, refuge ou recueillement",
+        "programme ou ambiance sacrée"
+      ],
+      "source_sample": [
+        "https://www.isejingu.or.jp/en/about/index.html",
+        "https://www.isejingu.or.jp/en/ritual/index.html",
+        "https://www.britannica.com/topic/Ise-Shrine"
+      ]
+    },
+    {
+      "reference_id": "gilardi_house",
+      "name": "Casa Gilardi",
+      "canonical_axes": [
+        "couleur",
+        "eau",
+        "lumière"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau",
+        "social_intention:rassembler",
+        "social_intention:se retirer"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "programme domestique ou villa",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement",
+        "effets de calme ou restauration",
+        "lenteur, progression ou contemplation",
+        "surprise, mystère ou étrangeté"
+      ],
+      "source_sample": [
+        "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
+        "https://www.architecturelab.net/gilardi-house-luis-barragan-classics-on-architecture-lab/",
+        "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ]
+    },
+    {
+      "reference_id": "cuadra_san_cristobal",
+      "name": "Cuadra San Cristóbal",
+      "canonical_axes": [
+        "mur coloré",
+        "eau",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "usage rituel ou séquence sacrée",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "programme domestique ou villa",
+        "usage collectif ou public",
+        "retrait, refuge ou recueillement"
+      ],
+      "source_sample": [
+        "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
+        "https://www.archdaily.com/1026697/luis-barragans-cuadra-san-cristobal-to-become-a-new-cultural-campus-in-mexico",
+        "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ]
+    },
+    {
+      "reference_id": "fondation_cartier",
+      "name": "Fondation Cartier",
+      "canonical_axes": [
+        "verre",
+        "transparence",
+        "jardin"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "dimension urbaine ou publique",
+        "plan ouvert ou libéré",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "usage collectif ou public",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.fondationcartier.com/en/garden",
+        "https://www.fondationcartier.com/jardin",
+        "https://www.britannica.com/topic/Cartier-Foundation"
+      ]
+    },
+    {
+      "reference_id": "nelson_atkins_bloch_building",
+      "name": "Bloch Building, Nelson-Atkins Museum",
+      "canonical_axes": [
+        "lanternes",
+        "lumière diffuse",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration"
+      ],
+      "source_sample": [
+        "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
+        "https://www.bnim.com/projects/the-bloch-building/",
+        "https://www.nelson-atkins.org/about/future-expansion/bloch-building/"
+      ]
+    },
+    {
+      "reference_id": "museum_21st_century_kanazawa",
+      "name": "21st Century Museum of Contemporary Art",
+      "canonical_axes": [
+        "transparence",
+        "circularité",
+        "public"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "dimension urbaine ou publique",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "parcours exploratoire ou non linéaire",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
+        "https://www.gov-online.go.jp/hlj/en/february_2025/february_2025-04.html",
+        "https://dac.dk/en/21st-century-museum-of-contemporary-art/"
+      ]
+    },
+    {
+      "reference_id": "rolex_learning_center",
+      "name": "Rolex Learning Center",
+      "canonical_axes": [
+        "sol ondulant",
+        "continuité",
+        "étude"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "dimension urbaine ou publique",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "organisation en boucle ou continuité programmatique",
+        "travail documenté de la lumière",
+        "programme d’étude, bibliothèque ou école",
+        "programme pédagogique",
+        "usage collectif ou public"
+      ],
+      "source_sample": [
+        "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
+        "https://www.architecturalrecord.com/articles/8237-rolex-learning-center-by-sanaa",
+        "https://www.archilovers.com/projects/30672/rolex-learning-center.html"
+      ]
+    },
+    {
+      "reference_id": "louvre_lens",
+      "name": "Louvre-Lens",
+      "canonical_axes": [
+        "reflet",
+        "horizontalité",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "réemploi, reconversion ou palimpseste",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "reconversion ou réusage du bâti",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "mémoire, absence ou monument funéraire"
+      ],
+      "source_sample": [
+        "https://www.louvrelens.fr/en/architecture-et-parc/",
+        "https://www.architecturaldigest.com/story/musee-du-louvre-lens-sanaa-imrey-culbert-france",
+        "https://www.davesinteriors.com/louvre-lens-sanaa-architecture-highlights-key-facts-about-sanaa-design/"
+      ]
+    },
+    {
+      "reference_id": "sendai_mediatheque",
+      "name": "Sendai Mediatheque",
+      "canonical_axes": [
+        "tubes structurels",
+        "transparence",
+        "flux"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "forme et structure fortement liées",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.smt.city.sendai.jp/en/",
+        "https://www.architecturelab.net/sendai-mediatheque-toyo-ito-and-associates-architects/",
+        "https://www.archweb.com/en/architettures/sendai-mediatheque/"
+      ]
+    },
+    {
+      "reference_id": "tama_art_university_library",
+      "name": "Tama Art University Library",
+      "canonical_axes": [
+        "arches",
+        "lecture",
+        "continuité"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "programme d’étude, bibliothèque ou école",
+        "programme pédagogique"
+      ],
+      "source_sample": [
+        "https://www.tamabi.ac.jp/en/about/library/",
+        "https://www.wallpaper.com/architecture/toyo-ito-architecture-guide",
+        "https://www.archute.com/the-tama-art-university-library-toyo-ito/"
+      ]
+    },
+    {
+      "reference_id": "niteroi_contemporary_art_museum",
+      "name": "Niterói Contemporary Art Museum",
+      "canonical_axes": [
+        "rampe",
+        "horizon",
+        "forme sculpturale"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:créer un repère"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence iconique ou repère urbain",
+        "parcours progressif ou promenade",
+        "rampe ou mouvement continu",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
+        "https://architectuul.com/architecture/niteroi-contemporary-art-museum",
+        "https://arquitecturaviva.com/works/museo-de-arte-contemporaneo-niteroi"
+      ]
+    },
+    {
+      "reference_id": "london_aquatics_centre",
+      "name": "London Aquatics Centre",
+      "canonical_axes": [
+        "toiture ondulante",
+        "eau",
+        "grand volume"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "circulation fluide",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "verre ou transparence",
+        "toiture légère ou structure légère",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://londonaquaticscentre.org/about/architecture/",
+        "https://www.domusweb.it/en/architecture/2014/02/27/london_aquatics_centre.html",
+        "https://www.archimagazine.com/alonaquatics.htm"
+      ]
+    },
+    {
+      "reference_id": "boa_nova_tea_house",
+      "name": "Boa Nova Tea House",
+      "canonical_axes": [
+        "rocher",
+        "bois",
+        "océan"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:ventiler naturellement"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "masse minérale ou inertie matérielle",
+        "exposition climatique assumée",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "matières et savoir-faire"
+      ],
+      "source_sample": [
+        "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
+        "https://www.domusweb.it/en/architecture/2014/07/31/boa_nova_tea_house_.html",
+        "https://en.wikiarquitectura.com/building/boa-nova-tea-house/"
+      ]
+    },
+    {
+      "reference_id": "serralves_museum",
+      "name": "Serralves Museum",
+      "canonical_axes": [
+        "blanc",
+        "lumière contrôlée",
+        "jardin"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "parcours progressif ou promenade",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture",
+        "effets de calme ou restauration"
+      ],
+      "source_sample": [
+        "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
+        "https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/",
+        "https://www.lemonde.fr/culture/article/2025/01/30/a-porto-alvaro-siza-fait-de-la-fondation-serralves-un-ecrin-pour-l-architecture_6524080_3246.html"
+      ]
+    },
+    {
+      "reference_id": "braga_municipal_stadium",
+      "name": "Stade municipal de Braga",
+      "canonical_axes": [
+        "carrière",
+        "béton",
+        "paysage"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:protéger du soleil",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "réemploi, reconversion ou palimpseste",
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "rapport au soleil, climat ou exposition",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "matière tactile ou grain",
+        "masse monumentale minérale"
+      ],
+      "source_sample": [
+        "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
+        "https://archjourney.org/projects/braga-municipal-stadium/",
+        "https://arquitecturaviva.com/works/estadio-municipal-de-braga"
+      ]
+    },
+    {
+      "reference_id": "gando_primary_school",
+      "name": "Gando Primary School",
+      "canonical_axes": [
+        "terre",
+        "ventilation",
+        "communauté"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:étudier",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "dimension urbaine ou publique",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "masse minérale ou inertie matérielle",
+        "matière tactile ou grain",
+        "matières et savoir-faire",
+        "toiture légère ou structure légère"
+      ],
+      "source_sample": [
+        "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
+        "https://the.akdn/es/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/primary-school",
+        "https://www.archnet.org/sites/4363"
+      ]
+    },
+    {
+      "reference_id": "heydar_aliyev_center",
+      "name": "Heydar Aliyev Center",
+      "canonical_axes": [
+        "surface continue",
+        "blanc",
+        "fluidité"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:faire forme porteuse",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "plan ouvert ou libéré",
+        "circulation fluide",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence"
+      ],
+      "source_sample": [
+        "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
+        "https://www.zaha-hadid.com/2013/11/14/heydar-aliyev-center-baku-azerbaijan/",
+        "https://www.archiscene.net/firms/zaha-hadid/heydar-aliyev-center-zaha-hadid/"
+      ]
+    },
+    {
+      "reference_id": "capitol_complex_chandigarh",
+      "name": "Capitol Complex de Chandigarh",
+      "canonical_axes": [
+        "monumentalité",
+        "béton",
+        "climat"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "climate_intention:protéger du soleil"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "composition axiale",
+        "travail documenté de la lumière",
+        "rapport au soleil, climat ou exposition",
+        "masse minérale ou inertie matérielle",
+        "exposition climatique assumée",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "programme civique ou institutionnel",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://lecorbusier-worldheritage.org/en/complexe-du-capitole/",
+        "https://chandigarhtourism.gov.in/capitol-complex",
+        "https://whc.unesco.org/en/list/1321/"
+      ]
+    },
+    {
+      "reference_id": "national_museum_western_art_tokyo",
+      "name": "National Museum of Western Art",
+      "canonical_axes": [
+        "musée",
+        "béton",
+        "parcours"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
+      ],
+      "basis": [
+        "parcours progressif ou promenade",
+        "organisation par centre, atrium ou coeur",
+        "travail documenté de la lumière",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "mise en suspension ou pilotis",
+        "grille constructive ou façade structurée",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert",
+        "institution modernisée par l’architecture"
+      ],
+      "source_sample": [
+        "https://www.nmwa.go.jp/en/about/building.html",
+        "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/",
+        "https://www.artmuseums.go.jp/en/museums/nmwa"
+      ]
+    },
+    {
+      "reference_id": "nordic_pavilion_venice",
+      "name": "Nordic Pavilion",
+      "canonical_axes": [
+        "lumière filtrée",
+        "arbres",
+        "toiture"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "symbolic_intention:renouveler une tradition",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "présence végétale/naturelle ou continuité paysagère",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "rapport au soleil, climat ou exposition",
+        "ventilation ou circulation d’air",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe"
+      ],
+      "source_sample": [
+        "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
+        "https://www.architecturelab.net/nordic-pavilion-venice-sverre-fehn/",
+        "https://www.nasjonalmuseet.no/en/collection/object/NMK.2008.0734.016.014"
+      ]
+    },
+    {
+      "reference_id": "kiasma_museum",
+      "name": "Kiasma Museum of Contemporary Art",
+      "canonical_axes": [
+        "lumière nordique",
+        "courbe",
+        "parcours"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "spatial_intention:rampe continue"
+      ],
+      "basis": [
+        "parcours progressif ou promenade",
+        "rampe ou mouvement continu",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "eau ou fraîcheur comme dispositif",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "programme muséal ou galerie",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://kiasma.fi/en/architecture/",
+        "https://www.stevenholl.com/project/kiasma-museum/",
+        "https://www.lamberts.info/en/project/kiasma-museum-of-contemporary-art"
+      ]
+    },
+    {
+      "reference_id": "seattle_central_library",
+      "name": "Seattle Central Library",
+      "canonical_axes": [
+        "verre",
+        "information",
+        "espace public"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "parcours progressif ou promenade",
+        "circulation fluide",
+        "organisation par centre, atrium ou coeur",
+        "organisation en boucle ou continuité programmatique",
+        "travail documenté de la lumière",
+        "verre ou transparence",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
+        "https://www.oma.com/projects/seattle-central-library",
+        "https://www.archdaily.com/11651/seattle-central-library-oma-lmn"
+      ]
+    },
+    {
+      "reference_id": "cctv_headquarters",
+      "name": "CCTV Headquarters",
+      "canonical_axes": [
+        "boucle",
+        "structure",
+        "monument urbain"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "circulation fluide",
+        "organisation en boucle ou continuité programmatique",
+        "verre ou transparence",
+        "structure visible ou exprimée",
+        "franchissement ou portée",
+        "grille constructive ou façade structurée",
+        "défi structurel ou forme spectaculaire"
+      ],
+      "source_sample": [
+        "https://www.oma.com/projects/cctv-headquarters",
+        "https://www.archdaily.com/236175/cctv-headquarters-oma",
+        "https://www.arup.com/en-us/projects/china-central-television-headquarters/"
+      ]
+    },
+    {
+      "reference_id": "casa_da_musica",
+      "name": "Casa da Música",
+      "canonical_axes": [
+        "acoustique",
+        "facettes",
+        "urbanité"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper",
+        "site_intention:ouvrir sur la ville",
+        "site_intention:créer un repère"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "circulation fluide",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "lieu culturel public ou ouvert",
+        "rituel, événement ou rassemblement cérémoniel",
+        "usage collectif ou public"
+      ],
+      "source_sample": [
+        "https://www.oma.com/projects/casa-da-musica",
+        "https://casadamusica.com/en/building/",
+        "https://www.archdaily.com/619294/casa-da-musica-oma"
+      ]
+    },
+    {
+      "reference_id": "kunsthal_rotterdam",
+      "name": "Kunsthal Rotterdam",
+      "canonical_axes": [
+        "rampe",
+        "parcours",
+        "matériaux contrastés"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:rampe continue",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:parcours fluide"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "rampe ou mouvement continu",
+        "circulation fluide",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "verre ou transparence",
+        "lieu culturel public ou ouvert"
+      ],
+      "source_sample": [
+        "https://www.kunsthal.nl/en/about-kunsthal/building/",
+        "https://www.oma.com/projects/kunsthal",
+        "https://www.archdaily.com/102825/ad-classics-kunsthal-oma"
+      ]
+    },
+    {
+      "reference_id": "national_congress_brazil",
+      "name": "Congrès national du Brésil",
+      "canonical_axes": [
+        "monumentalité civique",
+        "symétrie",
+        "esplanade"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "présence iconique ou repère urbain",
+        "composition axiale",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe",
+        "masse monumentale minérale",
+        "lieu culturel public ou ouvert",
+        "usage collectif ou public",
+        "programme civique ou institutionnel"
+      ],
+      "source_sample": [
+        "https://www2.congressonacional.leg.br/visite/arquitetura",
+        "https://whc.unesco.org/en/list/445/",
+        "https://www.archdaily.com/773568/ad-classics-national-congress-oscar-niemeyer"
+      ]
+    },
+    {
+      "reference_id": "maxxi_rome",
+      "name": "MAXXI",
+      "canonical_axes": [
+        "flux",
+        "béton",
+        "lignes dynamiques"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
+      ],
+      "basis": [
+        "site/paysage/vues déjà documentés",
+        "dimension urbaine ou publique",
+        "parcours progressif ou promenade",
+        "circulation fluide",
+        "parcours exploratoire ou non linéaire",
+        "composition abstraite ou fragmentée",
+        "travail documenté de la lumière",
+        "filtrage lumineux",
+        "masse minérale ou inertie matérielle",
+        "béton brut ou matérialité directe"
+      ],
+      "source_sample": [
+        "https://www.zaha-hadid.com/architecture/maxxi/",
+        "https://www.maxxi.art/progetto-architettonico/",
+        "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects"
+      ]
+    }
+  ]
+}

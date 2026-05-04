@@ -59,6 +59,27 @@ Ces rubriques décrivent des opérations spatiales qui aident à expliquer pourq
 | C9 | Prospect / refuge | équilibre entre vue ouverte et retrait protégé | belvédère, alcôve, seuil, abri, horizon |
 | C10 | Palimpseste | coexistence de traces historiques | ruine, réparation, strate, mémoire, fragment |
 
+## D. Intentions De Conception
+
+Cette couche décrit ce que le projet semble chercher à organiser. Elle est utile pédagogiquement parce qu'un utilisateur peut chercher une référence non seulement par sensation, mais aussi par stratégie de projet : filtrer la lumière, cadrer un paysage, reconvertir un existant, ralentir un parcours, rendre une matière tactile.
+
+Elle doit rester distincte des ambiances :
+
+- `lumière filtrée` décrit un phénomène physique ;
+- `contemplatif` décrit un effet sensible ;
+- `filtrer la lumière` décrit une intention ou une stratégie de conception.
+
+| Code | Rubrique | Micro-rubriques | Vocabulaire utile |
+| --- | --- | --- | --- |
+| D1 | Rapport au site | implantation, paysage, ville, existant, repère | ancrer dans le site, cadrer le paysage, fusionner avec la nature, s'isoler du contexte, ouvrir sur la ville, reconvertir l'existant, composer avec l'existant, créer un repère |
+| D2 | Stratégie spatiale | parcours, axe, plan, rampe, séquence, centralité | promenade architecturale, séquence rituelle, axe monumental, plan libre, rampe continue, boucle, parcours fluide, fragmentation, centralité, labyrinthe |
+| D3 | Stratégie climatique | lumière, soleil, air, eau, inertie, microclimat | filtrer la lumière, protéger du soleil, ventiler naturellement, rafraîchir par l'eau, créer un microclimat, exploiter l'inertie, exposer au climat, contrôler l'éclairage |
+| D4 | Intention matérielle | brut, tactilité, artisanat, transparence, légèreté, patine | exprimer le brut, rendre tactile, mettre en valeur l'artisanat, chercher la transparence, alléger la construction, faire monolithe, laisser vieillir, réemployer |
+| D5 | Expression structurelle | structure visible, franchissement, suspension, grille, forme porteuse | montrer la structure, franchir, suspendre, libérer le plan, exprimer la grille, faire forme porteuse, défi gravitaire, activer l'enveloppe |
+| D6 | Programme et usage | collectif, étude, soin, habitat, exposition, célébration, travail | rassembler, étudier, soigner, habiter, exposer, célébrer, démocratiser la culture, travailler, se retirer, apprendre |
+| D7 | Symbolique et récit | sacré, mémoire, pouvoir, identité, tradition, institution, quotidien | sacraliser, commémorer, représenter le pouvoir, exprimer une identité, renouveler une tradition, moderniser une institution, mettre en scène le quotidien, faire icône |
+| D8 | Effet perceptif recherché | lenteur, surprise, désorientation, enveloppement, intensité, apaisement, orientation | ralentir, surprendre, désorienter, envelopper, intensifier, apaiser, orienter, ouvrir l'imaginaire |
+
 ## Règles D'annotation
 
 1. Toujours distinguer le descripteur brut de la rubrique contrôlée.
@@ -66,6 +87,7 @@ Ces rubriques décrivent des opérations spatiales qui aident à expliquer pourq
 3. Ajouter une intensité quand elle est explicite ou clairement inférable : `faible`, `moyenne`, `forte`, `très forte`.
 4. Accepter les contradictions : un même lieu peut être `calme` pour une source et `inquiétant` pour une autre.
 5. Ne pas forcer toutes les références dans toutes les rubriques.
+6. Pour les intentions, vérifier qu'il s'agit bien d'une stratégie de projet et non d'un effet ressenti isolé.
 
 ## Exemple
 
@@ -73,4 +95,5 @@ Pour la Chapelle de la Lumière de Tadao Ando :
 
 - physique : `A1 lumière > directionnelle, intense, symbolique`, `A2 contraste > clair-obscur`, `A4 matière > béton lisse`, `A9 spatialité > vide simple` ;
 - subjectif : `B5 sacré`, `B1 contemplation`, `B3 solennité` ;
-- dispositif : `C3 cadrage`, `C4 filtrage`, `C2 compression/dilatation`.
+- dispositif : `C3 cadrage`, `C4 filtrage`, `C2 compression/dilatation` ;
+- intention : `D3 filtrer la lumière`, `D7 sacraliser`, `D8 ralentir`.

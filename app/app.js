@@ -7,6 +7,12 @@ const PRESETS = {
   light: ["light:filtrée", "light:colorée"],
   water: ["water:source", "water:bassin", "wellbeing_restoration:ressourçant"],
   sound: ["sound:réverbérant", "sound:cérémoniel", "sacred_ritual:sacré", "sacred_ritual:rituel"],
+  concept: [
+    "site_intention:cadrer le paysage",
+    "site_intention:fusionner avec la nature",
+    "climate_intention:filtrer la lumière",
+    "climate_intention:rafraîchir par l'eau"
+  ],
   memory: ["memory_absence:mémoriel", "memory_absence:absent"],
   refuge: ["intimacy_refuge:refuge", "inspiration_concentration:studieux"],
   matter: ["material_texture:pierre", "material_texture:béton"]
@@ -16,6 +22,8 @@ const TILE_PALETTES = {
   light: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],
   water: ["#356c8b", "#d5e4e6", "#6a8c8e", "#f3f6f3"],
   sound: ["#49515f", "#d8d2c2", "#8a6f45", "#f4f1ea"],
+  site_intention: ["#61715f", "#d9dfcc", "#a36f3b", "#f4f1ea"],
+  spatial_intention: ["#514e59", "#d8d2c2", "#7c765f", "#f7f7f4"],
   material_texture: ["#8c7861", "#d5c5ad", "#5d544b", "#eee8de"],
   shadow_contrast: ["#242621", "#b8b19f", "#5b5a52", "#efeade"],
   color: ["#9b3f2f", "#d8a34f", "#2f6c76", "#f2e8d2"],
@@ -153,40 +161,83 @@ function renderPresetButtons() {
 
 function renderFilters() {
   const counts = countTags();
-  els.filters.innerHTML = state.taxonomy.families
-    .map((family) => {
-      const rubrics = family.rubrics
-        .map((rubric) => {
-          const usedValues = rubric.values.filter((value) => counts.get(makeTag(rubric.id, value)));
-          if (!usedValues.length) return "";
-          const chips = usedValues
-            .map((value) => {
-              const tag = makeTag(rubric.id, value);
-              const selected = state.selectedTags.has(tag);
-              const count = counts.get(tag) ?? 0;
-              return `
-                <button class="tag-button ${selected ? "is-selected" : ""}" type="button" data-tag="${escapeHtml(tag)}">
-                  ${escapeHtml(value)}
-                  <span class="tag-count">${count}</span>
-                </button>
-              `;
-            })
-            .join("");
-          return `
-            <div class="filter-group">
-              <h3>${escapeHtml(rubric.label)}</h3>
-              <div class="tag-grid">${chips}</div>
-            </div>
-          `;
-        })
-        .join("");
-      return rubrics ? `<div class="family-group" aria-label="${escapeHtml(family.label)}">${rubrics}</div>` : "";
-    })
-    .join("");
+  const ambianceFamilies = state.taxonomy.families.filter((family) => family.id !== "design_intentions");
+  const intentionFamilies = state.taxonomy.families.filter((family) => family.id === "design_intentions");
+
+  els.filters.innerHTML = `
+    <section class="filter-box" aria-label="Ambiances">
+      <div class="filter-box-header">
+        <h3>Ambiances</h3>
+        <span>${formatCount(countUsedRubrics(ambianceFamilies, counts), "rubrique")}</span>
+      </div>
+      <div class="filter-list">
+        ${ambianceFamilies.map((family) => renderFamilyFilters(family, counts, "chip")).join("")}
+      </div>
+    </section>
+
+    <section class="filter-box intentions-filter-box" aria-label="Intentions architecturales">
+      <div class="filter-box-header">
+        <h3>Intentions architecturales</h3>
+        <span>${formatCount(countUsedRubrics(intentionFamilies, counts), "rubrique")}</span>
+      </div>
+      <div class="filter-list">
+        ${intentionFamilies.map((family) => renderFamilyFilters(family, counts, "list")).join("")}
+      </div>
+    </section>
+  `;
 
   els.filters.querySelectorAll("button[data-tag]").forEach((button) => {
     button.addEventListener("click", () => toggleTag(button.dataset.tag));
   });
+}
+
+function renderFamilyFilters(family, counts, variant) {
+  const rubrics = family.rubrics
+    .map((rubric) => renderRubricFilter(rubric, counts, variant))
+    .join("");
+
+  if (!rubrics) return "";
+  if (family.id === "design_intentions") return rubrics;
+
+  return `
+    <details class="filter-family" open>
+      <summary>
+        <span>${escapeHtml(family.label)}</span>
+        <span>${formatCount(countUsedRubrics([family], counts), "rubrique")}</span>
+      </summary>
+      ${rubrics}
+    </details>
+  `;
+}
+
+function renderRubricFilter(rubric, counts, variant) {
+  const usedValues = rubric.values.filter((value) => counts.get(makeTag(rubric.id, value)));
+  if (!usedValues.length) return "";
+
+  const selectedCount = usedValues.filter((value) => state.selectedTags.has(makeTag(rubric.id, value))).length;
+  const items = usedValues
+    .map((value) => {
+      const tag = makeTag(rubric.id, value);
+      const selected = state.selectedTags.has(tag);
+      const count = counts.get(tag) ?? 0;
+      return `
+        <button class="tag-button ${variant === "list" ? "tag-button-list" : ""} ${selected ? "is-selected" : ""}" type="button" data-tag="${escapeHtml(tag)}">
+          <span class="tag-label">${escapeHtml(value)}</span>
+          <span class="tag-count">${count}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  return `
+    <details class="filter-group" ${selectedCount ? "open" : ""}>
+      <summary>
+        <span>${escapeHtml(rubric.label)}</span>
+        <span>${selectedCount ? formatCount(selectedCount, "choix") : usedValues.length}</span>
+      </summary>
+      <div class="${variant === "list" ? "tag-list" : "tag-grid"}">${items}</div>
+    </details>
+  `;
 }
 
 function renderSelectedTags() {
@@ -237,9 +288,8 @@ function renderResults(results) {
             <span class="reference-meta">
               ${escapeHtml(reference.architect_or_period)} · ${escapeHtml(reference.location)}
             </span>
-            <span class="mini-tags">
-              ${renderMiniTags(reference).join("")}
-            </span>
+            ${renderReferenceTagBlock("Ambiances", getReferenceAmbianceTags(reference))}
+            ${renderReferenceTagBlock("Intentions", getReferenceIntentionTags(reference), "intention-block")}
             <span class="keyword-row">
               ${reference.keywords_fr.slice(0, 5).map((keyword) => `<span class="keyword">${escapeHtml(keyword)}</span>`).join("")}
             </span>
@@ -289,6 +339,11 @@ function renderDetail(results) {
       </div>
     </section>
 
+    <section class="detail-section intentions-detail-section">
+      <h3>Intentions de conception</h3>
+      ${renderGroupedTags(selected.intention_tags ?? [], "intention")}
+    </section>
+
     <section class="detail-section">
       <h3>Mots figuratifs</h3>
       <div class="keyword-row">
@@ -320,9 +375,52 @@ function renderDetail(results) {
   });
 }
 
-function renderMiniTags(reference) {
-  const tags = [...reference.physical_tags.slice(0, 3), ...reference.subjective_tags.slice(0, 3)];
-  return tags.map((tag) => renderTagPill(tag, getTagFamilyClass(tag)));
+function renderReferenceTagBlock(label, tags, className = "") {
+  if (!tags.length) return "";
+  return `
+    <span class="reference-tag-block ${className}">
+      <span class="tag-block-label">${escapeHtml(label)}</span>
+      <span class="mini-tags">
+        ${tags.map((tag) => renderTagPill(tag, getTagFamilyClass(tag))).join("")}
+      </span>
+    </span>
+  `;
+}
+
+function getReferenceAmbianceTags(reference) {
+  return [
+    ...(reference.physical_tags ?? []).slice(0, 2),
+    ...(reference.subjective_tags ?? []).slice(0, 2)
+  ];
+}
+
+function getReferenceIntentionTags(reference) {
+  return (reference.intention_tags ?? []).slice(0, 2);
+}
+
+function renderGroupedTags(tags, className = "") {
+  if (!tags.length) return `<p class="muted-line">Non renseigné.</p>`;
+  const groups = new Map();
+  for (const tag of tags) {
+    const label = getTagLabel(tag);
+    if (!groups.has(label.rubric)) groups.set(label.rubric, []);
+    groups.get(label.rubric).push({ tag, value: label.value });
+  }
+
+  return `
+    <div class="grouped-tags">
+      ${[...groups]
+        .map(([rubric, entries]) => `
+          <div class="grouped-tag-row">
+            <span class="grouped-tag-label">${escapeHtml(rubric)}</span>
+            <span class="mini-tags">
+              ${entries.map((entry) => `<span class="mini-tag ${className}">${escapeHtml(entry.value)}</span>`).join("")}
+            </span>
+          </div>
+        `)
+        .join("")}
+    </div>
+  `;
 }
 
 function renderTagPill(tag, fallbackClass = "") {
@@ -402,8 +500,21 @@ function countTags() {
   return counts;
 }
 
+function countUsedRubrics(families, counts) {
+  return families.reduce((total, family) => {
+    const used = family.rubrics.filter((rubric) =>
+      rubric.values.some((value) => counts.get(makeTag(rubric.id, value)))
+    );
+    return total + used.length;
+  }, 0);
+}
+
 function getAllTags(reference) {
-  return [...reference.physical_tags, ...reference.subjective_tags];
+  return [
+    ...(reference.physical_tags ?? []),
+    ...(reference.subjective_tags ?? []),
+    ...(reference.intention_tags ?? [])
+  ];
 }
 
 function getSearchText(reference) {
@@ -435,6 +546,7 @@ function getTagLabel(tag) {
 
 function getTagFamilyClass(tag) {
   const familyId = getTagLabel(tag).familyId;
+  if (familyId === "design_intentions") return "intention";
   return familyId === "physical" || familyId === "experience_devices" ? "physical" : "subjective";
 }
 

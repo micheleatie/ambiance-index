@@ -22,6 +22,7 @@ La phase actuelle combine une base de recherche et un premier prototype navigabl
 - `data/reference_analysis_lot_5_public_contemporary.json` contient le scan du dernier lot public/urbain/contemporain.
 - `data/reference_analysis_lot_5_validated.json` distingue les tags forts, moyens et fragiles du cinquième lot.
 - `data/reference_sensory_enrichment_v1.json` documente une passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives.
+- `data/reference_design_intentions_v1.json` documente une troisième couche d'indexation : les intentions de conception.
 - `app/` contient un prototype web statique pour explorer la base.
 - `SOURCES.md` garde les sources utilisées.
 
@@ -45,4 +46,4 @@ Le prototype charge les JSON depuis `data/`, donc il doit être servi par un pet
 
 ## Prochaine Étape
 
-Tester dans le prototype les nouvelles combinaisons sensorielles, notamment son + rituel, silence + matière, eau + son et odeur + matière, puis ajouter un niveau de confiance et des justifications sourcées affichables.
+Tester dans le prototype les combinaisons entre ambiances et intentions, par exemple son + rituel, silence + matière, site + climat et parcours + matière, puis ajouter un niveau de confiance et des justifications sourcées affichables.

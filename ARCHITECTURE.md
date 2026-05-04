@@ -4,7 +4,7 @@
 
 Le dépôt contient une base documentaire, des données de départ et un premier prototype web statique.
 
-Objectif immédiat : tester les combinaisons d'ambiances sur les 100 références indexées, surtout les qualités sonores et multisensorielles, puis renforcer les justifications sourcées et les niveaux de confiance.
+Objectif immédiat : tester les combinaisons entre ambiances et intentions sur les 100 références indexées, puis renforcer les justifications sourcées et les niveaux de confiance.
 
 ## Structure
 
@@ -30,6 +30,7 @@ Objectif immédiat : tester les combinaisons d'ambiances sur les 100 référence
 - `data/reference_analysis_lot_5_public_contemporary.json` : scan de sources, mots extraits et tags proposés pour les 10 dernières références publiques / urbaines / contemporaines.
 - `data/reference_analysis_lot_5_validated.json` : validation v0 du lot 5 avec tags forts, moyens et fragiles.
 - `data/reference_sensory_enrichment_v1.json` : passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives sur les 100 références.
+- `data/reference_design_intentions_v1.json` : troisième couche d'indexation décrivant les intentions de conception.
 - `app/index.html` : surface du prototype.
 - `app/styles.css` : système visuel et mise en page responsive.
 - `app/app.js` : chargement des données, filtres, recherche, fiche référence et annotation locale.
@@ -42,6 +43,7 @@ La future plateforme peut être pensée autour de ces objets :
 - `Source` : article, page officielle, livre, notice patrimoniale, entretien ou discours expert.
 - `Descriptor` : mot ou expression trouvée dans une source, par exemple `lumière diffuse`, `silence`, `caverneux`.
 - `Rubric` : catégorie contrôlée, par exemple `lumière.intensité` ou `subjectif.contemplatif`.
+- `DesignIntent` : intention architecturale, par exemple `filtrer la lumière`, `rassembler`, `reconvertir l'existant`, `faire icône`.
 - `Theme` : regroupement pédagogique, par exemple `ambiances lumineuses`, `matière et tactilité`, `mémoire et absence`.
 - `Annotation` : lien entre une référence et une rubrique, avec intensité, justification, source et niveau de confiance.
 - `ExpertNote` : annotation manuelle ajoutée plus tard par un expert.
@@ -65,7 +67,7 @@ Le prototype est volontairement sans framework pour l'instant. Il permet de vali
 Fonctions disponibles :
 
 - recherche libre sur nom, lieu, architecte, mots figuratifs et tags ;
-- filtres par valeurs de rubriques ;
+- filtres par valeurs de rubriques, séparés entre ambiances et intentions architecturales ;
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
@@ -76,5 +78,6 @@ Limites actuelles :
 - `data/references_seed.json` contient les 100 références candidates indexées dans l'app.
 - `data/reference_candidates_100.json` conserve le corpus cible et sert maintenant de liste de contrôle complète.
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
+- `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.
 - les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
 - les annotations restent dans le navigateur et ne sont pas encore exportées dans les fichiers du projet.

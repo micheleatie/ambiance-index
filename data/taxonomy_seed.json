@@ -580,6 +580,193 @@
           ]
         }
       ]
+    },
+    {
+      "id": "design_intentions",
+      "label": "Intentions de conception",
+      "rubrics": [
+        {
+          "id": "site_intention",
+          "label": "Rapport au site",
+          "micro_rubrics": [
+            "implantation",
+            "paysage",
+            "ville",
+            "existant",
+            "repère"
+          ],
+          "values": [
+            "ancrer dans le site",
+            "cadrer le paysage",
+            "fusionner avec la nature",
+            "s'isoler du contexte",
+            "ouvrir sur la ville",
+            "reconvertir l'existant",
+            "composer avec l'existant",
+            "créer un repère"
+          ]
+        },
+        {
+          "id": "spatial_intention",
+          "label": "Stratégie spatiale",
+          "micro_rubrics": [
+            "parcours",
+            "axe",
+            "plan",
+            "rampe",
+            "séquence",
+            "centralité"
+          ],
+          "values": [
+            "promenade architecturale",
+            "séquence rituelle",
+            "axe monumental",
+            "plan libre",
+            "rampe continue",
+            "boucle",
+            "parcours fluide",
+            "fragmentation",
+            "centralité",
+            "labyrinthe"
+          ]
+        },
+        {
+          "id": "climate_intention",
+          "label": "Stratégie climatique",
+          "micro_rubrics": [
+            "lumière",
+            "soleil",
+            "air",
+            "eau",
+            "inertie",
+            "microclimat"
+          ],
+          "values": [
+            "filtrer la lumière",
+            "protéger du soleil",
+            "ventiler naturellement",
+            "rafraîchir par l'eau",
+            "créer un microclimat",
+            "exploiter l'inertie",
+            "exposer au climat",
+            "contrôler l'éclairage"
+          ]
+        },
+        {
+          "id": "material_intention",
+          "label": "Intention matérielle",
+          "micro_rubrics": [
+            "brut",
+            "tactilité",
+            "artisanat",
+            "transparence",
+            "légèreté",
+            "patine"
+          ],
+          "values": [
+            "exprimer le brut",
+            "rendre tactile",
+            "mettre en valeur l'artisanat",
+            "chercher la transparence",
+            "alléger la construction",
+            "faire monolithe",
+            "laisser vieillir",
+            "réemployer"
+          ]
+        },
+        {
+          "id": "structure_intention",
+          "label": "Expression structurelle",
+          "micro_rubrics": [
+            "structure visible",
+            "franchissement",
+            "suspension",
+            "grille",
+            "forme porteuse"
+          ],
+          "values": [
+            "montrer la structure",
+            "franchir",
+            "suspendre",
+            "libérer le plan",
+            "exprimer la grille",
+            "faire forme porteuse",
+            "défi gravitaire",
+            "activer l’enveloppe"
+          ]
+        },
+        {
+          "id": "social_intention",
+          "label": "Programme et usage",
+          "micro_rubrics": [
+            "collectif",
+            "étude",
+            "soin",
+            "habitat",
+            "exposition",
+            "célébration",
+            "travail"
+          ],
+          "values": [
+            "rassembler",
+            "étudier",
+            "soigner",
+            "habiter",
+            "exposer",
+            "célébrer",
+            "démocratiser la culture",
+            "travailler",
+            "se retirer",
+            "apprendre"
+          ]
+        },
+        {
+          "id": "symbolic_intention",
+          "label": "Symbolique et récit",
+          "micro_rubrics": [
+            "sacré",
+            "mémoire",
+            "pouvoir",
+            "identité",
+            "tradition",
+            "institution",
+            "quotidien"
+          ],
+          "values": [
+            "sacraliser",
+            "commémorer",
+            "représenter le pouvoir",
+            "exprimer une identité",
+            "renouveler une tradition",
+            "moderniser une institution",
+            "mettre en scène le quotidien",
+            "faire icône"
+          ]
+        },
+        {
+          "id": "perceptual_intention",
+          "label": "Effet perceptif recherché",
+          "micro_rubrics": [
+            "lenteur",
+            "surprise",
+            "désorientation",
+            "enveloppement",
+            "intensité",
+            "apaisement",
+            "orientation"
+          ],
+          "values": [
+            "ralentir",
+            "surprendre",
+            "désorienter",
+            "envelopper",
+            "intensifier",
+            "apaiser",
+            "orienter",
+            "ouvrir l'imaginaire"
+          ]
+        }
+      ]
     }
   ]
 }

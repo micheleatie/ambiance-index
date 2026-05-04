@@ -26,11 +26,14 @@
 - [x] Ajouter un thème rapide `Son et rituel` dans le prototype.
 - [x] Vérifier le prototype après enrichissement : 100 références chargées, filtres sonores visibles, thème `Son et rituel` fonctionnel.
 - [x] Corriger la logique des combinaisons : OU entre valeurs d'une même rubrique, ET entre rubriques différentes.
+- [x] Ajouter une troisième couche `Intentions de conception` dans les données, les filtres et les fiches.
+- [x] Annoter les 100 références avec des `intention_tags` v1.
+- [x] Séparer visuellement les ambiances et les intentions dans l'interface avec deux panneaux de filtres.
 
 ## À Faire Ensuite
 
 - [ ] Transformer les justifications v0 du lot 1 en citations courtes ou paraphrases affichables dans l'app.
-- [ ] Tester plus finement les combinaisons multisensorielles restantes, notamment silence + matière, eau + son et odeur + matière.
+- [ ] Tester plus finement les combinaisons multisensorielles et conceptuelles restantes, notamment silence + matière, eau + son, site + climat et parcours + matière.
 - [ ] Ajouter dans l'interface un indicateur de nombre de sources et de niveau de confiance par référence.
 - [ ] Relire et corriger la taxonomie avec un vocabulaire d'architecte plus précis.
 - [ ] Ajouter un champ de score : fréquence de citation, autorité de la source, pertinence pédagogique.

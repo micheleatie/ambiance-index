@@ -241,21 +241,118 @@ button {
 }
 
 .filter-scroll {
-  overflow: auto;
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: minmax(220px, 1.1fr) minmax(220px, 0.9fr);
+  gap: 12px;
+  overflow: hidden;
   padding: 12px 2px 2px 0;
 }
 
-.filter-group {
-  padding: 12px 0;
+.filter-box {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fbfbf8;
+}
+
+.intentions-filter-box {
+  border-color: rgba(161, 120, 40, 0.34);
+  background: #fffdf3;
+}
+
+.filter-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 11px;
   border-bottom: 1px solid var(--line);
 }
 
-.filter-group:last-child {
+.filter-box-header h3 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 760;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.filter-box-header span,
+.filter-family summary span:last-child,
+.filter-group summary span:last-child {
+  color: var(--soft);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.filter-list {
+  min-height: 0;
+  overflow: auto;
+  padding: 8px 10px 10px;
+}
+
+.filter-family {
+  border-bottom: 1px solid var(--line);
+}
+
+.filter-family:last-child {
   border-bottom: 0;
 }
 
-.filter-group h3 {
-  margin: 0 0 10px;
+.filter-family > summary,
+.filter-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.filter-family > summary::-webkit-details-marker,
+.filter-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter-family > summary {
+  padding: 9px 0;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 740;
+}
+
+.filter-family > summary::before,
+.filter-group > summary::before {
+  content: "+";
+  width: 16px;
+  flex: 0 0 16px;
+  color: var(--soft);
+}
+
+.filter-family[open] > summary::before,
+.filter-group[open] > summary::before {
+  content: "−";
+}
+
+.filter-family > summary span:first-child,
+.filter-group > summary span:first-child {
+  flex: 1;
+  min-width: 0;
+}
+
+.filter-group {
+  padding: 7px 0 10px;
+  border-top: 1px solid rgba(218, 216, 206, 0.72);
+}
+
+.filter-group > summary {
+  padding: 3px 0 8px;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 720;
@@ -264,10 +361,19 @@ button {
   letter-spacing: 0.04em;
 }
 
+.filter-group[open] > summary {
+  color: var(--ink);
+}
+
 .tag-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
+}
+
+.tag-list {
+  display: grid;
+  gap: 6px;
 }
 
 .tag-button {
@@ -275,6 +381,18 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 7px;
+}
+
+.tag-button-list {
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 6px;
+  background: var(--panel);
+}
+
+.tag-label {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .tag-button.is-selected {
@@ -476,6 +594,35 @@ button {
   border-color: rgba(53, 108, 139, 0.28);
 }
 
+.mini-tag.intention {
+  color: #5b4d16;
+  border-color: rgba(161, 120, 40, 0.32);
+  background: #fffdf3;
+}
+
+.reference-tag-block {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.reference-tag-block .mini-tags {
+  margin-top: 0;
+}
+
+.tag-block-label {
+  color: var(--soft);
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.intention-block {
+  padding-top: 8px;
+  border-top: 1px solid rgba(161, 120, 40, 0.2);
+}
+
 .detail-panel {
   position: sticky;
   top: 92px;
@@ -516,6 +663,14 @@ button {
   border-top: 1px solid var(--line);
 }
 
+.intentions-detail-section {
+  margin-top: 14px;
+  padding: 13px;
+  border: 1px solid rgba(161, 120, 40, 0.3);
+  border-radius: var(--radius);
+  background: #fffdf3;
+}
+
 .detail-section h3 {
   margin: 0 0 10px;
   color: var(--muted);
@@ -523,6 +678,35 @@ button {
   font-weight: 740;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.intentions-detail-section h3 {
+  color: #5b4d16;
+}
+
+.grouped-tags {
+  display: grid;
+  gap: 10px;
+}
+
+.grouped-tag-row {
+  display: grid;
+  gap: 6px;
+}
+
+.grouped-tag-row .mini-tags {
+  margin-top: 0;
+}
+
+.grouped-tag-label,
+.muted-line {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.muted-line {
+  margin: 0;
 }
 
 .source-list {
@@ -603,6 +787,15 @@ button {
   .search-panel {
     position: static;
     height: auto;
+  }
+
+  .filter-scroll {
+    grid-template-rows: none;
+    overflow: visible;
+  }
+
+  .filter-box {
+    max-height: 420px;
   }
 
   .results-toolbar {

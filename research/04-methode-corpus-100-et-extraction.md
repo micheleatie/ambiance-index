@@ -10,6 +10,8 @@ Le flux de travail est donc :
 référence connue -> sources en ligne -> mots et expressions extraits -> familles d'ambiances -> tags validés
 ```
 
+Une seconde lecture peut ensuite ajouter une couche `intentions de conception`. Elle ne remplace pas les ambiances : elle relie les sensations observées à des choix de projet probables, par exemple `filtrer la lumière`, `cadrer le paysage`, `rendre tactile`, `rassembler` ou `commémorer`.
+
 ## Étape 1 : Corpus Candidat
 
 Le fichier `data/reference_candidates_100.json` contient 100 références candidates.
@@ -43,6 +45,7 @@ Pour chaque source, relever les mots et expressions qui décrivent :
 - les phénomènes physiques : lumière, ombre, matière, texture, son, eau, air, chaleur, froid, odeur, couleur, paysage, parcours, échelle ;
 - les dispositifs spatiaux : seuil, filtre, cadrage, vide, compression, dilatation, rampe, cour, atrium, alcôve ;
 - les effets subjectifs : calme, sacré, intime, oppressant, mémoriel, joyeux, austère, mystérieux, contemplatif, stimulant.
+- les intentions de conception quand elles sont explicitement formulées ou fortement inférables : rapport au site, stratégie spatiale, climat, matière, structure, usage, symbolique, effet perceptif recherché.
 
 Chaque mot extrait doit garder une trace minimale :
 
@@ -65,6 +68,8 @@ Exemples :
 - `raw concrete`, `béton brut`, `exposed concrete` -> `material_texture:béton` et éventuellement `material_texture:brut`
 - `silence`, `quiet`, `stillness` -> selon le contexte `sound:silencieux` ou `calm_contemplation:calme`
 - `disorientation`, `void`, `absence` -> selon le contexte `movement_path:contraint`, `spatiality:vide`, `memory_absence:absent`
+- `architectural promenade`, `sequence`, `procession` -> selon le contexte `spatial_intention:promenade architecturale`, `spatial_intention:séquence rituelle` ou `movement_path:ritualisé`
+- `shade`, `screen`, `filtered daylight` -> selon le contexte `climate_intention:filtrer la lumière` ou `light:filtrée`
 
 La règle importante : ne pas confondre un phénomène physique et un effet ressenti.
 
@@ -73,6 +78,7 @@ Exemple :
 - `béton` est physique ;
 - `austère` est subjectif ;
 - `béton froid` peut devenir `material_texture:béton`, `thermal_air:froid` et, si les sources le justifient, `unease_oppression:austère`.
+- `exprimer le béton brut` peut devenir `material_intention:exprimer le brut`, seulement si le texte parle d'une stratégie architecturale et pas seulement d'une surface observée.
 
 ## Étape 5 : Fiche Indexée
 
@@ -100,6 +106,15 @@ Après intégration des 100 références, faire une passe transversale d'équili
 - air et thermique : humidité, fraîcheur, ventilation, exposition ;
 - odeur : bois, humidité, végétal, minéral, terre, fumée, chlore ;
 - immersion : bain, vapeur, son, pénombre, couleur.
+
+Faire ensuite une passe transversale d'intentions de conception pour que les filtres puissent croiser une ambiance et une stratégie de projet :
+
+- site : ancrage, paysage, ville, existant, repère ;
+- spatialité : promenade, rampe, axe, centralité, fragmentation, labyrinthe ;
+- climat : filtrage lumineux, protection solaire, ventilation, eau, inertie ;
+- matière et structure : brut, tactilité, transparence, grille, franchissement, suspension ;
+- usage et récit : rassembler, étudier, soigner, commémorer, sacraliser, faire icône ;
+- effet recherché : ralentir, orienter, surprendre, envelopper, apaiser.
 
 À la fin de chaque lot, vérifier si les combinaisons de filtres dans le prototype donnent plus de résultats.
 

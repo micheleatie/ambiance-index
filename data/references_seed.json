@@ -39,6 +39,17 @@
       ],
       "sources": [
         "https://www.britannica.com/list/19-essential-italian-churches/Pantheon"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:faire forme porteuse",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -75,6 +86,17 @@
       ],
       "sources": [
         "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -118,6 +140,17 @@
       ],
       "sources": [
         "https://whc.unesco.org/en/list/314/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "social_intention:se retirer",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau"
       ]
     },
     {
@@ -164,6 +197,17 @@
       ],
       "sources": [
         "https://fallingwater.org/what-is-fallingwater/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "structure_intention:franchir",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -201,6 +245,17 @@
       "sources": [
         "https://whc.unesco.org/en/list/1136/",
         "https://www.casaluisbarragan.org/eng/en_vestibulo.html"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:laisser vieillir",
+        "social_intention:habiter",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -238,6 +293,17 @@
       ],
       "sources": [
         "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -278,6 +344,17 @@
       ],
       "sources": [
         "https://www.salk.edu/de/about/about-salk-architecture/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -313,6 +390,17 @@
       ],
       "sources": [
         "https://kimbellart.org/art-architecture/architecture/kahn-building"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:rendre tactile"
       ]
     },
     {
@@ -349,6 +437,17 @@
       ],
       "sources": [
         "https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:centralité",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:orienter",
+        "material_intention:mettre en valeur l'artisanat",
+        "social_intention:apprendre"
       ]
     },
     {
@@ -384,6 +483,17 @@
       ],
       "sources": [
         "https://ibaraki-kasugaoka-church.jp/e-top.html"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -433,6 +543,17 @@
       "sources": [
         "https://vals.ch/en/enjoy/wellness/7132-therme/",
         "https://www.archdaily.com/13358/the-therme-vals/1721170689_outdoor-pool2"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:protéger du soleil",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:rafraîchir par l'eau",
+        "climate_intention:exploiter l'inertie",
+        "perceptual_intention:surprendre"
       ]
     },
     {
@@ -469,6 +590,17 @@
       ],
       "sources": [
         "https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:intensifier",
+        "climate_intention:exploiter l'inertie",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -506,6 +638,17 @@
       ],
       "sources": [
         "https://www.museen.koeln/en/visit/museums/kolumba"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:composer avec l'existant"
       ]
     },
     {
@@ -544,6 +687,17 @@
       ],
       "sources": [
         "https://www.jmberlin.de/en/libeskind-building"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "social_intention:démocratiser la culture",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -581,6 +735,17 @@
       ],
       "sources": [
         "https://www.stevenholl.com/projects/st-ignatius-chapel"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -615,6 +780,16 @@
       ],
       "sources": [
         "https://www.menil.org/campus/cy-twombly-gallery"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière",
+        "social_intention:démocratiser la culture"
       ]
     },
     {
@@ -651,6 +826,17 @@
       ],
       "sources": [
         "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:alléger la construction",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -693,6 +879,17 @@
         "https://www.hagiasophia.com/architecture",
         "https://whc.unesco.org/en/list/356/",
         "https://www.britannica.com/topic/Hagia-Sophia"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:faire forme porteuse",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -733,6 +930,17 @@
         "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba",
         "https://whc.unesco.org/en/list/313/",
         "https://mezquita-catedraldecordoba.es/en/discover-the-monument/"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "spatial_intention:labyrinthe"
       ]
     },
     {
@@ -773,6 +981,17 @@
         "https://whc.unesco.org/en/list/81",
         "https://www.chartres-csm.org/en/the-cathedral/the-stained-glass-windows-of-chartres-cathedral/",
         "https://www.britannica.com/topic/Chartres-Cathedral"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -816,6 +1035,17 @@
         "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/",
         "https://www.friendsofnotredamedeparis.org/cathedral/artifacts/rose-windows/",
         "https://whc.unesco.org/en/list/600/"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "climate_intention:filtrer la lumière",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -858,6 +1088,17 @@
         "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/",
         "https://sagradafamilia.org/en/sagrada-familia-ticket?inheritRedirect=true",
         "https://whc.unesco.org/en/list/320/"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:créer un repère"
       ]
     },
     {
@@ -900,6 +1141,17 @@
         "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/",
         "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-couvent-sainte-marie-de-la-tourette-eveux-sur-larbresle-france-1953-1960/",
         "https://www.strateforme.com/"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:séquence rituelle"
       ]
     },
     {
@@ -939,6 +1191,17 @@
         "https://www.menil.org/campus/main-building",
         "https://www.menil.org/index.php/campus/main-building",
         "https://www.cntraveler.com/story/why-your-next-art-pilgrimage-should-be-to-houston-menil-collection-rothko"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "material_intention:mettre en valeur l'artisanat"
       ]
     },
     {
@@ -979,6 +1242,17 @@
         "https://benesse-artsite.jp/en/art/chichu.html",
         "https://benesse-artsite.jp/en/art/",
         "https://www.gltjp.com/en/directory/item/11313/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:chercher la transparence"
       ]
     },
     {
@@ -1026,6 +1300,17 @@
         "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
         "https://benesse-artsite.jp/en/about/teshima.html",
         "https://www.wallpaper.com/architecture/seto-inland-sea-tour-japan"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:ventiler naturellement",
+        "climate_intention:rafraîchir par l'eau"
       ]
     },
     {
@@ -1069,6 +1354,17 @@
         "https://www.louvreabudhabi.ae/en/about-us/architecture",
         "https://www.louvreabudhabi.ae/fr/about-us/architecture",
         "https://www.architecturaldigest.com/story/jean-nouvel-louvre-abu-dhabi"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:activer l’enveloppe",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "site_intention:créer un repère"
       ]
     },
     {
@@ -1102,6 +1398,17 @@
         "https://www.imarabe.org/fr/batiment-et-son-histoire",
         "https://dome.mit.edu/handle/1721.3/121823",
         "https://www.architecturelab.net/institut-du-monde-arabe-jean-nouvel/"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "climate_intention:contrôler l'éclairage",
+        "structure_intention:activer l’enveloppe",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:orienter",
+        "climate_intention:filtrer la lumière",
+        "social_intention:démocratiser la culture"
       ]
     },
     {
@@ -1142,6 +1449,17 @@
         "https://whc.unesco.org/en/list/1496/",
         "https://www.guggenheim.org/about-us/architecture",
         "https://www.architecturaldigest.com/story/you-didnt-know-new-york-city-guggenheim-museum"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:créer un repère",
+        "spatial_intention:rampe continue"
       ]
     },
     {
@@ -1184,6 +1502,17 @@
         "https://whc.unesco.org/en/list/445/",
         "https://www.architecturelab.net/cathedral-of-brasilia-oscar-niemeyer/",
         "https://www.loc.gov/item/22886782"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
       ]
     },
     {
@@ -1225,6 +1554,17 @@
         "https://whc.unesco.org/en/list/712/",
         "https://www.villalarotonda.it/en/",
         "https://www.villalarotonda.it/en/villa/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:centralité",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1274,6 +1614,17 @@
         "https://www.britannica.com/topic/Katsura-Imperial-Villa",
         "https://www.japan.travel/en/spot/1137",
         "https://www.japan-guide.com/e/e3914.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "symbolic_intention:renouveler une tradition",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -1315,6 +1666,17 @@
         "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
         "https://whc.unesco.org/en/list/1321/",
         "https://www.architecturelab.net/villa-savoye-le-corbusier/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:habiter",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "spatial_intention:plan libre"
       ]
     },
     {
@@ -1356,6 +1718,17 @@
         "https://lecorbusier-worldheritage.org/en/unite-habitation/",
         "https://sites-le-corbusier.org/en/oeuvres/unite-dhabitation-marseille/",
         "https://www.britannica.com/topic/Unite-dHabitation-urban-complex-Marseille-France"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:rassembler",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:créer un repère",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1396,6 +1769,17 @@
         "https://lecorbusier-worldheritage.org/en/maison-du-docteur-curutchet/",
         "https://whc.unesco.org/en/list/1321/",
         "https://whc.unesco.org/en/documents/140718"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:orienter",
+        "spatial_intention:rampe continue",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1438,6 +1822,17 @@
         "https://miesbcn.com/the-pavilion/",
         "https://miesbcn.com/project/luftwerk-iker-gil-geometry-of-light/",
         "https://www.expo-barcelona.com/exhibition/mies-van-der-rohe-pavilion"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:libérer le plan",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -1483,6 +1878,17 @@
         "https://edithfarnsworthhouse.org/history-farnsworth-house/",
         "https://savingplaces.org/places/farnsworth-house",
         "https://www.britannica.com/topic/Farnsworth-House"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:suspendre",
+        "social_intention:habiter",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
       ]
     },
     {
@@ -1525,6 +1931,17 @@
         "https://www.tugendhat.eu/en/about-the-house/",
         "https://whc.unesco.org/en/list/1052/",
         "https://www.tugendhat.eu/en/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:libérer le plan",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -1566,6 +1983,17 @@
         "https://www.britannica.com/topic/Seagram-Building",
         "https://www.som.com/projects/seagram-building/",
         "https://en.wikipedia.org/wiki/Seagram_Building"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:travailler",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -1606,6 +2034,17 @@
         "https://www.iit.edu/admissions-aid/visit-and-tour/virtual-tour/crown-hall",
         "https://docomomo-us.org/register/s-r-crown-hall",
         "https://www.archdaily.com/59816/ad-classics-s-r-crown-hall-mies-van-der-rohe"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -1647,6 +2086,17 @@
         "https://www.flwright.org/explore/frederick-c-robie-house",
         "https://www.flwright.org/tour/robie-house",
         "https://whc.unesco.org/en/list/1496/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:franchir",
+        "social_intention:habiter",
+        "symbolic_intention:mettre en scène le quotidien",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
       ]
     },
     {
@@ -1696,6 +2146,17 @@
         "https://www.flwright.org/explore/unity-temple",
         "https://www.architecture.org/learn/resources/buildings-of-chicago/building/unity-temple/",
         "https://whc.unesco.org/en/list/1496/"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:se retirer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -1747,6 +2208,17 @@
         "https://franklloydwright.org/taliesin-west/",
         "https://whc.unesco.org/en/list/1496/",
         "https://www.architecturaldigest.com/story/taliesin-west-everything-you-need-to-know-about-frank-lloyd-wrights-winter-home-and-studio"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:protéger du soleil",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1787,6 +2259,17 @@
         "https://bauhaus-dessau.de/en/institution/foundation/",
         "https://whc.unesco.org/en/list/729/",
         "https://www.visitdessau.com/en/world-heritage/bauhaus/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:exprimer la grille",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:orienter",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1836,6 +2319,17 @@
         "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
         "https://www.villamairea.fi/",
         "https://www.archdaily.com/85390/ad-classics-villa-mairea-alvar-aalto"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -1883,6 +2377,17 @@
         "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
         "https://paimiosanatorium.com/",
         "https://paimiosanatorium.com/sanatorium/foundation/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -1928,6 +2433,17 @@
         "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
         "https://visitjyvaskyla.fi/en/attractions/saynatsalo-town-hall/",
         "https://www.architecturelab.net/saynatsalo-town-hall-alvar-aalto/"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -1969,6 +2485,17 @@
         "https://eamesfoundation.org/eames-house/",
         "https://www.eamesoffice.com/visit-learn/eames-house/",
         "https://www.archdaily.com/66302/ad-classics-eames-house-charles-and-ray-eames"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:habiter",
+        "symbolic_intention:mettre en scène le quotidien",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -2011,6 +2538,17 @@
         "https://theglasshouse.org/explore/the-glass-house/",
         "https://savingplaces.org/places/glass-house",
         "https://theglasshouse.org/explore/landscape/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:fragmentation"
       ]
     },
     {
@@ -2054,6 +2592,17 @@
         "https://www.centrepompidou.fr/fr/ressources/oeuvre/cKxjGX8",
         "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-secret-history-of-the-maison-de-verre-a-masterpiece-of-modern-architecture",
         "https://dome.mit.edu/handle/1721.3/119743"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:habiter",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:ouvrir l'imaginaire",
+        "climate_intention:filtrer la lumière",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -2113,6 +2662,17 @@
         "https://www.architecturelab.net/brion-vega-tomb-by-carlo-scarpa/",
         "https://www.archdaily.com/1002226/carlo-scarpa-a-virtuous-architect-of-water",
         "https://www.carloscarpa.es/OBRAS/Brion.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:exprimer le brut",
+        "social_intention:se retirer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:reconvertir l'existant"
       ]
     },
     {
@@ -2162,6 +2722,17 @@
         "https://archiviocarloscarpa.it/en/",
         "https://archiviocarloscarpa.it/carlo-scarpa-a-castelvecchio/",
         "https://www.carloscarpa.es/Castelvecchio.html"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:composer avec l'existant"
       ]
     },
     {
@@ -2211,6 +2782,17 @@
         "https://fondoambiente.it/negozio-olivetti-eng",
         "https://en.venezia.net/olivetti-showroom-venice.html",
         "https://architectuul.com/architecture/olivetti-showroom"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:mettre en valeur l'artisanat"
       ]
     },
     {
@@ -2262,6 +2844,17 @@
         "https://the.akdn/akdn/akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/national-assembly-building",
         "https://www.archdaily.com/83071/ad-classics-national-assembly-building-of-bangladesh-louis-kahn",
         "https://dome.mit.edu/handle/1721.3/72428"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:envelopper",
+        "perceptual_intention:intensifier",
+        "climate_intention:rafraîchir par l'eau"
       ]
     },
     {
@@ -2319,6 +2912,17 @@
         "https://www.archweb.com/en/architettures/water-temple/",
         "https://arquitecturaviva.com/works/templo-del-agua-higashiura",
         "https://en.wikiarquitectura.com/building/Water-Temple/"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "spatial_intention:séquence rituelle"
       ]
     },
     {
@@ -2366,6 +2970,17 @@
         "https://www.archweb.com/en/-civilians-architectures/azuma-house/",
         "https://arquitecturaviva.com/works/casa-entre-medianeras",
         "https://en.wikiarquitectura.com/building/azuma-house/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:orienter",
+        "climate_intention:protéger du soleil",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -2417,6 +3032,17 @@
         "https://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor",
         "https://www.graubuenden.ch/en/attractions/kapelle-s-benedetg",
         "https://www.archdaily.com/419367/a-photographer-s-journey-through-peter-zumthor-valley"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -2459,6 +3085,17 @@
         "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe/",
         "https://www.visitberlin.de/en/memorial-murdered-jews-europe",
         "https://www.cipdh.gob.ar/memorias-situadas/en/lugar-de-memoria/monumento-a-los-judios-asesinados-en-europa/"
+      ],
+      "intention_tags": [
+        "site_intention:reconvertir l'existant",
+        "spatial_intention:labyrinthe",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "structure_intention:exprimer la grille",
+        "social_intention:se retirer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:désorienter",
+        "site_intention:composer avec l'existant"
       ]
     },
     {
@@ -2510,6 +3147,17 @@
         "https://www.centrepompidou.fr/en/collection/our-building",
         "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/larchitecture-du-centre-pompidou/structure-et-modules",
         "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/secrets-darchi-les-tuyaux-du-centre-pompidou"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:exposer",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -2558,6 +3206,17 @@
         "https://www.lloyds.com/about-lloyds/our-home",
         "https://www.cityoflondon.gov.uk/things-to-do/architecture/modern-architecture/lloyds-building",
         "https://www.archweb.com/en/architettures/lloyd-s-building/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:centralité",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -2613,6 +3272,17 @@
         "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
         "https://www.architectour.net/opere/opera.php?architetto=Renzo+Piano&id_opera=2733&nome_opera=Centre+culturel+Tjibaou",
         "https://www.archilovers.com/projects/90850/jean-marie-tjibaou-cultural-center.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:rassembler",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
       ]
     },
     {
@@ -2664,6 +3334,17 @@
         "https://www.britannica.com/topic/Terminal-1-at-Kansai-International-Airport",
         "https://www.architonic.com/en/project/renzo-piano-building-workshop-kansai-international-airport-passenger-terminal-building/5102405",
         "https://www.nikken.jp/en/projects/transportation/kansai_international_airport_passenger_terminal_building.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:travailler",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -2707,6 +3388,17 @@
         "https://www.guggenheim-bilbao.eus/en/the-building/the-construction/",
         "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry",
         "https://www.britannica.com/topic/Guggenheim-Museum-Bilbao"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:labyrinthe",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:défi gravitaire",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -2757,6 +3449,17 @@
         "https://www.musiccenter.org/visit-explore/visit-explore/campus/walt-disney-concert-hall/",
         "https://www.permasteelisagroup.com/project-detail?project=2290",
         "https://www.archilovers.com/projects/329/walt-disney-concert-hall.html"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:défi gravitaire",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
       ]
     },
     {
@@ -2799,6 +3502,17 @@
         "https://www.vitra.com/fr-fr/campus/architecture/architecture-vitra-design-museum",
         "https://www.vitra.com/en-dk/campus/architecture/architecture-vitra-design-museum",
         "https://www.vitra.com/en-us/campus/architecture/architecture-factory-building-gehry"
+      ],
+      "intention_tags": [
+        "site_intention:créer un repère",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "spatial_intention:rampe continue",
+        "spatial_intention:labyrinthe"
       ]
     },
     {
@@ -2852,6 +3566,17 @@
         "https://www.herzogdemeuron.com/projects/126-tate-modern/",
         "https://dome.mit.edu/handle/1721.3/180163",
         "https://www.tate.org.uk/visit/tate-modern"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:envelopper",
+        "site_intention:reconvertir l'existant"
       ]
     },
     {
@@ -2895,6 +3620,17 @@
         "https://www.dominusestate.com/architecture/",
         "https://www.herzogdemeuron.com/projects/137-dominus-winery/",
         "https://architectquoin.com/dominus-winery-by-herzog-de-meuron-shaping-stone/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -2946,6 +3682,17 @@
         "https://www.britannica.com/place/Beijing-National-Stadium",
         "https://www.herzogdemeuron.com/projects/226-national-stadium/",
         "https://olympics.com/en/news/beijing-national-stadium-birds-nest-olympics"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
       ]
     },
     {
@@ -2995,6 +3742,17 @@
         "https://masp.org.br/en/about",
         "https://masp.org.br/en/about/keeping-modern",
         "https://masp.com.br/en/sobre-o-masp"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -3046,6 +3804,17 @@
         "https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/",
         "https://arquitecturaviva.com/obras/sesc-fabrica-pompeia",
         "https://architectuul.com/architecture/sesc-pompeia"
+      ],
+      "intention_tags": [
+        "site_intention:ouvrir sur la ville",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:intensifier",
+        "site_intention:reconvertir l'existant",
+        "site_intention:composer avec l'existant",
+        "material_intention:rendre tactile"
       ]
     },
     {
@@ -3102,6 +3871,17 @@
         "https://whc.unesco.org/en/list/1025/",
         "https://www.unesco.org/archives/multimedia/document-1086",
         "https://villae.cultura.gov.it/en/villa-deste/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:protéger du soleil",
+        "social_intention:rassembler",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau",
+        "perceptual_intention:envelopper"
       ]
     },
     {
@@ -3145,6 +3925,17 @@
         "https://whc.unesco.org/en/list/252/",
         "https://www.unesco.org/en/articles/taj-mahal",
         "https://www.britannica.com/topic/Taj-Mahal"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "social_intention:se retirer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3198,6 +3989,17 @@
         "https://whc.unesco.org/en/list/688/",
         "https://www.japan.travel/en/spot/1145/",
         "https://www.discoverkyoto.com/places-go/ryoan-ji/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:rassembler",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3251,6 +4053,17 @@
         "https://www.isejingu.or.jp/en/about/index.html",
         "https://www.isejingu.or.jp/en/ritual/index.html",
         "https://www.britannica.com/topic/Ise-Shrine"
+      ],
+      "intention_tags": [
+        "site_intention:fusionner avec la nature",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:célébrer",
+        "symbolic_intention:sacraliser",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "climate_intention:rafraîchir par l'eau"
       ]
     },
     {
@@ -3306,6 +4119,17 @@
         "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
         "https://www.architecturelab.net/gilardi-house-luis-barragan-classics-on-architecture-lab/",
         "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:rafraîchir par l'eau",
+        "social_intention:rassembler",
+        "social_intention:se retirer"
       ]
     },
     {
@@ -3355,6 +4179,17 @@
         "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
         "https://www.archdaily.com/1026697/luis-barragans-cuadra-san-cristobal-to-become-a-new-cultural-campus-in-mexico",
         "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:séquence rituelle",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:rendre tactile",
+        "social_intention:habiter",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3406,6 +4241,17 @@
         "https://www.fondationcartier.com/en/garden",
         "https://www.fondationcartier.com/jardin",
         "https://www.britannica.com/topic/Cartier-Foundation"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3453,6 +4299,17 @@
         "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
         "https://www.bnim.com/projects/the-bloch-building/",
         "https://www.nelson-atkins.org/about/future-expansion/bloch-building/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3502,6 +4359,17 @@
         "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
         "https://www.gov-online.go.jp/hlj/en/february_2025/february_2025-04.html",
         "https://dac.dk/en/21st-century-museum-of-contemporary-art/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3551,6 +4419,17 @@
         "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
         "https://www.architecturalrecord.com/articles/8237-rolex-learning-center-by-sanaa",
         "https://www.archilovers.com/projects/30672/rolex-learning-center.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -3600,6 +4479,17 @@
         "https://www.louvrelens.fr/en/architecture-et-parc/",
         "https://www.architecturaldigest.com/story/musee-du-louvre-lens-sanaa-imrey-culbert-france",
         "https://www.davesinteriors.com/louvre-lens-sanaa-architecture-highlights-key-facts-about-sanaa-design/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:exposer",
+        "symbolic_intention:commémorer",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3649,6 +4539,17 @@
         "https://www.smt.city.sendai.jp/en/",
         "https://www.architecturelab.net/sendai-mediatheque-toyo-ito-and-associates-architects/",
         "https://www.archweb.com/en/architettures/sendai-mediatheque/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -3698,6 +4599,17 @@
         "https://www.tamabi.ac.jp/en/about/library/",
         "https://www.wallpaper.com/architecture/toyo-ito-architecture-guide",
         "https://www.archute.com/the-tama-art-university-library-toyo-ito/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:étudier",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3747,6 +4659,17 @@
         "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
         "https://architectuul.com/architecture/niteroi-contemporary-art-museum",
         "https://arquitecturaviva.com/works/museo-de-arte-contemporaneo-niteroi"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:rafraîchir par l'eau",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:créer un repère"
       ]
     },
     {
@@ -3804,6 +4727,17 @@
         "https://londonaquaticscentre.org/about/architecture/",
         "https://www.domusweb.it/en/architecture/2014/02/27/london_aquatics_centre.html",
         "https://www.archimagazine.com/alonaquatics.htm"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:faire icône",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -3863,6 +4797,17 @@
         "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
         "https://www.domusweb.it/en/architecture/2014/07/31/boa_nova_tea_house_.html",
         "https://en.wikiarquitectura.com/building/boa-nova-tea-house/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:protéger du soleil",
+        "material_intention:exprimer le brut",
+        "social_intention:habiter",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature",
+        "climate_intention:ventiler naturellement"
       ]
     },
     {
@@ -3912,6 +4857,17 @@
         "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
         "https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/",
         "https://www.lemonde.fr/culture/article/2025/01/30/a-porto-alvaro-siza-fait-de-la-fondation-serralves-un-ecrin-pour-l-architecture_6524080_3246.html"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -3963,6 +4919,17 @@
         "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
         "https://archjourney.org/projects/braga-municipal-stadium/",
         "https://arquitecturaviva.com/works/estadio-municipal-de-braga"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:protéger du soleil",
+        "material_intention:exprimer le brut",
+        "structure_intention:montrer la structure",
+        "social_intention:célébrer",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -4016,6 +4983,17 @@
         "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
         "https://the.akdn/es/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/primary-school",
         "https://www.archnet.org/sites/4363"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:rendre tactile",
+        "structure_intention:montrer la structure",
+        "social_intention:étudier",
+        "symbolic_intention:exprimer une identité",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:intensifier",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -4067,6 +5045,17 @@
         "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
         "https://www.zaha-hadid.com/2013/11/14/heydar-aliyev-center-baku-azerbaijan/",
         "https://www.archiscene.net/firms/zaha-hadid/heydar-aliyev-center-zaha-hadid/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:plan libre",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:faire forme porteuse",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper"
       ]
     },
     {
@@ -4110,6 +5099,17 @@
         "https://lecorbusier-worldheritage.org/en/complexe-du-capitole/",
         "https://chandigarhtourism.gov.in/capitol-complex",
         "https://whc.unesco.org/en/list/1321/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:intensifier",
+        "perceptual_intention:orienter",
+        "climate_intention:protéger du soleil"
       ]
     },
     {
@@ -4158,6 +5158,17 @@
         "https://www.nmwa.go.jp/en/about/building.html",
         "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/",
         "https://www.artmuseums.go.jp/en/museums/nmwa"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir"
       ]
     },
     {
@@ -4213,6 +5224,17 @@
         "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
         "https://www.architecturelab.net/nordic-pavilion-venice-sverre-fehn/",
         "https://www.nasjonalmuseet.no/en/collection/object/NMK.2008.0734.016.014"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:fragmentation",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:rassembler",
+        "symbolic_intention:renouveler une tradition",
+        "perceptual_intention:apaiser",
+        "perceptual_intention:ralentir",
+        "site_intention:fusionner avec la nature"
       ]
     },
     {
@@ -4263,6 +5285,17 @@
         "https://kiasma.fi/en/architecture/",
         "https://www.stevenholl.com/project/kiasma-museum/",
         "https://www.lamberts.info/en/project/kiasma-museum-of-contemporary-art"
+      ],
+      "intention_tags": [
+        "site_intention:ancrer dans le site",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "spatial_intention:rampe continue"
       ]
     },
     {
@@ -4315,6 +5348,17 @@
         "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
         "https://www.oma.com/projects/seattle-central-library",
         "https://www.archdaily.com/11651/seattle-central-library-oma-lmn"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:chercher la transparence",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:ralentir",
+        "perceptual_intention:surprendre",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -4362,6 +5406,17 @@
         "https://www.oma.com/projects/cctv-headquarters",
         "https://www.archdaily.com/236175/cctv-headquarters-oma",
         "https://www.arup.com/en-us/projects/china-central-television-headquarters/"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "material_intention:chercher la transparence",
+        "structure_intention:montrer la structure",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:désorienter",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -4414,6 +5469,17 @@
         "https://www.oma.com/projects/casa-da-musica",
         "https://casadamusica.com/en/building/",
         "https://www.archdaily.com/619294/casa-da-musica-oma"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:parcours fluide",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:envelopper",
+        "site_intention:ouvrir sur la ville",
+        "site_intention:créer un repère"
       ]
     },
     {
@@ -4462,6 +5528,17 @@
         "https://www.kunsthal.nl/en/about-kunsthal/building/",
         "https://www.oma.com/projects/kunsthal",
         "https://www.archdaily.com/102825/ad-classics-kunsthal-oma"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:rampe continue",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville",
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -4512,6 +5589,17 @@
         "https://www2.congressonacional.leg.br/visite/arquitetura",
         "https://whc.unesco.org/en/list/445/",
         "https://www.archdaily.com/773568/ad-classics-national-congress-oscar-niemeyer"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:axe monumental",
+        "climate_intention:exploiter l'inertie",
+        "material_intention:exprimer le brut",
+        "social_intention:démocratiser la culture",
+        "symbolic_intention:représenter le pouvoir",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier",
+        "site_intention:ouvrir sur la ville"
       ]
     },
     {
@@ -4562,6 +5650,17 @@
         "https://www.zaha-hadid.com/architecture/maxxi/",
         "https://www.maxxi.art/progetto-architettonico/",
         "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects"
+      ],
+      "intention_tags": [
+        "site_intention:cadrer le paysage",
+        "spatial_intention:promenade architecturale",
+        "climate_intention:contrôler l'éclairage",
+        "material_intention:exprimer le brut",
+        "structure_intention:suspendre",
+        "social_intention:exposer",
+        "symbolic_intention:moderniser une institution",
+        "perceptual_intention:surprendre",
+        "perceptual_intention:intensifier"
       ]
     }
   ]

@@ -203,3 +203,20 @@ Principes de cadrage utilisés :
 - [Britannica - Acoustic Criteria](https://www.britannica.com/science/acoustics/Acoustic-criteria)
 - [CRESSON - Petit lexique illustré des effets sonores](https://aau.archi.fr/cresson/cressound-2025/la-boite-a-effets/)
 - [Réseau SON:S - Lexique illustré des effets sonores](https://sons.cnrs.fr/2020/04/01/enregistrements-lexique-illustre-des-effets-sonores/)
+
+## Sources Pour Les Intentions De Conception V1
+
+Le détail des ajouts est structuré dans `data/reference_design_intentions_v1.json`. Cette passe ajoute une troisième couche d'indexation : elle ne décrit pas seulement ce que l'espace fait sentir, mais ce que le projet semble chercher à faire architecturalement.
+
+Sources de cadrage utilisées pour stabiliser les rubriques :
+
+- Les sources par référence déjà collectées dans les cinq lots, en particulier les textes officiels d'architectes, fondations, musées et institutions.
+- [Villa Savoye - promenade architecturale](https://www.villa-savoye.fr/en/discover/an-architectural-promenade)
+- [UNESCO - The Architectural Work of Le Corbusier](https://whc.unesco.org/en/list/1321/)
+- [Kimbell Art Museum - Louis I. Kahn Building](https://kimbellart.org/art-architecture/architecture/kahn-building)
+- [Salk Institute - About Salk Architecture](https://www.salk.edu/de/about/about-salk-architecture/)
+- [Fallingwater - site officiel](https://fallingwater.org/what-is-fallingwater/)
+- [OMA - Seattle Central Library](https://www.oma.com/projects/seattle-central-library)
+- [Kéré Architecture - Gando Primary School](https://www.kerearchitecture.com/work/building/gando-primary-school-3)
+- [Guggenheim Bilbao - The construction](https://www.guggenheim-bilbao.eus/en/the-building/the-construction/)
+- [Jewish Museum Berlin - Libeskind Building](https://www.jmberlin.de/en/libeskind-building)
