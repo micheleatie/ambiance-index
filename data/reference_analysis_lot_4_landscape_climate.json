@@ -1,0 +1,1212 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "source_scan_v0",
+  "scope": "Lot 4 : paysage, eau, climat, jardin, nature et continuités intérieur/extérieur.",
+  "method": "Chaque référence garde trois sources minimum, des mots extraits physiques et subjectifs, puis des tags proposés avant validation.",
+  "entries": [
+    {
+      "reference_id": "villa_deste_tivoli",
+      "name": "Villa d'Este",
+      "sources": [
+        {
+          "title": "UNESCO - Villa d'Este, Tivoli",
+          "url": "https://whc.unesco.org/en/list/1025/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "UNESCO Multimedia - A Fountain Masterpiece",
+          "url": "https://www.unesco.org/archives/multimedia/document-1086",
+          "type": "archive UNESCO"
+        },
+        {
+          "title": "Villae - Villa d'Este",
+          "url": "https://villae.cultura.gov.it/en/villa-deste/",
+          "type": "site officiel"
+        }
+      ],
+      "extracted_words_physical": [
+        "jardin en terrasses",
+        "fontaines",
+        "bassins ornementaux",
+        "cascade",
+        "axes",
+        "hydraulique",
+        "pente",
+        "grottes",
+        "végétation",
+        "eau vive"
+      ],
+      "extracted_words_subjective": [
+        "merveille",
+        "théâtralité",
+        "fraîcheur",
+        "joie",
+        "contemplation",
+        "ingéniosité",
+        "raffinement"
+      ],
+      "draft_physical_tags": [
+        "water:fontaine",
+        "water:bassin",
+        "water:cascade",
+        "water:ruisselant",
+        "thermal_air:frais",
+        "nature_living:végétal",
+        "movement_path:axial",
+        "spatiality:axial"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "calm_contemplation:contemplatif",
+        "monumental_sublime:majestueux",
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "taj_mahal",
+      "name": "Taj Mahal",
+      "sources": [
+        {
+          "title": "UNESCO World Heritage Centre - Taj Mahal",
+          "url": "https://whc.unesco.org/en/list/252/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "UNESCO - Taj Mahal",
+          "url": "https://www.unesco.org/en/articles/taj-mahal",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Britannica - Taj Mahal",
+          "url": "https://www.britannica.com/topic/Taj-Mahal",
+          "type": "encyclopédie"
+        }
+      ],
+      "extracted_words_physical": [
+        "marbre blanc",
+        "pietra dura",
+        "jardin charbagh",
+        "canaux",
+        "bassins réfléchissants",
+        "Yamuna",
+        "symétrie",
+        "axe",
+        "dôme",
+        "lumière changeante"
+      ],
+      "extracted_words_subjective": [
+        "mémoire",
+        "deuil",
+        "amour",
+        "majesté",
+        "sublime",
+        "harmonie",
+        "recueillement"
+      ],
+      "draft_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "water:miroir",
+        "water:bassin",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "nature_living:végétal"
+      ],
+      "draft_subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:mélancolique",
+        "monumental_sublime:majestueux",
+        "monumental_sublime:sublime",
+        "calm_contemplation:contemplatif",
+        "sacred_ritual:sacré"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "ryoanji",
+      "name": "Ryōan-ji",
+      "sources": [
+        {
+          "title": "UNESCO - Historic Monuments of Ancient Kyoto",
+          "url": "https://whc.unesco.org/en/list/688/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "JNTO - Ryoanji Temple Rock Garden",
+          "url": "https://www.japan.travel/en/spot/1145/",
+          "type": "office national de tourisme"
+        },
+        {
+          "title": "Discover Kyoto - Ryōan-ji",
+          "url": "https://www.discoverkyoto.com/places-go/ryoan-ji/",
+          "type": "guide culturel"
+        }
+      ],
+      "extracted_words_physical": [
+        "jardin sec",
+        "quinze pierres",
+        "gravier blanc ratissé",
+        "mur bas",
+        "mousse",
+        "étang Kyōyōchi",
+        "silence",
+        "composition minimale",
+        "cadre clos"
+      ],
+      "extracted_words_subjective": [
+        "méditation",
+        "énigme",
+        "calme",
+        "spiritualité zen",
+        "abstraction",
+        "contemplation",
+        "mystère"
+      ],
+      "draft_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:rugueux",
+        "color:blanc",
+        "opening_landscape:introverti",
+        "spatiality:bas",
+        "light:naturelle",
+        "nature_living:végétal",
+        "water:bassin",
+        "sound:silencieux"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:méditatif",
+        "calm_contemplation:serein",
+        "mystery_exploration:énigmatique",
+        "sacred_ritual:spirituel",
+        "strangeness_displacement:abstrait"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "ise_jingu",
+      "name": "Ise Jingū",
+      "sources": [
+        {
+          "title": "Ise Jingu - About",
+          "url": "https://www.isejingu.or.jp/en/about/index.html",
+          "type": "site officiel"
+        },
+        {
+          "title": "Ise Jingu - Rituals and ceremonies",
+          "url": "https://www.isejingu.or.jp/en/ritual/index.html",
+          "type": "site officiel"
+        },
+        {
+          "title": "Britannica - Ise Shrine",
+          "url": "https://www.britannica.com/topic/Ise-Shrine",
+          "type": "encyclopédie"
+        }
+      ],
+      "extracted_words_physical": [
+        "sanctuaire shinto",
+        "bois de cyprès",
+        "toit de chaume",
+        "forêt sacrée",
+        "reconstruction cyclique",
+        "rituels",
+        "ponts",
+        "gravier",
+        "seuils",
+        "ombre végétale"
+      ],
+      "extracted_words_subjective": [
+        "sacré",
+        "renouvellement",
+        "continuité",
+        "pureté",
+        "rituel",
+        "sérénité",
+        "présence de la nature"
+      ],
+      "draft_physical_tags": [
+        "material_texture:bois",
+        "material_texture:toit léger",
+        "nature_living:sauvage",
+        "nature_living:naturel",
+        "smell:boisé",
+        "light:tamisée",
+        "movement_path:ritualisé",
+        "threshold:entrée",
+        "palimpsest:mémoire"
+      ],
+      "draft_subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:rituel",
+        "memory_absence:historique",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "gilardi_house",
+      "name": "Casa Gilardi",
+      "sources": [
+        {
+          "title": "ArchDaily Classics - Gilardi House",
+          "url": "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
+          "type": "média architecture"
+        },
+        {
+          "title": "Architecture Lab - Gilardi House",
+          "url": "https://www.architecturelab.net/gilardi-house-luis-barragan-classics-on-architecture-lab/",
+          "type": "média architecture"
+        },
+        {
+          "title": "ArchDaily - How Luis Barragán Used Light to Make Us See Color",
+          "url": "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color",
+          "type": "article critique"
+        }
+      ],
+      "extracted_words_physical": [
+        "piscine intérieure",
+        "miroir d’eau",
+        "jacaranda conservé",
+        "couleur rouge",
+        "mur bleu",
+        "lumière zénithale",
+        "couloir jaune",
+        "intériorité",
+        "parcelle étroite"
+      ],
+      "extracted_words_subjective": [
+        "intimité",
+        "jeu de couleur",
+        "surprise",
+        "contemplation",
+        "domesticité",
+        "irréalité",
+        "poésie"
+      ],
+      "draft_physical_tags": [
+        "water:miroir",
+        "water:bassin",
+        "light:zénithale",
+        "light:colorée",
+        "color:rouge",
+        "color:bleu",
+        "nature_living:végétal",
+        "opening_landscape:introverti",
+        "color:rose"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:irréel"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "cuadra_san_cristobal",
+      "name": "Cuadra San Cristóbal",
+      "sources": [
+        {
+          "title": "Barragan Foundation - Cuadra San Cristóbal",
+          "url": "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
+          "type": "fondation architecte"
+        },
+        {
+          "title": "ArchDaily - Cuadra San Cristóbal cultural campus",
+          "url": "https://www.archdaily.com/1026697/luis-barragans-cuadra-san-cristobal-to-become-a-new-cultural-campus-in-mexico",
+          "type": "média architecture"
+        },
+        {
+          "title": "ArchDaily - Barragán light and color",
+          "url": "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color",
+          "type": "article critique"
+        }
+      ],
+      "extracted_words_physical": [
+        "mur rose",
+        "bassin pour chevaux",
+        "fontaine monumentale",
+        "stucco",
+        "pâturage",
+        "cour",
+        "eau sonore",
+        "portails",
+        "couleurs",
+        "hacienda moderne"
+      ],
+      "extracted_words_subjective": [
+        "silence",
+        "spectacle du quotidien",
+        "campagne proche de la ville",
+        "vivant",
+        "sérénité",
+        "dépaysant",
+        "poétique"
+      ],
+      "draft_physical_tags": [
+        "water:bassin",
+        "water:fontaine",
+        "color:rose",
+        "material_texture:terre",
+        "sound:aquatique",
+        "nature_living:domestiqué",
+        "movement_path:ritualisé",
+        "opening_landscape:cadré",
+        "color:rouge"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "calm_contemplation:serein",
+        "intimacy_refuge:abrité",
+        "strangeness_displacement:dépaysant",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "fondation_cartier",
+      "name": "Fondation Cartier",
+      "sources": [
+        {
+          "title": "Fondation Cartier - Architecture",
+          "url": "https://www.fondationcartier.com/en/garden",
+          "type": "site officiel"
+        },
+        {
+          "title": "Fondation Cartier - Architecture FR",
+          "url": "https://www.fondationcartier.com/jardin",
+          "type": "site officiel"
+        },
+        {
+          "title": "Britannica - Cartier Foundation",
+          "url": "https://www.britannica.com/topic/Cartier-Foundation",
+          "type": "encyclopédie"
+        }
+      ],
+      "extracted_words_physical": [
+        "verre",
+        "acier",
+        "jardin Theatrum Botanicum",
+        "reflets",
+        "lumière variable",
+        "frontière floue intérieur extérieur",
+        "transparence",
+        "arbres",
+        "saisons"
+      ],
+      "extracted_words_subjective": [
+        "ambiguïté",
+        "évanescence",
+        "légèreté",
+        "stimulation artistique",
+        "jardin dans la ville",
+        "ouverture",
+        "mouvement"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "light:réfléchie",
+        "light:variable",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "strangeness_displacement:irréel",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:vivant",
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "nelson_atkins_bloch_building",
+      "name": "Bloch Building, Nelson-Atkins Museum",
+      "sources": [
+        {
+          "title": "Steven Holl Architects - Nelson-Atkins opening",
+          "url": "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
+          "type": "agence architecture"
+        },
+        {
+          "title": "BNIM - The Bloch Building",
+          "url": "https://www.bnim.com/projects/the-bloch-building/",
+          "type": "agence architecture"
+        },
+        {
+          "title": "Nelson-Atkins - Bloch Building enhancements",
+          "url": "https://www.nelson-atkins.org/about/future-expansion/bloch-building/",
+          "type": "site officiel"
+        }
+      ],
+      "extracted_words_physical": [
+        "lentilles de verre",
+        "galeries enterrées",
+        "toiture végétalisée",
+        "lumière diffuse",
+        "parc de sculptures",
+        "paysage ondulant",
+        "galeries lumineuses",
+        "translucidité"
+      ],
+      "extracted_words_subjective": [
+        "calme lumineux",
+        "contemplation",
+        "immersion dans le paysage",
+        "douceur",
+        "stimulation artistique",
+        "orientation par la lumière"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "light:diffuse",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:végétal",
+        "spatiality:bas",
+        "movement_path:sinueux",
+        "filtering:volume lumineux",
+        "opening_landscape:transparent"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:doux",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "museum_21st_century_kanazawa",
+      "name": "21st Century Museum of Contemporary Art",
+      "sources": [
+        {
+          "title": "21st Century Museum Kanazawa - Concept",
+          "url": "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
+          "type": "site officiel"
+        },
+        {
+          "title": "Highlighting Japan - Kanazawa Museum",
+          "url": "https://www.gov-online.go.jp/hlj/en/february_2025/february_2025-04.html",
+          "type": "source gouvernementale"
+        },
+        {
+          "title": "Danish Architecture Center - 21st Century Museum",
+          "url": "https://dac.dk/en/21st-century-museum-of-contemporary-art/",
+          "type": "institution architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "cercle de verre",
+        "musée ouvert comme un parc",
+        "transparence",
+        "cour",
+        "lumière naturelle",
+        "multiples directions",
+        "horizontalité",
+        "panorama à 360 degrés"
+      ],
+      "extracted_words_subjective": [
+        "accessibilité",
+        "rencontre",
+        "casualness",
+        "joie",
+        "ouverture",
+        "clarté",
+        "communauté"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "opening_landscape:transparent",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "movement_path:exploratoire",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "spatiality:bas"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:vivant",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant",
+        "wellbeing_restoration:doux",
+        "calm_contemplation:calme"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "rolex_learning_center",
+      "name": "Rolex Learning Center",
+      "sources": [
+        {
+          "title": "EPFL - Rolex Learning Center building",
+          "url": "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
+          "type": "institution"
+        },
+        {
+          "title": "Architectural Record - Rolex Learning Center",
+          "url": "https://www.architecturalrecord.com/articles/8237-rolex-learning-center-by-sanaa",
+          "type": "revue architecture"
+        },
+        {
+          "title": "Archilovers - Rolex Learning Center",
+          "url": "https://www.archilovers.com/projects/30672/rolex-learning-center.html",
+          "type": "base architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "espace continu",
+        "pentes douces",
+        "terrasses ondulantes",
+        "patios intérieurs",
+        "extérieur magnifique",
+        "toit courbe",
+        "supports presque invisibles",
+        "campus",
+        "lumière"
+      ],
+      "extracted_words_subjective": [
+        "fluidité",
+        "étude",
+        "interaction",
+        "orientation douce",
+        "concentration",
+        "convivialité",
+        "équilibre"
+      ],
+      "draft_physical_tags": [
+        "spatiality:ouvert",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "compression_expansion:expansion",
+        "opening_landscape:ouvert",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "framing:lanterne"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "joy_social_intensity:convivial",
+        "wellbeing_restoration:équilibré",
+        "legibility_orientation:guidant",
+        "calm_contemplation:posé"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "louvre_lens",
+      "name": "Louvre-Lens",
+      "sources": [
+        {
+          "title": "Louvre-Lens - Architecture and park",
+          "url": "https://www.louvrelens.fr/en/architecture-et-parc/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Architectural Digest - Louvre-Lens",
+          "url": "https://www.architecturaldigest.com/story/musee-du-louvre-lens-sanaa-imrey-culbert-france",
+          "type": "média architecture"
+        },
+        {
+          "title": "Davesinteriors - Louvre Lens architecture highlights",
+          "url": "https://www.davesinteriors.com/louvre-lens-sanaa-architecture-highlights-key-facts-about-sanaa-design/",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "ancienne mine",
+        "parc de 20 hectares",
+        "aluminium anodisé",
+        "verre",
+        "reflets du paysage",
+        "bâtiment bas",
+        "transparence",
+        "lumière diffuse",
+        "transition douce"
+      ],
+      "extracted_words_subjective": [
+        "renouveau",
+        "discrétion",
+        "calme",
+        "accessibilité",
+        "mémoire du site minier",
+        "clarté",
+        "douceur"
+      ],
+      "draft_physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "light:diffuse",
+        "opening_landscape:paysage",
+        "opening_landscape:transparent",
+        "nature_living:naturel",
+        "movement_path:progressif",
+        "spatiality:bas",
+        "palimpsest:réparation"
+      ],
+      "draft_subjective_tags": [
+        "memory_absence:historique",
+        "wellbeing_restoration:doux",
+        "calm_contemplation:calme",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "sendai_mediatheque",
+      "name": "Sendai Mediatheque",
+      "sources": [
+        {
+          "title": "Sendai Mediatheque - official site",
+          "url": "https://www.smt.city.sendai.jp/en/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Architecture Lab - Sendai Mediatheque",
+          "url": "https://www.architecturelab.net/sendai-mediatheque-toyo-ito-and-associates-architects/",
+          "type": "média architecture"
+        },
+        {
+          "title": "Archweb - Sendai Mediatheque",
+          "url": "https://www.archweb.com/en/architettures/sendai-mediatheque/",
+          "type": "base architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "cube de verre",
+        "plaques flottantes",
+        "treize tubes",
+        "lumière",
+        "air",
+        "eau",
+        "circulation",
+        "transparence urbaine",
+        "structure organique"
+      ],
+      "extracted_words_subjective": [
+        "liberté",
+        "ouverture publique",
+        "fluidité",
+        "stimulation",
+        "ambiguïté",
+        "vitalité",
+        "légèreté"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "spatiality:haut",
+        "framing:lanterne",
+        "nature_living:organique"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "strangeness_displacement:abstrait",
+        "wellbeing_restoration:équilibré"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "tama_art_university_library",
+      "name": "Tama Art University Library",
+      "sources": [
+        {
+          "title": "Tama Art University - Library",
+          "url": "https://www.tamabi.ac.jp/en/about/library/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Wallpaper - Toyo Ito architecture guide",
+          "url": "https://www.wallpaper.com/architecture/toyo-ito-architecture-guide",
+          "type": "média architecture"
+        },
+        {
+          "title": "Archute - Tama Art University Library",
+          "url": "https://www.archute.com/the-tama-art-university-library-toyo-ito/",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "arches en béton",
+        "pente douce",
+        "parois vitrées",
+        "campus naturel",
+        "environnement qui entre dans l’intérieur",
+        "voûtes",
+        "bibliothèque créative",
+        "lumière"
+      ],
+      "extracted_words_subjective": [
+        "lecture parmi les arbres",
+        "ouverture",
+        "calme",
+        "inspiration",
+        "étude",
+        "ambiguïté spatiale",
+        "ressourcement"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "spatiality:voûte",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "movement_path:fluide",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "calm_contemplation:calme",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:inspirant",
+        "strangeness_displacement:abstrait"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "niteroi_contemporary_art_museum",
+      "name": "Niterói Contemporary Art Museum",
+      "sources": [
+        {
+          "title": "Architecture Lab - Niterói Contemporary Art Museum",
+          "url": "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
+          "type": "média architecture"
+        },
+        {
+          "title": "Architectuul - Niterói Contemporary Art Museum",
+          "url": "https://architectuul.com/architecture/niteroi-contemporary-art-museum",
+          "type": "base architecture"
+        },
+        {
+          "title": "Arquitectura Viva - Contemporary Art Museum, Niteroi",
+          "url": "https://arquitecturaviva.com/works/museo-de-arte-contemporaneo-niteroi",
+          "type": "revue architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "falaise",
+        "baie de Guanabara",
+        "rampe rouge",
+        "bassin réfléchissant",
+        "béton",
+        "forme de fleur",
+        "panorama",
+        "promenade circulaire",
+        "vue à 360 degrés"
+      ],
+      "extracted_words_subjective": [
+        "icône",
+        "lévitation",
+        "émerveillement",
+        "irréalité",
+        "spectacle",
+        "contemplation du paysage",
+        "stimulation"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "water:miroir",
+        "water:bassin",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "spatiality:monumental",
+        "movement_path:progressif",
+        "framing:panorama",
+        "color:rouge"
+      ],
+      "draft_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:animé",
+        "calm_contemplation:contemplatif"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "london_aquatics_centre",
+      "name": "London Aquatics Centre",
+      "sources": [
+        {
+          "title": "London Aquatics Centre - Architecture",
+          "url": "https://londonaquaticscentre.org/about/architecture/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Domus - London Aquatics Centre",
+          "url": "https://www.domusweb.it/en/architecture/2014/02/27/london_aquatics_centre.html",
+          "type": "revue architecture"
+        },
+        {
+          "title": "Archimagazine - London Aquatics Centre",
+          "url": "https://www.archimagazine.com/alonaquatics.htm",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "géométrie de l’eau en mouvement",
+        "toit ondulant",
+        "piscines",
+        "verre",
+        "lumière naturelle",
+        "paysage fluvial",
+        "Queen Elizabeth Olympic Park",
+        "fluidité",
+        "grande halle"
+      ],
+      "extracted_words_subjective": [
+        "santé",
+        "énergie sportive",
+        "fluidité",
+        "orientation",
+        "joie collective",
+        "héritage olympique",
+        "stimulation"
+      ],
+      "draft_physical_tags": [
+        "water:bassin",
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:toit léger",
+        "light:naturelle",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:paysage"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:sain",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "strangeness_displacement:abstrait",
+        "wellbeing_restoration:équilibré"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "boa_nova_tea_house",
+      "name": "Boa Nova Tea House",
+      "sources": [
+        {
+          "title": "ArchDaily Classics - Boa Nova Tea House",
+          "url": "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
+          "type": "média architecture"
+        },
+        {
+          "title": "Domus - Boa Nova Tea House",
+          "url": "https://www.domusweb.it/en/architecture/2014/07/31/boa_nova_tea_house_.html",
+          "type": "revue architecture"
+        },
+        {
+          "title": "WikiArquitectura - Boa Nova Tea House",
+          "url": "https://en.wikiarquitectura.com/building/boa-nova-tea-house/",
+          "type": "base architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "rochers atlantiques",
+        "promenade architecturale",
+        "océan",
+        "bois",
+        "béton",
+        "pierre",
+        "fenêtres coulissantes",
+        "toit bas",
+        "exposition aux vents",
+        "transition ville-nature"
+      ],
+      "extracted_words_subjective": [
+        "abri",
+        "contemplation",
+        "spiritualité du paysage",
+        "ressourcement",
+        "intimité",
+        "mystère",
+        "calme"
+      ],
+      "draft_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:bois",
+        "material_texture:béton",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "movement_path:progressif",
+        "threshold:transition",
+        "thermal_air:exposé",
+        "sound:vibrant"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:abrité",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "intimacy_refuge:intime"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "serralves_museum",
+      "name": "Serralves Museum",
+      "sources": [
+        {
+          "title": "Serralves - Visiting the Museum",
+          "url": "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Serralves - Architectural Project",
+          "url": "https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Le Monde - Serralves et Álvaro Siza",
+          "url": "https://www.lemonde.fr/culture/article/2025/01/30/a-porto-alvaro-siza-fait-de-la-fondation-serralves-un-ecrin-pour-l-architecture_6524080_3246.html",
+          "type": "média culture"
+        }
+      ],
+      "extracted_words_physical": [
+        "parc",
+        "jardin préexistant",
+        "patios",
+        "bâtiment bas",
+        "U",
+        "fenêtres cadrant le paysage",
+        "lumière naturelle",
+        "marbre poli",
+        "blanc",
+        "terrain en pente"
+      ],
+      "extracted_words_subjective": [
+        "harmonie",
+        "calme",
+        "introspection",
+        "douceur",
+        "clarté",
+        "équilibre",
+        "contact avec le jardin"
+      ],
+      "draft_physical_tags": [
+        "nature_living:végétal",
+        "opening_landscape:paysage",
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "light:naturelle",
+        "movement_path:progressif",
+        "spatiality:bas"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:calme",
+        "wellbeing_restoration:équilibré",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "wellbeing_restoration:doux",
+        "calm_contemplation:contemplatif"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "braga_municipal_stadium",
+      "name": "Stade municipal de Braga",
+      "sources": [
+        {
+          "title": "MArch - Braga Municipal Stadium",
+          "url": "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
+          "type": "média architecture"
+        },
+        {
+          "title": "Arch Journey - Braga Municipal Stadium",
+          "url": "https://archjourney.org/projects/braga-municipal-stadium/",
+          "type": "guide architecture"
+        },
+        {
+          "title": "Arquitectura Viva - Braga Municipal Stadium",
+          "url": "https://arquitecturaviva.com/works/estadio-municipal-de-braga",
+          "type": "revue architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "ancienne carrière",
+        "roche de Monte Castro",
+        "granite",
+        "béton",
+        "deux tribunes",
+        "vide",
+        "câbles de toiture",
+        "panorama",
+        "architecture dans la montagne",
+        "échelle monumentale"
+      ],
+      "extracted_words_subjective": [
+        "puissance",
+        "étrangeté",
+        "spectacle collectif",
+        "tension",
+        "sublime géologique",
+        "énergie sportive"
+      ],
+      "draft_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "spatiality:monumental",
+        "opening_landscape:paysage",
+        "framing:panorama",
+        "movement_path:traversant",
+        "compression_expansion:vaste",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:festif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "monumental_sublime:sublime"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "gando_primary_school",
+      "name": "Gando Primary School",
+      "sources": [
+        {
+          "title": "Kéré Architecture - Gando Primary School",
+          "url": "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
+          "type": "agence architecture"
+        },
+        {
+          "title": "AKDN - Primary School, Gando",
+          "url": "https://the.akdn/es/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/primary-school",
+          "type": "prix architecture"
+        },
+        {
+          "title": "Archnet - Primary School at Gando",
+          "url": "https://www.archnet.org/sites/4363",
+          "type": "archive architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "terre comprimée",
+        "briques de terre",
+        "toit métallique surélevé",
+        "ventilation naturelle",
+        "lumière naturelle",
+        "protection solaire",
+        "climat chaud",
+        "construction communautaire",
+        "ombre"
+      ],
+      "extracted_words_subjective": [
+        "santé",
+        "protection",
+        "communauté",
+        "fierté",
+        "simplicité",
+        "apprentissage",
+        "bien-être"
+      ],
+      "draft_physical_tags": [
+        "material_texture:terre",
+        "material_texture:brique",
+        "material_texture:toit léger",
+        "thermal_air:ventilé",
+        "thermal_air:chaud",
+        "light:naturelle",
+        "shadow_contrast:pénombre",
+        "opening_landscape:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "wellbeing_restoration:sain",
+        "joy_social_intensity:convivial",
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:protecteur",
+        "legibility_orientation:clair",
+        "wellbeing_restoration:réparateur"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    },
+    {
+      "reference_id": "heydar_aliyev_center",
+      "name": "Heydar Aliyev Center",
+      "sources": [
+        {
+          "title": "Zaha Hadid Architects - Heydar Aliyev Centre",
+          "url": "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
+          "type": "agence architecture"
+        },
+        {
+          "title": "Zaha Hadid Architects - Heydar Aliyev Center news",
+          "url": "https://www.zaha-hadid.com/2013/11/14/heydar-aliyev-center-baku-azerbaijan/",
+          "type": "agence architecture"
+        },
+        {
+          "title": "Archiscene - Heydar Aliyev Center",
+          "url": "https://www.archiscene.net/firms/zaha-hadid/heydar-aliyev-center-zaha-hadid/",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "plaza",
+        "surface continue",
+        "paysage architectural",
+        "plis",
+        "ondulations",
+        "béton",
+        "verre semi-réfléchissant",
+        "blanc",
+        "intérieur extérieur",
+        "topographie"
+      ],
+      "extracted_words_subjective": [
+        "fluidité",
+        "optimisme",
+        "spectacle",
+        "irréalité",
+        "mouvement",
+        "orientation",
+        "monumentalité contemporaine"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:ouvert",
+        "spatiality:monumental",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "strangeness_displacement:irréel",
+        "strangeness_displacement:abstrait",
+        "monumental_sublime:impressionnant",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant"
+      ],
+      "confidence_notes": "Validation v0 : les tags forts reprennent les éléments explicitement décrits par les sources institutionnelles, patrimoniales ou critiques. Les tags moyens restent à renforcer avant affichage comme preuve experte."
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "source_scan_v0",
+  "scope": "Lot 5 : références restantes urbaines, civiques, publiques et contemporaines.",
+  "entries": [
+    {
+      "reference_id": "capitol_complex_chandigarh",
+      "name": "Capitol Complex de Chandigarh",
+      "sources": [
+        {
+          "title": "Le Corbusier World Heritage - Complexe du Capitole",
+          "url": "https://lecorbusier-worldheritage.org/en/complexe-du-capitole/",
+          "type": "patrimoine / site Le Corbusier"
+        },
+        {
+          "title": "Chandigarh Tourism - Capitol Complex",
+          "url": "https://chandigarhtourism.gov.in/capitol-complex",
+          "type": "site institutionnel"
+        },
+        {
+          "title": "UNESCO - The Architectural Work of Le Corbusier",
+          "url": "https://whc.unesco.org/en/list/1321/",
+          "type": "patrimoine mondial"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton brut",
+        "brise-soleil",
+        "tour des ombres",
+        "esplanade",
+        "axe",
+        "Shivalik Hills",
+        "bâtiments civiques",
+        "monuments",
+        "soleil",
+        "climat chaud",
+        "volumes sculpturaux",
+        "parc du Capitole"
+      ],
+      "extracted_words_subjective": [
+        "monumentalité",
+        "dignité civique",
+        "indépendance",
+        "modernité",
+        "solennité",
+        "ordre",
+        "puissance symbolique",
+        "austérité"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:intense",
+        "shadow_contrast:contrasté",
+        "thermal_air:chaud",
+        "thermal_air:exposé",
+        "movement_path:axial",
+        "spatiality:monumental",
+        "opening_landscape:paysage",
+        "filtering:grille"
+      ],
+      "draft_subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "legibility_orientation:structuré",
+        "unease_oppression:austère"
+      ],
+      "confidence_notes": "Validation v0 : sources patrimoniales et institutionnelles concordantes sur la monumentalité civique, le béton, le rôle climatique du soleil et la composition axiale. Les effets plus affectifs restent prudents."
+    },
+    {
+      "reference_id": "national_museum_western_art_tokyo",
+      "name": "National Museum of Western Art",
+      "sources": [
+        {
+          "title": "National Museum of Western Art - Architecture",
+          "url": "https://www.nmwa.go.jp/en/about/building.html",
+          "type": "site officiel"
+        },
+        {
+          "title": "Fondation Le Corbusier - National Museum of Western Art",
+          "url": "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/",
+          "type": "fondation / archive"
+        },
+        {
+          "title": "Independent Administrative Institution National Museum of Art - NMWA",
+          "url": "https://www.artmuseums.go.jp/en/museums/nmwa",
+          "type": "institution muséale"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton armé",
+        "pilotis",
+        "grille 6 x 6 mètres",
+        "musée à croissance illimitée",
+        "spirale carrée",
+        "hall central",
+        "vide sur toute la hauteur",
+        "lumière naturelle",
+        "lanterneaux",
+        "galeries",
+        "parcours continu"
+      ],
+      "extracted_words_subjective": [
+        "rationalité",
+        "clarté muséale",
+        "progression",
+        "contemplation",
+        "savoir",
+        "modernité internationale",
+        "structure lisible"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "spatiality:atrium",
+        "spatiality:ordonné",
+        "light:zénithale",
+        "light:naturelle",
+        "framing:lanterne",
+        "movement_path:progressif",
+        "movement_path:sinueux"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "legibility_orientation:guidant",
+        "calm_contemplation:contemplatif",
+        "inspiration_concentration:intellectuel",
+        "inspiration_concentration:studieux"
+      ],
+      "confidence_notes": "Validation v0 : le modèle de musée en spirale, la structure en béton, les pilotis et la lumière du hall sont explicitement documentés. Les ressentis subjectifs sont tirés de la logique pédagogique et muséale."
+    },
+    {
+      "reference_id": "nordic_pavilion_venice",
+      "name": "Nordic Pavilion",
+      "sources": [
+        {
+          "title": "ArchDaily - AD Classics: Nordic Pavilion",
+          "url": "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
+          "type": "critique architecturale"
+        },
+        {
+          "title": "Architecture Lab - Nordic Pavilion / Sverre Fehn",
+          "url": "https://www.architecturelab.net/nordic-pavilion-venice-sverre-fehn/",
+          "type": "pédagogique / critique"
+        },
+        {
+          "title": "Nasjonalmuseet - Nordic Pavilion drawing",
+          "url": "https://www.nasjonalmuseet.no/en/collection/object/NMK.2008.0734.016.014",
+          "type": "collection d’archives"
+        }
+      ],
+      "extracted_words_physical": [
+        "toiture en poutres de béton",
+        "brise-soleil",
+        "lumière filtrée",
+        "lumière nordique",
+        "arbres existants",
+        "plane trees",
+        "béton blanc",
+        "verre",
+        "espace ouvert",
+        "pente du site",
+        "continuité intérieur extérieur"
+      ],
+      "extracted_words_subjective": [
+        "sérénité",
+        "simplicité",
+        "calme",
+        "abstraction",
+        "poésie du lieu",
+        "douceur lumineuse",
+        "nature intégrée"
+      ],
+      "draft_physical_tags": [
+        "light:filtrée",
+        "light:diffuse",
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "filtering:grille",
+        "nature_living:végétal",
+        "opening_landscape:ouvert",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:calme",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:doux",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:inspirant"
+      ],
+      "confidence_notes": "Validation v0 : les sources convergent sur la toiture filtrante, les arbres conservés et l’atmosphère lumineuse. Les tags subjectifs restent liés à la lecture critique de la simplicité et de la lumière."
+    },
+    {
+      "reference_id": "kiasma_museum",
+      "name": "Kiasma Museum of Contemporary Art",
+      "sources": [
+        {
+          "title": "Kiasma - Architecture",
+          "url": "https://kiasma.fi/en/architecture/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Steven Holl Architects - Kiasma Museum",
+          "url": "https://www.stevenholl.com/project/kiasma-museum/",
+          "type": "site architecte"
+        },
+        {
+          "title": "Lamberts - Kiasma Museum of Contemporary Art",
+          "url": "https://www.lamberts.info/en/project/kiasma-museum-of-contemporary-art",
+          "type": "matériau / enveloppe"
+        }
+      ],
+      "extracted_words_physical": [
+        "lumière naturelle finlandaise",
+        "variation saisonnière",
+        "surfaces courbes",
+        "toit en zinc",
+        "aluminium",
+        "verre",
+        "béton courbe",
+        "rampes",
+        "escaliers torsadés",
+        "bassins",
+        "cascade d’eau",
+        "Reglit glass"
+      ],
+      "extracted_words_subjective": [
+        "croisement",
+        "torsion",
+        "promenade urbaine",
+        "échelle humaine",
+        "stimulation",
+        "surprise",
+        "expérience incarnée"
+      ],
+      "draft_physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:béton",
+        "movement_path:sinueux",
+        "movement_path:fluide",
+        "water:bassin",
+        "water:cascade",
+        "spatiality:haut"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "confidence_notes": "Validation v0 : la page officielle est très explicite sur la lumière, les matériaux, les rampes et l’eau. Les effets subjectifs sont proposés à partir des notions de croisement, torsion et expérience de marche."
+    },
+    {
+      "reference_id": "seattle_central_library",
+      "name": "Seattle Central Library",
+      "sources": [
+        {
+          "title": "Seattle Public Library - Central Library Architecture",
+          "url": "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
+          "type": "site officiel"
+        },
+        {
+          "title": "OMA - Seattle Central Library",
+          "url": "https://www.oma.com/projects/seattle-central-library",
+          "type": "site architecte"
+        },
+        {
+          "title": "ArchDaily - Seattle Central Library / OMA + LMN",
+          "url": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn",
+          "type": "critique architecturale"
+        }
+      ],
+      "extracted_words_physical": [
+        "verre et acier",
+        "façade diamantée",
+        "plateformes superposées",
+        "Books Spiral",
+        "living room public",
+        "grand volume",
+        "atrium",
+        "plans intermédiaires",
+        "transparence",
+        "lumière urbaine",
+        "circulation continue"
+      ],
+      "extracted_words_subjective": [
+        "espace civique",
+        "information",
+        "énergie publique",
+        "lecture",
+        "stimulation intellectuelle",
+        "orientation par programme",
+        "icône urbaine",
+        "générosité"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "light:intense",
+        "spatiality:atrium",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "movement_path:progressif"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:intellectuel",
+        "inspiration_concentration:studieux",
+        "joy_social_intensity:animé",
+        "joy_social_intensity:généreux",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant"
+      ],
+      "confidence_notes": "Validation v0 : les sources décrivent fortement l’organisation par plateformes, la spirale documentaire, le verre/acier et la dimension civique. Les tags subjectifs sont liés à l’usage public et intellectuel."
+    },
+    {
+      "reference_id": "cctv_headquarters",
+      "name": "CCTV Headquarters",
+      "sources": [
+        {
+          "title": "OMA - CCTV Headquarters",
+          "url": "https://www.oma.com/projects/cctv-headquarters",
+          "type": "site architecte"
+        },
+        {
+          "title": "ArchDaily - CCTV Headquarters / OMA",
+          "url": "https://www.archdaily.com/236175/cctv-headquarters-oma",
+          "type": "critique architecturale"
+        },
+        {
+          "title": "Arup - China Central Television Headquarters",
+          "url": "https://www.arup.com/en-us/projects/china-central-television-headquarters/",
+          "type": "ingénierie"
+        }
+      ],
+      "extracted_words_physical": [
+        "boucle tridimensionnelle",
+        "deux tours inclinées",
+        "porte-à-faux de 75 mètres",
+        "tube continu",
+        "façade diagonale",
+        "structure visible",
+        "verre",
+        "acier",
+        "plateforme commune",
+        "grande échelle",
+        "silhouette urbaine"
+      ],
+      "extracted_words_subjective": [
+        "défi gravitaire",
+        "puissance",
+        "étrangeté",
+        "instabilité apparente",
+        "monument urbain",
+        "audace structurelle",
+        "surprise"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:monumental",
+        "movement_path:fluide",
+        "opening_landscape:extraverti",
+        "compression_expansion:expansion",
+        "framing:axe"
+      ],
+      "draft_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "monumental_sublime:vertigineux",
+        "strangeness_displacement:étrange",
+        "unease_oppression:instable",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Validation v0 : le vocabulaire de boucle, porte-à-faux, structure visible et défi du gratte-ciel est explicitement présent dans OMA, ArchDaily et Arup. Les tags d’instabilité décrivent l’effet perceptif, pas une faiblesse structurelle."
+    },
+    {
+      "reference_id": "casa_da_musica",
+      "name": "Casa da Música",
+      "sources": [
+        {
+          "title": "OMA - Casa da Musica",
+          "url": "https://www.oma.com/projects/casa-da-musica",
+          "type": "site architecte"
+        },
+        {
+          "title": "Casa da Música - The Building",
+          "url": "https://casadamusica.com/en/building/",
+          "type": "site officiel"
+        },
+        {
+          "title": "ArchDaily - Casa da Musica / OMA",
+          "url": "https://www.archdaily.com/619294/casa-da-musica-oma",
+          "type": "critique architecturale"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton blanc",
+        "forme facettée",
+        "salle shoebox",
+        "acoustique",
+        "verre ondulé",
+        "grand auditorium",
+        "plateforme publique",
+        "escaliers",
+        "escalators",
+        "parcours continu",
+        "vues sur Porto",
+        "terrasse"
+      ],
+      "extracted_words_subjective": [
+        "événement musical",
+        "urbanité",
+        "aventure architecturale",
+        "transparence culturelle",
+        "drame",
+        "stimulation",
+        "vie publique"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "sound:enveloppant",
+        "sound:réverbérant",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:animé",
+        "joy_social_intensity:festif",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "monumental_sublime:impressionnant"
+      ],
+      "confidence_notes": "Validation v0 : les sources confirment la forme facettée, le béton blanc, la relation intérieur/ville et l’importance acoustique. Les tags festifs et animés sont liés au programme musical et public."
+    },
+    {
+      "reference_id": "kunsthal_rotterdam",
+      "name": "Kunsthal Rotterdam",
+      "sources": [
+        {
+          "title": "Kunsthal - The Building",
+          "url": "https://www.kunsthal.nl/en/about-kunsthal/building/",
+          "type": "site officiel"
+        },
+        {
+          "title": "OMA - Kunsthal",
+          "url": "https://www.oma.com/projects/kunsthal",
+          "type": "site architecte"
+        },
+        {
+          "title": "ArchDaily - AD Classics: Kunsthal / OMA",
+          "url": "https://www.archdaily.com/102825/ad-classics-kunsthal-oma",
+          "type": "critique architecturale"
+        }
+      ],
+      "extracted_words_physical": [
+        "rampes raides",
+        "plans inclinés",
+        "matériaux contrastés",
+        "béton nu",
+        "acier galvanisé",
+        "verre mat",
+        "plastique ondulé",
+        "parquet",
+        "troncs rugueux",
+        "filtrage de la lumière",
+        "passage public",
+        "Museumpark"
+      ],
+      "extracted_words_subjective": [
+        "machine d’exposition",
+        "rencontre de flux",
+        "surprise",
+        "intensité urbaine",
+        "expérimentation",
+        "ambiguïté",
+        "énergie culturelle"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:bois",
+        "material_texture:rugueux",
+        "light:filtrée",
+        "movement_path:traversant",
+        "movement_path:fluide",
+        "opening_landscape:poreux"
+      ],
+      "draft_subjective_tags": [
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "confidence_notes": "Validation v0 : l’usage innovant des matériaux, les rampes et la fonction de passage public sont très documentés. Les tags subjectifs décrivent surtout l’expérience de circulation et de programme."
+    },
+    {
+      "reference_id": "national_congress_brazil",
+      "name": "Congrès national du Brésil",
+      "sources": [
+        {
+          "title": "Congresso Nacional - Arquitetura",
+          "url": "https://www2.congressonacional.leg.br/visite/arquitetura",
+          "type": "site officiel"
+        },
+        {
+          "title": "UNESCO - Brasilia",
+          "url": "https://whc.unesco.org/en/list/445/",
+          "type": "patrimoine mondial"
+        },
+        {
+          "title": "ArchDaily - National Congress / Oscar Niemeyer",
+          "url": "https://www.archdaily.com/773568/ad-classics-national-congress-oscar-niemeyer",
+          "type": "critique architecturale"
+        }
+      ],
+      "extracted_words_physical": [
+        "Eixo Monumental",
+        "esplanade",
+        "deux coupoles",
+        "tours jumelles",
+        "plateforme horizontale",
+        "formes pures",
+        "géométrie",
+        "symétrie",
+        "béton",
+        "Place des Trois Pouvoirs",
+        "perspectives",
+        "ciel ouvert"
+      ],
+      "extracted_words_subjective": [
+        "monumentalité civique",
+        "solennité démocratique",
+        "représentation",
+        "ordre",
+        "majesté",
+        "poésie formelle",
+        "clarté symbolique"
+      ],
+      "draft_physical_tags": [
+        "spatiality:monumental",
+        "spatiality:symétrique",
+        "movement_path:axial",
+        "opening_landscape:panoramique",
+        "opening_landscape:ouvert",
+        "material_texture:béton",
+        "color:blanc",
+        "framing:axe"
+      ],
+      "draft_subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "inspiration_concentration:inspirant"
+      ],
+      "confidence_notes": "Validation v0 : sources officielles et UNESCO solides pour l’axe monumental, la géométrie civique, les coupoles et la valeur représentative. Les tags subjectifs restent liés au caractère institutionnel."
+    },
+    {
+      "reference_id": "maxxi_rome",
+      "name": "MAXXI",
+      "sources": [
+        {
+          "title": "Zaha Hadid Architects - MAXXI",
+          "url": "https://www.zaha-hadid.com/architecture/maxxi/",
+          "type": "site architecte"
+        },
+        {
+          "title": "MAXXI - Il progetto architettonico",
+          "url": "https://www.maxxi.art/progetto-architettonico/",
+          "type": "site officiel"
+        },
+        {
+          "title": "ArchDaily - MAXXI Museum / Zaha Hadid Architects",
+          "url": "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects",
+          "type": "critique architecturale"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton courbe",
+        "verre",
+        "acier",
+        "lignes confluentes",
+        "murs qui se croisent",
+        "galeries comme flux",
+        "passerelles",
+        "escaliers suspendus",
+        "lumière naturelle filtrée",
+        "hall haut",
+        "continuité intérieur extérieur",
+        "parcours dynamique"
+      ],
+      "extracted_words_subjective": [
+        "fluidité",
+        "exploration",
+        "surprise",
+        "abstraction",
+        "stimulation",
+        "complexité",
+        "expérience dynamique",
+        "champ ouvert"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:naturelle",
+        "light:filtrée",
+        "movement_path:fluide",
+        "movement_path:sinueux",
+        "movement_path:exploratoire",
+        "spatiality:labyrinthique",
+        "opening_landscape:poreux"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:animé"
+      ],
+      "confidence_notes": "Validation v0 : les sources décrivent clairement les flux, les lignes confluentes, le béton/verre/acier et la lumière naturelle. Les tags subjectifs sont justifiés par l’expérience dynamique et non linéaire."
+    }
+  ]
+}

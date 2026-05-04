@@ -1,0 +1,507 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "validated_for_seed_v0",
+  "scope": "Validation du lot 5 : références restantes urbaines, civiques, publiques et contemporaines.",
+  "validation_rule": "Les tags forts sont conservés pour l’app lorsqu’ils sont appuyés par au moins deux sources ou par une source institutionnelle très explicite. Les tags moyens restent dans ce fichier comme hypothèses à renforcer. Les tags faibles sont exclus de l’intégration.",
+  "entries": [
+    {
+      "reference_id": "capitol_complex_chandigarh",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:intense",
+        "thermal_air:chaud",
+        "thermal_air:exposé",
+        "movement_path:axial",
+        "spatiality:monumental",
+        "opening_landscape:paysage"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "unease_oppression:austère"
+      ],
+      "medium_tags": [
+        "filtering:grille",
+        "shadow_contrast:contrasté"
+      ],
+      "weak_tags": [
+        "legibility_orientation:structuré"
+      ],
+      "evidence": [
+        {
+          "source": "https://lecorbusier-worldheritage.org/en/complexe-du-capitole/",
+          "basis": "Source patrimoniale centrée sur la composition monumentale, l’apex du plan et la portée civique du complexe.",
+          "supports": [
+            "spatiality:monumental",
+            "movement_path:axial",
+            "opening_landscape:paysage",
+            "monumental_sublime:monumental",
+            "monumental_sublime:solennel"
+          ]
+        },
+        {
+          "source": "https://chandigarhtourism.gov.in/capitol-complex",
+          "basis": "Source institutionnelle décrivant les bâtiments de béton, la Tour des Ombres et la relation au soleil et au climat.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:brut",
+            "light:intense",
+            "thermal_air:chaud",
+            "thermal_air:exposé",
+            "unease_oppression:austère"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "national_museum_western_art_tokyo",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "spatiality:atrium",
+        "spatiality:ordonné",
+        "light:zénithale",
+        "light:naturelle",
+        "movement_path:progressif",
+        "framing:lanterne"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "legibility_orientation:guidant",
+        "calm_contemplation:contemplatif",
+        "inspiration_concentration:intellectuel"
+      ],
+      "medium_tags": [
+        "movement_path:sinueux",
+        "material_texture:brut",
+        "inspiration_concentration:studieux"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.nmwa.go.jp/en/about/building.html",
+          "basis": "Source officielle pour le bâtiment principal en béton armé, la conception par Le Corbusier et le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "legibility_orientation:rationnel",
+            "inspiration_concentration:intellectuel"
+          ]
+        },
+        {
+          "source": "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/",
+          "basis": "Fondation Le Corbusier : musée à croissance illimitée, spirale carrée et hall éclairé naturellement.",
+          "supports": [
+            "spatiality:atrium",
+            "light:zénithale",
+            "light:naturelle",
+            "movement_path:progressif",
+            "framing:lanterne",
+            "legibility_orientation:guidant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "nordic_pavilion_venice",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "light:filtrée",
+        "light:diffuse",
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "filtering:grille",
+        "nature_living:végétal",
+        "opening_landscape:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:calme",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:doux",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:inspirant"
+      ],
+      "medium_tags": [
+        "spatiality:ouvert"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
+          "basis": "Source critique décrivant les arbres intégrés, la toiture perméable à la lumière et le rapport au paysage.",
+          "supports": [
+            "light:filtrée",
+            "light:diffuse",
+            "nature_living:végétal",
+            "opening_landscape:ouvert"
+          ]
+        },
+        {
+          "source": "https://www.architecturelab.net/nordic-pavilion-venice-sverre-fehn/",
+          "basis": "Source pédagogique précisant la structure en béton blanc, le brise-soleil et l’atmosphère lumineuse.",
+          "supports": [
+            "material_texture:béton",
+            "color:blanc",
+            "filtering:grille",
+            "calm_contemplation:calme",
+            "wellbeing_restoration:doux"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "kiasma_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:béton",
+        "movement_path:sinueux",
+        "movement_path:fluide",
+        "water:bassin",
+        "water:cascade"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "medium_tags": [
+        "spatiality:haut"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://kiasma.fi/en/architecture/",
+          "basis": "La page officielle détaille lumière naturelle finlandaise, matériaux, rampes, torsions, bassins et cascade.",
+          "supports": [
+            "light:naturelle",
+            "light:variable",
+            "material_texture:métal",
+            "material_texture:verre",
+            "material_texture:béton",
+            "movement_path:sinueux",
+            "water:bassin",
+            "water:cascade"
+          ]
+        },
+        {
+          "source": "https://www.stevenholl.com/project/kiasma-museum/",
+          "basis": "Le site de l’architecte relie la forme au paysage, aux lignes culturelles/naturelles et au miroir urbain.",
+          "supports": [
+            "movement_path:fluide",
+            "mystery_exploration:suggestif",
+            "strangeness_displacement:étrange",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "seattle_central_library",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:atrium",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "movement_path:progressif"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:intellectuel",
+        "inspiration_concentration:studieux",
+        "joy_social_intensity:animé",
+        "joy_social_intensity:généreux",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant"
+      ],
+      "medium_tags": [
+        "light:intense"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
+          "basis": "Source officielle : verre et acier, Books Spiral, living room public, plateformes et forme asymétrique.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "spatiality:atrium",
+            "spatiality:vaste",
+            "movement_path:progressif",
+            "joy_social_intensity:généreux"
+          ]
+        },
+        {
+          "source": "https://www.oma.com/projects/seattle-central-library",
+          "basis": "OMA insiste sur l’espace civique, les plateformes et les plans intermédiaires qui organisent le flux des savoirs.",
+          "supports": [
+            "opening_landscape:transparent",
+            "movement_path:fluide",
+            "inspiration_concentration:intellectuel",
+            "legibility_orientation:structuré",
+            "joy_social_intensity:animé"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "cctv_headquarters",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:monumental",
+        "movement_path:fluide",
+        "opening_landscape:extraverti",
+        "compression_expansion:expansion"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "monumental_sublime:vertigineux",
+        "strangeness_displacement:étrange",
+        "unease_oppression:instable",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "framing:axe"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.oma.com/projects/cctv-headquarters",
+          "basis": "OMA définit le bâtiment comme boucle tridimensionnelle et alternative au gratte-ciel traditionnel.",
+          "supports": [
+            "spatiality:monumental",
+            "movement_path:fluide",
+            "opening_landscape:extraverti",
+            "monumental_sublime:impressionnant",
+            "strangeness_displacement:étrange"
+          ]
+        },
+        {
+          "source": "https://www.arup.com/en-us/projects/china-central-television-headquarters/",
+          "basis": "Arup décrit la boucle coudée, les tours inclinées, la structure gravitaire et la grille diagonale visible.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "compression_expansion:expansion",
+            "monumental_sublime:vertigineux",
+            "unease_oppression:instable"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "casa_da_musica",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "sound:enveloppant",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:animé",
+        "joy_social_intensity:festif",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "monumental_sublime:impressionnant"
+      ],
+      "medium_tags": [
+        "sound:réverbérant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.oma.com/projects/casa-da-musica",
+          "basis": "OMA décrit le béton blanc facetté, le grand auditorium, les façades de verre ondulé et le rapport à la ville.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:verre",
+            "color:blanc",
+            "opening_landscape:transparent",
+            "monumental_sublime:impressionnant"
+          ]
+        },
+        {
+          "source": "https://www.archdaily.com/619294/casa-da-musica-oma",
+          "basis": "ArchDaily documente le parcours continu, les salles, l’acoustique et le caractère d’aventure architecturale.",
+          "supports": [
+            "sound:enveloppant",
+            "spatiality:vaste",
+            "movement_path:fluide",
+            "joy_social_intensity:animé",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "kunsthal_rotterdam",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:métal",
+        "material_texture:verre",
+        "light:filtrée",
+        "movement_path:traversant",
+        "movement_path:fluide",
+        "opening_landscape:poreux"
+      ],
+      "strong_subjective_tags": [
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "medium_tags": [
+        "material_texture:bois",
+        "material_texture:rugueux"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.kunsthal.nl/en/about-kunsthal/building/",
+          "basis": "Source officielle : rampes, connexion au Museumpark, matériaux innovants, béton, acier, verre et lumière filtrée.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:métal",
+            "material_texture:verre",
+            "light:filtrée",
+            "movement_path:traversant",
+            "opening_landscape:poreux"
+          ]
+        },
+        {
+          "source": "https://www.oma.com/projects/kunsthal",
+          "basis": "OMA décrit les plans inclinés et les rampes comme connexion entre espaces et flux publics.",
+          "supports": [
+            "movement_path:fluide",
+            "legibility_orientation:guidant",
+            "joy_social_intensity:animé",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "national_congress_brazil",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "spatiality:monumental",
+        "spatiality:symétrique",
+        "movement_path:axial",
+        "opening_landscape:panoramique",
+        "opening_landscape:ouvert",
+        "material_texture:béton",
+        "color:blanc",
+        "framing:axe"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "inspiration_concentration:inspirant"
+      ],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www2.congressonacional.leg.br/visite/arquitetura",
+          "basis": "Source officielle : Eixo Monumental, plateforme, coupoles, tours, formes pures et intention de monumentalité.",
+          "supports": [
+            "spatiality:monumental",
+            "spatiality:symétrique",
+            "movement_path:axial",
+            "framing:axe",
+            "monumental_sublime:monumental",
+            "monumental_sublime:solennel"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/445/",
+          "basis": "UNESCO décrit Brasília par l’axe monumental, la Place des Trois Pouvoirs, la géométrie du Congrès et l’ensemble civique.",
+          "supports": [
+            "opening_landscape:panoramique",
+            "opening_landscape:ouvert",
+            "legibility_orientation:ordonné",
+            "legibility_orientation:clair",
+            "monumental_sublime:majestueux"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "maxxi_rome",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:naturelle",
+        "light:filtrée",
+        "movement_path:fluide",
+        "movement_path:sinueux",
+        "movement_path:exploratoire",
+        "opening_landscape:poreux"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:animé"
+      ],
+      "medium_tags": [
+        "spatiality:labyrinthique"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.zaha-hadid.com/architecture/maxxi/",
+          "basis": "ZHA décrit les lignes confluentes, les murs qui s’intersectent, les flux de galeries et le rapport intérieur/extérieur.",
+          "supports": [
+            "movement_path:fluide",
+            "movement_path:sinueux",
+            "movement_path:exploratoire",
+            "opening_landscape:poreux",
+            "inspiration_concentration:stimulant"
+          ]
+        },
+        {
+          "source": "https://www.maxxi.art/progetto-architettonico/",
+          "basis": "MAXXI décrit les galeries illuminées par lumière naturelle filtrée, la porosité et le caractère immersif ouvert.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:verre",
+            "material_texture:métal",
+            "light:naturelle",
+            "light:filtrée",
+            "mystery_exploration:suggestif"
+          ]
+        }
+      ]
+    }
+  ]
+}

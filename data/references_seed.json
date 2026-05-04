@@ -2618,6 +2618,1294 @@
         "https://arquitecturaviva.com/obras/sesc-fabrica-pompeia",
         "https://architectuul.com/architecture/sesc-pompeia"
       ]
+    },
+    {
+      "id": "villa_deste_tivoli",
+      "name": "Villa d'Este",
+      "architect_or_period": "Pirro Ligorio",
+      "location": "Tivoli, Italie",
+      "year": "16e siècle",
+      "physical_tags": [
+        "water:fontaine",
+        "water:bassin",
+        "water:cascade",
+        "water:ruisselant",
+        "thermal_air:frais",
+        "nature_living:végétal",
+        "movement_path:axial",
+        "spatiality:axial"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:ludique",
+        "calm_contemplation:contemplatif",
+        "monumental_sublime:majestueux",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "jardin en terrasses",
+        "fontaines",
+        "bassins ornementaux",
+        "cascade",
+        "axes",
+        "hydraulique",
+        "pente",
+        "grottes",
+        "végétation",
+        "eau vive",
+        "merveille",
+        "théâtralité"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1025/",
+        "https://www.unesco.org/archives/multimedia/document-1086",
+        "https://villae.cultura.gov.it/en/villa-deste/"
+      ]
+    },
+    {
+      "id": "taj_mahal",
+      "name": "Taj Mahal",
+      "architect_or_period": "Architecture moghole",
+      "location": "Agra, Inde",
+      "year": "1632-1653",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "water:miroir",
+        "water:bassin",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "nature_living:végétal"
+      ],
+      "subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:mélancolique",
+        "monumental_sublime:majestueux",
+        "monumental_sublime:sublime",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "marbre blanc",
+        "pietra dura",
+        "jardin charbagh",
+        "canaux",
+        "bassins réfléchissants",
+        "Yamuna",
+        "symétrie",
+        "axe",
+        "dôme",
+        "lumière changeante",
+        "mémoire",
+        "deuil"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/252/",
+        "https://www.unesco.org/en/articles/taj-mahal",
+        "https://www.britannica.com/topic/Taj-Mahal"
+      ]
+    },
+    {
+      "id": "ryoanji",
+      "name": "Ryōan-ji",
+      "architect_or_period": "Jardin zen japonais",
+      "location": "Kyoto, Japon",
+      "year": "15e siècle",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:rugueux",
+        "color:blanc",
+        "opening_landscape:introverti",
+        "spatiality:bas",
+        "light:naturelle",
+        "nature_living:végétal",
+        "water:bassin"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:méditatif",
+        "calm_contemplation:serein",
+        "mystery_exploration:énigmatique",
+        "sacred_ritual:spirituel",
+        "strangeness_displacement:abstrait"
+      ],
+      "keywords_fr": [
+        "jardin sec",
+        "quinze pierres",
+        "gravier blanc ratissé",
+        "mur bas",
+        "mousse",
+        "étang Kyōyōchi",
+        "silence",
+        "composition minimale",
+        "cadre clos",
+        "méditation",
+        "énigme",
+        "calme"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/688/",
+        "https://www.japan.travel/en/spot/1145/",
+        "https://www.discoverkyoto.com/places-go/ryoan-ji/"
+      ]
+    },
+    {
+      "id": "ise_jingu",
+      "name": "Ise Jingū",
+      "architect_or_period": "Architecture shinto",
+      "location": "Ise, Japon",
+      "year": "reconstruction cyclique",
+      "physical_tags": [
+        "material_texture:bois",
+        "material_texture:toit léger",
+        "nature_living:sauvage",
+        "nature_living:naturel",
+        "smell:boisé",
+        "light:tamisée",
+        "movement_path:ritualisé",
+        "threshold:entrée"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:rituel",
+        "memory_absence:historique",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "sanctuaire shinto",
+        "bois de cyprès",
+        "toit de chaume",
+        "forêt sacrée",
+        "reconstruction cyclique",
+        "rituels",
+        "ponts",
+        "gravier",
+        "seuils",
+        "ombre végétale",
+        "sacré",
+        "renouvellement"
+      ],
+      "sources": [
+        "https://www.isejingu.or.jp/en/about/index.html",
+        "https://www.isejingu.or.jp/en/ritual/index.html",
+        "https://www.britannica.com/topic/Ise-Shrine"
+      ]
+    },
+    {
+      "id": "gilardi_house",
+      "name": "Casa Gilardi",
+      "architect_or_period": "Luis Barragán",
+      "location": "Mexico, Mexique",
+      "year": "1976",
+      "physical_tags": [
+        "water:miroir",
+        "water:bassin",
+        "light:zénithale",
+        "light:colorée",
+        "color:rouge",
+        "color:bleu",
+        "nature_living:végétal",
+        "opening_landscape:introverti"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:ludique",
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:irréel"
+      ],
+      "keywords_fr": [
+        "piscine intérieure",
+        "miroir d’eau",
+        "jacaranda conservé",
+        "couleur rouge",
+        "mur bleu",
+        "lumière zénithale",
+        "couloir jaune",
+        "intériorité",
+        "parcelle étroite",
+        "intimité",
+        "jeu de couleur",
+        "surprise"
+      ],
+      "sources": [
+        "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
+        "https://www.architecturelab.net/gilardi-house-luis-barragan-classics-on-architecture-lab/",
+        "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ]
+    },
+    {
+      "id": "cuadra_san_cristobal",
+      "name": "Cuadra San Cristóbal",
+      "architect_or_period": "Luis Barragán",
+      "location": "Mexico, Mexique",
+      "year": "1966-1968",
+      "physical_tags": [
+        "water:bassin",
+        "water:fontaine",
+        "color:rose",
+        "material_texture:terre",
+        "sound:aquatique",
+        "nature_living:domestiqué",
+        "movement_path:ritualisé",
+        "opening_landscape:cadré"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "calm_contemplation:serein",
+        "intimacy_refuge:abrité",
+        "strangeness_displacement:dépaysant",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "mur rose",
+        "bassin pour chevaux",
+        "fontaine monumentale",
+        "stucco",
+        "pâturage",
+        "cour",
+        "eau sonore",
+        "portails",
+        "couleurs",
+        "hacienda moderne",
+        "silence",
+        "spectacle du quotidien"
+      ],
+      "sources": [
+        "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
+        "https://www.archdaily.com/1026697/luis-barragans-cuadra-san-cristobal-to-become-a-new-cultural-campus-in-mexico",
+        "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
+      ]
+    },
+    {
+      "id": "fondation_cartier",
+      "name": "Fondation Cartier",
+      "architect_or_period": "Jean Nouvel",
+      "location": "Paris, France",
+      "year": "1994",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "light:réfléchie",
+        "light:variable",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "strangeness_displacement:irréel",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:vivant",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "verre",
+        "acier",
+        "jardin Theatrum Botanicum",
+        "reflets",
+        "lumière variable",
+        "frontière floue intérieur extérieur",
+        "transparence",
+        "arbres",
+        "saisons",
+        "ambiguïté",
+        "évanescence",
+        "légèreté"
+      ],
+      "sources": [
+        "https://www.fondationcartier.com/en/garden",
+        "https://www.fondationcartier.com/jardin",
+        "https://www.britannica.com/topic/Cartier-Foundation"
+      ]
+    },
+    {
+      "id": "nelson_atkins_bloch_building",
+      "name": "Bloch Building, Nelson-Atkins Museum",
+      "architect_or_period": "Steven Holl Architects",
+      "location": "Kansas City, États-Unis",
+      "year": "2007",
+      "physical_tags": [
+        "material_texture:verre",
+        "light:diffuse",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:végétal",
+        "spatiality:bas",
+        "movement_path:sinueux",
+        "filtering:volume lumineux"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:doux",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "lentilles de verre",
+        "galeries enterrées",
+        "toiture végétalisée",
+        "lumière diffuse",
+        "parc de sculptures",
+        "paysage ondulant",
+        "galeries lumineuses",
+        "translucidité",
+        "calme lumineux",
+        "contemplation",
+        "immersion dans le paysage",
+        "douceur"
+      ],
+      "sources": [
+        "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
+        "https://www.bnim.com/projects/the-bloch-building/",
+        "https://www.nelson-atkins.org/about/future-expansion/bloch-building/"
+      ]
+    },
+    {
+      "id": "museum_21st_century_kanazawa",
+      "name": "21st Century Museum of Contemporary Art",
+      "architect_or_period": "SANAA",
+      "location": "Kanazawa, Japon",
+      "year": "2004",
+      "physical_tags": [
+        "material_texture:verre",
+        "opening_landscape:transparent",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "movement_path:exploratoire",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "spatiality:bas"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:vivant",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant",
+        "wellbeing_restoration:doux"
+      ],
+      "keywords_fr": [
+        "cercle de verre",
+        "musée ouvert comme un parc",
+        "transparence",
+        "cour",
+        "lumière naturelle",
+        "multiples directions",
+        "horizontalité",
+        "panorama à 360 degrés",
+        "accessibilité",
+        "rencontre",
+        "casualness",
+        "joie"
+      ],
+      "sources": [
+        "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
+        "https://www.gov-online.go.jp/hlj/en/february_2025/february_2025-04.html",
+        "https://dac.dk/en/21st-century-museum-of-contemporary-art/"
+      ]
+    },
+    {
+      "id": "rolex_learning_center",
+      "name": "Rolex Learning Center",
+      "architect_or_period": "SANAA",
+      "location": "Lausanne, Suisse",
+      "year": "2010",
+      "physical_tags": [
+        "spatiality:ouvert",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "compression_expansion:expansion",
+        "opening_landscape:ouvert",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "framing:lanterne"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "joy_social_intensity:convivial",
+        "wellbeing_restoration:équilibré",
+        "legibility_orientation:guidant"
+      ],
+      "keywords_fr": [
+        "espace continu",
+        "pentes douces",
+        "terrasses ondulantes",
+        "patios intérieurs",
+        "extérieur magnifique",
+        "toit courbe",
+        "supports presque invisibles",
+        "campus",
+        "lumière",
+        "fluidité",
+        "étude",
+        "interaction"
+      ],
+      "sources": [
+        "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
+        "https://www.architecturalrecord.com/articles/8237-rolex-learning-center-by-sanaa",
+        "https://www.archilovers.com/projects/30672/rolex-learning-center.html"
+      ]
+    },
+    {
+      "id": "louvre_lens",
+      "name": "Louvre-Lens",
+      "architect_or_period": "SANAA",
+      "location": "Lens, France",
+      "year": "2012",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "light:diffuse",
+        "opening_landscape:paysage",
+        "opening_landscape:transparent",
+        "nature_living:naturel",
+        "movement_path:progressif",
+        "spatiality:bas"
+      ],
+      "subjective_tags": [
+        "memory_absence:historique",
+        "wellbeing_restoration:doux",
+        "calm_contemplation:calme",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "ancienne mine",
+        "parc de 20 hectares",
+        "aluminium anodisé",
+        "verre",
+        "reflets du paysage",
+        "bâtiment bas",
+        "transparence",
+        "lumière diffuse",
+        "transition douce",
+        "renouveau",
+        "discrétion",
+        "calme"
+      ],
+      "sources": [
+        "https://www.louvrelens.fr/en/architecture-et-parc/",
+        "https://www.architecturaldigest.com/story/musee-du-louvre-lens-sanaa-imrey-culbert-france",
+        "https://www.davesinteriors.com/louvre-lens-sanaa-architecture-highlights-key-facts-about-sanaa-design/"
+      ]
+    },
+    {
+      "id": "sendai_mediatheque",
+      "name": "Sendai Mediatheque",
+      "architect_or_period": "Toyo Ito",
+      "location": "Sendai, Japon",
+      "year": "2001",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "spatiality:haut",
+        "framing:lanterne"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "strangeness_displacement:abstrait",
+        "wellbeing_restoration:équilibré"
+      ],
+      "keywords_fr": [
+        "cube de verre",
+        "plaques flottantes",
+        "treize tubes",
+        "lumière",
+        "air",
+        "eau",
+        "circulation",
+        "transparence urbaine",
+        "structure organique",
+        "liberté",
+        "ouverture publique",
+        "fluidité"
+      ],
+      "sources": [
+        "https://www.smt.city.sendai.jp/en/",
+        "https://www.architecturelab.net/sendai-mediatheque-toyo-ito-and-associates-architects/",
+        "https://www.archweb.com/en/architettures/sendai-mediatheque/"
+      ]
+    },
+    {
+      "id": "tama_art_university_library",
+      "name": "Tama Art University Library",
+      "architect_or_period": "Toyo Ito",
+      "location": "Tokyo, Japon",
+      "year": "2007",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "spatiality:voûte",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "movement_path:fluide",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:studieux",
+        "calm_contemplation:calme",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:inspirant"
+      ],
+      "keywords_fr": [
+        "arches en béton",
+        "pente douce",
+        "parois vitrées",
+        "campus naturel",
+        "environnement qui entre dans l’intérieur",
+        "voûtes",
+        "bibliothèque créative",
+        "lumière",
+        "lecture parmi les arbres",
+        "ouverture",
+        "calme",
+        "inspiration"
+      ],
+      "sources": [
+        "https://www.tamabi.ac.jp/en/about/library/",
+        "https://www.wallpaper.com/architecture/toyo-ito-architecture-guide",
+        "https://www.archute.com/the-tama-art-university-library-toyo-ito/"
+      ]
+    },
+    {
+      "id": "niteroi_contemporary_art_museum",
+      "name": "Niterói Contemporary Art Museum",
+      "architect_or_period": "Oscar Niemeyer",
+      "location": "Niterói, Brésil",
+      "year": "1996",
+      "physical_tags": [
+        "material_texture:béton",
+        "water:miroir",
+        "water:bassin",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "spatiality:monumental",
+        "movement_path:progressif",
+        "framing:panorama"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:animé",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "falaise",
+        "baie de Guanabara",
+        "rampe rouge",
+        "bassin réfléchissant",
+        "béton",
+        "forme de fleur",
+        "panorama",
+        "promenade circulaire",
+        "vue à 360 degrés",
+        "icône",
+        "lévitation",
+        "émerveillement"
+      ],
+      "sources": [
+        "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
+        "https://architectuul.com/architecture/niteroi-contemporary-art-museum",
+        "https://arquitecturaviva.com/works/museo-de-arte-contemporaneo-niteroi"
+      ]
+    },
+    {
+      "id": "london_aquatics_centre",
+      "name": "London Aquatics Centre",
+      "architect_or_period": "Zaha Hadid Architects",
+      "location": "Londres, Royaume-Uni",
+      "year": "2011",
+      "physical_tags": [
+        "water:bassin",
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:toit léger",
+        "light:naturelle",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:paysage"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:sain",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "strangeness_displacement:abstrait"
+      ],
+      "keywords_fr": [
+        "géométrie de l’eau en mouvement",
+        "toit ondulant",
+        "piscines",
+        "verre",
+        "lumière naturelle",
+        "paysage fluvial",
+        "Queen Elizabeth Olympic Park",
+        "fluidité",
+        "grande halle",
+        "santé",
+        "énergie sportive",
+        "orientation"
+      ],
+      "sources": [
+        "https://londonaquaticscentre.org/about/architecture/",
+        "https://www.domusweb.it/en/architecture/2014/02/27/london_aquatics_centre.html",
+        "https://www.archimagazine.com/alonaquatics.htm"
+      ]
+    },
+    {
+      "id": "boa_nova_tea_house",
+      "name": "Boa Nova Tea House",
+      "architect_or_period": "Álvaro Siza",
+      "location": "Leça da Palmeira, Portugal",
+      "year": "1958-1963",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:bois",
+        "material_texture:béton",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "movement_path:progressif",
+        "threshold:transition",
+        "thermal_air:exposé"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:abrité",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "intimacy_refuge:intime"
+      ],
+      "keywords_fr": [
+        "rochers atlantiques",
+        "promenade architecturale",
+        "océan",
+        "bois",
+        "béton",
+        "pierre",
+        "fenêtres coulissantes",
+        "toit bas",
+        "exposition aux vents",
+        "transition ville-nature",
+        "abri",
+        "contemplation"
+      ],
+      "sources": [
+        "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
+        "https://www.domusweb.it/en/architecture/2014/07/31/boa_nova_tea_house_.html",
+        "https://en.wikiarquitectura.com/building/boa-nova-tea-house/"
+      ]
+    },
+    {
+      "id": "serralves_museum",
+      "name": "Serralves Museum",
+      "architect_or_period": "Álvaro Siza",
+      "location": "Porto, Portugal",
+      "year": "1999",
+      "physical_tags": [
+        "nature_living:végétal",
+        "opening_landscape:paysage",
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "light:naturelle",
+        "movement_path:progressif",
+        "spatiality:bas"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:calme",
+        "wellbeing_restoration:équilibré",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "wellbeing_restoration:doux"
+      ],
+      "keywords_fr": [
+        "parc",
+        "jardin préexistant",
+        "patios",
+        "bâtiment bas",
+        "U",
+        "fenêtres cadrant le paysage",
+        "lumière naturelle",
+        "marbre poli",
+        "blanc",
+        "terrain en pente",
+        "harmonie",
+        "calme"
+      ],
+      "sources": [
+        "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
+        "https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/",
+        "https://www.lemonde.fr/culture/article/2025/01/30/a-porto-alvaro-siza-fait-de-la-fondation-serralves-un-ecrin-pour-l-architecture_6524080_3246.html"
+      ]
+    },
+    {
+      "id": "braga_municipal_stadium",
+      "name": "Stade municipal de Braga",
+      "architect_or_period": "Eduardo Souto de Moura",
+      "location": "Braga, Portugal",
+      "year": "2003",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "spatiality:monumental",
+        "opening_landscape:paysage",
+        "framing:panorama",
+        "movement_path:traversant",
+        "compression_expansion:vaste",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:festif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "ancienne carrière",
+        "roche de Monte Castro",
+        "granite",
+        "béton",
+        "deux tribunes",
+        "vide",
+        "câbles de toiture",
+        "panorama",
+        "architecture dans la montagne",
+        "échelle monumentale",
+        "puissance",
+        "étrangeté"
+      ],
+      "sources": [
+        "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
+        "https://archjourney.org/projects/braga-municipal-stadium/",
+        "https://arquitecturaviva.com/works/estadio-municipal-de-braga"
+      ]
+    },
+    {
+      "id": "gando_primary_school",
+      "name": "Gando Primary School",
+      "architect_or_period": "Diébédo Francis Kéré",
+      "location": "Gando, Burkina Faso",
+      "year": "2001",
+      "physical_tags": [
+        "material_texture:terre",
+        "material_texture:brique",
+        "material_texture:toit léger",
+        "thermal_air:ventilé",
+        "thermal_air:chaud",
+        "light:naturelle",
+        "shadow_contrast:pénombre",
+        "opening_landscape:ouvert"
+      ],
+      "subjective_tags": [
+        "wellbeing_restoration:sain",
+        "joy_social_intensity:convivial",
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:protecteur",
+        "legibility_orientation:clair"
+      ],
+      "keywords_fr": [
+        "terre comprimée",
+        "briques de terre",
+        "toit métallique surélevé",
+        "ventilation naturelle",
+        "lumière naturelle",
+        "protection solaire",
+        "climat chaud",
+        "construction communautaire",
+        "ombre",
+        "santé",
+        "protection",
+        "communauté"
+      ],
+      "sources": [
+        "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
+        "https://the.akdn/es/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/primary-school",
+        "https://www.archnet.org/sites/4363"
+      ]
+    },
+    {
+      "id": "heydar_aliyev_center",
+      "name": "Heydar Aliyev Center",
+      "architect_or_period": "Zaha Hadid Architects",
+      "location": "Bakou, Azerbaïdjan",
+      "year": "2012",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:ouvert",
+        "spatiality:monumental",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "strangeness_displacement:irréel",
+        "strangeness_displacement:abstrait",
+        "monumental_sublime:impressionnant",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "plaza",
+        "surface continue",
+        "paysage architectural",
+        "plis",
+        "ondulations",
+        "béton",
+        "verre semi-réfléchissant",
+        "blanc",
+        "intérieur extérieur",
+        "topographie",
+        "fluidité",
+        "optimisme"
+      ],
+      "sources": [
+        "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
+        "https://www.zaha-hadid.com/2013/11/14/heydar-aliyev-center-baku-azerbaijan/",
+        "https://www.archiscene.net/firms/zaha-hadid/heydar-aliyev-center-zaha-hadid/"
+      ]
+    },
+    {
+      "id": "capitol_complex_chandigarh",
+      "name": "Capitol Complex de Chandigarh",
+      "architect_or_period": "Le Corbusier",
+      "location": "Chandigarh, Inde",
+      "year": "1950s-1960s",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:intense",
+        "thermal_air:chaud",
+        "thermal_air:exposé",
+        "movement_path:axial",
+        "spatiality:monumental",
+        "opening_landscape:paysage"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "unease_oppression:austère"
+      ],
+      "keywords_fr": [
+        "béton brut",
+        "brise-soleil",
+        "tour des ombres",
+        "esplanade",
+        "axe",
+        "Shivalik Hills",
+        "bâtiments civiques",
+        "monuments",
+        "soleil",
+        "climat chaud",
+        "volumes sculpturaux",
+        "parc du Capitole"
+      ],
+      "sources": [
+        "https://lecorbusier-worldheritage.org/en/complexe-du-capitole/",
+        "https://chandigarhtourism.gov.in/capitol-complex",
+        "https://whc.unesco.org/en/list/1321/"
+      ]
+    },
+    {
+      "id": "national_museum_western_art_tokyo",
+      "name": "National Museum of Western Art",
+      "architect_or_period": "Le Corbusier",
+      "location": "Tokyo, Japon",
+      "year": "1959",
+      "physical_tags": [
+        "material_texture:béton",
+        "spatiality:atrium",
+        "spatiality:ordonné",
+        "light:zénithale",
+        "light:naturelle",
+        "movement_path:progressif",
+        "framing:lanterne"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "legibility_orientation:guidant",
+        "calm_contemplation:contemplatif",
+        "inspiration_concentration:intellectuel"
+      ],
+      "keywords_fr": [
+        "béton armé",
+        "pilotis",
+        "grille 6 x 6 mètres",
+        "musée à croissance illimitée",
+        "spirale carrée",
+        "hall central",
+        "vide sur toute la hauteur",
+        "lumière naturelle",
+        "lanterneaux",
+        "galeries",
+        "parcours continu",
+        "rationalité"
+      ],
+      "sources": [
+        "https://www.nmwa.go.jp/en/about/building.html",
+        "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/",
+        "https://www.artmuseums.go.jp/en/museums/nmwa"
+      ]
+    },
+    {
+      "id": "nordic_pavilion_venice",
+      "name": "Nordic Pavilion",
+      "architect_or_period": "Sverre Fehn",
+      "location": "Venise, Italie",
+      "year": "1958-1962",
+      "physical_tags": [
+        "light:filtrée",
+        "light:diffuse",
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "filtering:grille",
+        "nature_living:végétal",
+        "opening_landscape:ouvert"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:calme",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:doux",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:inspirant"
+      ],
+      "keywords_fr": [
+        "toiture en poutres de béton",
+        "brise-soleil",
+        "lumière filtrée",
+        "lumière nordique",
+        "arbres existants",
+        "plane trees",
+        "béton blanc",
+        "verre",
+        "espace ouvert",
+        "pente du site",
+        "continuité intérieur extérieur",
+        "sérénité"
+      ],
+      "sources": [
+        "https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn",
+        "https://www.architecturelab.net/nordic-pavilion-venice-sverre-fehn/",
+        "https://www.nasjonalmuseet.no/en/collection/object/NMK.2008.0734.016.014"
+      ]
+    },
+    {
+      "id": "kiasma_museum",
+      "name": "Kiasma Museum of Contemporary Art",
+      "architect_or_period": "Steven Holl Architects",
+      "location": "Helsinki, Finlande",
+      "year": "1998",
+      "physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:béton",
+        "movement_path:sinueux",
+        "movement_path:fluide",
+        "water:bassin",
+        "water:cascade"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "keywords_fr": [
+        "lumière naturelle finlandaise",
+        "variation saisonnière",
+        "surfaces courbes",
+        "toit en zinc",
+        "aluminium",
+        "verre",
+        "béton courbe",
+        "rampes",
+        "escaliers torsadés",
+        "bassins",
+        "cascade d’eau",
+        "Reglit glass"
+      ],
+      "sources": [
+        "https://kiasma.fi/en/architecture/",
+        "https://www.stevenholl.com/project/kiasma-museum/",
+        "https://www.lamberts.info/en/project/kiasma-museum-of-contemporary-art"
+      ]
+    },
+    {
+      "id": "seattle_central_library",
+      "name": "Seattle Central Library",
+      "architect_or_period": "OMA / Rem Koolhaas et LMN",
+      "location": "Seattle, Washington, États-Unis",
+      "year": "2004",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:atrium",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:intellectuel",
+        "inspiration_concentration:studieux",
+        "joy_social_intensity:animé",
+        "joy_social_intensity:généreux",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "verre et acier",
+        "façade diamantée",
+        "plateformes superposées",
+        "Books Spiral",
+        "living room public",
+        "grand volume",
+        "atrium",
+        "plans intermédiaires",
+        "transparence",
+        "lumière urbaine",
+        "circulation continue",
+        "espace civique"
+      ],
+      "sources": [
+        "https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture",
+        "https://www.oma.com/projects/seattle-central-library",
+        "https://www.archdaily.com/11651/seattle-central-library-oma-lmn"
+      ]
+    },
+    {
+      "id": "cctv_headquarters",
+      "name": "CCTV Headquarters",
+      "architect_or_period": "OMA / Rem Koolhaas",
+      "location": "Pékin, Chine",
+      "year": "2012",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:monumental",
+        "movement_path:fluide",
+        "opening_landscape:extraverti",
+        "compression_expansion:expansion"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "monumental_sublime:vertigineux",
+        "strangeness_displacement:étrange",
+        "unease_oppression:instable",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "boucle tridimensionnelle",
+        "deux tours inclinées",
+        "porte-à-faux de 75 mètres",
+        "tube continu",
+        "façade diagonale",
+        "structure visible",
+        "verre",
+        "acier",
+        "plateforme commune",
+        "grande échelle",
+        "silhouette urbaine",
+        "défi gravitaire"
+      ],
+      "sources": [
+        "https://www.oma.com/projects/cctv-headquarters",
+        "https://www.archdaily.com/236175/cctv-headquarters-oma",
+        "https://www.arup.com/en-us/projects/china-central-television-headquarters/"
+      ]
+    },
+    {
+      "id": "casa_da_musica",
+      "name": "Casa da Música",
+      "architect_or_period": "OMA / Rem Koolhaas",
+      "location": "Porto, Portugal",
+      "year": "2005",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "sound:enveloppant",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:animé",
+        "joy_social_intensity:festif",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "béton blanc",
+        "forme facettée",
+        "salle shoebox",
+        "acoustique",
+        "verre ondulé",
+        "grand auditorium",
+        "plateforme publique",
+        "escaliers",
+        "escalators",
+        "parcours continu",
+        "vues sur Porto",
+        "terrasse"
+      ],
+      "sources": [
+        "https://www.oma.com/projects/casa-da-musica",
+        "https://casadamusica.com/en/building/",
+        "https://www.archdaily.com/619294/casa-da-musica-oma"
+      ]
+    },
+    {
+      "id": "kunsthal_rotterdam",
+      "name": "Kunsthal Rotterdam",
+      "architect_or_period": "OMA / Rem Koolhaas",
+      "location": "Rotterdam, Pays-Bas",
+      "year": "1992",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:métal",
+        "material_texture:verre",
+        "light:filtrée",
+        "movement_path:traversant",
+        "movement_path:fluide",
+        "opening_landscape:poreux"
+      ],
+      "subjective_tags": [
+        "mystery_exploration:suggestif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:guidant"
+      ],
+      "keywords_fr": [
+        "rampes raides",
+        "plans inclinés",
+        "matériaux contrastés",
+        "béton nu",
+        "acier galvanisé",
+        "verre mat",
+        "plastique ondulé",
+        "parquet",
+        "troncs rugueux",
+        "filtrage de la lumière",
+        "passage public",
+        "Museumpark"
+      ],
+      "sources": [
+        "https://www.kunsthal.nl/en/about-kunsthal/building/",
+        "https://www.oma.com/projects/kunsthal",
+        "https://www.archdaily.com/102825/ad-classics-kunsthal-oma"
+      ]
+    },
+    {
+      "id": "national_congress_brazil",
+      "name": "Congrès national du Brésil",
+      "architect_or_period": "Oscar Niemeyer",
+      "location": "Brasília, Brésil",
+      "year": "1960",
+      "physical_tags": [
+        "spatiality:monumental",
+        "spatiality:symétrique",
+        "movement_path:axial",
+        "opening_landscape:panoramique",
+        "opening_landscape:ouvert",
+        "material_texture:béton",
+        "color:blanc",
+        "framing:axe"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "inspiration_concentration:inspirant"
+      ],
+      "keywords_fr": [
+        "Eixo Monumental",
+        "esplanade",
+        "deux coupoles",
+        "tours jumelles",
+        "plateforme horizontale",
+        "formes pures",
+        "géométrie",
+        "symétrie",
+        "béton",
+        "Place des Trois Pouvoirs",
+        "perspectives",
+        "ciel ouvert"
+      ],
+      "sources": [
+        "https://www2.congressonacional.leg.br/visite/arquitetura",
+        "https://whc.unesco.org/en/list/445/",
+        "https://www.archdaily.com/773568/ad-classics-national-congress-oscar-niemeyer"
+      ]
+    },
+    {
+      "id": "maxxi_rome",
+      "name": "MAXXI",
+      "architect_or_period": "Zaha Hadid Architects",
+      "location": "Rome, Italie",
+      "year": "2009",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:naturelle",
+        "light:filtrée",
+        "movement_path:fluide",
+        "movement_path:sinueux",
+        "movement_path:exploratoire",
+        "opening_landscape:poreux"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:animé"
+      ],
+      "keywords_fr": [
+        "béton courbe",
+        "verre",
+        "acier",
+        "lignes confluentes",
+        "murs qui se croisent",
+        "galeries comme flux",
+        "passerelles",
+        "escaliers suspendus",
+        "lumière naturelle filtrée",
+        "hall haut",
+        "continuité intérieur extérieur",
+        "parcours dynamique"
+      ],
+      "sources": [
+        "https://www.zaha-hadid.com/architecture/maxxi/",
+        "https://www.maxxi.art/progetto-architettonico/",
+        "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects"
+      ]
     }
   ]
 }

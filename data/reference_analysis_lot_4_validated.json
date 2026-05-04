@@ -1,0 +1,1029 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "validated_for_seed_v0",
+  "scope": "Validation du lot 4 : paysage, eau, climat, jardin, nature et continuités intérieur/extérieur.",
+  "validation_rule": "Les tags forts sont conservés pour l’app lorsqu’ils sont appuyés par au moins deux sources ou par une source institutionnelle très explicite. Les tags moyens restent dans ce fichier comme hypothèses à renforcer. Les tags faibles sont exclus de l’intégration.",
+  "entries": [
+    {
+      "reference_id": "villa_deste_tivoli",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "water:fontaine",
+        "water:bassin",
+        "water:cascade",
+        "water:ruisselant",
+        "thermal_air:frais",
+        "nature_living:végétal",
+        "movement_path:axial",
+        "spatiality:axial"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "calm_contemplation:contemplatif",
+        "monumental_sublime:majestueux",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "mystery_exploration:suggestif"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://whc.unesco.org/en/list/1025/",
+          "basis": "Source principale pour Villa d'Este : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "water:fontaine",
+            "water:bassin",
+            "water:cascade",
+            "water:ruisselant",
+            "joy_social_intensity:ludique"
+          ]
+        },
+        {
+          "source": "https://www.unesco.org/archives/multimedia/document-1086",
+          "basis": "Source complémentaire pour Villa d'Este : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "thermal_air:frais",
+            "nature_living:végétal",
+            "movement_path:axial",
+            "spatiality:axial",
+            "calm_contemplation:contemplatif",
+            "monumental_sublime:majestueux",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "taj_mahal",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "water:miroir",
+        "water:bassin",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "nature_living:végétal"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:mélancolique",
+        "monumental_sublime:majestueux",
+        "monumental_sublime:sublime",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "sacred_ritual:sacré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://whc.unesco.org/en/list/252/",
+          "basis": "Source principale pour Taj Mahal : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:poli",
+            "color:blanc",
+            "water:miroir",
+            "memory_absence:mémoriel"
+          ]
+        },
+        {
+          "source": "https://www.unesco.org/en/articles/taj-mahal",
+          "basis": "Source complémentaire pour Taj Mahal : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "water:bassin",
+            "spatiality:symétrique",
+            "spatiality:axial",
+            "nature_living:végétal",
+            "memory_absence:mélancolique",
+            "monumental_sublime:majestueux",
+            "monumental_sublime:sublime"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "ryoanji",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:rugueux",
+        "color:blanc",
+        "opening_landscape:introverti",
+        "spatiality:bas",
+        "light:naturelle",
+        "nature_living:végétal",
+        "water:bassin"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:méditatif",
+        "calm_contemplation:serein",
+        "mystery_exploration:énigmatique",
+        "sacred_ritual:spirituel",
+        "strangeness_displacement:abstrait"
+      ],
+      "medium_tags": [
+        "sound:silencieux"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://whc.unesco.org/en/list/688/",
+          "basis": "Source principale pour Ryōan-ji : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:rugueux",
+            "color:blanc",
+            "opening_landscape:introverti",
+            "calm_contemplation:méditatif"
+          ]
+        },
+        {
+          "source": "https://www.japan.travel/en/spot/1145/",
+          "basis": "Source complémentaire pour Ryōan-ji : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "spatiality:bas",
+            "light:naturelle",
+            "nature_living:végétal",
+            "water:bassin",
+            "calm_contemplation:serein",
+            "mystery_exploration:énigmatique",
+            "sacred_ritual:spirituel"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "ise_jingu",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:bois",
+        "material_texture:toit léger",
+        "nature_living:sauvage",
+        "nature_living:naturel",
+        "smell:boisé",
+        "light:tamisée",
+        "movement_path:ritualisé",
+        "threshold:entrée"
+      ],
+      "strong_subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:rituel",
+        "memory_absence:historique",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "palimpsest:mémoire"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.isejingu.or.jp/en/about/index.html",
+          "basis": "Source principale pour Ise Jingū : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:bois",
+            "material_texture:toit léger",
+            "nature_living:sauvage",
+            "nature_living:naturel",
+            "sacred_ritual:sacré"
+          ]
+        },
+        {
+          "source": "https://www.isejingu.or.jp/en/ritual/index.html",
+          "basis": "Source complémentaire pour Ise Jingū : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "smell:boisé",
+            "light:tamisée",
+            "movement_path:ritualisé",
+            "threshold:entrée",
+            "sacred_ritual:rituel",
+            "memory_absence:historique",
+            "calm_contemplation:serein"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "gilardi_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "water:miroir",
+        "water:bassin",
+        "light:zénithale",
+        "light:colorée",
+        "color:rouge",
+        "color:bleu",
+        "nature_living:végétal",
+        "opening_landscape:introverti"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:irréel"
+      ],
+      "medium_tags": [
+        "color:rose"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan",
+          "basis": "Source principale pour Casa Gilardi : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "water:miroir",
+            "water:bassin",
+            "light:zénithale",
+            "light:colorée",
+            "joy_social_intensity:ludique"
+          ]
+        },
+        {
+          "source": "https://www.architecturelab.net/gilardi-house-luis-barragan-classics-on-architecture-lab/",
+          "basis": "Source complémentaire pour Casa Gilardi : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "color:rouge",
+            "color:bleu",
+            "nature_living:végétal",
+            "opening_landscape:introverti",
+            "intimacy_refuge:domestique",
+            "intimacy_refuge:intime",
+            "calm_contemplation:contemplatif"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "cuadra_san_cristobal",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "water:bassin",
+        "water:fontaine",
+        "color:rose",
+        "material_texture:terre",
+        "sound:aquatique",
+        "nature_living:domestiqué",
+        "movement_path:ritualisé",
+        "opening_landscape:cadré"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "calm_contemplation:serein",
+        "intimacy_refuge:abrité",
+        "strangeness_displacement:dépaysant",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "color:rouge"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.barragan-foundation.net/works/list/cuadra-san-cristobal",
+          "basis": "Source principale pour Cuadra San Cristóbal : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "water:bassin",
+            "water:fontaine",
+            "color:rose",
+            "material_texture:terre",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://www.archdaily.com/1026697/luis-barragans-cuadra-san-cristobal-to-become-a-new-cultural-campus-in-mexico",
+          "basis": "Source complémentaire pour Cuadra San Cristóbal : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "sound:aquatique",
+            "nature_living:domestiqué",
+            "movement_path:ritualisé",
+            "opening_landscape:cadré",
+            "calm_contemplation:serein",
+            "intimacy_refuge:abrité",
+            "strangeness_displacement:dépaysant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "fondation_cartier",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "light:réfléchie",
+        "light:variable",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "strangeness_displacement:irréel",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:vivant",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:ressourçant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.fondationcartier.com/en/garden",
+          "basis": "Source principale pour Fondation Cartier : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "opening_landscape:transparent",
+            "nature_living:végétal",
+            "strangeness_displacement:irréel"
+          ]
+        },
+        {
+          "source": "https://www.fondationcartier.com/jardin",
+          "basis": "Source complémentaire pour Fondation Cartier : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "nature_living:saisonnier",
+            "light:réfléchie",
+            "light:variable",
+            "spatiality:ouvert",
+            "mystery_exploration:suggestif",
+            "inspiration_concentration:stimulant",
+            "joy_social_intensity:vivant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "nelson_atkins_bloch_building",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "light:diffuse",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:végétal",
+        "spatiality:bas",
+        "movement_path:sinueux",
+        "filtering:volume lumineux"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:doux",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "opening_landscape:transparent"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/",
+          "basis": "Source principale pour Bloch Building, Nelson-Atkins Museum : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:verre",
+            "light:diffuse",
+            "light:naturelle",
+            "opening_landscape:paysage",
+            "calm_contemplation:contemplatif"
+          ]
+        },
+        {
+          "source": "https://www.bnim.com/projects/the-bloch-building/",
+          "basis": "Source complémentaire pour Bloch Building, Nelson-Atkins Museum : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "nature_living:végétal",
+            "spatiality:bas",
+            "movement_path:sinueux",
+            "filtering:volume lumineux",
+            "wellbeing_restoration:doux",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:guidant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "museum_21st_century_kanazawa",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "opening_landscape:transparent",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "movement_path:exploratoire",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "spatiality:bas"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:vivant",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant",
+        "wellbeing_restoration:doux"
+      ],
+      "medium_tags": [
+        "calm_contemplation:calme"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.kanazawa21.jp/data_list.php?d=2&g=11",
+          "basis": "Source principale pour 21st Century Museum of Contemporary Art : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:verre",
+            "opening_landscape:transparent",
+            "spatiality:ouvert",
+            "movement_path:fluide",
+            "joy_social_intensity:convivial"
+          ]
+        },
+        {
+          "source": "https://www.gov-online.go.jp/hlj/en/february_2025/february_2025-04.html",
+          "basis": "Source complémentaire pour 21st Century Museum of Contemporary Art : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "movement_path:exploratoire",
+            "light:naturelle",
+            "nature_living:domestiqué",
+            "spatiality:bas",
+            "joy_social_intensity:vivant",
+            "legibility_orientation:clair",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "rolex_learning_center",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "spatiality:ouvert",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "compression_expansion:expansion",
+        "opening_landscape:ouvert",
+        "light:naturelle",
+        "nature_living:domestiqué",
+        "framing:lanterne"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "joy_social_intensity:convivial",
+        "wellbeing_restoration:équilibré",
+        "legibility_orientation:guidant"
+      ],
+      "medium_tags": [
+        "calm_contemplation:posé"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/",
+          "basis": "Source principale pour Rolex Learning Center : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "spatiality:ouvert",
+            "spatiality:vaste",
+            "movement_path:fluide",
+            "compression_expansion:expansion",
+            "inspiration_concentration:studieux"
+          ]
+        },
+        {
+          "source": "https://www.architecturalrecord.com/articles/8237-rolex-learning-center-by-sanaa",
+          "basis": "Source complémentaire pour Rolex Learning Center : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "opening_landscape:ouvert",
+            "light:naturelle",
+            "nature_living:domestiqué",
+            "framing:lanterne",
+            "inspiration_concentration:concentré",
+            "joy_social_intensity:convivial",
+            "wellbeing_restoration:équilibré"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "louvre_lens",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "light:diffuse",
+        "opening_landscape:paysage",
+        "opening_landscape:transparent",
+        "nature_living:naturel",
+        "movement_path:progressif",
+        "spatiality:bas"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:historique",
+        "wellbeing_restoration:doux",
+        "calm_contemplation:calme",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "palimpsest:réparation"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.louvrelens.fr/en/architecture-et-parc/",
+          "basis": "Source principale pour Louvre-Lens : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:verre",
+            "light:diffuse",
+            "opening_landscape:paysage",
+            "memory_absence:historique"
+          ]
+        },
+        {
+          "source": "https://www.architecturaldigest.com/story/musee-du-louvre-lens-sanaa-imrey-culbert-france",
+          "basis": "Source complémentaire pour Louvre-Lens : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "opening_landscape:transparent",
+            "nature_living:naturel",
+            "movement_path:progressif",
+            "spatiality:bas",
+            "wellbeing_restoration:doux",
+            "calm_contemplation:calme",
+            "legibility_orientation:clair"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "sendai_mediatheque",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "movement_path:fluide",
+        "spatiality:haut",
+        "framing:lanterne"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "strangeness_displacement:abstrait",
+        "wellbeing_restoration:équilibré"
+      ],
+      "medium_tags": [
+        "nature_living:organique"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.smt.city.sendai.jp/en/",
+          "basis": "Source principale pour Sendai Mediatheque : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "opening_landscape:transparent",
+            "light:naturelle",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://www.architecturelab.net/sendai-mediatheque-toyo-ito-and-associates-architects/",
+          "basis": "Source complémentaire pour Sendai Mediatheque : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "spatiality:ouvert",
+            "movement_path:fluide",
+            "spatiality:haut",
+            "framing:lanterne",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:clair",
+            "strangeness_displacement:abstrait"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "tama_art_university_library",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "spatiality:voûte",
+        "light:naturelle",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "movement_path:fluide",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "calm_contemplation:calme",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:inspirant"
+      ],
+      "medium_tags": [
+        "strangeness_displacement:abstrait"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.tamabi.ac.jp/en/about/library/",
+          "basis": "Source principale pour Tama Art University Library : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:verre",
+            "spatiality:voûte",
+            "light:naturelle",
+            "inspiration_concentration:studieux"
+          ]
+        },
+        {
+          "source": "https://www.wallpaper.com/architecture/toyo-ito-architecture-guide",
+          "basis": "Source complémentaire pour Tama Art University Library : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "opening_landscape:paysage",
+            "nature_living:naturel",
+            "movement_path:fluide",
+            "spatiality:ouvert",
+            "calm_contemplation:calme",
+            "wellbeing_restoration:ressourçant",
+            "mystery_exploration:suggestif"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "niteroi_contemporary_art_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "water:miroir",
+        "water:bassin",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "spatiality:monumental",
+        "movement_path:progressif",
+        "framing:panorama"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:animé",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "color:rouge"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/",
+          "basis": "Source principale pour Niterói Contemporary Art Museum : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:béton",
+            "water:miroir",
+            "water:bassin",
+            "opening_landscape:panoramique",
+            "monumental_sublime:impressionnant"
+          ]
+        },
+        {
+          "source": "https://architectuul.com/architecture/niteroi-contemporary-art-museum",
+          "basis": "Source complémentaire pour Niterói Contemporary Art Museum : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "opening_landscape:paysage",
+            "spatiality:monumental",
+            "movement_path:progressif",
+            "framing:panorama",
+            "strangeness_displacement:irréel",
+            "inspiration_concentration:stimulant",
+            "joy_social_intensity:animé"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "london_aquatics_centre",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "water:bassin",
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:toit léger",
+        "light:naturelle",
+        "spatiality:vaste",
+        "movement_path:fluide",
+        "opening_landscape:paysage"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:sain",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:guidant",
+        "strangeness_displacement:abstrait"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:équilibré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://londonaquaticscentre.org/about/architecture/",
+          "basis": "Source principale pour London Aquatics Centre : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "water:bassin",
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:toit léger",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://www.domusweb.it/en/architecture/2014/02/27/london_aquatics_centre.html",
+          "basis": "Source complémentaire pour London Aquatics Centre : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "light:naturelle",
+            "spatiality:vaste",
+            "movement_path:fluide",
+            "opening_landscape:paysage",
+            "wellbeing_restoration:sain",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:guidant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "boa_nova_tea_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:bois",
+        "material_texture:béton",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "movement_path:progressif",
+        "threshold:transition",
+        "thermal_air:exposé"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:abrité",
+        "wellbeing_restoration:ressourçant",
+        "mystery_exploration:suggestif",
+        "intimacy_refuge:intime"
+      ],
+      "medium_tags": [
+        "sound:vibrant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza",
+          "basis": "Source principale pour Boa Nova Tea House : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:bois",
+            "material_texture:béton",
+            "opening_landscape:panoramique",
+            "calm_contemplation:contemplatif"
+          ]
+        },
+        {
+          "source": "https://www.domusweb.it/en/architecture/2014/07/31/boa_nova_tea_house_.html",
+          "basis": "Source complémentaire pour Boa Nova Tea House : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "opening_landscape:paysage",
+            "movement_path:progressif",
+            "threshold:transition",
+            "thermal_air:exposé",
+            "intimacy_refuge:abrité",
+            "wellbeing_restoration:ressourçant",
+            "mystery_exploration:suggestif"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "serralves_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "nature_living:végétal",
+        "opening_landscape:paysage",
+        "material_texture:pierre",
+        "material_texture:poli",
+        "color:blanc",
+        "light:naturelle",
+        "movement_path:progressif",
+        "spatiality:bas"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:calme",
+        "wellbeing_restoration:équilibré",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "wellbeing_restoration:doux"
+      ],
+      "medium_tags": [
+        "calm_contemplation:contemplatif"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.serralves.pt/en/institucional-serralves/visitar-o-museu/",
+          "basis": "Source principale pour Serralves Museum : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "nature_living:végétal",
+            "opening_landscape:paysage",
+            "material_texture:pierre",
+            "material_texture:poli",
+            "calm_contemplation:calme"
+          ]
+        },
+        {
+          "source": "https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/",
+          "basis": "Source complémentaire pour Serralves Museum : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "color:blanc",
+            "light:naturelle",
+            "movement_path:progressif",
+            "spatiality:bas",
+            "wellbeing_restoration:équilibré",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:clair"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "braga_municipal_stadium",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "spatiality:monumental",
+        "opening_landscape:paysage",
+        "framing:panorama",
+        "movement_path:traversant",
+        "compression_expansion:vaste",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:festif",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "monumental_sublime:sublime"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/",
+          "basis": "Source principale pour Stade municipal de Braga : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:béton",
+            "spatiality:monumental",
+            "opening_landscape:paysage",
+            "monumental_sublime:impressionnant"
+          ]
+        },
+        {
+          "source": "https://archjourney.org/projects/braga-municipal-stadium/",
+          "basis": "Source complémentaire pour Stade municipal de Braga : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "framing:panorama",
+            "movement_path:traversant",
+            "compression_expansion:vaste",
+            "spatiality:ouvert",
+            "strangeness_displacement:étrange",
+            "joy_social_intensity:festif",
+            "joy_social_intensity:animé"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "gando_primary_school",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:terre",
+        "material_texture:brique",
+        "material_texture:toit léger",
+        "thermal_air:ventilé",
+        "thermal_air:chaud",
+        "light:naturelle",
+        "shadow_contrast:pénombre",
+        "opening_landscape:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "wellbeing_restoration:sain",
+        "joy_social_intensity:convivial",
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:protecteur",
+        "legibility_orientation:clair"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:réparateur"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.kerearchitecture.com/work/building/gando-primary-school-3",
+          "basis": "Source principale pour Gando Primary School : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:terre",
+            "material_texture:brique",
+            "material_texture:toit léger",
+            "thermal_air:ventilé",
+            "wellbeing_restoration:sain"
+          ]
+        },
+        {
+          "source": "https://the.akdn/es/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/primary-school",
+          "basis": "Source complémentaire pour Gando Primary School : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "thermal_air:chaud",
+            "light:naturelle",
+            "shadow_contrast:pénombre",
+            "opening_landscape:ouvert",
+            "joy_social_intensity:convivial",
+            "inspiration_concentration:stimulant",
+            "intimacy_refuge:protecteur"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "heydar_aliyev_center",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "color:blanc",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:ouvert",
+        "spatiality:monumental",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "strangeness_displacement:irréel",
+        "strangeness_displacement:abstrait",
+        "monumental_sublime:impressionnant",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "legibility_orientation:guidant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
+          "basis": "Source principale pour Heydar Aliyev Center : elle documente les dispositifs paysagers, climatiques, aquatiques ou architecturaux.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:verre",
+            "color:blanc",
+            "light:réfléchie",
+            "strangeness_displacement:irréel"
+          ]
+        },
+        {
+          "source": "https://www.zaha-hadid.com/2013/11/14/heydar-aliyev-center-baku-azerbaijan/",
+          "basis": "Source complémentaire pour Heydar Aliyev Center : elle confirme les effets spatiaux, la relation au site ou les ambiances sensibles.",
+          "supports": [
+            "movement_path:fluide",
+            "opening_landscape:ouvert",
+            "spatiality:monumental",
+            "spatiality:ouvert",
+            "strangeness_displacement:abstrait",
+            "monumental_sublime:impressionnant",
+            "joy_social_intensity:animé"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,10 +18,13 @@
 - [x] Valider le lot 2 et intégrer 20 nouvelles références, ce qui porte l'app à 50 références indexées.
 - [x] Traiter le lot 3 matière/mémoire : 20 références, 60 sources, mots extraits et tags proposés.
 - [x] Valider le lot 3 et intégrer 20 nouvelles références, ce qui porte l'app à 70 références indexées.
+- [x] Traiter le lot 4 paysage/eau/climat/nature : 20 références, 60 sources, mots extraits et tags proposés.
+- [x] Valider le lot 4 et intégrer 20 nouvelles références, ce qui porte l'app à 90 références indexées.
+- [x] Traiter le lot 5 public/urbain/contemporain : 10 références, 30 sources, mots extraits et tags proposés.
+- [x] Valider le lot 5 et intégrer les 10 dernières références, ce qui porte l'app à 100 références indexées.
 
 ## À Faire Ensuite
 
-- [ ] Traiter le lot 4 du corpus candidat : paysage, eau, climat, jardin et nature.
 - [ ] Transformer les justifications v0 du lot 1 en citations courtes ou paraphrases affichables dans l'app.
 - [ ] Recharger le prototype et tester les combinaisons qui étaient vides, notamment lumière + matière + subjectif.
 - [ ] Ajouter dans l'interface un indicateur de nombre de sources et de niveau de confiance par référence.

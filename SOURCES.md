@@ -133,3 +133,60 @@ Sources institutionnelles, patrimoniales et pédagogiques importantes utilisées
 - [Britannica - Beijing National Stadium](https://www.britannica.com/place/Beijing-National-Stadium)
 - [MASP - About](https://masp.org.br/en/about)
 - [Instituto Bardi - Lina Bo Bardi’s SESC](https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/)
+
+## Sources Collectées Pour Le Lot 4
+
+Le détail des sources rattachées à chaque référence est structuré dans `data/reference_analysis_lot_4_landscape_climate.json`. La sélection des tags forts, moyens et fragiles est documentée dans `data/reference_analysis_lot_4_validated.json`.
+
+Sources institutionnelles, patrimoniales et critiques importantes utilisées dans ce quatrième scan :
+
+- [UNESCO - Villa d'Este, Tivoli](https://whc.unesco.org/en/list/1025/)
+- [Villae - Villa d'Este](https://villae.cultura.gov.it/en/villa-deste/)
+- [UNESCO - Taj Mahal](https://whc.unesco.org/en/list/252/)
+- [Britannica - Taj Mahal](https://www.britannica.com/topic/Taj-Mahal)
+- [UNESCO - Historic Monuments of Ancient Kyoto](https://whc.unesco.org/en/list/688/)
+- [Japan Travel - Ryoanji Temple](https://www.japan.travel/en/spot/1145/)
+- [Ise Jingu - About Jingu](https://www.isejingu.or.jp/en/about/index.html)
+- [Britannica - Ise Shrine](https://www.britannica.com/topic/Ise-Shrine)
+- [ArchDaily - Gilardi House / Luis Barragán](https://www.archdaily.com/1000290/architecture-classics-gilardi-house-luis-barragan)
+- [Barragan Foundation - Cuadra San Cristobal](https://www.barragan-foundation.net/works/list/cuadra-san-cristobal)
+- [Fondation Cartier - The Garden](https://www.fondationcartier.com/en/garden)
+- [Steven Holl Architects - Nelson-Atkins Museum Bloch Building](https://www.stevenholl.com/press-release/steven-holl-architects-light-filled-nelson-atkins-museum-of-art-to-open-on-june-9/)
+- [21st Century Museum of Contemporary Art, Kanazawa - About the Building](https://www.kanazawa21.jp/data_list.php?d=2&g=11)
+- [EPFL - Rolex Learning Center](https://www.epfl.ch/campus/visitors/buildings/rolex-learning-center/building/)
+- [Louvre-Lens - Architecture et parc](https://www.louvrelens.fr/en/architecture-et-parc/)
+- [Sendai Mediatheque - Official Site](https://www.smt.city.sendai.jp/en/)
+- [Tama Art University - Library](https://www.tamabi.ac.jp/en/about/library/)
+- [Architecture Lab - Niteroi Contemporary Art Museum](https://www.architecturelab.net/niteroi-contemporary-art-museum-oscar-niemeyer/)
+- [London Aquatics Centre - Architecture](https://londonaquaticscentre.org/about/architecture/)
+- [ArchDaily - Boa Nova Tea House / Álvaro Siza](https://www.archdaily.com/355077/ad-classics-boa-nova-tea-house-alvaro-siza)
+- [Serralves - Museum Architectural Project](https://www.serralves.pt/en/institucional-serralves/museu-projeto-arquitetonico/)
+- [March Valencia - Braga Municipal Stadium](https://www.marchvalencia.com/en/blog/estadio-municipal-de-braga-by-souto-de-moura/)
+- [Kéré Architecture - Gando Primary School](https://www.kerearchitecture.com/work/building/gando-primary-school-3)
+- [Zaha Hadid Architects - Heydar Aliyev Centre](https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/)
+
+## Sources Collectées Pour Le Lot 5
+
+Le détail des sources rattachées à chaque référence est structuré dans `data/reference_analysis_lot_5_public_contemporary.json`. La sélection des tags forts, moyens et fragiles est documentée dans `data/reference_analysis_lot_5_validated.json`.
+
+Sources institutionnelles, patrimoniales, critiques et techniques importantes utilisées dans ce cinquième scan :
+
+- [Le Corbusier World Heritage - Complexe du Capitole](https://lecorbusier-worldheritage.org/en/complexe-du-capitole/)
+- [Chandigarh Tourism - Capitol Complex](https://chandigarhtourism.gov.in/capitol-complex)
+- [National Museum of Western Art - Architecture](https://www.nmwa.go.jp/en/about/building.html)
+- [Fondation Le Corbusier - National Museum of Western Art](https://www.fondationlecorbusier.fr/en/work-architecture/achievements-national-museum-of-western-art-tokyo-japan-1955/)
+- [ArchDaily - Nordic Pavilion / Sverre Fehn](https://www.archdaily.com/784536/ad-classics-nordic-pavilion-in-venice-sverre-fehn)
+- [Kiasma - Architecture](https://kiasma.fi/en/architecture/)
+- [Steven Holl Architects - Kiasma Museum](https://www.stevenholl.com/project/kiasma-museum/)
+- [Seattle Public Library - Central Library Architecture](https://www.spl.org/hours-and-locations/central-library/central-library-highlights/central-library-architecture)
+- [OMA - Seattle Central Library](https://www.oma.com/projects/seattle-central-library)
+- [OMA - CCTV Headquarters](https://www.oma.com/projects/cctv-headquarters)
+- [Arup - China Central Television Headquarters](https://www.arup.com/en-us/projects/china-central-television-headquarters/)
+- [OMA - Casa da Música](https://www.oma.com/projects/casa-da-musica)
+- [Casa da Música - The Building](https://casadamusica.com/en/building/)
+- [Kunsthal - The Building](https://www.kunsthal.nl/en/about-kunsthal/building/)
+- [OMA - Kunsthal](https://www.oma.com/projects/kunsthal)
+- [Congresso Nacional - Arquitetura](https://www2.congressonacional.leg.br/visite/arquitetura)
+- [UNESCO - Brasilia](https://whc.unesco.org/en/list/445/)
+- [Zaha Hadid Architects - MAXXI](https://www.zaha-hadid.com/architecture/maxxi/)
+- [MAXXI - Progetto architettonico](https://www.maxxi.art/progetto-architettonico/)
