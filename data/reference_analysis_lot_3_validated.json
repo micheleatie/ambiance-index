@@ -1,0 +1,1025 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "validated_for_seed_v0",
+  "scope": "Validation du lot 3 : matière, béton, tactilité, ruine, mémoire, réemploi, high-tech et matérialités expressives.",
+  "validation_rule": "Les tags forts sont conservés pour l’app lorsqu’ils sont appuyés par au moins deux sources ou par une source institutionnelle très explicite. Les tags moyens restent dans ce fichier comme hypothèses à renforcer. Les tags faibles sont exclus de l’intégration.",
+  "entries": [
+    {
+      "reference_id": "brion_cemetery",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "water:bassin",
+        "water:miroir",
+        "movement_path:ritualisé",
+        "threshold:transition",
+        "palimpsest:mémoire",
+        "spatiality:fermé"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:mélancolique",
+        "sacred_ritual:rituel",
+        "calm_contemplation:méditatif",
+        "mystery_exploration:suggestif"
+      ],
+      "medium_tags": [
+        "material_texture:métal",
+        "nature_living:végétal"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.architecturelab.net/brion-vega-tomb-by-carlo-scarpa/",
+          "basis": "Source principale pour Cimetière Brion : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:brut",
+            "water:bassin",
+            "water:miroir",
+            "memory_absence:mémoriel"
+          ]
+        },
+        {
+          "source": "https://www.archdaily.com/1002226/carlo-scarpa-a-virtuous-architect-of-water",
+          "basis": "Source complémentaire pour Cimetière Brion : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "movement_path:ritualisé",
+            "threshold:transition",
+            "palimpsest:mémoire",
+            "spatiality:fermé",
+            "memory_absence:mélancolique",
+            "sacred_ritual:rituel",
+            "calm_contemplation:méditatif"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "castelvecchio_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "material_texture:bois",
+        "material_texture:métal",
+        "palimpsest:réparation",
+        "palimpsest:strate",
+        "movement_path:progressif",
+        "light:naturelle"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:historique",
+        "legibility_orientation:guidant",
+        "legibility_orientation:structuré",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "palimpsest:fragment"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://archiviocarloscarpa.it/en/",
+          "basis": "Source principale pour Musée de Castelvecchio : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:béton",
+            "material_texture:bois",
+            "material_texture:métal",
+            "memory_absence:historique"
+          ]
+        },
+        {
+          "source": "https://archiviocarloscarpa.it/carlo-scarpa-a-castelvecchio/",
+          "basis": "Source complémentaire pour Musée de Castelvecchio : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "palimpsest:réparation",
+            "palimpsest:strate",
+            "movement_path:progressif",
+            "light:naturelle",
+            "legibility_orientation:guidant",
+            "legibility_orientation:structuré",
+            "mystery_exploration:suggestif"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "olivetti_showroom",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:bois",
+        "color:doré",
+        "light:diffuse",
+        "movement_path:fluide",
+        "spatiality:étroit"
+      ],
+      "strong_subjective_tags": [
+        "intimacy_refuge:intime",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:ludique"
+      ],
+      "medium_tags": [
+        "material_texture:poli"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://fondoambiente.it/negozio-olivetti-eng",
+          "basis": "Source principale pour Olivetti Showroom : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:bois",
+            "intimacy_refuge:intime"
+          ]
+        },
+        {
+          "source": "https://en.venezia.net/olivetti-showroom-venice.html",
+          "basis": "Source complémentaire pour Olivetti Showroom : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "color:doré",
+            "light:diffuse",
+            "movement_path:fluide",
+            "spatiality:étroit",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:clair",
+            "strangeness_displacement:étrange"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "national_assembly_bangladesh",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:pierre",
+        "water:bassin",
+        "light:zénithale",
+        "framing:fente",
+        "spatiality:monumental",
+        "spatiality:voûte",
+        "shadow_contrast:profond"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:structuré",
+        "sacred_ritual:spirituel"
+      ],
+      "medium_tags": [
+        "water:miroir"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://the.akdn/akdn/akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/national-assembly-building",
+          "basis": "Source principale pour Assemblée nationale du Bangladesh : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:pierre",
+            "water:bassin",
+            "light:zénithale",
+            "monumental_sublime:monumental"
+          ]
+        },
+        {
+          "source": "https://www.archdaily.com/83071/ad-classics-national-assembly-building-of-bangladesh-louis-kahn",
+          "basis": "Source complémentaire pour Assemblée nationale du Bangladesh : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "framing:fente",
+            "spatiality:monumental",
+            "spatiality:voûte",
+            "shadow_contrast:profond",
+            "monumental_sublime:solennel",
+            "monumental_sublime:majestueux",
+            "legibility_orientation:structuré"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "water_temple_ando",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "water:bassin",
+        "nature_living:végétal",
+        "movement_path:ritualisé",
+        "movement_path:progressif",
+        "light:colorée",
+        "light:filtrée",
+        "shadow_contrast:pénombre"
+      ],
+      "strong_subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "calm_contemplation:contemplatif",
+        "mystery_exploration:initiatique",
+        "mystery_exploration:mystérieux"
+      ],
+      "medium_tags": [
+        "water:miroir"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archweb.com/en/architettures/water-temple/",
+          "basis": "Source principale pour Temple de l'Eau : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "water:bassin",
+            "nature_living:végétal",
+            "movement_path:ritualisé",
+            "sacred_ritual:sacré"
+          ]
+        },
+        {
+          "source": "https://arquitecturaviva.com/works/templo-del-agua-higashiura",
+          "basis": "Source complémentaire pour Temple de l'Eau : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "movement_path:progressif",
+            "light:colorée",
+            "light:filtrée",
+            "shadow_contrast:pénombre",
+            "sacred_ritual:spirituel",
+            "calm_contemplation:contemplatif",
+            "mystery_exploration:initiatique"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "row_house_sumiyoshi",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "spatiality:étroit",
+        "spatiality:fermé",
+        "light:zénithale",
+        "light:naturelle",
+        "thermal_air:exposé",
+        "movement_path:contraint",
+        "opening_landscape:introverti"
+      ],
+      "strong_subjective_tags": [
+        "intimacy_refuge:intime",
+        "intimacy_refuge:domestique",
+        "unease_oppression:austère",
+        "strangeness_displacement:abstrait",
+        "legibility_orientation:rationnel"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:équilibré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archweb.com/en/-civilians-architectures/azuma-house/",
+          "basis": "Source principale pour Row House in Sumiyoshi : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "spatiality:étroit",
+            "spatiality:fermé",
+            "light:zénithale",
+            "intimacy_refuge:intime"
+          ]
+        },
+        {
+          "source": "https://arquitecturaviva.com/works/casa-entre-medianeras",
+          "basis": "Source complémentaire pour Row House in Sumiyoshi : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "light:naturelle",
+            "thermal_air:exposé",
+            "movement_path:contraint",
+            "opening_landscape:introverti",
+            "intimacy_refuge:domestique",
+            "unease_oppression:austère",
+            "strangeness_displacement:abstrait"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "saint_benedict_chapel",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:bois",
+        "material_texture:toit léger",
+        "light:naturelle",
+        "light:diffuse",
+        "framing:lanterne",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "spatiality:bas"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:serein",
+        "sacred_ritual:spirituel",
+        "intimacy_refuge:protecteur",
+        "intimacy_refuge:chaleureux",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "sound:silencieux"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor",
+          "basis": "Source principale pour Chapelle Saint-Benoît : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:bois",
+            "material_texture:toit léger",
+            "light:naturelle",
+            "light:diffuse",
+            "calm_contemplation:serein"
+          ]
+        },
+        {
+          "source": "https://www.graubuenden.ch/en/attractions/kapelle-s-benedetg",
+          "basis": "Source complémentaire pour Chapelle Saint-Benoît : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "framing:lanterne",
+            "opening_landscape:paysage",
+            "nature_living:naturel",
+            "spatiality:bas",
+            "sacred_ritual:spirituel",
+            "intimacy_refuge:protecteur",
+            "intimacy_refuge:chaleureux"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "holocaust_memorial_berlin",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "spatiality:labyrinthique",
+        "spatiality:étroit",
+        "movement_path:contraint",
+        "shadow_contrast:profond",
+        "palimpsest:mémoire",
+        "compression_expansion:resserrement"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:douloureux",
+        "memory_absence:absent",
+        "unease_oppression:oppressant",
+        "unease_oppression:instable"
+      ],
+      "medium_tags": [
+        "strangeness_displacement:étrange"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe/",
+          "basis": "Source principale pour Mémorial aux Juifs assassinés d'Europe : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "spatiality:labyrinthique",
+            "spatiality:étroit",
+            "movement_path:contraint",
+            "memory_absence:mémoriel"
+          ]
+        },
+        {
+          "source": "https://www.visitberlin.de/en/memorial-murdered-jews-europe",
+          "basis": "Source complémentaire pour Mémorial aux Juifs assassinés d'Europe : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "shadow_contrast:profond",
+            "palimpsest:mémoire",
+            "compression_expansion:resserrement",
+            "memory_absence:douloureux",
+            "memory_absence:absent",
+            "unease_oppression:oppressant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "centre_pompidou",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:béton",
+        "color:polychrome",
+        "light:naturelle",
+        "spatiality:vaste",
+        "spatiality:ouvert",
+        "movement_path:traversant"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:ludique",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange"
+      ],
+      "medium_tags": [
+        "legibility_orientation:structuré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.centrepompidou.fr/en/collection/our-building",
+          "basis": "Source principale pour Centre Pompidou : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:béton",
+            "color:polychrome",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/larchitecture-du-centre-pompidou/structure-et-modules",
+          "basis": "Source complémentaire pour Centre Pompidou : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "light:naturelle",
+            "spatiality:vaste",
+            "spatiality:ouvert",
+            "movement_path:traversant",
+            "joy_social_intensity:ludique",
+            "joy_social_intensity:animé",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "lloyds_building",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "spatiality:atrium",
+        "spatiality:haut",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "movement_path:traversant",
+        "legibility_orientation:structuré"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:structuré",
+        "legibility_orientation:rationnel"
+      ],
+      "medium_tags": [
+        "joy_social_intensity:animé"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.lloyds.com/about-lloyds/our-home",
+          "basis": "Source principale pour Lloyd's Building : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:verre",
+            "spatiality:atrium",
+            "spatiality:haut",
+            "inspiration_concentration:stimulant"
+          ]
+        },
+        {
+          "source": "https://www.cityoflondon.gov.uk/things-to-do/architecture/modern-architecture/lloyds-building",
+          "basis": "Source complémentaire pour Lloyd's Building : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "opening_landscape:transparent",
+            "light:naturelle",
+            "movement_path:traversant",
+            "legibility_orientation:structuré",
+            "monumental_sublime:impressionnant",
+            "strangeness_displacement:étrange",
+            "legibility_orientation:structuré"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "jean_marie_tjibaou_cultural_centre",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:bois",
+        "material_texture:métal",
+        "material_texture:verre",
+        "thermal_air:ventilé",
+        "opening_landscape:paysage",
+        "nature_living:végétal",
+        "sound:vibrant",
+        "movement_path:progressif"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:mémoriel",
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:ressourçant",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "sacred_ritual:spirituel"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
+          "basis": "Source principale pour Centre culturel Jean-Marie Tjibaou : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:bois",
+            "material_texture:métal",
+            "material_texture:verre",
+            "thermal_air:ventilé",
+            "memory_absence:mémoriel"
+          ]
+        },
+        {
+          "source": "https://www.architectour.net/opere/opera.php?architetto=Renzo+Piano&id_opera=2733&nome_opera=Centre+culturel+Tjibaou",
+          "basis": "Source complémentaire pour Centre culturel Jean-Marie Tjibaou : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "opening_landscape:paysage",
+            "nature_living:végétal",
+            "sound:vibrant",
+            "movement_path:progressif",
+            "joy_social_intensity:vivant",
+            "wellbeing_restoration:ressourçant",
+            "legibility_orientation:structuré"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "kansai_airport_terminal",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:toit léger",
+        "thermal_air:ventilé",
+        "light:naturelle",
+        "light:diffuse",
+        "spatiality:vaste",
+        "movement_path:fluide"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:guidant",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant",
+        "monumental_sublime:impressionnant",
+        "wellbeing_restoration:équilibré"
+      ],
+      "medium_tags": [
+        "sound:vibrant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.britannica.com/topic/Terminal-1-at-Kansai-International-Airport",
+          "basis": "Source principale pour Terminal de l'aéroport du Kansai : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:verre",
+            "material_texture:toit léger",
+            "thermal_air:ventilé",
+            "legibility_orientation:guidant"
+          ]
+        },
+        {
+          "source": "https://www.architonic.com/en/project/renzo-piano-building-workshop-kansai-international-airport-passenger-terminal-building/5102405",
+          "basis": "Source complémentaire pour Terminal de l'aéroport du Kansai : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "light:naturelle",
+            "light:diffuse",
+            "spatiality:vaste",
+            "movement_path:fluide",
+            "legibility_orientation:clair",
+            "inspiration_concentration:stimulant",
+            "monumental_sublime:impressionnant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "guggenheim_bilbao",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:pierre",
+        "light:réfléchie",
+        "light:variable",
+        "opening_landscape:paysage",
+        "spatiality:monumental",
+        "movement_path:exploratoire"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:sublime",
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:animé"
+      ],
+      "medium_tags": [
+        "water:miroir"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.guggenheim-bilbao.eus/en/the-building/the-construction/",
+          "basis": "Source principale pour Guggenheim Museum Bilbao : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:verre",
+            "material_texture:pierre",
+            "light:réfléchie",
+            "monumental_sublime:sublime"
+          ]
+        },
+        {
+          "source": "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry",
+          "basis": "Source complémentaire pour Guggenheim Museum Bilbao : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "light:variable",
+            "opening_landscape:paysage",
+            "spatiality:monumental",
+            "movement_path:exploratoire",
+            "monumental_sublime:impressionnant",
+            "strangeness_displacement:étrange",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "walt_disney_concert_hall",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:bois",
+        "light:réfléchie",
+        "spatiality:monumental",
+        "movement_path:fluide",
+        "sound:enveloppant",
+        "sound:réverbérant"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:festif",
+        "monumental_sublime:impressionnant",
+        "inspiration_concentration:inspirant",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "strangeness_displacement:irréel"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.musiccenter.org/visit-explore/visit-explore/campus/walt-disney-concert-hall/",
+          "basis": "Source principale pour Walt Disney Concert Hall : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:bois",
+            "light:réfléchie",
+            "spatiality:monumental",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://www.permasteelisagroup.com/project-detail?project=2290",
+          "basis": "Source complémentaire pour Walt Disney Concert Hall : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "movement_path:fluide",
+            "sound:enveloppant",
+            "sound:réverbérant",
+            "joy_social_intensity:festif",
+            "monumental_sublime:impressionnant",
+            "inspiration_concentration:inspirant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "vitra_design_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:plâtre",
+        "color:blanc",
+        "light:naturelle",
+        "framing:fenêtre",
+        "movement_path:exploratoire",
+        "spatiality:haut",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "strangeness_displacement:étrange",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif"
+      ],
+      "medium_tags": [
+        "legibility_orientation:guidant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.vitra.com/fr-fr/campus/architecture/architecture-vitra-design-museum",
+          "basis": "Source principale pour Vitra Design Museum : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:plâtre",
+            "color:blanc",
+            "light:naturelle",
+            "framing:fenêtre",
+            "joy_social_intensity:ludique"
+          ]
+        },
+        {
+          "source": "https://www.vitra.com/en-dk/campus/architecture/architecture-vitra-design-museum",
+          "basis": "Source complémentaire pour Vitra Design Museum : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "movement_path:exploratoire",
+            "spatiality:haut",
+            "spatiality:ouvert",
+            "strangeness_displacement:étrange",
+            "strangeness_displacement:abstrait",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "tate_modern",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:brique",
+        "material_texture:béton",
+        "material_texture:métal",
+        "spatiality:monumental",
+        "spatiality:vaste",
+        "movement_path:progressif",
+        "palimpsest:réparation",
+        "palimpsest:strate"
+      ],
+      "strong_subjective_tags": [
+        "memory_absence:historique",
+        "joy_social_intensity:animé",
+        "joy_social_intensity:convivial",
+        "monumental_sublime:impressionnant",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "legibility_orientation:guidant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.herzogdemeuron.com/projects/126-tate-modern/",
+          "basis": "Source principale pour Tate Modern : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:brique",
+            "material_texture:béton",
+            "material_texture:métal",
+            "spatiality:monumental",
+            "memory_absence:historique"
+          ]
+        },
+        {
+          "source": "https://dome.mit.edu/handle/1721.3/180163",
+          "basis": "Source complémentaire pour Tate Modern : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "spatiality:vaste",
+            "movement_path:progressif",
+            "palimpsest:réparation",
+            "palimpsest:strate",
+            "joy_social_intensity:animé",
+            "joy_social_intensity:convivial",
+            "monumental_sublime:impressionnant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "dominus_winery",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:rugueux",
+        "filtering:grille",
+        "light:filtrée",
+        "thermal_air:tempéré",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "spatiality:bas"
+      ],
+      "strong_subjective_tags": [
+        "mystery_exploration:énigmatique",
+        "calm_contemplation:calme",
+        "wellbeing_restoration:équilibré",
+        "legibility_orientation:structuré",
+        "strangeness_displacement:abstrait"
+      ],
+      "medium_tags": [
+        "thermal_air:sec"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.dominusestate.com/architecture/",
+          "basis": "Source principale pour Dominus Winery : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:rugueux",
+            "filtering:grille",
+            "light:filtrée",
+            "mystery_exploration:énigmatique"
+          ]
+        },
+        {
+          "source": "https://www.herzogdemeuron.com/projects/137-dominus-winery/",
+          "basis": "Source complémentaire pour Dominus Winery : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "thermal_air:tempéré",
+            "opening_landscape:paysage",
+            "nature_living:naturel",
+            "spatiality:bas",
+            "calm_contemplation:calme",
+            "wellbeing_restoration:équilibré",
+            "legibility_orientation:structuré"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "beijing_national_stadium",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:métal",
+        "material_texture:béton",
+        "filtering:grille",
+        "color:rouge",
+        "light:naturelle",
+        "spatiality:monumental",
+        "spatiality:ouvert",
+        "movement_path:traversant"
+      ],
+      "strong_subjective_tags": [
+        "monumental_sublime:grandiose",
+        "monumental_sublime:impressionnant",
+        "joy_social_intensity:festif",
+        "joy_social_intensity:animé",
+        "strangeness_displacement:étrange"
+      ],
+      "medium_tags": [
+        "nature_living:organique"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.britannica.com/place/Beijing-National-Stadium",
+          "basis": "Source principale pour Beijing National Stadium : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:métal",
+            "material_texture:béton",
+            "filtering:grille",
+            "color:rouge",
+            "monumental_sublime:grandiose"
+          ]
+        },
+        {
+          "source": "https://www.herzogdemeuron.com/projects/226-national-stadium/",
+          "basis": "Source complémentaire pour Beijing National Stadium : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "light:naturelle",
+            "spatiality:monumental",
+            "spatiality:ouvert",
+            "movement_path:traversant",
+            "monumental_sublime:impressionnant",
+            "joy_social_intensity:festif",
+            "joy_social_intensity:animé"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "masp_sao_paulo",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:rouge",
+        "spatiality:vide",
+        "spatiality:monumental",
+        "opening_landscape:transparent",
+        "threshold:entrée"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "monumental_sublime:impressionnant"
+      ],
+      "medium_tags": [
+        "legibility_orientation:structuré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://masp.org.br/en/about",
+          "basis": "Source principale pour MASP : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:verre",
+            "material_texture:métal",
+            "color:rouge",
+            "joy_social_intensity:convivial"
+          ]
+        },
+        {
+          "source": "https://masp.org.br/en/about/keeping-modern",
+          "basis": "Source complémentaire pour MASP : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "spatiality:vide",
+            "spatiality:monumental",
+            "opening_landscape:transparent",
+            "threshold:entrée",
+            "joy_social_intensity:animé",
+            "inspiration_concentration:stimulant",
+            "legibility_orientation:clair"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "sesc_pompeia",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "material_texture:brique",
+        "palimpsest:réparation",
+        "palimpsest:strate",
+        "movement_path:traversant",
+        "spatiality:haut",
+        "framing:fente"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:ludique",
+        "memory_absence:historique",
+        "intimacy_refuge:chaleureux"
+      ],
+      "medium_tags": [
+        "unease_oppression:austère"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/",
+          "basis": "Source principale pour SESC Pompéia : elle documente les dispositifs architecturaux, les matériaux ou le statut patrimonial.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:brut",
+            "material_texture:brique",
+            "palimpsest:réparation",
+            "joy_social_intensity:vivant"
+          ]
+        },
+        {
+          "source": "https://arquitecturaviva.com/obras/sesc-fabrica-pompeia",
+          "basis": "Source complémentaire pour SESC Pompéia : elle confirme les effets spatiaux, la relation au site ou les dimensions mémorielles.",
+          "supports": [
+            "palimpsest:strate",
+            "movement_path:traversant",
+            "spatiality:haut",
+            "framing:fente",
+            "joy_social_intensity:convivial",
+            "joy_social_intensity:ludique",
+            "memory_absence:historique"
+          ]
+        }
+      ]
+    }
+  ]
+}

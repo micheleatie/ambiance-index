@@ -1,0 +1,1132 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "source_scan_v0",
+  "scope": "Lot 2 : références modernistes, domestiques, transparence, habitat, santé, pédagogie, paysage.",
+  "method": "Chaque référence garde trois sources minimum, des mots extraits physiques et subjectifs, puis des tags proposés avant validation.",
+  "entries": [
+    {
+      "reference_id": "villa_rotonda",
+      "name": "Villa Rotonda",
+      "sources": [
+        {
+          "title": "UNESCO - City of Vicenza and the Palladian Villas of the Veneto",
+          "url": "https://whc.unesco.org/en/list/712/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Villa La Rotonda - site officiel",
+          "url": "https://www.villalarotonda.it/en/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Villa La Rotonda - structure",
+          "url": "https://www.villalarotonda.it/en/villa/",
+          "type": "site officiel"
+        }
+      ],
+      "extracted_words_physical": [
+        "plan central",
+        "symétrie",
+        "quatre portiques",
+        "dôme",
+        "pierre",
+        "lumière changeante",
+        "paysage",
+        "vues cardinales"
+      ],
+      "extracted_words_subjective": [
+        "ordre",
+        "harmonie",
+        "majesté",
+        "contemplation",
+        "équilibre",
+        "calme"
+      ],
+      "draft_physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "framing:panorama",
+        "opening_landscape:panoramique",
+        "material_texture:pierre"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "monumental_sublime:majestueux",
+        "calm_contemplation:contemplatif"
+      ],
+      "confidence_notes": "Forte confiance pour symétrie, axialité, panorama et lumière variable. La dimension contemplative vient surtout de la relation au paysage."
+    },
+    {
+      "reference_id": "katsura_imperial_villa",
+      "name": "Katsura Imperial Villa",
+      "sources": [
+        {
+          "title": "Britannica - Katsura Imperial Villa",
+          "url": "https://www.britannica.com/topic/Katsura-Imperial-Villa",
+          "type": "encyclopédie"
+        },
+        {
+          "title": "JNTO - Katsura Imperial Villa",
+          "url": "https://www.japan.travel/en/spot/1137",
+          "type": "office national de tourisme"
+        },
+        {
+          "title": "Japan Guide - Katsura Imperial Villa",
+          "url": "https://www.japan-guide.com/e/e3914.html",
+          "type": "guide culturel"
+        }
+      ],
+      "extracted_words_physical": [
+        "jardin de promenade",
+        "étang",
+        "îles",
+        "maisons de thé",
+        "bois",
+        "bambou",
+        "pierres",
+        "parcours circulaire",
+        "saisons"
+      ],
+      "extracted_words_subjective": [
+        "raffinement",
+        "wabi-sabi",
+        "calme",
+        "spiritualité",
+        "équilibre",
+        "retenue"
+      ],
+      "draft_physical_tags": [
+        "material_texture:bois",
+        "water:bassin",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "movement_path:sinueux",
+        "movement_path:exploratoire",
+        "opening_landscape:cadré",
+        "light:tamisée"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:serein",
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:intime",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Forte confiance pour le jardin, le parcours, l’eau, le bois et la contemplation. Les effets spirituels restent moyens sans source experte plus précise."
+    },
+    {
+      "reference_id": "villa_savoye",
+      "name": "Villa Savoye",
+      "sources": [
+        {
+          "title": "Villa Savoye - promenade architecturale",
+          "url": "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+          "type": "site officiel"
+        },
+        {
+          "title": "UNESCO - Architectural Work of Le Corbusier",
+          "url": "https://whc.unesco.org/en/list/1321/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Architecture Lab - Villa Savoye",
+          "url": "https://www.architecturelab.net/villa-savoye-le-corbusier/",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "pilotis",
+        "rampe",
+        "promenade architecturale",
+        "béton armé",
+        "façade blanche",
+        "fenêtre en longueur",
+        "toit-jardin",
+        "vues cadrées",
+        "jeu de lumière"
+      ],
+      "extracted_words_subjective": [
+        "clarté",
+        "rationalité",
+        "abstraction",
+        "découverte",
+        "modernité",
+        "fluidité"
+      ],
+      "draft_physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "movement_path:progressif",
+        "movement_path:fluide",
+        "opening_landscape:cadré",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:clair",
+        "legibility_orientation:rationnel",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Forte confiance pour rampe, promenade, béton, blanc et cadrages. L’abstraction est un tag interprétatif mais très cohérent avec les sources modernes."
+    },
+    {
+      "reference_id": "unite_habitation_marseille",
+      "name": "Unité d'habitation de Marseille",
+      "sources": [
+        {
+          "title": "Le Corbusier World Heritage - Unité d’habitation",
+          "url": "https://lecorbusier-worldheritage.org/en/unite-habitation/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Sites Le Corbusier - Housing Unit Marseille",
+          "url": "https://sites-le-corbusier.org/en/oeuvres/unite-dhabitation-marseille/",
+          "type": "site patrimonial"
+        },
+        {
+          "title": "Britannica - Unité d’Habitation",
+          "url": "https://www.britannica.com/topic/Unite-dHabitation-urban-complex-Marseille-France",
+          "type": "encyclopédie"
+        }
+      ],
+      "extracted_words_physical": [
+        "barre sur pilotis",
+        "béton armé",
+        "brise-soleil",
+        "balcons",
+        "rue intérieure",
+        "toit-terrasse",
+        "village vertical",
+        "hauteur",
+        "vue"
+      ],
+      "extracted_words_subjective": [
+        "collectif",
+        "domestique",
+        "brutalisme",
+        "monumental",
+        "convivialité",
+        "ordre social"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:naturelle",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:panoramique",
+        "movement_path:traversant"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:convivial",
+        "intimacy_refuge:domestique",
+        "legibility_orientation:rationnel",
+        "monumental_sublime:impressionnant"
+      ],
+      "confidence_notes": "Forte confiance pour béton, monumentalité, habitat collectif et village vertical. La convivialité doit être reliée à la rue intérieure et aux équipements communs."
+    },
+    {
+      "reference_id": "maison_curutchet",
+      "name": "Maison Curutchet",
+      "sources": [
+        {
+          "title": "Le Corbusier World Heritage - Maison Curutchet",
+          "url": "https://lecorbusier-worldheritage.org/en/maison-du-docteur-curutchet/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "UNESCO - Architectural Work of Le Corbusier",
+          "url": "https://whc.unesco.org/en/list/1321/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "UNESCO document - Maison Curutchet",
+          "url": "https://whc.unesco.org/en/documents/140718",
+          "type": "document patrimonial"
+        }
+      ],
+      "extracted_words_physical": [
+        "parcelle étroite",
+        "rez-de-chaussée libre",
+        "deux volumes",
+        "cabinet médical",
+        "maison",
+        "vue sur parc",
+        "béton",
+        "rampe",
+        "filtre végétal"
+      ],
+      "extracted_words_subjective": [
+        "adaptation",
+        "clarté",
+        "domesticité",
+        "équilibre travail-maison",
+        "modernité",
+        "précision"
+      ],
+      "draft_physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "movement_path:progressif",
+        "threshold:filtre",
+        "opening_landscape:cadré",
+        "nature_living:végétal",
+        "spatiality:étroit"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:rationnel"
+      ],
+      "confidence_notes": "Forte confiance pour le programme mixte, les vues cadrées, le béton et la séparation travail/habitation. Le végétal est à vérifier selon plans et photos."
+    },
+    {
+      "reference_id": "barcelona_pavilion",
+      "name": "Pavillon de Barcelone",
+      "sources": [
+        {
+          "title": "Fundació Mies van der Rohe - The Pavilion",
+          "url": "https://miesbcn.com/the-pavilion/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Fundació Mies van der Rohe - Geometry of Light",
+          "url": "https://miesbcn.com/project/luftwerk-iker-gil-geometry-of-light/",
+          "type": "source institutionnelle"
+        },
+        {
+          "title": "Expo Barcelona - Mies van der Rohe Pavilion",
+          "url": "https://www.expo-barcelona.com/exhibition/mies-van-der-rohe-pavilion",
+          "type": "guide culturel"
+        }
+      ],
+      "extracted_words_physical": [
+        "verre",
+        "acier",
+        "marbre",
+        "travertin",
+        "onyx",
+        "reflets",
+        "eau",
+        "plan libre",
+        "intérieur-extérieur",
+        "géométrie"
+      ],
+      "extracted_words_subjective": [
+        "clarté",
+        "sobriété",
+        "équilibre",
+        "contemplation",
+        "abstraction",
+        "harmonie"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "material_texture:pierre",
+        "water:miroir",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "legibility_orientation:clair",
+        "legibility_orientation:ordonné",
+        "strangeness_displacement:abstrait"
+      ],
+      "confidence_notes": "Forte confiance pour matériaux, reflets, transparence et plan fluide. Les effets contemplatif/abstrait sont cohérents mais à garder comme subjectifs."
+    },
+    {
+      "reference_id": "farnsworth_house",
+      "name": "Farnsworth House",
+      "sources": [
+        {
+          "title": "Edith Farnsworth House - History",
+          "url": "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+          "type": "site officiel"
+        },
+        {
+          "title": "National Trust - Edith Farnsworth House",
+          "url": "https://savingplaces.org/places/farnsworth-house",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Britannica - Farnsworth House",
+          "url": "https://www.britannica.com/topic/Farnsworth-House",
+          "type": "encyclopédie"
+        }
+      ],
+      "extracted_words_physical": [
+        "acier blanc",
+        "verre continu",
+        "travertin",
+        "plancher suspendu",
+        "forêt",
+        "rivière",
+        "transparence",
+        "plan ouvert",
+        "nature"
+      ],
+      "extracted_words_subjective": [
+        "sérénité",
+        "exposition",
+        "minimalisme",
+        "contemplation",
+        "abstraction",
+        "fragilité"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:ressourçant",
+        "strangeness_displacement:abstrait",
+        "memory_absence:fragile"
+      ],
+      "confidence_notes": "Forte confiance pour verre, acier, transparence et relation à la nature. Fragilité liée aux inondations et à l’exposition, à ne pas confondre avec malaise."
+    },
+    {
+      "reference_id": "tugendhat_house",
+      "name": "Villa Tugendhat",
+      "sources": [
+        {
+          "title": "Villa Tugendhat - About the House",
+          "url": "https://www.tugendhat.eu/en/about-the-house/",
+          "type": "site officiel"
+        },
+        {
+          "title": "UNESCO - Tugendhat Villa in Brno",
+          "url": "https://whc.unesco.org/en/list/1052/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Villa Tugendhat - homepage",
+          "url": "https://www.tugendhat.eu/en/",
+          "type": "site officiel"
+        }
+      ],
+      "extracted_words_physical": [
+        "pureté formelle",
+        "intérieur-extérieur",
+        "jardin",
+        "matériaux nobles",
+        "verre",
+        "acier",
+        "plan libre",
+        "espace sans limites"
+      ],
+      "extracted_words_subjective": [
+        "clarté",
+        "domesticité moderne",
+        "perfection",
+        "calme",
+        "luxe discret",
+        "fluidité"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:pierre",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "calm_contemplation:calme"
+      ],
+      "confidence_notes": "Forte confiance pour plan ouvert, transparence, matériaux nobles et rapport au jardin. La domesticité est bien liée à la typologie de villa."
+    },
+    {
+      "reference_id": "seagram_building",
+      "name": "Seagram Building",
+      "sources": [
+        {
+          "title": "Britannica - Seagram Building",
+          "url": "https://www.britannica.com/topic/Seagram-Building",
+          "type": "encyclopédie"
+        },
+        {
+          "title": "SOM - Seagram Building",
+          "url": "https://www.som.com/projects/seagram-building/",
+          "type": "agence architecture"
+        },
+        {
+          "title": "National Register / Wikipedia summary references",
+          "url": "https://en.wikipedia.org/wiki/Seagram_Building",
+          "type": "repère documentaire"
+        }
+      ],
+      "extracted_words_physical": [
+        "tour de verre et bronze",
+        "prisme",
+        "grille",
+        "proportion",
+        "plaza",
+        "détail",
+        "austérité",
+        "hauteur"
+      ],
+      "extracted_words_subjective": [
+        "ordre",
+        "autorité",
+        "austérité",
+        "élégance",
+        "monumentalité",
+        "précision"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:doré",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:transparent",
+        "light:réfléchie"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant",
+        "unease_oppression:austère"
+      ],
+      "confidence_notes": "Forte confiance pour verre/bronze, grille, proportion et austérité. Le tag doré correspond au bronze, à vérifier si la taxonomie évolue."
+    },
+    {
+      "reference_id": "crown_hall",
+      "name": "S. R. Crown Hall",
+      "sources": [
+        {
+          "title": "Illinois Institute of Technology - Crown Hall",
+          "url": "https://www.iit.edu/admissions-aid/visit-and-tour/virtual-tour/crown-hall",
+          "type": "institution"
+        },
+        {
+          "title": "Docomomo US - S.R. Crown Hall",
+          "url": "https://docomomo-us.org/register/s-r-crown-hall",
+          "type": "inventaire architecture"
+        },
+        {
+          "title": "ArchDaily Classics - S. R. Crown Hall",
+          "url": "https://www.archdaily.com/59816/ad-classics-s-r-crown-hall-mies-van-der-rohe",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "halle ouverte",
+        "plan libre",
+        "sans colonnes intérieures",
+        "acier",
+        "verre",
+        "grandes portées",
+        "lumière",
+        "campus"
+      ],
+      "extracted_words_subjective": [
+        "clarté",
+        "studio",
+        "concentration",
+        "rationalité",
+        "inspiration",
+        "discipline"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:vaste",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide",
+        "legibility_orientation:clair"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "legibility_orientation:clair",
+        "monumental_sublime:impressionnant"
+      ],
+      "confidence_notes": "Forte confiance pour open plan, absence de colonnes, verre et acier. L’effet studieux vient du programme d’école d’architecture."
+    },
+    {
+      "reference_id": "robie_house",
+      "name": "Robie House",
+      "sources": [
+        {
+          "title": "Frank Lloyd Wright Trust - Frederick C. Robie House",
+          "url": "https://www.flwright.org/explore/frederick-c-robie-house",
+          "type": "site officiel"
+        },
+        {
+          "title": "Frank Lloyd Wright Trust - Robie House tour",
+          "url": "https://www.flwright.org/tour/robie-house",
+          "type": "site officiel"
+        },
+        {
+          "title": "UNESCO - 20th-Century Architecture of Frank Lloyd Wright",
+          "url": "https://whc.unesco.org/en/list/1496/",
+          "type": "patrimoine"
+        }
+      ],
+      "extracted_words_physical": [
+        "horizontalité",
+        "brique",
+        "calcaire",
+        "toits débordants",
+        "porte-à-faux",
+        "verre au plomb",
+        "plan ouvert",
+        "cheminée centrale",
+        "lumière filtrée"
+      ],
+      "extracted_words_subjective": [
+        "domesticité",
+        "chaleur",
+        "protection",
+        "sérénité",
+        "continuité nature-intérieur",
+        "équilibre"
+      ],
+      "draft_physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "light:filtrée",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "opening_landscape:poreux",
+        "framing:fenêtre"
+      ],
+      "draft_subjective_tags": [
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:chaleureux",
+        "intimacy_refuge:protecteur",
+        "calm_contemplation:serein"
+      ],
+      "confidence_notes": "Forte confiance pour brique, horizontalité, open plan, fenêtres en verre au plomb et refuge domestique."
+    },
+    {
+      "reference_id": "unity_temple",
+      "name": "Unity Temple",
+      "sources": [
+        {
+          "title": "Frank Lloyd Wright Trust - Unity Temple",
+          "url": "https://www.flwright.org/explore/unity-temple",
+          "type": "site officiel"
+        },
+        {
+          "title": "Chicago Architecture Center - Unity Temple",
+          "url": "https://www.architecture.org/learn/resources/buildings-of-chicago/building/unity-temple/",
+          "type": "institution architecture"
+        },
+        {
+          "title": "UNESCO - 20th-Century Architecture of Frank Lloyd Wright",
+          "url": "https://whc.unesco.org/en/list/1496/",
+          "type": "patrimoine"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton",
+        "cube monolithique",
+        "clerestory",
+        "verre teinté ambré",
+        "puits de lumière",
+        "passages bas et sombres",
+        "sanctuaire lumineux",
+        "séquence d’entrée"
+      ],
+      "extracted_words_subjective": [
+        "sacré",
+        "intime",
+        "grand mais contenu",
+        "contemplation",
+        "simplicité",
+        "harmonie"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "light:zénithale",
+        "light:filtrée",
+        "light:colorée",
+        "shadow_contrast:pénombre",
+        "spatiality:haut",
+        "movement_path:progressif"
+      ],
+      "draft_subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif"
+      ],
+      "confidence_notes": "Forte confiance pour béton, parcours sombre puis sanctuaire lumineux, et lumière ambrée filtrée."
+    },
+    {
+      "reference_id": "taliesin_west",
+      "name": "Taliesin West",
+      "sources": [
+        {
+          "title": "Frank Lloyd Wright Foundation - Taliesin West",
+          "url": "https://franklloydwright.org/taliesin-west/",
+          "type": "site officiel"
+        },
+        {
+          "title": "UNESCO - 20th-Century Architecture of Frank Lloyd Wright",
+          "url": "https://whc.unesco.org/en/list/1496/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Architectural Digest - Taliesin West",
+          "url": "https://www.architecturaldigest.com/story/taliesin-west-everything-you-need-to-know-about-frank-lloyd-wrights-winter-home-and-studio",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "désert",
+        "maçonnerie du désert",
+        "pierre locale",
+        "béton",
+        "toits légers",
+        "campus",
+        "cours",
+        "vues vers les montagnes",
+        "lumière filtrée"
+      ],
+      "extracted_words_subjective": [
+        "expérimentation",
+        "abri",
+        "vie collective",
+        "inspiration",
+        "relation au désert",
+        "énergie"
+      ],
+      "draft_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "material_texture:toit léger",
+        "light:diffuse",
+        "thermal_air:sec",
+        "thermal_air:ventilé",
+        "opening_landscape:paysage",
+        "nature_living:sauvage"
+      ],
+      "draft_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:abrité",
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Forte confiance pour pierre locale, désert, abri et campus vivant. La ventilation/toit léger mérite citation plus technique."
+    },
+    {
+      "reference_id": "bauhaus_dessau",
+      "name": "Bauhaus Dessau",
+      "sources": [
+        {
+          "title": "Bauhaus Dessau Foundation - Foundation",
+          "url": "https://bauhaus-dessau.de/en/institution/foundation/",
+          "type": "institution"
+        },
+        {
+          "title": "UNESCO - Bauhaus and its Sites",
+          "url": "https://whc.unesco.org/en/list/729/",
+          "type": "patrimoine"
+        },
+        {
+          "title": "Visit Dessau - Bauhaus",
+          "url": "https://www.visitdessau.com/en/world-heritage/bauhaus/",
+          "type": "office de tourisme"
+        }
+      ],
+      "extracted_words_physical": [
+        "verre",
+        "béton",
+        "acier",
+        "fonctionnalisme",
+        "école",
+        "atelier",
+        "façade vitrée",
+        "volumes articulés",
+        "modernité sociale"
+      ],
+      "extracted_words_subjective": [
+        "rationnel",
+        "studieux",
+        "collectif",
+        "réforme sociale",
+        "clarté",
+        "discipline"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:béton",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:intellectuel"
+      ],
+      "confidence_notes": "Forte confiance pour verre, béton, fonctionnalité, école et clarté rationnelle."
+    },
+    {
+      "reference_id": "villa_mairea",
+      "name": "Villa Mairea",
+      "sources": [
+        {
+          "title": "Alvar Aalto Foundation - Villa Mairea",
+          "url": "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
+          "type": "fondation architecte"
+        },
+        {
+          "title": "Villa Mairea - site officiel",
+          "url": "https://www.villamairea.fi/",
+          "type": "site officiel"
+        },
+        {
+          "title": "ArchDaily Classics - Villa Mairea",
+          "url": "https://www.archdaily.com/85390/ad-classics-villa-mairea-alvar-aalto",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "bois",
+        "pin finlandais",
+        "teck",
+        "pierre",
+        "enduit",
+        "colonnade de jeunes troncs",
+        "jardin",
+        "mur coulissant",
+        "intérieur ouvert au jardin"
+      ],
+      "extracted_words_subjective": [
+        "intime",
+        "chaleureux",
+        "naturel",
+        "accueillant",
+        "serein",
+        "habité"
+      ],
+      "draft_physical_tags": [
+        "material_texture:bois",
+        "material_texture:pierre",
+        "nature_living:végétal",
+        "light:naturelle",
+        "light:tamisée",
+        "opening_landscape:ouvert",
+        "movement_path:fluide"
+      ],
+      "draft_subjective_tags": [
+        "intimacy_refuge:intime",
+        "intimacy_refuge:chaleureux",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "confidence_notes": "Forte confiance pour bois, jardin, ouverture et intimité chaude."
+    },
+    {
+      "reference_id": "paimio_sanatorium",
+      "name": "Paimio Sanatorium",
+      "sources": [
+        {
+          "title": "Alvar Aalto Foundation - Paimio Sanatorium",
+          "url": "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
+          "type": "fondation architecte"
+        },
+        {
+          "title": "Paimio Sanatorium - site officiel",
+          "url": "https://paimiosanatorium.com/",
+          "type": "site officiel"
+        },
+        {
+          "title": "Paimio Sanatorium Foundation",
+          "url": "https://paimiosanatorium.com/sanatorium/foundation/",
+          "type": "fondation du site"
+        }
+      ],
+      "extracted_words_physical": [
+        "béton",
+        "fonctionnalisme",
+        "forêt de pins",
+        "terrasses de soleil",
+        "couleurs",
+        "chambres de patients",
+        "ventilation",
+        "lumière naturelle",
+        "bien-être"
+      ],
+      "extracted_words_subjective": [
+        "guérison",
+        "santé",
+        "calme",
+        "humanité",
+        "soin",
+        "repos"
+      ],
+      "draft_physical_tags": [
+        "material_texture:béton",
+        "light:naturelle",
+        "color:chaud",
+        "thermal_air:ventilé",
+        "nature_living:naturel",
+        "opening_landscape:paysage",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "wellbeing_restoration:réparateur",
+        "wellbeing_restoration:sain",
+        "calm_contemplation:calme",
+        "intimacy_refuge:protecteur"
+      ],
+      "confidence_notes": "Forte confiance pour architecture de soin, lumière, air, forêt et restauration du corps."
+    },
+    {
+      "reference_id": "saynatsalo_town_hall",
+      "name": "Säynätsalo Town Hall",
+      "sources": [
+        {
+          "title": "Alvar Aalto Foundation - Säynätsalo Town Hall",
+          "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+          "type": "fondation architecte"
+        },
+        {
+          "title": "Visit Jyväskylä - Säynätsalo Town Hall",
+          "url": "https://visitjyvaskyla.fi/en/attractions/saynatsalo-town-hall/",
+          "type": "office de tourisme"
+        },
+        {
+          "title": "Architecture Lab - Säynätsalo Town Hall",
+          "url": "https://www.architecturelab.net/saynatsalo-town-hall-alvar-aalto/",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "brique rouge",
+        "cour surélevée",
+        "escalier de granite",
+        "escalier végétal",
+        "chambre du conseil",
+        "bois",
+        "tour",
+        "parcours ascendant"
+      ],
+      "extracted_words_subjective": [
+        "chaleur",
+        "civicité",
+        "solennité",
+        "communauté",
+        "intimité publique",
+        "ordre"
+      ],
+      "draft_physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "nature_living:végétal",
+        "movement_path:progressif",
+        "threshold:entrée",
+        "spatiality:haut",
+        "light:naturelle"
+      ],
+      "draft_subjective_tags": [
+        "intimacy_refuge:chaleureux",
+        "joy_social_intensity:convivial",
+        "monumental_sublime:solennel",
+        "legibility_orientation:structuré"
+      ],
+      "confidence_notes": "Forte confiance pour brique, cour, montée et solennité civique. La convivialité vient du programme mixte et de l’échelle communautaire."
+    },
+    {
+      "reference_id": "eames_house",
+      "name": "Eames House",
+      "sources": [
+        {
+          "title": "Eames Foundation - Eames House",
+          "url": "https://eamesfoundation.org/eames-house/",
+          "type": "fondation"
+        },
+        {
+          "title": "Eames Office - The Eames House & Foundation",
+          "url": "https://www.eamesoffice.com/visit-learn/eames-house/",
+          "type": "site officiel"
+        },
+        {
+          "title": "ArchDaily Classics - Eames House",
+          "url": "https://www.archdaily.com/66302/ad-classics-eames-house-charles-and-ray-eames",
+          "type": "média architecture"
+        }
+      ],
+      "extracted_words_physical": [
+        "structure acier",
+        "panneaux colorés",
+        "verre",
+        "eucalyptus",
+        "prairie",
+        "atelier",
+        "maison",
+        "modularité",
+        "nature"
+      ],
+      "extracted_words_subjective": [
+        "joyeux",
+        "ludique",
+        "domestique",
+        "créatif",
+        "vivant",
+        "équilibre travail-maison"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:polychrome",
+        "nature_living:végétal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "joy_social_intensity:vivant",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Forte confiance pour structure modulaire, couleur, nature et effet ludique/créatif."
+    },
+    {
+      "reference_id": "glass_house_philip_johnson",
+      "name": "Glass House",
+      "sources": [
+        {
+          "title": "The Glass House - official overview",
+          "url": "https://theglasshouse.org/explore/the-glass-house/",
+          "type": "site officiel"
+        },
+        {
+          "title": "National Trust - The Glass House",
+          "url": "https://savingplaces.org/places/glass-house",
+          "type": "patrimoine"
+        },
+        {
+          "title": "The Glass House - landscape",
+          "url": "https://theglasshouse.org/explore/landscape/",
+          "type": "site officiel"
+        }
+      ],
+      "extracted_words_physical": [
+        "verre",
+        "pavillon",
+        "paysage",
+        "promontoire",
+        "étang",
+        "vues",
+        "sans murs intérieurs",
+        "brique",
+        "acier",
+        "composition avec Brick House"
+      ],
+      "extracted_words_subjective": [
+        "contemplation",
+        "exposition",
+        "abstraction",
+        "irréalité",
+        "calme",
+        "expérimentation"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:brique",
+        "opening_landscape:transparent",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Forte confiance pour transparence, pavillon de paysage et abstraction. L’irréel est interprétatif mais soutenu par l’effet de disparition des parois."
+    },
+    {
+      "reference_id": "maison_de_verre",
+      "name": "Maison de Verre",
+      "sources": [
+        {
+          "title": "Centre Pompidou - Maison de verre",
+          "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cKxjGX8",
+          "type": "musée / collection"
+        },
+        {
+          "title": "Centre Pompidou - secret history of the Maison de Verre",
+          "url": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-secret-history-of-the-maison-de-verre-a-masterpiece-of-modern-architecture",
+          "type": "musée / article"
+        },
+        {
+          "title": "MIT Dome - Maison de Verre",
+          "url": "https://dome.mit.edu/handle/1721.3/119743",
+          "type": "archive universitaire"
+        }
+      ],
+      "extracted_words_physical": [
+        "briques de verre",
+        "acier apparent",
+        "squelette métallique",
+        "lumière diffuse",
+        "parois mobiles",
+        "métal perforé",
+        "cabinet médical",
+        "espace domestique",
+        "mécanismes"
+      ],
+      "extracted_words_subjective": [
+        "mystère",
+        "ingéniosité",
+        "domesticité technique",
+        "étrangeté",
+        "stimulation",
+        "secret"
+      ],
+      "draft_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:diffuse",
+        "light:filtrée",
+        "filtering:grille",
+        "filtering:perforation",
+        "opening_landscape:opaque",
+        "spatiality:ouvert"
+      ],
+      "draft_subjective_tags": [
+        "mystery_exploration:suggestif",
+        "mystery_exploration:caché",
+        "strangeness_displacement:étrange",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "confidence_notes": "Forte confiance pour verre, métal, lumière diffuse et mécanique domestique. Le caractère caché vient de la cour intérieure et de la diffusion par brique de verre."
+    }
+  ]
+}

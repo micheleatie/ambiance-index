@@ -4,7 +4,7 @@
 
 Le dépôt contient une base documentaire, des données de départ et un premier prototype web statique.
 
-Objectif immédiat : stabiliser un vocabulaire d'ambiances, tester les données dans une interface de recherche, puis enrichir les fiches.
+Objectif immédiat : enrichir progressivement les 100 références candidates, tester les combinaisons d'ambiances dans l'interface, puis renforcer les justifications sourcées.
 
 ## Structure
 
@@ -15,8 +15,16 @@ Objectif immédiat : stabiliser un vocabulaire d'ambiances, tester les données 
 - `research/01-cadrage-plateforme.md` : cadrage produit et méthode de constitution de la base.
 - `research/02-taxonomie-ambiances.md` : taxonomie initiale des ambiances physiques et subjectives.
 - `research/03-corpus-references.md` : premier corpus de références emblématiques.
+- `research/04-methode-corpus-100-et-extraction.md` : méthode pour passer de 100 références candidates aux mots extraits puis aux tags validés.
 - `data/taxonomy_seed.json` : version structurée de la taxonomie.
 - `data/references_seed.json` : version structurée du premier corpus.
+- `data/reference_candidates_100.json` : corpus candidat de 100 références connues à sourcer et analyser.
+- `data/reference_analysis_lot_1_light_sacred_museums.json` : premier scan de sources, mots extraits et tags proposés pour 20 références lumière / sacré / musées.
+- `data/reference_analysis_lot_1_validated.json` : validation v0 du lot 1 avec tags forts, moyens et fragiles.
+- `data/reference_analysis_lot_2_modernist_domestic.json` : scan de sources, mots extraits et tags proposés pour 20 références modernistes / domestiques.
+- `data/reference_analysis_lot_2_validated.json` : validation v0 du lot 2 avec tags forts, moyens et fragiles.
+- `data/reference_analysis_lot_3_material_memory.json` : scan de sources, mots extraits et tags proposés pour 20 références matière / mémoire / réemploi.
+- `data/reference_analysis_lot_3_validated.json` : validation v0 du lot 3 avec tags forts, moyens et fragiles.
 - `app/index.html` : surface du prototype.
 - `app/styles.css` : système visuel et mise en page responsive.
 - `app/app.js` : chargement des données, filtres, recherche, fiche référence et annotation locale.
@@ -58,4 +66,9 @@ Fonctions disponibles :
 - fiche détaillée avec sources ;
 - annotation expert locale stockée dans `localStorage`.
 
-Limite actuelle : les annotations restent dans le navigateur et ne sont pas encore exportées dans les fichiers du projet.
+Limites actuelles :
+
+- `data/references_seed.json` contient 70 références indexées dans l'app, pas encore les 100 candidates.
+- `data/reference_candidates_100.json` contient le corpus cible ; les références non validées ne doivent pas encore alimenter les filtres publics.
+- les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
+- les annotations restent dans le navigateur et ne sont pas encore exportées dans les fichiers du projet.

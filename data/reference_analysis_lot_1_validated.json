@@ -1,0 +1,250 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "validated_for_seed_v0",
+  "scope": "Validation du lot 1 : lumière, sacré, musées, dispositifs contemplatifs.",
+  "validation_rule": "Les tags forts sont directement justifiés par des sources institutionnelles, officielles ou des descriptions architecturales concordantes. Les tags moyens sont plausibles mais doivent recevoir une citation plus précise. Les tags fragiles restent exclus de l'intégration dans l'app.",
+  "entries": [
+    {
+      "reference_id": "pantheon_rome",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:zénithale", "light:variable", "spatiality:monumental", "framing:oculus"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:sublime", "legibility_orientation:ordonné"],
+      "medium_tags": ["spatiality:voûte", "material_texture:pierre", "mystery_exploration:mystérieux"],
+      "weak_tags": ["monumental_sublime:majestueux"],
+      "evidence": [
+        {"source": "https://www.britannica.com/list/19-essential-italian-churches/Pantheon", "basis": "Britannica décrit le dôme, l'oculus et l'entrée de lumière naturelle.", "supports": ["light:zénithale", "framing:oculus", "spatiality:monumental"]},
+        {"source": "https://www.architecturaldigest.com/story/pantheon-rome-architecture", "basis": "La description insiste sur l'expérience lumineuse produite par l'oculus.", "supports": ["light:variable", "monumental_sublime:sublime"]}
+      ]
+    },
+    {
+      "reference_id": "sainte_chapelle_paris",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:colorée", "light:intense", "filtering:vitrail", "spatiality:haut"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:impressionnant"],
+      "medium_tags": ["light:filtrée", "mystery_exploration:initiatique"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows", "basis": "La source officielle met au centre l'ensemble unique de vitraux.", "supports": ["light:colorée", "filtering:vitrail", "sacred_ritual:sacré"]},
+        {"source": "https://whc.unesco.org/en/list/600/", "basis": "Le classement patrimonial confirme l'importance exceptionnelle du monument dans l'ensemble parisien.", "supports": ["monumental_sublime:impressionnant"]}
+      ]
+    },
+    {
+      "reference_id": "hagia_sophia",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:zénithale", "light:diffuse", "spatiality:monumental", "spatiality:voûte", "material_texture:pierre"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "monumental_sublime:majestueux"],
+      "medium_tags": ["monumental_sublime:sublime"],
+      "weak_tags": ["mystery_exploration:mystérieux"],
+      "evidence": [
+        {"source": "https://www.hagiasophia.com/architecture", "basis": "La page d'architecture décrit le grand dôme, les pendentifs et l'anneau de fenêtres lumineuses.", "supports": ["light:zénithale", "light:diffuse", "spatiality:voûte"]},
+        {"source": "https://whc.unesco.org/en/list/356/", "basis": "L'inscription UNESCO situe Hagia Sophia dans un ensemble patrimonial majeur d'Istanbul.", "supports": ["sacred_ritual:sacré", "monumental_sublime:majestueux"]}
+      ]
+    },
+    {
+      "reference_id": "great_mosque_cordoba",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["shadow_contrast:pénombre", "spatiality:labyrinthique", "spatiality:vaste", "material_texture:pierre", "movement_path:exploratoire"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "mystery_exploration:mystérieux", "monumental_sublime:impressionnant"],
+      "medium_tags": ["intimacy_refuge:intime"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba", "basis": "Britannica décrit la salle hypostyle, ses centaines de colonnes et la profondeur du sanctuaire.", "supports": ["spatiality:labyrinthique", "spatiality:vaste", "material_texture:pierre"]},
+        {"source": "https://whc.unesco.org/en/list/313/", "basis": "La source patrimoniale confirme le statut religieux et historique majeur du lieu.", "supports": ["sacred_ritual:sacré", "monumental_sublime:impressionnant"]}
+      ]
+    },
+    {
+      "reference_id": "chartres_cathedral",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:colorée", "light:filtrée", "filtering:vitrail", "spatiality:haut", "spatiality:monumental"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "memory_absence:historique", "monumental_sublime:majestueux"],
+      "medium_tags": ["monumental_sublime:impressionnant"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://whc.unesco.org/en/list/81", "basis": "UNESCO insiste sur la vaste nef gothique et l'ensemble exceptionnel de vitraux conservés.", "supports": ["light:colorée", "filtering:vitrail", "spatiality:haut"]},
+        {"source": "https://www.chartres-csm.org/en/the-cathedral/the-stained-glass-windows-of-chartres-cathedral/", "basis": "La source institutionnelle documente la collection médiévale de vitraux.", "supports": ["light:filtrée", "memory_absence:historique"]}
+      ]
+    },
+    {
+      "reference_id": "notre_dame_paris",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:naturelle", "light:colorée", "filtering:vitrail", "spatiality:haut", "spatiality:voûte", "material_texture:pierre"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "memory_absence:historique"],
+      "medium_tags": ["monumental_sublime:monumental"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/", "basis": "La source officielle décrit les fenêtres hautes, les roses et la voûte gothique.", "supports": ["light:naturelle", "spatiality:haut", "spatiality:voûte"]},
+        {"source": "https://www.friendsofnotredamedeparis.org/cathedral/artifacts/rose-windows/", "basis": "La source documente les roses et leur lumière colorée.", "supports": ["light:colorée", "filtering:vitrail"]}
+      ]
+    },
+    {
+      "reference_id": "sagrada_familia",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:colorée", "light:intense", "light:variable", "filtering:vitrail", "spatiality:haut", "nature_living:organique"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "calm_contemplation:contemplatif", "monumental_sublime:impressionnant"],
+      "medium_tags": ["joy_social_intensity:joyeux"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/", "basis": "Le blog officiel explique la lumière naturelle, les tons chauds/froids et le rôle des vitraux.", "supports": ["light:colorée", "light:variable", "filtering:vitrail"]},
+        {"source": "https://sagradafamilia.org/en/sagrada-familia-ticket?inheritRedirect=true", "basis": "La source officielle présente la basilique comme temple de lumière et espace spirituel.", "supports": ["sacred_ritual:spirituel", "calm_contemplation:contemplatif"]}
+      ]
+    },
+    {
+      "reference_id": "ronchamp",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:filtrée", "light:colorée", "material_texture:béton", "spatiality:épais", "movement_path:ritualisé"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "mystery_exploration:mystérieux"],
+      "medium_tags": ["light:réfléchie", "calm_contemplation:silencieux"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/", "basis": "La source patrimoniale situe Ronchamp comme icône de l'architecture sacrée chrétienne moderne.", "supports": ["sacred_ritual:sacré", "movement_path:ritualisé"]},
+        {"source": "https://archimapper.com/item/le-corbusier-notre-dame-du-haut/", "basis": "La description associe explicitement matière et lumière, béton, pierre, verre coloré.", "supports": ["light:filtrée", "light:colorée", "material_texture:béton"]}
+      ]
+    },
+    {
+      "reference_id": "monastery_la_tourette",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:colorée", "light:zénithale", "material_texture:béton", "material_texture:brut", "spatiality:fermé", "movement_path:progressif"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:ascétique", "calm_contemplation:contemplatif", "inspiration_concentration:studieux"],
+      "medium_tags": ["intimacy_refuge:refuge"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/", "basis": "La source décrit le béton brut, les canons à lumière et la palette de contrôle de la lumière naturelle.", "supports": ["material_texture:béton", "material_texture:brut", "light:colorée", "light:zénithale"]},
+        {"source": "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-couvent-sainte-marie-de-la-tourette-eveux-sur-larbresle-france-1953-1960/", "basis": "La Fondation Le Corbusier documente le programme monastique : cellules, bibliothèque, salles de cours, église.", "supports": ["sacred_ritual:ascétique", "inspiration_concentration:studieux"]}
+      ]
+    },
+    {
+      "reference_id": "church_of_the_light",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:intense", "shadow_contrast:clair-obscur", "material_texture:béton", "framing:fente", "spatiality:vide"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "monumental_sublime:solennel"],
+      "medium_tags": ["sacred_ritual:ascétique"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "http://ibaraki-kasugaoka-church.jp/e-top.html", "basis": "Le site officiel confirme le lieu et son statut religieux.", "supports": ["sacred_ritual:sacré"]},
+        {"source": "https://www.architecturelab.net/church-of-the-light-tadao-ando-architect-associates/", "basis": "La description architecturale met en avant le volume de béton et la croix lumineuse.", "supports": ["light:intense", "shadow_contrast:clair-obscur", "material_texture:béton"]}
+      ]
+    },
+    {
+      "reference_id": "chapel_st_ignatius",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:colorée", "light:réfléchie", "filtering:volume", "framing:lanterne", "material_texture:béton"],
+      "strong_subjective_tags": ["sacred_ritual:spirituel", "sacred_ritual:sacré", "calm_contemplation:contemplatif"],
+      "medium_tags": ["mystery_exploration:suggestif"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.stevenholl.com/projects/st-ignatius-chapel", "basis": "Steven Holl décrit les baffles colorés, les lentilles colorées et les volumes lumineux.", "supports": ["light:colorée", "light:réfléchie", "filtering:volume"]},
+        {"source": "https://www.seattleu.edu/life-at-seattle-u/faith-spirituality-meaning/chapel-of-st-ignatius/architecture/", "basis": "Seattle University relie le concept à une expérience spirituelle par la lumière colorée.", "supports": ["sacred_ritual:spirituel", "sacred_ritual:sacré"]}
+      ]
+    },
+    {
+      "reference_id": "kimbell_art_museum",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:diffuse", "light:réfléchie", "material_texture:béton", "material_texture:travertin", "spatiality:voûte"],
+      "strong_subjective_tags": ["calm_contemplation:contemplatif", "legibility_orientation:clair", "inspiration_concentration:concentré"],
+      "medium_tags": ["calm_contemplation:calme"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://kimbellart.org/art-architecture/architecture/kahn-building", "basis": "La source officielle dit que la lumière est le thème du bâtiment et décrit les réflecteurs sous les voûtes.", "supports": ["light:diffuse", "light:réfléchie", "spatiality:voûte"]},
+        {"source": "https://kimbellart.org/content/kahn-building-detail", "basis": "La page de détail documente la lumière naturelle, les voûtes et les matériaux béton/travertin.", "supports": ["material_texture:béton", "material_texture:travertin"]}
+      ]
+    },
+    {
+      "reference_id": "menil_collection",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:naturelle", "light:diffuse", "material_texture:bois", "material_texture:verre", "opening_landscape:ouvert", "nature_living:domestiqué"],
+      "strong_subjective_tags": ["calm_contemplation:calme", "intimacy_refuge:domestique", "legibility_orientation:clair"],
+      "medium_tags": ["calm_contemplation:contemplatif"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.menil.org/campus/main-building", "basis": "La source officielle décrit le bâtiment en cyprès gris, son insertion résidentielle et ses galeries à lumière naturelle variable.", "supports": ["light:naturelle", "light:diffuse", "material_texture:bois"]},
+        {"source": "https://www.menil.org/index.php/campus/main-building", "basis": "La page confirme le rapport entre musée, quartier domestique, fenêtres et espaces de recherche visibles.", "supports": ["intimacy_refuge:domestique", "legibility_orientation:clair"]}
+      ]
+    },
+    {
+      "reference_id": "fondation_beyeler",
+      "index_action": "already_indexed_keep",
+      "strong_physical_tags": ["light:naturelle", "light:filtrée", "opening_landscape:paysage", "nature_living:verdure", "spatiality:ordonné", "material_texture:toit léger"],
+      "strong_subjective_tags": ["calm_contemplation:serein", "legibility_orientation:clair", "wellbeing_restoration:équilibré"],
+      "medium_tags": ["calm_contemplation:calme"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/", "basis": "La Fondation Renzo Piano décrit un musée éclairé par lumière naturelle et entouré de verdure.", "supports": ["light:naturelle", "light:filtrée", "nature_living:verdure"]},
+        {"source": "https://www.fondationbeyeler.ch/en/museum", "basis": "La Fondation Beyeler présente l'harmonie entre architecture, nature et art.", "supports": ["opening_landscape:paysage", "wellbeing_restoration:équilibré"]}
+      ]
+    },
+    {
+      "reference_id": "chichu_art_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:naturelle", "light:variable", "material_texture:béton", "material_texture:verre", "spatiality:fermé", "opening_landscape:introverti"],
+      "strong_subjective_tags": ["calm_contemplation:contemplatif", "calm_contemplation:silencieux", "mystery_exploration:suggestif", "wellbeing_restoration:équilibré"],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://benesse-artsite.jp/en/art/chichu.html", "basis": "Benesse décrit un musée surtout souterrain, éclairé par lumière naturelle changeante selon l'heure et les saisons.", "supports": ["light:naturelle", "light:variable", "spatiality:fermé"]},
+        {"source": "https://benesse-artsite.jp/en/art/", "basis": "La source relie le musée à la relation nature, art et architecture.", "supports": ["wellbeing_restoration:équilibré", "mystery_exploration:suggestif"]}
+      ]
+    },
+    {
+      "reference_id": "teshima_art_museum",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["water:source", "water:humidité", "light:naturelle", "opening_landscape:ouvert", "nature_living:naturel", "material_texture:béton"],
+      "strong_subjective_tags": ["calm_contemplation:contemplatif", "calm_contemplation:silencieux", "wellbeing_restoration:ressourçant"],
+      "medium_tags": ["mystery_exploration:suggestif"],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html", "basis": "Benesse décrit la coque de béton, les ouvertures ovales, l'entrée du vent, des sons et de la lumière, et l'eau qui sourd au sol.", "supports": ["water:source", "light:naturelle", "material_texture:béton"]},
+        {"source": "https://benesse-artsite.jp/en/about/teshima.html", "basis": "La source situe le musée dans les rizières et le paysage de Teshima.", "supports": ["opening_landscape:ouvert", "nature_living:naturel"]}
+      ]
+    },
+    {
+      "reference_id": "louvre_abu_dhabi",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:filtrée", "light:intense", "shadow_contrast:découpé", "water:miroir", "thermal_air:frais", "filtering:perforation", "spatiality:vaste"],
+      "strong_subjective_tags": ["calm_contemplation:serein", "mystery_exploration:suggestif", "monumental_sublime:impressionnant", "legibility_orientation:clair"],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.louvreabudhabi.ae/en/about-us/architecture", "basis": "La source officielle décrit le dôme, la pluie de lumière, l'eau, le reflet et le microclimat.", "supports": ["light:filtrée", "shadow_contrast:découpé", "water:miroir", "thermal_air:frais"]},
+        {"source": "https://www.louvreabudhabi.ae/fr/about-us/architecture", "basis": "La version française confirme le dôme d'ombre et de lumière et l'effet de filtrage.", "supports": ["filtering:perforation", "spatiality:vaste"]}
+      ]
+    },
+    {
+      "reference_id": "institut_monde_arabe",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:filtrée", "light:variable", "filtering:claustra", "material_texture:métal", "shadow_contrast:découpé", "spatiality:haut"],
+      "strong_subjective_tags": ["mystery_exploration:suggestif", "legibility_orientation:structuré", "inspiration_concentration:intellectuel"],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://www.imarabe.org/fr/batiment-et-son-histoire", "basis": "La source officielle décrit la façade à moucharabiehs comme signe architectural majeur.", "supports": ["filtering:claustra", "light:filtrée"]},
+        {"source": "https://dome.mit.edu/handle/1721.3/121823", "basis": "L'archive MIT décrit les diaphragmes/irises et les espaces bien éclairés.", "supports": ["light:variable", "material_texture:métal", "shadow_contrast:découpé"]}
+      ]
+    },
+    {
+      "reference_id": "guggenheim_museum_new_york",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:zénithale", "spatiality:atrium", "movement_path:progressif", "movement_path:fluide", "material_texture:béton", "framing:oculus"],
+      "strong_subjective_tags": ["mystery_exploration:initiatique", "joy_social_intensity:animé", "monumental_sublime:impressionnant", "legibility_orientation:guidant"],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://whc.unesco.org/en/list/1496/", "basis": "UNESCO situe le Guggenheim parmi les œuvres majeures de Wright et l'architecture organique.", "supports": ["material_texture:béton", "movement_path:fluide"]},
+        {"source": "https://www.guggenheim.org/about-us/architecture", "basis": "La source officielle du musée documente l'architecture de Wright, la rampe spirale et l'espace central.", "supports": ["spatiality:atrium", "movement_path:progressif", "legibility_orientation:guidant"]}
+      ]
+    },
+    {
+      "reference_id": "brasilia_cathedral",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": ["light:colorée", "light:intense", "filtering:vitrail", "material_texture:béton", "spatiality:haut", "spatiality:monumental"],
+      "strong_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "monumental_sublime:impressionnant", "monumental_sublime:majestueux"],
+      "medium_tags": [],
+      "weak_tags": [],
+      "evidence": [
+        {"source": "https://whc.unesco.org/en/list/445/", "basis": "UNESCO confirme le statut patrimonial de Brasília et de ses monuments modernes.", "supports": ["monumental_sublime:majestueux"]},
+        {"source": "https://www.loc.gov/item/22886782", "basis": "La Library of Congress décrit les colonnes de béton, la structure hyperboloïde et le toit de verre coloré.", "supports": ["material_texture:béton", "filtering:vitrail", "light:colorée", "spatiality:haut"]}
+      ]
+    }
+  ]
+}

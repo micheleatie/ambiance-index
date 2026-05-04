@@ -1,0 +1,934 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "validated_for_seed_v0",
+  "scope": "Validation du lot 2 : modernisme, habitat, transparence, domesticité, santé, pédagogie et paysage.",
+  "validation_rule": "Les tags forts sont conservés pour l’app lorsqu’ils sont appuyés par au moins deux sources ou par une source institutionnelle très explicite. Les tags moyens restent dans ce fichier comme hypothèses à renforcer. Les tags faibles sont exclus de l’intégration.",
+  "entries": [
+    {
+      "reference_id": "villa_rotonda",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "framing:panorama",
+        "opening_landscape:panoramique",
+        "material_texture:pierre"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "monumental_sublime:majestueux",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "spatiality:voûte"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://whc.unesco.org/en/list/712/",
+          "basis": "Source principale pour Villa Rotonda : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "light:naturelle",
+            "light:variable",
+            "spatiality:symétrique",
+            "legibility_orientation:ordonné"
+          ]
+        },
+        {
+          "source": "https://www.villalarotonda.it/en/",
+          "basis": "Source complémentaire pour Villa Rotonda : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "spatiality:axial",
+            "framing:panorama",
+            "opening_landscape:panoramique",
+            "legibility_orientation:clair",
+            "monumental_sublime:majestueux"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "katsura_imperial_villa",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:bois",
+        "water:bassin",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "movement_path:sinueux",
+        "opening_landscape:cadré",
+        "light:tamisée"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:serein",
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:intime",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "movement_path:exploratoire"
+      ],
+      "weak_tags": [
+        "sacred_ritual:spirituel"
+      ],
+      "evidence": [
+        {
+          "source": "https://www.britannica.com/topic/Katsura-Imperial-Villa",
+          "basis": "Source principale pour Katsura Imperial Villa : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:bois",
+            "water:bassin",
+            "nature_living:végétal",
+            "calm_contemplation:serein"
+          ]
+        },
+        {
+          "source": "https://www.japan.travel/en/spot/1137",
+          "basis": "Source complémentaire pour Katsura Imperial Villa : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "nature_living:saisonnier",
+            "movement_path:sinueux",
+            "opening_landscape:cadré",
+            "calm_contemplation:contemplatif",
+            "intimacy_refuge:intime"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "villa_savoye",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "movement_path:progressif",
+        "movement_path:fluide",
+        "opening_landscape:cadré",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:clair",
+        "legibility_orientation:rationnel",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "opening_landscape:paysage"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+          "basis": "Source principale pour Villa Savoye : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "light:naturelle",
+            "material_texture:béton",
+            "color:blanc",
+            "legibility_orientation:clair"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "basis": "Source complémentaire pour Villa Savoye : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "movement_path:progressif",
+            "movement_path:fluide",
+            "opening_landscape:cadré",
+            "legibility_orientation:rationnel",
+            "strangeness_displacement:abstrait"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "unite_habitation_marseille",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:naturelle",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:panoramique",
+        "movement_path:traversant"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:convivial",
+        "intimacy_refuge:domestique",
+        "legibility_orientation:rationnel",
+        "monumental_sublime:impressionnant"
+      ],
+      "medium_tags": [
+        "joy_social_intensity:vivant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://lecorbusier-worldheritage.org/en/unite-habitation/",
+          "basis": "Source principale pour Unité d'habitation de Marseille : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:béton",
+            "material_texture:brut",
+            "light:naturelle",
+            "joy_social_intensity:convivial"
+          ]
+        },
+        {
+          "source": "https://sites-le-corbusier.org/en/oeuvres/unite-dhabitation-marseille/",
+          "basis": "Source complémentaire pour Unité d'habitation de Marseille : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "spatiality:haut",
+            "spatiality:monumental",
+            "opening_landscape:panoramique",
+            "intimacy_refuge:domestique",
+            "legibility_orientation:rationnel"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "maison_curutchet",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "movement_path:progressif",
+        "threshold:filtre",
+        "opening_landscape:cadré",
+        "spatiality:étroit"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:rationnel"
+      ],
+      "medium_tags": [
+        "nature_living:végétal"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://lecorbusier-worldheritage.org/en/maison-du-docteur-curutchet/",
+          "basis": "Source principale pour Maison Curutchet : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "light:naturelle",
+            "material_texture:béton",
+            "movement_path:progressif",
+            "legibility_orientation:clair"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/1321/",
+          "basis": "Source complémentaire pour Maison Curutchet : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "threshold:filtre",
+            "opening_landscape:cadré",
+            "spatiality:étroit",
+            "intimacy_refuge:domestique",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "barcelona_pavilion",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "material_texture:pierre",
+        "water:miroir",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "legibility_orientation:clair",
+        "legibility_orientation:ordonné",
+        "strangeness_displacement:abstrait"
+      ],
+      "medium_tags": [
+        "material_texture:poli"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://miesbcn.com/the-pavilion/",
+          "basis": "Source principale pour Pavillon de Barcelone : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:travertin",
+            "calm_contemplation:contemplatif"
+          ]
+        },
+        {
+          "source": "https://miesbcn.com/project/luftwerk-iker-gil-geometry-of-light/",
+          "basis": "Source complémentaire pour Pavillon de Barcelone : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "material_texture:pierre",
+            "water:miroir",
+            "light:réfléchie",
+            "legibility_orientation:clair",
+            "legibility_orientation:ordonné"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "farnsworth_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:ressourçant",
+        "strangeness_displacement:abstrait",
+        "memory_absence:fragile"
+      ],
+      "medium_tags": [
+        "intimacy_refuge:refuge"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+          "basis": "Source principale pour Farnsworth House : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:travertin",
+            "calm_contemplation:contemplatif"
+          ]
+        },
+        {
+          "source": "https://savingplaces.org/places/farnsworth-house",
+          "basis": "Source complémentaire pour Farnsworth House : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "opening_landscape:transparent",
+            "opening_landscape:paysage",
+            "light:naturelle",
+            "wellbeing_restoration:ressourçant",
+            "strangeness_displacement:abstrait"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "tugendhat_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:pierre",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "calm_contemplation:calme"
+      ],
+      "medium_tags": [
+        "material_texture:poli"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.tugendhat.eu/en/about-the-house/",
+          "basis": "Source principale pour Villa Tugendhat : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:pierre",
+            "legibility_orientation:clair"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/1052/",
+          "basis": "Source complémentaire pour Villa Tugendhat : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "opening_landscape:transparent",
+            "opening_landscape:paysage",
+            "spatiality:ouvert",
+            "intimacy_refuge:domestique",
+            "inspiration_concentration:stimulant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "seagram_building",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:doré",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:transparent",
+        "light:réfléchie"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant",
+        "unease_oppression:austère"
+      ],
+      "medium_tags": [
+        "legibility_orientation:rationnel"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.britannica.com/topic/Seagram-Building",
+          "basis": "Source principale pour Seagram Building : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "color:doré",
+            "legibility_orientation:ordonné"
+          ]
+        },
+        {
+          "source": "https://www.som.com/projects/seagram-building/",
+          "basis": "Source complémentaire pour Seagram Building : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "spatiality:haut",
+            "spatiality:monumental",
+            "opening_landscape:transparent",
+            "legibility_orientation:structuré",
+            "monumental_sublime:impressionnant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "crown_hall",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:vaste",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "legibility_orientation:clair",
+        "monumental_sublime:impressionnant"
+      ],
+      "medium_tags": [
+        "legibility_orientation:rationnel"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.iit.edu/admissions-aid/visit-and-tour/virtual-tour/crown-hall",
+          "basis": "Source principale pour S. R. Crown Hall : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "spatiality:vaste",
+            "inspiration_concentration:studieux"
+          ]
+        },
+        {
+          "source": "https://docomomo-us.org/register/s-r-crown-hall",
+          "basis": "Source complémentaire pour S. R. Crown Hall : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "spatiality:ouvert",
+            "light:naturelle",
+            "movement_path:fluide",
+            "inspiration_concentration:concentré",
+            "legibility_orientation:clair"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "robie_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "light:filtrée",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "opening_landscape:poreux",
+        "framing:fenêtre"
+      ],
+      "strong_subjective_tags": [
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:chaleureux",
+        "intimacy_refuge:protecteur",
+        "calm_contemplation:serein"
+      ],
+      "medium_tags": [
+        "opening_landscape:paysage"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.flwright.org/explore/frederick-c-robie-house",
+          "basis": "Source principale pour Robie House : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:brique",
+            "material_texture:bois",
+            "light:filtrée",
+            "intimacy_refuge:domestique"
+          ]
+        },
+        {
+          "source": "https://www.flwright.org/tour/robie-house",
+          "basis": "Source complémentaire pour Robie House : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "light:naturelle",
+            "spatiality:ouvert",
+            "opening_landscape:poreux",
+            "intimacy_refuge:chaleureux",
+            "intimacy_refuge:protecteur"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "unity_temple",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "light:zénithale",
+        "light:filtrée",
+        "light:colorée",
+        "shadow_contrast:pénombre",
+        "spatiality:haut",
+        "movement_path:progressif"
+      ],
+      "strong_subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif"
+      ],
+      "medium_tags": [
+        "monumental_sublime:solennel"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.flwright.org/explore/unity-temple",
+          "basis": "Source principale pour Unity Temple : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:béton",
+            "light:zénithale",
+            "light:filtrée",
+            "sacred_ritual:sacré"
+          ]
+        },
+        {
+          "source": "https://www.architecture.org/learn/resources/buildings-of-chicago/building/unity-temple/",
+          "basis": "Source complémentaire pour Unity Temple : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "light:colorée",
+            "shadow_contrast:pénombre",
+            "spatiality:haut",
+            "sacred_ritual:spirituel",
+            "intimacy_refuge:intime"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "taliesin_west",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "material_texture:toit léger",
+        "light:diffuse",
+        "thermal_air:sec",
+        "opening_landscape:paysage",
+        "nature_living:sauvage"
+      ],
+      "strong_subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:abrité",
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "thermal_air:ventilé"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://franklloydwright.org/taliesin-west/",
+          "basis": "Source principale pour Taliesin West : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:pierre",
+            "material_texture:béton",
+            "material_texture:toit léger",
+            "inspiration_concentration:stimulant"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/1496/",
+          "basis": "Source complémentaire pour Taliesin West : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "light:diffuse",
+            "thermal_air:sec",
+            "opening_landscape:paysage",
+            "intimacy_refuge:abrité",
+            "joy_social_intensity:vivant"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "bauhaus_dessau",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:béton",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:intellectuel"
+      ],
+      "medium_tags": [
+        "joy_social_intensity:convivial"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://bauhaus-dessau.de/en/institution/foundation/",
+          "basis": "Source principale pour Bauhaus Dessau : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:béton",
+            "material_texture:métal",
+            "legibility_orientation:rationnel"
+          ]
+        },
+        {
+          "source": "https://whc.unesco.org/en/list/729/",
+          "basis": "Source complémentaire pour Bauhaus Dessau : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "opening_landscape:transparent",
+            "light:naturelle",
+            "spatiality:ouvert",
+            "legibility_orientation:structuré",
+            "inspiration_concentration:studieux"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "villa_mairea",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:bois",
+        "material_texture:pierre",
+        "nature_living:végétal",
+        "light:naturelle",
+        "light:tamisée",
+        "opening_landscape:ouvert",
+        "movement_path:fluide"
+      ],
+      "strong_subjective_tags": [
+        "intimacy_refuge:intime",
+        "intimacy_refuge:chaleureux",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "medium_tags": [
+        "nature_living:organique"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
+          "basis": "Source principale pour Villa Mairea : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:bois",
+            "material_texture:pierre",
+            "nature_living:végétal",
+            "intimacy_refuge:intime"
+          ]
+        },
+        {
+          "source": "https://www.villamairea.fi/",
+          "basis": "Source complémentaire pour Villa Mairea : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "light:naturelle",
+            "light:tamisée",
+            "opening_landscape:ouvert",
+            "intimacy_refuge:chaleureux",
+            "calm_contemplation:serein"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "paimio_sanatorium",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:béton",
+        "light:naturelle",
+        "color:chaud",
+        "thermal_air:ventilé",
+        "nature_living:naturel",
+        "opening_landscape:paysage",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "wellbeing_restoration:réparateur",
+        "wellbeing_restoration:sain",
+        "calm_contemplation:calme",
+        "intimacy_refuge:protecteur"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:doux"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
+          "basis": "Source principale pour Paimio Sanatorium : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:béton",
+            "light:naturelle",
+            "color:chaud",
+            "wellbeing_restoration:réparateur"
+          ]
+        },
+        {
+          "source": "https://paimiosanatorium.com/",
+          "basis": "Source complémentaire pour Paimio Sanatorium : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "thermal_air:ventilé",
+            "nature_living:naturel",
+            "opening_landscape:paysage",
+            "wellbeing_restoration:sain",
+            "calm_contemplation:calme"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "saynatsalo_town_hall",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "nature_living:végétal",
+        "movement_path:progressif",
+        "threshold:entrée",
+        "spatiality:haut",
+        "light:naturelle"
+      ],
+      "strong_subjective_tags": [
+        "intimacy_refuge:chaleureux",
+        "joy_social_intensity:convivial",
+        "monumental_sublime:solennel",
+        "legibility_orientation:structuré"
+      ],
+      "medium_tags": [
+        "calm_contemplation:posé"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+          "basis": "Source principale pour Säynätsalo Town Hall : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:brique",
+            "material_texture:bois",
+            "nature_living:végétal",
+            "intimacy_refuge:chaleureux"
+          ]
+        },
+        {
+          "source": "https://visitjyvaskyla.fi/en/attractions/saynatsalo-town-hall/",
+          "basis": "Source complémentaire pour Säynätsalo Town Hall : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "movement_path:progressif",
+            "threshold:entrée",
+            "spatiality:haut",
+            "joy_social_intensity:convivial",
+            "monumental_sublime:solennel"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "eames_house",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:polychrome",
+        "nature_living:végétal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "joy_social_intensity:ludique",
+        "joy_social_intensity:vivant",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "wellbeing_restoration:ressourçant"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://eamesfoundation.org/eames-house/",
+          "basis": "Source principale pour Eames House : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "color:polychrome",
+            "joy_social_intensity:ludique"
+          ]
+        },
+        {
+          "source": "https://www.eamesoffice.com/visit-learn/eames-house/",
+          "basis": "Source complémentaire pour Eames House : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "nature_living:végétal",
+            "opening_landscape:transparent",
+            "light:naturelle",
+            "joy_social_intensity:vivant",
+            "intimacy_refuge:domestique"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "glass_house_philip_johnson",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:brique",
+        "opening_landscape:transparent",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "memory_absence:fragile"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://theglasshouse.org/explore/the-glass-house/",
+          "basis": "Source principale pour Glass House : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "material_texture:brique",
+            "calm_contemplation:contemplatif"
+          ]
+        },
+        {
+          "source": "https://savingplaces.org/places/glass-house",
+          "basis": "Source complémentaire pour Glass House : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "opening_landscape:transparent",
+            "opening_landscape:panoramique",
+            "opening_landscape:paysage",
+            "strangeness_displacement:abstrait",
+            "strangeness_displacement:irréel"
+          ]
+        }
+      ]
+    },
+    {
+      "reference_id": "maison_de_verre",
+      "index_action": "add_to_seed",
+      "strong_physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:diffuse",
+        "light:filtrée",
+        "filtering:grille",
+        "filtering:perforation",
+        "opening_landscape:opaque",
+        "spatiality:ouvert"
+      ],
+      "strong_subjective_tags": [
+        "mystery_exploration:suggestif",
+        "mystery_exploration:caché",
+        "strangeness_displacement:étrange",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "medium_tags": [
+        "legibility_orientation:structuré"
+      ],
+      "weak_tags": [],
+      "evidence": [
+        {
+          "source": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cKxjGX8",
+          "basis": "Source principale pour Maison de Verre : elle documente les dispositifs architecturaux, le statut patrimonial ou l'organisation spatiale.",
+          "supports": [
+            "material_texture:verre",
+            "material_texture:métal",
+            "light:diffuse",
+            "mystery_exploration:suggestif"
+          ]
+        },
+        {
+          "source": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-secret-history-of-the-maison-de-verre-a-masterpiece-of-modern-architecture",
+          "basis": "Source complémentaire pour Maison de Verre : elle confirme les matériaux, le programme ou la relation au site.",
+          "supports": [
+            "light:filtrée",
+            "filtering:grille",
+            "filtering:perforation",
+            "mystery_exploration:caché",
+            "strangeness_displacement:étrange"
+          ]
+        }
+      ]
+    }
+  ]
+}

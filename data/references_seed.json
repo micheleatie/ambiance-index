@@ -8,10 +8,28 @@
       "architect_or_period": "Antiquité romaine, période d'Hadrien",
       "location": "Rome, Italie",
       "year": "vers 120-126",
-      "physical_tags": ["light:zénithale", "light:variable", "spatiality:monumental", "framing:oculus"],
-      "subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:sublime", "legibility_orientation:ordonné"],
-      "keywords_fr": ["oculus", "coupole", "lumière du ciel", "temps", "sphère", "cosmique"],
-      "sources": ["https://www.britannica.com/list/19-essential-italian-churches/Pantheon"]
+      "physical_tags": [
+        "light:zénithale",
+        "light:variable",
+        "spatiality:monumental",
+        "framing:oculus"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "monumental_sublime:sublime",
+        "legibility_orientation:ordonné"
+      ],
+      "keywords_fr": [
+        "oculus",
+        "coupole",
+        "lumière du ciel",
+        "temps",
+        "sphère",
+        "cosmique"
+      ],
+      "sources": [
+        "https://www.britannica.com/list/19-essential-italian-churches/Pantheon"
+      ]
     },
     {
       "id": "sainte_chapelle_paris",
@@ -19,10 +37,27 @@
       "architect_or_period": "Gothique rayonnant",
       "location": "Paris, France",
       "year": "1240s",
-      "physical_tags": ["light:colorée", "light:intense", "filtering:vitrail", "spatiality:haut"],
-      "subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:impressionnant", "mystery_exploration:initiatique"],
-      "keywords_fr": ["vitrail", "couleur", "vaisseau de lumière", "verticalité", "immersion"],
-      "sources": ["https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"]
+      "physical_tags": [
+        "light:colorée",
+        "light:intense",
+        "filtering:vitrail",
+        "spatiality:haut"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "monumental_sublime:impressionnant",
+        "mystery_exploration:initiatique"
+      ],
+      "keywords_fr": [
+        "vitrail",
+        "couleur",
+        "vaisseau de lumière",
+        "verticalité",
+        "immersion"
+      ],
+      "sources": [
+        "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows"
+      ]
     },
     {
       "id": "alhambra_generalife",
@@ -30,10 +65,30 @@
       "architect_or_period": "Architecture nasride",
       "location": "Grenade, Espagne",
       "year": "13e-14e siècles",
-      "physical_tags": ["water:bassin", "water:fontaine", "thermal_air:frais", "movement_path:sinueux", "shadow_contrast:pénombre"],
-      "subjective_tags": ["intimacy_refuge:intime", "mystery_exploration:mystérieux", "wellbeing_restoration:ressourçant"],
-      "keywords_fr": ["eau", "cour", "jardin", "fraîcheur", "oasis", "ornement", "paradis"],
-      "sources": ["https://whc.unesco.org/en/list/314/"]
+      "physical_tags": [
+        "water:bassin",
+        "water:fontaine",
+        "thermal_air:frais",
+        "movement_path:sinueux",
+        "shadow_contrast:pénombre"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:intime",
+        "mystery_exploration:mystérieux",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "eau",
+        "cour",
+        "jardin",
+        "fraîcheur",
+        "oasis",
+        "ornement",
+        "paradis"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/314/"
+      ]
     },
     {
       "id": "fallingwater",
@@ -41,10 +96,29 @@
       "architect_or_period": "Frank Lloyd Wright",
       "location": "Mill Run, Pennsylvanie, États-Unis",
       "year": "1935-1939",
-      "physical_tags": ["water:cascade", "sound:aquatique", "material_texture:pierre", "opening_landscape:panoramique", "nature_living:organique"],
-      "subjective_tags": ["intimacy_refuge:refuge", "wellbeing_restoration:ressourçant", "calm_contemplation:paisible"],
-      "keywords_fr": ["cascade", "porte-à-faux", "rocher", "organique", "terrasses", "nature"],
-      "sources": ["https://fallingwater.org/what-is-fallingwater/"]
+      "physical_tags": [
+        "water:cascade",
+        "sound:aquatique",
+        "material_texture:pierre",
+        "opening_landscape:panoramique",
+        "nature_living:organique"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:refuge",
+        "wellbeing_restoration:ressourçant",
+        "calm_contemplation:paisible"
+      ],
+      "keywords_fr": [
+        "cascade",
+        "porte-à-faux",
+        "rocher",
+        "organique",
+        "terrasses",
+        "nature"
+      ],
+      "sources": [
+        "https://fallingwater.org/what-is-fallingwater/"
+      ]
     },
     {
       "id": "casa_luis_barragan",
@@ -52,10 +126,30 @@
       "architect_or_period": "Luis Barragán",
       "location": "Mexico, Mexique",
       "year": "1948",
-      "physical_tags": ["color:rose", "light:réfléchie", "shadow_contrast:pénombre", "material_texture:patiné", "movement_path:progressif"],
-      "subjective_tags": ["intimacy_refuge:intime", "calm_contemplation:silencieux", "mystery_exploration:mystérieux"],
-      "keywords_fr": ["couleur", "pénombre dorée", "jardin", "reflet", "silence", "maison-refuge"],
-      "sources": ["https://whc.unesco.org/en/list/1136/", "https://www.casaluisbarragan.org/eng/en_vestibulo.html"]
+      "physical_tags": [
+        "color:rose",
+        "light:réfléchie",
+        "shadow_contrast:pénombre",
+        "material_texture:patiné",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:intime",
+        "calm_contemplation:silencieux",
+        "mystery_exploration:mystérieux"
+      ],
+      "keywords_fr": [
+        "couleur",
+        "pénombre dorée",
+        "jardin",
+        "reflet",
+        "silence",
+        "maison-refuge"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1136/",
+        "https://www.casaluisbarragan.org/eng/en_vestibulo.html"
+      ]
     },
     {
       "id": "ronchamp",
@@ -63,10 +157,28 @@
       "architect_or_period": "Le Corbusier",
       "location": "Ronchamp, France",
       "year": "1950-1955",
-      "physical_tags": ["light:filtrée", "light:colorée", "material_texture:béton", "spatiality:épais", "movement_path:ritualisé"],
-      "subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "mystery_exploration:mystérieux"],
-      "keywords_fr": ["mur épais", "verre coloré", "toiture flottante", "colline", "procession"],
-      "sources": ["https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"]
+      "physical_tags": [
+        "light:filtrée",
+        "light:colorée",
+        "material_texture:béton",
+        "spatiality:épais",
+        "movement_path:ritualisé"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "calm_contemplation:contemplatif",
+        "mystery_exploration:mystérieux"
+      ],
+      "keywords_fr": [
+        "mur épais",
+        "verre coloré",
+        "toiture flottante",
+        "colline",
+        "procession"
+      ],
+      "sources": [
+        "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"
+      ]
     },
     {
       "id": "salk_institute",
@@ -74,10 +186,29 @@
       "architect_or_period": "Louis I. Kahn",
       "location": "La Jolla, Californie, États-Unis",
       "year": "1960s",
-      "physical_tags": ["light:naturelle", "water:canal", "material_texture:travertin", "opening_landscape:horizon", "spatiality:axial"],
-      "subjective_tags": ["calm_contemplation:calme", "monumental_sublime:solennel", "inspiration_concentration:inspirant"],
-      "keywords_fr": ["cour", "travertin", "océan", "canal", "laboratoire", "horizon"],
-      "sources": ["https://www.salk.edu/de/about/about-salk-architecture/"]
+      "physical_tags": [
+        "light:naturelle",
+        "water:canal",
+        "material_texture:travertin",
+        "opening_landscape:horizon",
+        "spatiality:axial"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:calme",
+        "monumental_sublime:solennel",
+        "inspiration_concentration:inspirant"
+      ],
+      "keywords_fr": [
+        "cour",
+        "travertin",
+        "océan",
+        "canal",
+        "laboratoire",
+        "horizon"
+      ],
+      "sources": [
+        "https://www.salk.edu/de/about/about-salk-architecture/"
+      ]
     },
     {
       "id": "kimbell_art_museum",
@@ -85,10 +216,28 @@
       "architect_or_period": "Louis I. Kahn",
       "location": "Fort Worth, Texas, États-Unis",
       "year": "1972",
-      "physical_tags": ["light:diffuse", "light:réfléchie", "material_texture:béton", "material_texture:travertin", "spatiality:voûte"],
-      "subjective_tags": ["calm_contemplation:contemplatif", "legibility_orientation:clair", "inspiration_concentration:concentré"],
-      "keywords_fr": ["lumière diffuse", "voûte cycloïde", "réflecteur", "argenté", "musée"],
-      "sources": ["https://kimbellart.org/art-architecture/architecture/kahn-building"]
+      "physical_tags": [
+        "light:diffuse",
+        "light:réfléchie",
+        "material_texture:béton",
+        "material_texture:travertin",
+        "spatiality:voûte"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "legibility_orientation:clair",
+        "inspiration_concentration:concentré"
+      ],
+      "keywords_fr": [
+        "lumière diffuse",
+        "voûte cycloïde",
+        "réflecteur",
+        "argenté",
+        "musée"
+      ],
+      "sources": [
+        "https://kimbellart.org/art-architecture/architecture/kahn-building"
+      ]
     },
     {
       "id": "phillips_exeter_library",
@@ -96,10 +245,29 @@
       "architect_or_period": "Louis I. Kahn",
       "location": "Exeter, New Hampshire, États-Unis",
       "year": "1971-1972",
-      "physical_tags": ["spatiality:atrium", "material_texture:brique", "material_texture:bois", "light:naturelle", "prospect_refuge:alcôve"],
-      "subjective_tags": ["inspiration_concentration:studieux", "intimacy_refuge:refuge", "legibility_orientation:structuré"],
-      "keywords_fr": ["atrium", "carrel", "brique", "bois", "lecture", "centre communautaire"],
-      "sources": ["https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"]
+      "physical_tags": [
+        "spatiality:atrium",
+        "material_texture:brique",
+        "material_texture:bois",
+        "light:naturelle",
+        "prospect_refuge:alcôve"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:studieux",
+        "intimacy_refuge:refuge",
+        "legibility_orientation:structuré"
+      ],
+      "keywords_fr": [
+        "atrium",
+        "carrel",
+        "brique",
+        "bois",
+        "lecture",
+        "centre communautaire"
+      ],
+      "sources": [
+        "https://exeter.edu/about/our-campus/facilities/class-of-1945-library/"
+      ]
     },
     {
       "id": "church_of_the_light",
@@ -107,10 +275,28 @@
       "architect_or_period": "Tadao Ando",
       "location": "Ibaraki, Osaka, Japon",
       "year": "1989",
-      "physical_tags": ["light:intense", "shadow_contrast:clair-obscur", "material_texture:béton", "framing:fente", "spatiality:vide"],
-      "subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "monumental_sublime:solennel"],
-      "keywords_fr": ["croix de lumière", "béton", "vide", "ascèse", "contraste"],
-      "sources": ["https://ibaraki-kasugaoka-church.jp/e-top.html"]
+      "physical_tags": [
+        "light:intense",
+        "shadow_contrast:clair-obscur",
+        "material_texture:béton",
+        "framing:fente",
+        "spatiality:vide"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "calm_contemplation:contemplatif",
+        "monumental_sublime:solennel"
+      ],
+      "keywords_fr": [
+        "croix de lumière",
+        "béton",
+        "vide",
+        "ascèse",
+        "contraste"
+      ],
+      "sources": [
+        "https://ibaraki-kasugaoka-church.jp/e-top.html"
+      ]
     },
     {
       "id": "therme_vals",
@@ -118,10 +304,32 @@
       "architect_or_period": "Peter Zumthor",
       "location": "Vals, Suisse",
       "year": "1996",
-      "physical_tags": ["material_texture:pierre", "water:source", "thermal_air:chaud", "thermal_air:humide", "shadow_contrast:pénombre", "sound:aquatique"],
-      "subjective_tags": ["wellbeing_restoration:réparateur", "calm_contemplation:méditatif", "mystery_exploration:mystérieux"],
-      "keywords_fr": ["pierre", "eau", "bain", "vapeur", "caverne", "rituel", "tactilité"],
-      "sources": ["https://vals.ch/en/enjoy/wellness/7132-therme/", "https://www.archdaily.com/13358/the-therme-vals/1721170689_outdoor-pool2"]
+      "physical_tags": [
+        "material_texture:pierre",
+        "water:source",
+        "thermal_air:chaud",
+        "thermal_air:humide",
+        "shadow_contrast:pénombre",
+        "sound:aquatique"
+      ],
+      "subjective_tags": [
+        "wellbeing_restoration:réparateur",
+        "calm_contemplation:méditatif",
+        "mystery_exploration:mystérieux"
+      ],
+      "keywords_fr": [
+        "pierre",
+        "eau",
+        "bain",
+        "vapeur",
+        "caverne",
+        "rituel",
+        "tactilité"
+      ],
+      "sources": [
+        "https://vals.ch/en/enjoy/wellness/7132-therme/",
+        "https://www.archdaily.com/13358/the-therme-vals/1721170689_outdoor-pool2"
+      ]
     },
     {
       "id": "bruder_klaus_field_chapel",
@@ -129,10 +337,29 @@
       "architect_or_period": "Peter Zumthor",
       "location": "Mechernich, Allemagne",
       "year": "2007",
-      "physical_tags": ["material_texture:béton", "smell:fumé", "light:zénithale", "framing:oculus", "shadow_contrast:sombre"],
-      "subjective_tags": ["sacred_ritual:mystique", "unease_oppression:austère", "monumental_sublime:sublime"],
-      "keywords_fr": ["béton brûlé", "tronc", "fumée", "oculus", "pluie", "cavité"],
-      "sources": ["https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"]
+      "physical_tags": [
+        "material_texture:béton",
+        "smell:fumé",
+        "light:zénithale",
+        "framing:oculus",
+        "shadow_contrast:sombre"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:mystique",
+        "unease_oppression:austère",
+        "monumental_sublime:sublime"
+      ],
+      "keywords_fr": [
+        "béton brûlé",
+        "tronc",
+        "fumée",
+        "oculus",
+        "pluie",
+        "cavité"
+      ],
+      "sources": [
+        "https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"
+      ]
     },
     {
       "id": "kolumba_museum",
@@ -140,10 +367,28 @@
       "architect_or_period": "Peter Zumthor",
       "location": "Cologne, Allemagne",
       "year": "2007",
-      "physical_tags": ["material_texture:brique", "filtering:perforation", "light:diffuse", "palimpsest:ruine", "movement_path:progressif"],
-      "subjective_tags": ["memory_absence:mémoriel", "calm_contemplation:contemplatif", "mystery_exploration:suggestif"],
-      "keywords_fr": ["ruine", "brique perforée", "lumière diffuse", "palimpseste", "musée de contemplation"],
-      "sources": ["https://www.museen.koeln/en/visit/museums/kolumba"]
+      "physical_tags": [
+        "material_texture:brique",
+        "filtering:perforation",
+        "light:diffuse",
+        "palimpsest:ruine",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "memory_absence:mémoriel",
+        "calm_contemplation:contemplatif",
+        "mystery_exploration:suggestif"
+      ],
+      "keywords_fr": [
+        "ruine",
+        "brique perforée",
+        "lumière diffuse",
+        "palimpseste",
+        "musée de contemplation"
+      ],
+      "sources": [
+        "https://www.museen.koeln/en/visit/museums/kolumba"
+      ]
     },
     {
       "id": "jewish_museum_berlin",
@@ -151,10 +396,29 @@
       "architect_or_period": "Daniel Libeskind",
       "location": "Berlin, Allemagne",
       "year": "1999-2001",
-      "physical_tags": ["spatiality:vide", "material_texture:béton", "shadow_contrast:sombre", "movement_path:contraint", "thermal_air:froid"],
-      "subjective_tags": ["memory_absence:absent", "unease_oppression:oppressant", "mystery_exploration:ambigu"],
-      "keywords_fr": ["vide", "absence", "désorientation", "béton froid", "mémoire", "ligne brisée"],
-      "sources": ["https://www.jmberlin.de/en/libeskind-building"]
+      "physical_tags": [
+        "spatiality:vide",
+        "material_texture:béton",
+        "shadow_contrast:sombre",
+        "movement_path:contraint",
+        "thermal_air:froid"
+      ],
+      "subjective_tags": [
+        "memory_absence:absent",
+        "unease_oppression:oppressant",
+        "mystery_exploration:ambigu"
+      ],
+      "keywords_fr": [
+        "vide",
+        "absence",
+        "désorientation",
+        "béton froid",
+        "mémoire",
+        "ligne brisée"
+      ],
+      "sources": [
+        "https://www.jmberlin.de/en/libeskind-building"
+      ]
     },
     {
       "id": "chapel_st_ignatius",
@@ -162,10 +426,28 @@
       "architect_or_period": "Steven Holl Architects",
       "location": "Seattle, Washington, États-Unis",
       "year": "1997",
-      "physical_tags": ["light:colorée", "light:réfléchie", "filtering:volume", "material_texture:béton", "framing:lanterne"],
-      "subjective_tags": ["sacred_ritual:spirituel", "mystery_exploration:suggestif", "calm_contemplation:contemplatif"],
-      "keywords_fr": ["bouteilles de lumière", "couleurs complémentaires", "chapelle", "réflexion", "volumes lumineux"],
-      "sources": ["https://www.stevenholl.com/projects/st-ignatius-chapel"]
+      "physical_tags": [
+        "light:colorée",
+        "light:réfléchie",
+        "filtering:volume",
+        "material_texture:béton",
+        "framing:lanterne"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:spirituel",
+        "mystery_exploration:suggestif",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "bouteilles de lumière",
+        "couleurs complémentaires",
+        "chapelle",
+        "réflexion",
+        "volumes lumineux"
+      ],
+      "sources": [
+        "https://www.stevenholl.com/projects/st-ignatius-chapel"
+      ]
     },
     {
       "id": "cy_twombly_gallery",
@@ -173,10 +455,27 @@
       "architect_or_period": "Renzo Piano",
       "location": "Houston, Texas, États-Unis",
       "year": "1995",
-      "physical_tags": ["light:filtrée", "material_texture:plâtre", "material_texture:toile", "spatiality:symétrique"],
-      "subjective_tags": ["calm_contemplation:calme", "inspiration_concentration:concentré", "wellbeing_restoration:doux"],
-      "keywords_fr": ["lumière filtrée", "toile de lin", "plâtre", "délicatesse", "musée"],
-      "sources": ["https://www.menil.org/campus/cy-twombly-gallery"]
+      "physical_tags": [
+        "light:filtrée",
+        "material_texture:plâtre",
+        "material_texture:toile",
+        "spatiality:symétrique"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:calme",
+        "inspiration_concentration:concentré",
+        "wellbeing_restoration:doux"
+      ],
+      "keywords_fr": [
+        "lumière filtrée",
+        "toile de lin",
+        "plâtre",
+        "délicatesse",
+        "musée"
+      ],
+      "sources": [
+        "https://www.menil.org/campus/cy-twombly-gallery"
+      ]
     },
     {
       "id": "fondation_beyeler",
@@ -184,10 +483,2141 @@
       "architect_or_period": "Renzo Piano Building Workshop",
       "location": "Riehen, Suisse",
       "year": "1997",
-      "physical_tags": ["light:naturelle", "light:filtrée", "opening_landscape:paysage", "nature_living:verdure", "spatiality:ordonné", "material_texture:toit léger"],
-      "subjective_tags": ["calm_contemplation:serein", "legibility_orientation:clair", "wellbeing_restoration:équilibré"],
-      "keywords_fr": ["lumière naturelle", "verdure", "toit flottant", "musée", "sérénité"],
-      "sources": ["https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"]
+      "physical_tags": [
+        "light:naturelle",
+        "light:filtrée",
+        "opening_landscape:paysage",
+        "nature_living:verdure",
+        "spatiality:ordonné",
+        "material_texture:toit léger"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:serein",
+        "legibility_orientation:clair",
+        "wellbeing_restoration:équilibré"
+      ],
+      "keywords_fr": [
+        "lumière naturelle",
+        "verdure",
+        "toit flottant",
+        "musée",
+        "sérénité"
+      ],
+      "sources": [
+        "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/"
+      ]
+    },
+    {
+      "id": "hagia_sophia",
+      "name": "Hagia Sophia",
+      "architect_or_period": "Anthemius de Tralles et Isidore de Milet",
+      "location": "Istanbul, Turquie",
+      "year": "532-537",
+      "physical_tags": [
+        "light:zénithale",
+        "light:diffuse",
+        "spatiality:monumental",
+        "spatiality:voûte",
+        "material_texture:pierre"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "monumental_sublime:majestueux"
+      ],
+      "keywords_fr": [
+        "dôme",
+        "anneau de lumière",
+        "pendentifs",
+        "mosaïque",
+        "flottement",
+        "sacré"
+      ],
+      "sources": [
+        "https://www.hagiasophia.com/architecture",
+        "https://whc.unesco.org/en/list/356/",
+        "https://www.britannica.com/topic/Hagia-Sophia"
+      ]
+    },
+    {
+      "id": "great_mosque_cordoba",
+      "name": "Grande Mosquée-Cathédrale de Cordoue",
+      "architect_or_period": "Architecture omeyyade et extensions chrétiennes",
+      "location": "Cordoue, Espagne",
+      "year": "8e-16e siècles",
+      "physical_tags": [
+        "shadow_contrast:pénombre",
+        "spatiality:labyrinthique",
+        "spatiality:vaste",
+        "material_texture:pierre",
+        "movement_path:exploratoire"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "mystery_exploration:mystérieux",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "forêt de colonnes",
+        "arcs",
+        "salle hypostyle",
+        "pénombre",
+        "marbre",
+        "rythme"
+      ],
+      "sources": [
+        "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba",
+        "https://whc.unesco.org/en/list/313/",
+        "https://mezquita-catedraldecordoba.es/en/discover-the-monument/"
+      ]
+    },
+    {
+      "id": "chartres_cathedral",
+      "name": "Cathédrale de Chartres",
+      "architect_or_period": "Gothique",
+      "location": "Chartres, France",
+      "year": "12e-13e siècles",
+      "physical_tags": [
+        "light:colorée",
+        "light:filtrée",
+        "filtering:vitrail",
+        "spatiality:haut",
+        "spatiality:monumental"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "memory_absence:historique",
+        "monumental_sublime:majestueux"
+      ],
+      "keywords_fr": [
+        "vitraux",
+        "nef",
+        "gothique",
+        "rose",
+        "pèlerinage",
+        "hauteur"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/81",
+        "https://www.chartres-csm.org/en/the-cathedral/the-stained-glass-windows-of-chartres-cathedral/",
+        "https://www.britannica.com/topic/Chartres-Cathedral"
+      ]
+    },
+    {
+      "id": "notre_dame_paris",
+      "name": "Notre-Dame de Paris",
+      "architect_or_period": "Gothique",
+      "location": "Paris, France",
+      "year": "1163-14e siècle",
+      "physical_tags": [
+        "light:naturelle",
+        "light:colorée",
+        "filtering:vitrail",
+        "spatiality:haut",
+        "spatiality:voûte",
+        "material_texture:pierre"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "memory_absence:historique"
+      ],
+      "keywords_fr": [
+        "roses",
+        "fenêtres hautes",
+        "voûte",
+        "nef",
+        "pierre",
+        "mémoire collective"
+      ],
+      "sources": [
+        "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/",
+        "https://www.friendsofnotredamedeparis.org/cathedral/artifacts/rose-windows/",
+        "https://whc.unesco.org/en/list/600/"
+      ]
+    },
+    {
+      "id": "sagrada_familia",
+      "name": "Sagrada Família",
+      "architect_or_period": "Antoni Gaudí",
+      "location": "Barcelone, Espagne",
+      "year": "1882-en cours",
+      "physical_tags": [
+        "light:colorée",
+        "light:intense",
+        "light:variable",
+        "filtering:vitrail",
+        "spatiality:haut",
+        "nature_living:organique"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "calm_contemplation:contemplatif",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "vitraux",
+        "couleurs chaudes",
+        "couleurs froides",
+        "structure arborescente",
+        "verticalité",
+        "temple de lumière"
+      ],
+      "sources": [
+        "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/",
+        "https://sagradafamilia.org/en/sagrada-familia-ticket?inheritRedirect=true",
+        "https://whc.unesco.org/en/list/320/"
+      ]
+    },
+    {
+      "id": "monastery_la_tourette",
+      "name": "Couvent Sainte-Marie de La Tourette",
+      "architect_or_period": "Le Corbusier",
+      "location": "Éveux, France",
+      "year": "1953-1960",
+      "physical_tags": [
+        "light:colorée",
+        "light:zénithale",
+        "material_texture:béton",
+        "material_texture:brut",
+        "spatiality:fermé",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:ascétique",
+        "calm_contemplation:contemplatif",
+        "inspiration_concentration:studieux"
+      ],
+      "keywords_fr": [
+        "béton brut",
+        "canons à lumière",
+        "cellules",
+        "cloître",
+        "pans ondulatoires",
+        "retraite"
+      ],
+      "sources": [
+        "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/",
+        "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-couvent-sainte-marie-de-la-tourette-eveux-sur-larbresle-france-1953-1960/",
+        "https://www.strateforme.com/"
+      ]
+    },
+    {
+      "id": "menil_collection",
+      "name": "Menil Collection",
+      "architect_or_period": "Renzo Piano",
+      "location": "Houston, Texas, États-Unis",
+      "year": "1987",
+      "physical_tags": [
+        "light:naturelle",
+        "light:diffuse",
+        "material_texture:bois",
+        "material_texture:verre",
+        "opening_landscape:ouvert",
+        "nature_living:domestiqué"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:calme",
+        "intimacy_refuge:domestique",
+        "legibility_orientation:clair"
+      ],
+      "keywords_fr": [
+        "lumière naturelle",
+        "cyprès gris",
+        "quartier résidentiel",
+        "galeries",
+        "ombrage",
+        "musée domestique"
+      ],
+      "sources": [
+        "https://www.menil.org/campus/main-building",
+        "https://www.menil.org/index.php/campus/main-building",
+        "https://www.cntraveler.com/story/why-your-next-art-pilgrimage-should-be-to-houston-menil-collection-rothko"
+      ]
+    },
+    {
+      "id": "chichu_art_museum",
+      "name": "Chichu Art Museum",
+      "architect_or_period": "Tadao Ando",
+      "location": "Naoshima, Japon",
+      "year": "2004",
+      "physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "material_texture:béton",
+        "material_texture:verre",
+        "spatiality:fermé",
+        "opening_landscape:introverti"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "calm_contemplation:silencieux",
+        "mystery_exploration:suggestif",
+        "wellbeing_restoration:équilibré"
+      ],
+      "keywords_fr": [
+        "souterrain",
+        "lumière naturelle",
+        "béton",
+        "Monet",
+        "Turrell",
+        "variation saisonnière"
+      ],
+      "sources": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/art/",
+        "https://www.gltjp.com/en/directory/item/11313/"
+      ]
+    },
+    {
+      "id": "teshima_art_museum",
+      "name": "Teshima Art Museum",
+      "architect_or_period": "Ryue Nishizawa et Rei Naito",
+      "location": "Teshima, Japon",
+      "year": "2010",
+      "physical_tags": [
+        "water:source",
+        "water:humidité",
+        "light:naturelle",
+        "opening_landscape:ouvert",
+        "nature_living:naturel",
+        "material_texture:béton"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "calm_contemplation:silencieux",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "goutte d'eau",
+        "coque béton",
+        "ouvertures ovales",
+        "vent",
+        "rizières",
+        "silence"
+      ],
+      "sources": [
+        "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+        "https://benesse-artsite.jp/en/about/teshima.html",
+        "https://www.wallpaper.com/architecture/seto-inland-sea-tour-japan"
+      ]
+    },
+    {
+      "id": "louvre_abu_dhabi",
+      "name": "Louvre Abu Dhabi",
+      "architect_or_period": "Ateliers Jean Nouvel",
+      "location": "Abu Dhabi, Émirats arabes unis",
+      "year": "2017",
+      "physical_tags": [
+        "light:filtrée",
+        "light:intense",
+        "shadow_contrast:découpé",
+        "water:miroir",
+        "thermal_air:frais",
+        "filtering:perforation",
+        "spatiality:vaste"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:serein",
+        "mystery_exploration:suggestif",
+        "monumental_sublime:impressionnant",
+        "legibility_orientation:clair"
+      ],
+      "keywords_fr": [
+        "pluie de lumière",
+        "dôme",
+        "eau",
+        "reflet",
+        "microclimat",
+        "médina"
+      ],
+      "sources": [
+        "https://www.louvreabudhabi.ae/en/about-us/architecture",
+        "https://www.louvreabudhabi.ae/fr/about-us/architecture",
+        "https://www.architecturaldigest.com/story/jean-nouvel-louvre-abu-dhabi"
+      ]
+    },
+    {
+      "id": "institut_monde_arabe",
+      "name": "Institut du Monde Arabe",
+      "architect_or_period": "Jean Nouvel, Architecture-Studio, Pierre Soria et Gilbert Lèzenes",
+      "location": "Paris, France",
+      "year": "1981-1987",
+      "physical_tags": [
+        "light:filtrée",
+        "light:variable",
+        "filtering:claustra",
+        "material_texture:métal",
+        "shadow_contrast:découpé",
+        "spatiality:haut"
+      ],
+      "subjective_tags": [
+        "mystery_exploration:suggestif",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:intellectuel"
+      ],
+      "keywords_fr": [
+        "moucharabiehs",
+        "diaphragmes",
+        "irises",
+        "façade sud",
+        "métal",
+        "lumière technique"
+      ],
+      "sources": [
+        "https://www.imarabe.org/fr/batiment-et-son-histoire",
+        "https://dome.mit.edu/handle/1721.3/121823",
+        "https://www.architecturelab.net/institut-du-monde-arabe-jean-nouvel/"
+      ]
+    },
+    {
+      "id": "guggenheim_museum_new_york",
+      "name": "Solomon R. Guggenheim Museum",
+      "architect_or_period": "Frank Lloyd Wright",
+      "location": "New York, États-Unis",
+      "year": "1959",
+      "physical_tags": [
+        "light:zénithale",
+        "spatiality:atrium",
+        "movement_path:progressif",
+        "movement_path:fluide",
+        "material_texture:béton",
+        "framing:oculus"
+      ],
+      "subjective_tags": [
+        "mystery_exploration:initiatique",
+        "joy_social_intensity:animé",
+        "monumental_sublime:impressionnant",
+        "legibility_orientation:guidant"
+      ],
+      "keywords_fr": [
+        "spirale",
+        "rampe",
+        "atrium",
+        "verrière",
+        "béton",
+        "parcours continu"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1496/",
+        "https://www.guggenheim.org/about-us/architecture",
+        "https://www.architecturaldigest.com/story/you-didnt-know-new-york-city-guggenheim-museum"
+      ]
+    },
+    {
+      "id": "brasilia_cathedral",
+      "name": "Cathédrale de Brasília",
+      "architect_or_period": "Oscar Niemeyer",
+      "location": "Brasília, Brésil",
+      "year": "1958-1970",
+      "physical_tags": [
+        "light:colorée",
+        "light:intense",
+        "filtering:vitrail",
+        "material_texture:béton",
+        "spatiality:haut",
+        "spatiality:monumental"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "monumental_sublime:impressionnant",
+        "monumental_sublime:majestueux"
+      ],
+      "keywords_fr": [
+        "colonnes paraboliques",
+        "vitraux",
+        "béton",
+        "anges suspendus",
+        "lumière bleue",
+        "élévation"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/445/",
+        "https://www.architecturelab.net/cathedral-of-brasilia-oscar-niemeyer/",
+        "https://www.loc.gov/item/22886782"
+      ]
+    },
+    {
+      "id": "villa_rotonda",
+      "name": "Villa Rotonda",
+      "architect_or_period": "Andrea Palladio",
+      "location": "Vicence, Italie",
+      "year": "1566-1571",
+      "physical_tags": [
+        "light:naturelle",
+        "light:variable",
+        "spatiality:symétrique",
+        "spatiality:axial",
+        "framing:panorama",
+        "opening_landscape:panoramique",
+        "material_texture:pierre"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:clair",
+        "monumental_sublime:majestueux",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "plan central",
+        "symétrie",
+        "quatre portiques",
+        "dôme",
+        "pierre",
+        "lumière changeante",
+        "paysage",
+        "vues cardinales",
+        "ordre",
+        "harmonie",
+        "majesté",
+        "contemplation"
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/712/",
+        "https://www.villalarotonda.it/en/",
+        "https://www.villalarotonda.it/en/villa/"
+      ]
+    },
+    {
+      "id": "katsura_imperial_villa",
+      "name": "Katsura Imperial Villa",
+      "architect_or_period": "Architecture japonaise impériale",
+      "location": "Kyoto, Japon",
+      "year": "17e siècle",
+      "physical_tags": [
+        "material_texture:bois",
+        "water:bassin",
+        "nature_living:végétal",
+        "nature_living:saisonnier",
+        "movement_path:sinueux",
+        "opening_landscape:cadré",
+        "light:tamisée"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:serein",
+        "calm_contemplation:contemplatif",
+        "intimacy_refuge:intime",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "jardin de promenade",
+        "étang",
+        "îles",
+        "maisons de thé",
+        "bois",
+        "bambou",
+        "pierres",
+        "parcours circulaire",
+        "saisons",
+        "raffinement",
+        "wabi-sabi",
+        "calme"
+      ],
+      "sources": [
+        "https://www.britannica.com/topic/Katsura-Imperial-Villa",
+        "https://www.japan.travel/en/spot/1137",
+        "https://www.japan-guide.com/e/e3914.html"
+      ]
+    },
+    {
+      "id": "villa_savoye",
+      "name": "Villa Savoye",
+      "architect_or_period": "Le Corbusier",
+      "location": "Poissy, France",
+      "year": "1928-1931",
+      "physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "color:blanc",
+        "movement_path:progressif",
+        "movement_path:fluide",
+        "opening_landscape:cadré",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:clair",
+        "legibility_orientation:rationnel",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "pilotis",
+        "rampe",
+        "promenade architecturale",
+        "béton armé",
+        "façade blanche",
+        "fenêtre en longueur",
+        "toit-jardin",
+        "vues cadrées",
+        "jeu de lumière",
+        "clarté",
+        "rationalité",
+        "abstraction"
+      ],
+      "sources": [
+        "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+        "https://whc.unesco.org/en/list/1321/",
+        "https://www.architecturelab.net/villa-savoye-le-corbusier/"
+      ]
+    },
+    {
+      "id": "unite_habitation_marseille",
+      "name": "Unité d'habitation de Marseille",
+      "architect_or_period": "Le Corbusier",
+      "location": "Marseille, France",
+      "year": "1947-1952",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "light:naturelle",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:panoramique",
+        "movement_path:traversant"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:convivial",
+        "intimacy_refuge:domestique",
+        "legibility_orientation:rationnel",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "barre sur pilotis",
+        "béton armé",
+        "brise-soleil",
+        "balcons",
+        "rue intérieure",
+        "toit-terrasse",
+        "village vertical",
+        "hauteur",
+        "vue",
+        "collectif",
+        "domestique",
+        "brutalisme"
+      ],
+      "sources": [
+        "https://lecorbusier-worldheritage.org/en/unite-habitation/",
+        "https://sites-le-corbusier.org/en/oeuvres/unite-dhabitation-marseille/",
+        "https://www.britannica.com/topic/Unite-dHabitation-urban-complex-Marseille-France"
+      ]
+    },
+    {
+      "id": "maison_curutchet",
+      "name": "Maison Curutchet",
+      "architect_or_period": "Le Corbusier",
+      "location": "La Plata, Argentine",
+      "year": "1949-1953",
+      "physical_tags": [
+        "light:naturelle",
+        "material_texture:béton",
+        "movement_path:progressif",
+        "threshold:filtre",
+        "opening_landscape:cadré",
+        "spatiality:étroit"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:rationnel"
+      ],
+      "keywords_fr": [
+        "parcelle étroite",
+        "rez-de-chaussée libre",
+        "deux volumes",
+        "cabinet médical",
+        "maison",
+        "vue sur parc",
+        "béton",
+        "rampe",
+        "filtre végétal",
+        "adaptation",
+        "clarté",
+        "domesticité"
+      ],
+      "sources": [
+        "https://lecorbusier-worldheritage.org/en/maison-du-docteur-curutchet/",
+        "https://whc.unesco.org/en/list/1321/",
+        "https://whc.unesco.org/en/documents/140718"
+      ]
+    },
+    {
+      "id": "barcelona_pavilion",
+      "name": "Pavillon de Barcelone",
+      "architect_or_period": "Ludwig Mies van der Rohe",
+      "location": "Barcelone, Espagne",
+      "year": "1929",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "material_texture:pierre",
+        "water:miroir",
+        "light:réfléchie",
+        "movement_path:fluide",
+        "opening_landscape:transparent"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "legibility_orientation:clair",
+        "legibility_orientation:ordonné",
+        "strangeness_displacement:abstrait"
+      ],
+      "keywords_fr": [
+        "verre",
+        "acier",
+        "marbre",
+        "travertin",
+        "onyx",
+        "reflets",
+        "eau",
+        "plan libre",
+        "intérieur-extérieur",
+        "géométrie",
+        "clarté",
+        "sobriété"
+      ],
+      "sources": [
+        "https://miesbcn.com/the-pavilion/",
+        "https://miesbcn.com/project/luftwerk-iker-gil-geometry-of-light/",
+        "https://www.expo-barcelona.com/exhibition/mies-van-der-rohe-pavilion"
+      ]
+    },
+    {
+      "id": "farnsworth_house",
+      "name": "Farnsworth House",
+      "architect_or_period": "Ludwig Mies van der Rohe",
+      "location": "Plano, Illinois, États-Unis",
+      "year": "1945-1951",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:travertin",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "wellbeing_restoration:ressourçant",
+        "strangeness_displacement:abstrait",
+        "memory_absence:fragile"
+      ],
+      "keywords_fr": [
+        "acier blanc",
+        "verre continu",
+        "travertin",
+        "plancher suspendu",
+        "forêt",
+        "rivière",
+        "transparence",
+        "plan ouvert",
+        "nature",
+        "sérénité",
+        "exposition",
+        "minimalisme"
+      ],
+      "sources": [
+        "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+        "https://savingplaces.org/places/farnsworth-house",
+        "https://www.britannica.com/topic/Farnsworth-House"
+      ]
+    },
+    {
+      "id": "tugendhat_house",
+      "name": "Villa Tugendhat",
+      "architect_or_period": "Ludwig Mies van der Rohe",
+      "location": "Brno, Tchéquie",
+      "year": "1928-1930",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:pierre",
+        "opening_landscape:transparent",
+        "opening_landscape:paysage",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:clair",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant",
+        "calm_contemplation:calme"
+      ],
+      "keywords_fr": [
+        "pureté formelle",
+        "intérieur-extérieur",
+        "jardin",
+        "matériaux nobles",
+        "verre",
+        "acier",
+        "plan libre",
+        "espace sans limites",
+        "clarté",
+        "domesticité moderne",
+        "perfection",
+        "calme"
+      ],
+      "sources": [
+        "https://www.tugendhat.eu/en/about-the-house/",
+        "https://whc.unesco.org/en/list/1052/",
+        "https://www.tugendhat.eu/en/"
+      ]
+    },
+    {
+      "id": "seagram_building",
+      "name": "Seagram Building",
+      "architect_or_period": "Ludwig Mies van der Rohe et Philip Johnson",
+      "location": "New York, États-Unis",
+      "year": "1958",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:doré",
+        "spatiality:haut",
+        "spatiality:monumental",
+        "opening_landscape:transparent",
+        "light:réfléchie"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:ordonné",
+        "legibility_orientation:structuré",
+        "monumental_sublime:impressionnant",
+        "unease_oppression:austère"
+      ],
+      "keywords_fr": [
+        "tour de verre et bronze",
+        "prisme",
+        "grille",
+        "proportion",
+        "plaza",
+        "détail",
+        "austérité",
+        "hauteur",
+        "ordre",
+        "autorité",
+        "élégance",
+        "monumentalité"
+      ],
+      "sources": [
+        "https://www.britannica.com/topic/Seagram-Building",
+        "https://www.som.com/projects/seagram-building/",
+        "https://en.wikipedia.org/wiki/Seagram_Building"
+      ]
+    },
+    {
+      "id": "crown_hall",
+      "name": "S. R. Crown Hall",
+      "architect_or_period": "Ludwig Mies van der Rohe",
+      "location": "Chicago, États-Unis",
+      "year": "1956",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "spatiality:vaste",
+        "spatiality:ouvert",
+        "light:naturelle",
+        "movement_path:fluide"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:concentré",
+        "legibility_orientation:clair",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "halle ouverte",
+        "plan libre",
+        "sans colonnes intérieures",
+        "acier",
+        "verre",
+        "grandes portées",
+        "lumière",
+        "campus",
+        "clarté",
+        "studio",
+        "concentration",
+        "rationalité"
+      ],
+      "sources": [
+        "https://www.iit.edu/admissions-aid/visit-and-tour/virtual-tour/crown-hall",
+        "https://docomomo-us.org/register/s-r-crown-hall",
+        "https://www.archdaily.com/59816/ad-classics-s-r-crown-hall-mies-van-der-rohe"
+      ]
+    },
+    {
+      "id": "robie_house",
+      "name": "Robie House",
+      "architect_or_period": "Frank Lloyd Wright",
+      "location": "Chicago, États-Unis",
+      "year": "1909-1910",
+      "physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "light:filtrée",
+        "light:naturelle",
+        "spatiality:ouvert",
+        "opening_landscape:poreux",
+        "framing:fenêtre"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:domestique",
+        "intimacy_refuge:chaleureux",
+        "intimacy_refuge:protecteur",
+        "calm_contemplation:serein"
+      ],
+      "keywords_fr": [
+        "horizontalité",
+        "brique",
+        "calcaire",
+        "toits débordants",
+        "porte-à-faux",
+        "verre au plomb",
+        "plan ouvert",
+        "cheminée centrale",
+        "lumière filtrée",
+        "domesticité",
+        "chaleur",
+        "protection"
+      ],
+      "sources": [
+        "https://www.flwright.org/explore/frederick-c-robie-house",
+        "https://www.flwright.org/tour/robie-house",
+        "https://whc.unesco.org/en/list/1496/"
+      ]
+    },
+    {
+      "id": "unity_temple",
+      "name": "Unity Temple",
+      "architect_or_period": "Frank Lloyd Wright",
+      "location": "Oak Park, Illinois, États-Unis",
+      "year": "1905-1908",
+      "physical_tags": [
+        "material_texture:béton",
+        "light:zénithale",
+        "light:filtrée",
+        "light:colorée",
+        "shadow_contrast:pénombre",
+        "spatiality:haut",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "intimacy_refuge:intime",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "béton",
+        "cube monolithique",
+        "clerestory",
+        "verre teinté ambré",
+        "puits de lumière",
+        "passages bas et sombres",
+        "sanctuaire lumineux",
+        "séquence d’entrée",
+        "sacré",
+        "intime",
+        "grand mais contenu",
+        "contemplation"
+      ],
+      "sources": [
+        "https://www.flwright.org/explore/unity-temple",
+        "https://www.architecture.org/learn/resources/buildings-of-chicago/building/unity-temple/",
+        "https://whc.unesco.org/en/list/1496/"
+      ]
+    },
+    {
+      "id": "taliesin_west",
+      "name": "Taliesin West",
+      "architect_or_period": "Frank Lloyd Wright",
+      "location": "Scottsdale, Arizona, États-Unis",
+      "year": "1937-",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "material_texture:toit léger",
+        "light:diffuse",
+        "thermal_air:sec",
+        "opening_landscape:paysage",
+        "nature_living:sauvage"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "intimacy_refuge:abrité",
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "désert",
+        "maçonnerie du désert",
+        "pierre locale",
+        "béton",
+        "toits légers",
+        "campus",
+        "cours",
+        "vues vers les montagnes",
+        "lumière filtrée",
+        "expérimentation",
+        "abri",
+        "vie collective"
+      ],
+      "sources": [
+        "https://franklloydwright.org/taliesin-west/",
+        "https://whc.unesco.org/en/list/1496/",
+        "https://www.architecturaldigest.com/story/taliesin-west-everything-you-need-to-know-about-frank-lloyd-wrights-winter-home-and-studio"
+      ]
+    },
+    {
+      "id": "bauhaus_dessau",
+      "name": "Bauhaus Dessau",
+      "architect_or_period": "Walter Gropius",
+      "location": "Dessau, Allemagne",
+      "year": "1925-1926",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:béton",
+        "material_texture:métal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:rationnel",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:studieux",
+        "inspiration_concentration:intellectuel"
+      ],
+      "keywords_fr": [
+        "verre",
+        "béton",
+        "acier",
+        "fonctionnalisme",
+        "école",
+        "atelier",
+        "façade vitrée",
+        "volumes articulés",
+        "modernité sociale",
+        "rationnel",
+        "studieux",
+        "collectif"
+      ],
+      "sources": [
+        "https://bauhaus-dessau.de/en/institution/foundation/",
+        "https://whc.unesco.org/en/list/729/",
+        "https://www.visitdessau.com/en/world-heritage/bauhaus/"
+      ]
+    },
+    {
+      "id": "villa_mairea",
+      "name": "Villa Mairea",
+      "architect_or_period": "Alvar Aalto",
+      "location": "Noormarkku, Finlande",
+      "year": "1938-1939",
+      "physical_tags": [
+        "material_texture:bois",
+        "material_texture:pierre",
+        "nature_living:végétal",
+        "light:naturelle",
+        "light:tamisée",
+        "opening_landscape:ouvert",
+        "movement_path:fluide"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:intime",
+        "intimacy_refuge:chaleureux",
+        "calm_contemplation:serein",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "bois",
+        "pin finlandais",
+        "teck",
+        "pierre",
+        "enduit",
+        "colonnade de jeunes troncs",
+        "jardin",
+        "mur coulissant",
+        "intérieur ouvert au jardin",
+        "intime",
+        "chaleureux",
+        "naturel"
+      ],
+      "sources": [
+        "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
+        "https://www.villamairea.fi/",
+        "https://www.archdaily.com/85390/ad-classics-villa-mairea-alvar-aalto"
+      ]
+    },
+    {
+      "id": "paimio_sanatorium",
+      "name": "Paimio Sanatorium",
+      "architect_or_period": "Alvar Aalto",
+      "location": "Paimio, Finlande",
+      "year": "1929-1933",
+      "physical_tags": [
+        "material_texture:béton",
+        "light:naturelle",
+        "color:chaud",
+        "thermal_air:ventilé",
+        "nature_living:naturel",
+        "opening_landscape:paysage",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "wellbeing_restoration:réparateur",
+        "wellbeing_restoration:sain",
+        "calm_contemplation:calme",
+        "intimacy_refuge:protecteur"
+      ],
+      "keywords_fr": [
+        "béton",
+        "fonctionnalisme",
+        "forêt de pins",
+        "terrasses de soleil",
+        "couleurs",
+        "chambres de patients",
+        "ventilation",
+        "lumière naturelle",
+        "bien-être",
+        "guérison",
+        "santé",
+        "calme"
+      ],
+      "sources": [
+        "https://www.alvaraalto.fi/en/architecture/paimio-sanatorium/",
+        "https://paimiosanatorium.com/",
+        "https://paimiosanatorium.com/sanatorium/foundation/"
+      ]
+    },
+    {
+      "id": "saynatsalo_town_hall",
+      "name": "Säynätsalo Town Hall",
+      "architect_or_period": "Alvar Aalto",
+      "location": "Säynätsalo, Finlande",
+      "year": "1949-1952",
+      "physical_tags": [
+        "material_texture:brique",
+        "material_texture:bois",
+        "nature_living:végétal",
+        "movement_path:progressif",
+        "threshold:entrée",
+        "spatiality:haut",
+        "light:naturelle"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:chaleureux",
+        "joy_social_intensity:convivial",
+        "monumental_sublime:solennel",
+        "legibility_orientation:structuré"
+      ],
+      "keywords_fr": [
+        "brique rouge",
+        "cour surélevée",
+        "escalier de granite",
+        "escalier végétal",
+        "chambre du conseil",
+        "bois",
+        "tour",
+        "parcours ascendant",
+        "chaleur",
+        "civicité",
+        "solennité",
+        "communauté"
+      ],
+      "sources": [
+        "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+        "https://visitjyvaskyla.fi/en/attractions/saynatsalo-town-hall/",
+        "https://www.architecturelab.net/saynatsalo-town-hall-alvar-aalto/"
+      ]
+    },
+    {
+      "id": "eames_house",
+      "name": "Eames House",
+      "architect_or_period": "Charles et Ray Eames",
+      "location": "Pacific Palisades, Californie, États-Unis",
+      "year": "1949",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:polychrome",
+        "nature_living:végétal",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:ludique",
+        "joy_social_intensity:vivant",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "structure acier",
+        "panneaux colorés",
+        "verre",
+        "eucalyptus",
+        "prairie",
+        "atelier",
+        "maison",
+        "modularité",
+        "nature",
+        "joyeux",
+        "ludique",
+        "domestique"
+      ],
+      "sources": [
+        "https://eamesfoundation.org/eames-house/",
+        "https://www.eamesoffice.com/visit-learn/eames-house/",
+        "https://www.archdaily.com/66302/ad-classics-eames-house-charles-and-ray-eames"
+      ]
+    },
+    {
+      "id": "glass_house_philip_johnson",
+      "name": "Glass House",
+      "architect_or_period": "Philip Johnson",
+      "location": "New Canaan, Connecticut, États-Unis",
+      "year": "1949",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:brique",
+        "opening_landscape:transparent",
+        "opening_landscape:panoramique",
+        "opening_landscape:paysage",
+        "light:naturelle",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:contemplatif",
+        "strangeness_displacement:abstrait",
+        "strangeness_displacement:irréel",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "verre",
+        "pavillon",
+        "paysage",
+        "promontoire",
+        "étang",
+        "vues",
+        "sans murs intérieurs",
+        "brique",
+        "acier",
+        "composition avec Brick House",
+        "contemplation",
+        "exposition"
+      ],
+      "sources": [
+        "https://theglasshouse.org/explore/the-glass-house/",
+        "https://savingplaces.org/places/glass-house",
+        "https://theglasshouse.org/explore/landscape/"
+      ]
+    },
+    {
+      "id": "maison_de_verre",
+      "name": "Maison de Verre",
+      "architect_or_period": "Pierre Chareau, Bernard Bijvoet et Louis Dalbet",
+      "location": "Paris, France",
+      "year": "1928-1932",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "light:diffuse",
+        "light:filtrée",
+        "filtering:grille",
+        "filtering:perforation",
+        "opening_landscape:opaque",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "mystery_exploration:suggestif",
+        "mystery_exploration:caché",
+        "strangeness_displacement:étrange",
+        "intimacy_refuge:domestique",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "briques de verre",
+        "acier apparent",
+        "squelette métallique",
+        "lumière diffuse",
+        "parois mobiles",
+        "métal perforé",
+        "cabinet médical",
+        "espace domestique",
+        "mécanismes",
+        "mystère",
+        "ingéniosité",
+        "domesticité technique"
+      ],
+      "sources": [
+        "https://www.centrepompidou.fr/fr/ressources/oeuvre/cKxjGX8",
+        "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-secret-history-of-the-maison-de-verre-a-masterpiece-of-modern-architecture",
+        "https://dome.mit.edu/handle/1721.3/119743"
+      ]
+    },
+    {
+      "id": "brion_cemetery",
+      "name": "Cimetière Brion",
+      "architect_or_period": "Carlo Scarpa",
+      "location": "San Vito d'Altivole, Italie",
+      "year": "1968-1978",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "water:bassin",
+        "water:miroir",
+        "movement_path:ritualisé",
+        "threshold:transition",
+        "palimpsest:mémoire",
+        "spatiality:fermé"
+      ],
+      "subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:mélancolique",
+        "sacred_ritual:rituel",
+        "calm_contemplation:méditatif",
+        "mystery_exploration:suggestif"
+      ],
+      "keywords_fr": [
+        "béton brut",
+        "eau",
+        "bassin",
+        "mosaïque",
+        "bronze",
+        "chapelle",
+        "pavillon de méditation",
+        "mur incliné",
+        "parcours séquencé",
+        "jardin funéraire",
+        "mémoire",
+        "deuil"
+      ],
+      "sources": [
+        "https://www.architecturelab.net/brion-vega-tomb-by-carlo-scarpa/",
+        "https://www.archdaily.com/1002226/carlo-scarpa-a-virtuous-architect-of-water",
+        "https://www.carloscarpa.es/OBRAS/Brion.html"
+      ]
+    },
+    {
+      "id": "castelvecchio_museum",
+      "name": "Musée de Castelvecchio",
+      "architect_or_period": "Carlo Scarpa",
+      "location": "Vérone, Italie",
+      "year": "1956-1973",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:béton",
+        "material_texture:bois",
+        "material_texture:métal",
+        "palimpsest:réparation",
+        "palimpsest:strate",
+        "movement_path:progressif",
+        "light:naturelle"
+      ],
+      "subjective_tags": [
+        "memory_absence:historique",
+        "legibility_orientation:guidant",
+        "legibility_orientation:structuré",
+        "mystery_exploration:suggestif",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "restauration",
+        "château médiéval",
+        "béton",
+        "pierre",
+        "bois",
+        "acier",
+        "passerelles",
+        "supports d’œuvres",
+        "jardin",
+        "éclairage muséal",
+        "stratification",
+        "mémoire historique"
+      ],
+      "sources": [
+        "https://archiviocarloscarpa.it/en/",
+        "https://archiviocarloscarpa.it/carlo-scarpa-a-castelvecchio/",
+        "https://www.carloscarpa.es/Castelvecchio.html"
+      ]
+    },
+    {
+      "id": "olivetti_showroom",
+      "name": "Olivetti Showroom",
+      "architect_or_period": "Carlo Scarpa",
+      "location": "Venise, Italie",
+      "year": "1957-1958",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:bois",
+        "color:doré",
+        "light:diffuse",
+        "movement_path:fluide",
+        "spatiality:étroit"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:intime",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "strangeness_displacement:étrange",
+        "joy_social_intensity:ludique"
+      ],
+      "keywords_fr": [
+        "mosaïque de sol",
+        "marbre",
+        "verre",
+        "bois",
+        "laiton",
+        "escalier flottant",
+        "transparences intérieures",
+        "espace étroit",
+        "détail artisanal",
+        "bijou",
+        "intimité",
+        "raffinement"
+      ],
+      "sources": [
+        "https://fondoambiente.it/negozio-olivetti-eng",
+        "https://en.venezia.net/olivetti-showroom-venice.html",
+        "https://architectuul.com/architecture/olivetti-showroom"
+      ]
+    },
+    {
+      "id": "national_assembly_bangladesh",
+      "name": "Assemblée nationale du Bangladesh",
+      "architect_or_period": "Louis I. Kahn",
+      "location": "Dacca, Bangladesh",
+      "year": "1962-1983",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:pierre",
+        "water:bassin",
+        "light:zénithale",
+        "framing:fente",
+        "spatiality:monumental",
+        "spatiality:voûte",
+        "shadow_contrast:profond"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:monumental",
+        "monumental_sublime:solennel",
+        "monumental_sublime:majestueux",
+        "legibility_orientation:structuré",
+        "sacred_ritual:spirituel"
+      ],
+      "keywords_fr": [
+        "béton coulé",
+        "marbre blanc incrusté",
+        "lac artificiel",
+        "cours de lumière et d’air",
+        "ouvertures géométriques",
+        "dôme",
+        "masse monumentale",
+        "ombre",
+        "eau",
+        "solennité civique",
+        "sublime",
+        "majesté"
+      ],
+      "sources": [
+        "https://the.akdn/akdn/akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/national-assembly-building",
+        "https://www.archdaily.com/83071/ad-classics-national-assembly-building-of-bangladesh-louis-kahn",
+        "https://dome.mit.edu/handle/1721.3/72428"
+      ]
+    },
+    {
+      "id": "water_temple_ando",
+      "name": "Temple de l'Eau",
+      "architect_or_period": "Tadao Ando",
+      "location": "Awaji, Japon",
+      "year": "1991",
+      "physical_tags": [
+        "material_texture:béton",
+        "water:bassin",
+        "nature_living:végétal",
+        "movement_path:ritualisé",
+        "movement_path:progressif",
+        "light:colorée",
+        "light:filtrée",
+        "shadow_contrast:pénombre"
+      ],
+      "subjective_tags": [
+        "sacred_ritual:sacré",
+        "sacred_ritual:spirituel",
+        "calm_contemplation:contemplatif",
+        "mystery_exploration:initiatique",
+        "mystery_exploration:mystérieux"
+      ],
+      "keywords_fr": [
+        "mur courbe en béton",
+        "gravier blanc",
+        "bassin ovale",
+        "lotus",
+        "escalier descendant",
+        "pénombre",
+        "lumière rouge",
+        "treillis vermillon",
+        "parcours",
+        "collines",
+        "passage au sacré",
+        "initiation"
+      ],
+      "sources": [
+        "https://www.archweb.com/en/architettures/water-temple/",
+        "https://arquitecturaviva.com/works/templo-del-agua-higashiura",
+        "https://en.wikiarquitectura.com/building/Water-Temple/"
+      ]
+    },
+    {
+      "id": "row_house_sumiyoshi",
+      "name": "Row House in Sumiyoshi",
+      "architect_or_period": "Tadao Ando",
+      "location": "Osaka, Japon",
+      "year": "1976",
+      "physical_tags": [
+        "material_texture:béton",
+        "spatiality:étroit",
+        "spatiality:fermé",
+        "light:zénithale",
+        "light:naturelle",
+        "thermal_air:exposé",
+        "movement_path:contraint",
+        "opening_landscape:introverti"
+      ],
+      "subjective_tags": [
+        "intimacy_refuge:intime",
+        "intimacy_refuge:domestique",
+        "unease_oppression:austère",
+        "strangeness_displacement:abstrait",
+        "legibility_orientation:rationnel"
+      ],
+      "keywords_fr": [
+        "béton apparent",
+        "maison étroite",
+        "façade fermée",
+        "cour intérieure ouverte",
+        "passerelle",
+        "lumière",
+        "air",
+        "pluie",
+        "trois volumes",
+        "parcours contraint",
+        "austérité",
+        "domesticité radicale"
+      ],
+      "sources": [
+        "https://www.archweb.com/en/-civilians-architectures/azuma-house/",
+        "https://arquitecturaviva.com/works/casa-entre-medianeras",
+        "https://en.wikiarquitectura.com/building/azuma-house/"
+      ]
+    },
+    {
+      "id": "saint_benedict_chapel",
+      "name": "Chapelle Saint-Benoît",
+      "architect_or_period": "Peter Zumthor",
+      "location": "Sumvitg, Suisse",
+      "year": "1988",
+      "physical_tags": [
+        "material_texture:bois",
+        "material_texture:toit léger",
+        "light:naturelle",
+        "light:diffuse",
+        "framing:lanterne",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "spatiality:bas"
+      ],
+      "subjective_tags": [
+        "calm_contemplation:serein",
+        "sacred_ritual:spirituel",
+        "intimacy_refuge:protecteur",
+        "intimacy_refuge:chaleureux",
+        "wellbeing_restoration:ressourçant"
+      ],
+      "keywords_fr": [
+        "bardeaux de bois",
+        "colonnes de bois",
+        "panneaux de verre",
+        "lumière naturelle",
+        "coque de bateau",
+        "pente alpine",
+        "forêt protectrice",
+        "petite échelle",
+        "artisanat",
+        "simplicité",
+        "recueillement",
+        "chaleur du bois"
+      ],
+      "sources": [
+        "https://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor",
+        "https://www.graubuenden.ch/en/attractions/kapelle-s-benedetg",
+        "https://www.archdaily.com/419367/a-photographer-s-journey-through-peter-zumthor-valley"
+      ]
+    },
+    {
+      "id": "holocaust_memorial_berlin",
+      "name": "Mémorial aux Juifs assassinés d'Europe",
+      "architect_or_period": "Peter Eisenman",
+      "location": "Berlin, Allemagne",
+      "year": "2005",
+      "physical_tags": [
+        "material_texture:béton",
+        "spatiality:labyrinthique",
+        "spatiality:étroit",
+        "movement_path:contraint",
+        "shadow_contrast:profond",
+        "palimpsest:mémoire",
+        "compression_expansion:resserrement"
+      ],
+      "subjective_tags": [
+        "memory_absence:mémoriel",
+        "memory_absence:douloureux",
+        "memory_absence:absent",
+        "unease_oppression:oppressant",
+        "unease_oppression:instable"
+      ],
+      "keywords_fr": [
+        "2710 stèles de béton",
+        "champ de stèles",
+        "sol ondulant",
+        "allées étroites",
+        "hauteurs variables",
+        "grille",
+        "espace abstrait",
+        "souterrain",
+        "béton gris",
+        "mémoire",
+        "avertissement",
+        "incertitude"
+      ],
+      "sources": [
+        "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe/",
+        "https://www.visitberlin.de/en/memorial-murdered-jews-europe",
+        "https://www.cipdh.gob.ar/memorias-situadas/en/lugar-de-memoria/monumento-a-los-judios-asesinados-en-europa/"
+      ]
+    },
+    {
+      "id": "centre_pompidou",
+      "name": "Centre Pompidou",
+      "architect_or_period": "Renzo Piano et Richard Rogers",
+      "location": "Paris, France",
+      "year": "1977",
+      "physical_tags": [
+        "material_texture:verre",
+        "material_texture:métal",
+        "material_texture:béton",
+        "color:polychrome",
+        "light:naturelle",
+        "spatiality:vaste",
+        "spatiality:ouvert",
+        "movement_path:traversant"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:ludique",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "strangeness_displacement:étrange"
+      ],
+      "keywords_fr": [
+        "structure de verre et métal",
+        "tuyaux colorés",
+        "acier apparent",
+        "plateaux libres",
+        "façade technique",
+        "lumière",
+        "monumentales artères",
+        "organisme vivant",
+        "place urbaine",
+        "vivant",
+        "ludique",
+        "populaire"
+      ],
+      "sources": [
+        "https://www.centrepompidou.fr/en/collection/our-building",
+        "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/larchitecture-du-centre-pompidou/structure-et-modules",
+        "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/secrets-darchi-les-tuyaux-du-centre-pompidou"
+      ]
+    },
+    {
+      "id": "lloyds_building",
+      "name": "Lloyd's Building",
+      "architect_or_period": "Richard Rogers Partnership",
+      "location": "Londres, Royaume-Uni",
+      "year": "1986",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "spatiality:atrium",
+        "spatiality:haut",
+        "opening_landscape:transparent",
+        "light:naturelle",
+        "movement_path:traversant",
+        "legibility_orientation:structuré"
+      ],
+      "subjective_tags": [
+        "inspiration_concentration:stimulant",
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "legibility_orientation:structuré",
+        "legibility_orientation:rationnel"
+      ],
+      "keywords_fr": [
+        "services extérieurs",
+        "ascenseurs extérieurs",
+        "escaliers",
+        "tuyaux",
+        "atrium central",
+        "acier",
+        "verre",
+        "structure machine",
+        "plan flexible",
+        "futuriste",
+        "radical",
+        "impressionnant"
+      ],
+      "sources": [
+        "https://www.lloyds.com/about-lloyds/our-home",
+        "https://www.cityoflondon.gov.uk/things-to-do/architecture/modern-architecture/lloyds-building",
+        "https://www.archweb.com/en/architettures/lloyd-s-building/"
+      ]
+    },
+    {
+      "id": "jean_marie_tjibaou_cultural_centre",
+      "name": "Centre culturel Jean-Marie Tjibaou",
+      "architect_or_period": "Renzo Piano Building Workshop",
+      "location": "Nouméa, Nouvelle-Calédonie",
+      "year": "1998",
+      "physical_tags": [
+        "material_texture:bois",
+        "material_texture:métal",
+        "material_texture:verre",
+        "thermal_air:ventilé",
+        "opening_landscape:paysage",
+        "nature_living:végétal",
+        "sound:vibrant",
+        "movement_path:progressif"
+      ],
+      "subjective_tags": [
+        "memory_absence:mémoriel",
+        "joy_social_intensity:vivant",
+        "wellbeing_restoration:ressourçant",
+        "legibility_orientation:structuré",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "coques de bois",
+        "cases kanak",
+        "iroko",
+        "acier",
+        "verre",
+        "ventilation passive",
+        "vents océaniques",
+        "péninsule",
+        "végétation",
+        "cheminements",
+        "culture kanak",
+        "mémoire"
+      ],
+      "sources": [
+        "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
+        "https://www.architectour.net/opere/opera.php?architetto=Renzo+Piano&id_opera=2733&nome_opera=Centre+culturel+Tjibaou",
+        "https://www.archilovers.com/projects/90850/jean-marie-tjibaou-cultural-center.html"
+      ]
+    },
+    {
+      "id": "kansai_airport_terminal",
+      "name": "Terminal de l'aéroport du Kansai",
+      "architect_or_period": "Renzo Piano Building Workshop",
+      "location": "Osaka, Japon",
+      "year": "1994",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:toit léger",
+        "thermal_air:ventilé",
+        "light:naturelle",
+        "light:diffuse",
+        "spatiality:vaste",
+        "movement_path:fluide"
+      ],
+      "subjective_tags": [
+        "legibility_orientation:guidant",
+        "legibility_orientation:clair",
+        "inspiration_concentration:stimulant",
+        "monumental_sublime:impressionnant",
+        "wellbeing_restoration:équilibré"
+      ],
+      "keywords_fr": [
+        "toit ondulant",
+        "structure longue",
+        "acier inoxydable",
+        "verre",
+        "ventilation intégrée",
+        "déflecteurs",
+        "lumière par lanterneaux",
+        "séquence spatiale",
+        "terminal de 1,7 km",
+        "fluidité",
+        "orientation",
+        "clarté"
+      ],
+      "sources": [
+        "https://www.britannica.com/topic/Terminal-1-at-Kansai-International-Airport",
+        "https://www.architonic.com/en/project/renzo-piano-building-workshop-kansai-international-airport-passenger-terminal-building/5102405",
+        "https://www.nikken.jp/en/projects/transportation/kansai_international_airport_passenger_terminal_building.html"
+      ]
+    },
+    {
+      "id": "guggenheim_bilbao",
+      "name": "Guggenheim Museum Bilbao",
+      "architect_or_period": "Frank Gehry",
+      "location": "Bilbao, Espagne",
+      "year": "1997",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:verre",
+        "material_texture:pierre",
+        "light:réfléchie",
+        "light:variable",
+        "opening_landscape:paysage",
+        "spatiality:monumental",
+        "movement_path:exploratoire"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:sublime",
+        "monumental_sublime:impressionnant",
+        "strangeness_displacement:étrange",
+        "inspiration_concentration:stimulant",
+        "joy_social_intensity:animé"
+      ],
+      "keywords_fr": [
+        "titane",
+        "verre",
+        "calcaire",
+        "peau organique",
+        "reflets",
+        "courbes",
+        "Nervión",
+        "ancien quai industriel",
+        "logiciel CATIA",
+        "variation lumineuse",
+        "icône",
+        "sublime"
+      ],
+      "sources": [
+        "https://www.guggenheim-bilbao.eus/en/the-building/the-construction/",
+        "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry",
+        "https://www.britannica.com/topic/Guggenheim-Museum-Bilbao"
+      ]
+    },
+    {
+      "id": "walt_disney_concert_hall",
+      "name": "Walt Disney Concert Hall",
+      "architect_or_period": "Frank Gehry",
+      "location": "Los Angeles, États-Unis",
+      "year": "2003",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:bois",
+        "light:réfléchie",
+        "spatiality:monumental",
+        "movement_path:fluide",
+        "sound:enveloppant",
+        "sound:réverbérant"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:festif",
+        "monumental_sublime:impressionnant",
+        "inspiration_concentration:inspirant",
+        "calm_contemplation:contemplatif"
+      ],
+      "keywords_fr": [
+        "peau en acier inoxydable",
+        "panneaux courbes",
+        "voiles argentées",
+        "bois intérieur",
+        "acoustique",
+        "intimité visuelle et sonore",
+        "auditorium",
+        "lumière réfléchie",
+        "énergie créative",
+        "intimité sonore",
+        "spectacle",
+        "joie"
+      ],
+      "sources": [
+        "https://www.musiccenter.org/visit-explore/visit-explore/campus/walt-disney-concert-hall/",
+        "https://www.permasteelisagroup.com/project-detail?project=2290",
+        "https://www.archilovers.com/projects/329/walt-disney-concert-hall.html"
+      ]
+    },
+    {
+      "id": "vitra_design_museum",
+      "name": "Vitra Design Museum",
+      "architect_or_period": "Frank Gehry",
+      "location": "Weil am Rhein, Allemagne",
+      "year": "1989",
+      "physical_tags": [
+        "material_texture:plâtre",
+        "color:blanc",
+        "light:naturelle",
+        "framing:fenêtre",
+        "movement_path:exploratoire",
+        "spatiality:haut",
+        "spatiality:ouvert"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:ludique",
+        "strangeness_displacement:étrange",
+        "strangeness_displacement:abstrait",
+        "inspiration_concentration:stimulant",
+        "mystery_exploration:suggestif"
+      ],
+      "keywords_fr": [
+        "plâtre blanc",
+        "formes expressives",
+        "tours",
+        "rampes",
+        "cubes",
+        "collage",
+        "fenêtres hautes",
+        "lumière naturelle",
+        "petite échelle",
+        "déconstructivisme",
+        "ludique",
+        "étrange"
+      ],
+      "sources": [
+        "https://www.vitra.com/fr-fr/campus/architecture/architecture-vitra-design-museum",
+        "https://www.vitra.com/en-dk/campus/architecture/architecture-vitra-design-museum",
+        "https://www.vitra.com/en-us/campus/architecture/architecture-factory-building-gehry"
+      ]
+    },
+    {
+      "id": "tate_modern",
+      "name": "Tate Modern",
+      "architect_or_period": "Herzog & de Meuron",
+      "location": "Londres, Royaume-Uni",
+      "year": "2000",
+      "physical_tags": [
+        "material_texture:brique",
+        "material_texture:béton",
+        "material_texture:métal",
+        "spatiality:monumental",
+        "spatiality:vaste",
+        "movement_path:progressif",
+        "palimpsest:réparation",
+        "palimpsest:strate"
+      ],
+      "subjective_tags": [
+        "memory_absence:historique",
+        "joy_social_intensity:animé",
+        "joy_social_intensity:convivial",
+        "monumental_sublime:impressionnant",
+        "inspiration_concentration:stimulant"
+      ],
+      "keywords_fr": [
+        "ancienne centrale électrique",
+        "brique",
+        "Turbine Hall",
+        "rampe",
+        "béton",
+        "acier",
+        "réutilisation",
+        "grande halle",
+        "topographie urbaine",
+        "plateforme",
+        "mémoire industrielle",
+        "monumentalité publique"
+      ],
+      "sources": [
+        "https://www.herzogdemeuron.com/projects/126-tate-modern/",
+        "https://dome.mit.edu/handle/1721.3/180163",
+        "https://www.tate.org.uk/visit/tate-modern"
+      ]
+    },
+    {
+      "id": "dominus_winery",
+      "name": "Dominus Winery",
+      "architect_or_period": "Herzog & de Meuron",
+      "location": "Yountville, Californie, États-Unis",
+      "year": "1997",
+      "physical_tags": [
+        "material_texture:pierre",
+        "material_texture:rugueux",
+        "filtering:grille",
+        "light:filtrée",
+        "thermal_air:tempéré",
+        "opening_landscape:paysage",
+        "nature_living:naturel",
+        "spatiality:bas"
+      ],
+      "subjective_tags": [
+        "mystery_exploration:énigmatique",
+        "calm_contemplation:calme",
+        "wellbeing_restoration:équilibré",
+        "legibility_orientation:structuré",
+        "strangeness_displacement:abstrait"
+      ],
+      "keywords_fr": [
+        "gabions",
+        "basalte local",
+        "mur de pierres",
+        "isolation thermique",
+        "densité variable",
+        "lumière filtrée",
+        "vignes",
+        "paysage",
+        "jour chaud nuit froide",
+        "texture rugueuse",
+        "énigmatique",
+        "calme"
+      ],
+      "sources": [
+        "https://www.dominusestate.com/architecture/",
+        "https://www.herzogdemeuron.com/projects/137-dominus-winery/",
+        "https://architectquoin.com/dominus-winery-by-herzog-de-meuron-shaping-stone/"
+      ]
+    },
+    {
+      "id": "beijing_national_stadium",
+      "name": "Beijing National Stadium",
+      "architect_or_period": "Herzog & de Meuron avec Ai Weiwei",
+      "location": "Pékin, Chine",
+      "year": "2008",
+      "physical_tags": [
+        "material_texture:métal",
+        "material_texture:béton",
+        "filtering:grille",
+        "color:rouge",
+        "light:naturelle",
+        "spatiality:monumental",
+        "spatiality:ouvert",
+        "movement_path:traversant"
+      ],
+      "subjective_tags": [
+        "monumental_sublime:grandiose",
+        "monumental_sublime:impressionnant",
+        "joy_social_intensity:festif",
+        "joy_social_intensity:animé",
+        "strangeness_displacement:étrange"
+      ],
+      "keywords_fr": [
+        "nid d’oiseau",
+        "colonnes et entretoises d’acier",
+        "lattice",
+        "membrane translucide",
+        "bol en béton",
+        "espaces transitoires",
+        "grande échelle",
+        "structure argentée",
+        "sièges rouges",
+        "spectacle",
+        "fête",
+        "puissance"
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Beijing-National-Stadium",
+        "https://www.herzogdemeuron.com/projects/226-national-stadium/",
+        "https://olympics.com/en/news/beijing-national-stadium-birds-nest-olympics"
+      ]
+    },
+    {
+      "id": "masp_sao_paulo",
+      "name": "MASP",
+      "architect_or_period": "Lina Bo Bardi",
+      "location": "São Paulo, Brésil",
+      "year": "1968",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:verre",
+        "material_texture:métal",
+        "color:rouge",
+        "spatiality:vide",
+        "spatiality:monumental",
+        "opening_landscape:transparent",
+        "threshold:entrée"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:animé",
+        "inspiration_concentration:stimulant",
+        "legibility_orientation:clair",
+        "monumental_sublime:impressionnant"
+      ],
+      "keywords_fr": [
+        "béton",
+        "verre",
+        "poutres rouges",
+        "grandes portées",
+        "vão livre",
+        "vide public",
+        "Avenida Paulista",
+        "structure suspendue",
+        "transparence",
+        "ouverture publique",
+        "pluralité",
+        "icône moderne"
+      ],
+      "sources": [
+        "https://masp.org.br/en/about",
+        "https://masp.org.br/en/about/keeping-modern",
+        "https://masp.com.br/en/sobre-o-masp"
+      ]
+    },
+    {
+      "id": "sesc_pompeia",
+      "name": "SESC Pompéia",
+      "architect_or_period": "Lina Bo Bardi",
+      "location": "São Paulo, Brésil",
+      "year": "1977-1986",
+      "physical_tags": [
+        "material_texture:béton",
+        "material_texture:brut",
+        "material_texture:brique",
+        "palimpsest:réparation",
+        "palimpsest:strate",
+        "movement_path:traversant",
+        "spatiality:haut",
+        "framing:fente"
+      ],
+      "subjective_tags": [
+        "joy_social_intensity:vivant",
+        "joy_social_intensity:convivial",
+        "joy_social_intensity:ludique",
+        "memory_absence:historique",
+        "intimacy_refuge:chaleureux"
+      ],
+      "keywords_fr": [
+        "ancienne fabrique",
+        "hangars industriels",
+        "béton brut",
+        "tours",
+        "passerelles",
+        "fenêtres irrégulières",
+        "brique",
+        "réemploi",
+        "centre social",
+        "galerie d’eau souterraine",
+        "vitalité populaire",
+        "convivialité"
+      ],
+      "sources": [
+        "https://portal.institutobardi.org/en/revista/lina-bo-bardis-sesc-chair/",
+        "https://arquitecturaviva.com/obras/sesc-fabrica-pompeia",
+        "https://architectuul.com/architecture/sesc-pompeia"
+      ]
     }
   ]
 }

@@ -1,0 +1,290 @@
+{
+  "version": "0.1.0",
+  "created": "2026-05-04",
+  "language": "fr",
+  "status": "draft_source_scan",
+  "scope": "Lot 1 : références liées à la lumière, au sacré, aux musées et aux dispositifs contemplatifs.",
+  "method": "Première collecte de sources et extraction prudente de mots d'ambiance. Les tags restent à valider avant intégration dans data/references_seed.json.",
+  "entries": [
+    {
+      "reference_id": "pantheon_rome",
+      "name": "Panthéon",
+      "sources": [
+        {"title": "Britannica - Pantheon", "url": "https://www.britannica.com/list/19-essential-italian-churches/Pantheon", "type": "encyclopédie"},
+        {"title": "Architectural Digest - Pantheon architecture", "url": "https://www.architecturaldigest.com/story/pantheon-rome-architecture", "type": "média architecture"},
+        {"title": "Pantheon Rome - visitor and architecture guide", "url": "https://www.pantheonrome.org/en", "type": "guide de visite"}
+      ],
+      "extracted_words_physical": ["oculus", "dôme", "coupole", "lumière naturelle", "ouverture circulaire", "proportions", "marbre", "granite", "ombre"],
+      "extracted_words_subjective": ["spirituel", "cosmique", "monumental", "sublime", "mystérieux", "émerveillement"],
+      "draft_physical_tags": ["light:zénithale", "light:variable", "spatiality:monumental", "spatiality:voûte", "framing:oculus", "material_texture:pierre"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "monumental_sublime:sublime", "monumental_sublime:majestueux", "mystery_exploration:mystérieux", "legibility_orientation:ordonné"],
+      "confidence_notes": "Forte confiance pour oculus, lumière zénithale et monumentalité. Les effets cosmique/sublime doivent être confirmés par davantage de sources critiques."
+    },
+    {
+      "reference_id": "sainte_chapelle_paris",
+      "name": "Sainte-Chapelle",
+      "sources": [
+        {"title": "Centre des monuments nationaux - stained-glass windows", "url": "https://www.sainte-chapelle.fr/en/discover/a-unique-set-of-stained-glass-windows", "type": "officiel"},
+        {"title": "UNESCO - Paris, Banks of the Seine", "url": "https://whc.unesco.org/en/list/600/", "type": "patrimoine"},
+        {"title": "Britannica - Sainte-Chapelle", "url": "https://www.britannica.com/topic/Sainte-Chapelle", "type": "encyclopédie"}
+      ],
+      "extracted_words_physical": ["vitrail", "verrière", "couleur", "lumière colorée", "verticalité", "nef haute", "filtrage"],
+      "extracted_words_subjective": ["sacré", "immersion", "émerveillement", "impressionnant", "spirituel"],
+      "draft_physical_tags": ["light:colorée", "light:intense", "light:filtrée", "filtering:vitrail", "spatiality:haut"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "monumental_sublime:impressionnant", "mystery_exploration:initiatique"],
+      "confidence_notes": "Forte confiance pour lumière colorée, vitrail et sacré. L'effet immersif est cohérent mais doit être documenté par des formulations de sources."
+    },
+    {
+      "reference_id": "hagia_sophia",
+      "name": "Hagia Sophia",
+      "sources": [
+        {"title": "Hagia Sophia Digital Heritage Museum - Architecture", "url": "https://www.hagiasophia.com/architecture", "type": "site thématique"},
+        {"title": "UNESCO - Historic Areas of Istanbul", "url": "https://whc.unesco.org/en/list/356/", "type": "patrimoine"},
+        {"title": "Britannica - Hagia Sophia", "url": "https://www.britannica.com/topic/Hagia-Sophia", "type": "encyclopédie"}
+      ],
+      "extracted_words_physical": ["dôme", "anneau de lumière", "fenêtres", "pendentifs", "lumière zénithale", "espace central", "mosaïque"],
+      "extracted_words_subjective": ["flottement", "sacré", "majestueux", "spirituel", "émerveillement"],
+      "draft_physical_tags": ["light:zénithale", "light:diffuse", "spatiality:monumental", "spatiality:voûte", "material_texture:pierre"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "monumental_sublime:majestueux", "monumental_sublime:sublime"],
+      "confidence_notes": "Forte confiance pour coupole, fenêtre et monumentalité. L'idée de flottement lumineux demande une vérification par sources critiques."
+    },
+    {
+      "reference_id": "great_mosque_cordoba",
+      "name": "Grande Mosquée-Cathédrale de Cordoue",
+      "sources": [
+        {"title": "Britannica - Mosque-Cathedral of Córdoba", "url": "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba", "type": "encyclopédie"},
+        {"title": "UNESCO - Historic Centre of Cordoba", "url": "https://whc.unesco.org/en/list/313/", "type": "patrimoine"},
+        {"title": "Mezquita-Catedral de Córdoba - discover the monument", "url": "https://mezquita-catedraldecordoba.es/en/discover-the-monument/", "type": "officiel"}
+      ],
+      "extracted_words_physical": ["forêt de colonnes", "arcs", "marbre", "porphyre", "jaspe", "ombre", "rythme", "salle hypostyle"],
+      "extracted_words_subjective": ["mystérieux", "sacré", "labyrinthique", "intime", "impressionnant"],
+      "draft_physical_tags": ["shadow_contrast:pénombre", "spatiality:labyrinthique", "spatiality:vaste", "material_texture:pierre", "movement_path:exploratoire"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "mystery_exploration:mystérieux", "intimacy_refuge:intime", "monumental_sublime:impressionnant"],
+      "confidence_notes": "Forte confiance pour colonnes, arcs, profondeur et pénombre. L'intimité est à vérifier car le lieu est aussi monumental."
+    },
+    {
+      "reference_id": "chartres_cathedral",
+      "name": "Cathédrale de Chartres",
+      "sources": [
+        {"title": "UNESCO - Chartres Cathedral", "url": "https://whc.unesco.org/en/list/81", "type": "patrimoine"},
+        {"title": "Chartres Sanctuaire du Monde - stained-glass windows", "url": "https://www.chartres-csm.org/en/the-cathedral/the-stained-glass-windows-of-chartres-cathedral/", "type": "institutionnel"},
+        {"title": "Britannica - Chartres Cathedral", "url": "https://www.britannica.com/topic/Chartres-Cathedral", "type": "encyclopédie"}
+      ],
+      "extracted_words_physical": ["vitrail", "nef vaste", "ogival", "hauteur", "rose", "lumière colorée", "sculpture"],
+      "extracted_words_subjective": ["sacré", "pèlerinage", "majestueux", "historique", "admirable"],
+      "draft_physical_tags": ["light:colorée", "light:filtrée", "filtering:vitrail", "spatiality:haut", "spatiality:monumental"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "memory_absence:historique", "monumental_sublime:majestueux", "monumental_sublime:impressionnant"],
+      "confidence_notes": "Forte confiance pour vitrail, hauteur et sacré. Les qualités émotionnelles précises restent à affiner par des textes de visite ou critiques."
+    },
+    {
+      "reference_id": "notre_dame_paris",
+      "name": "Notre-Dame de Paris",
+      "sources": [
+        {"title": "Notre-Dame de Paris - Interior Architecture", "url": "https://www.notredamedeparis.fr/en/understand/architecture/interior-architecture/", "type": "officiel"},
+        {"title": "Friends of Notre-Dame de Paris - Rose Windows", "url": "https://www.friendsofnotredamedeparis.org/cathedral/artifacts/rose-windows/", "type": "institutionnel"},
+        {"title": "UNESCO - Paris, Banks of the Seine", "url": "https://whc.unesco.org/en/list/600/", "type": "patrimoine"}
+      ],
+      "extracted_words_physical": ["rose", "vitrail", "fenêtres hautes", "lumière", "voûte", "nef", "arcs", "pierre"],
+      "extracted_words_subjective": ["sacré", "historique", "monumental", "mémoire collective", "spirituel"],
+      "draft_physical_tags": ["light:naturelle", "light:colorée", "filtering:vitrail", "spatiality:haut", "spatiality:voûte", "material_texture:pierre"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "memory_absence:historique", "monumental_sublime:monumental"],
+      "confidence_notes": "Forte confiance pour lumière gothique, roses et verticalité. La mémoire collective doit être sourcée avec prudence."
+    },
+    {
+      "reference_id": "sagrada_familia",
+      "name": "Sagrada Família",
+      "sources": [
+        {"title": "Sagrada Família Blog - stained-glass windows", "url": "https://blog.sagradafamilia.org/en/vitralls-llum-colors-proces-creacio/", "type": "officiel"},
+        {"title": "Sagrada Família - Temple of light ticket page", "url": "https://sagradafamilia.org/en/sagrada-familia-ticket?inheritRedirect=true", "type": "officiel"},
+        {"title": "UNESCO - Works of Antoni Gaudí", "url": "https://whc.unesco.org/en/list/320/", "type": "patrimoine"}
+      ],
+      "extracted_words_physical": ["lumière naturelle", "vitrail", "couleurs froides", "couleurs chaudes", "verticalité", "structure arborescente", "voûtes"],
+      "extracted_words_subjective": ["spiritualité", "contemplation", "prière", "émerveillement", "joie chromatique"],
+      "draft_physical_tags": ["light:colorée", "light:intense", "light:variable", "filtering:vitrail", "spatiality:haut", "nature_living:organique"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "calm_contemplation:contemplatif", "joy_social_intensity:joyeux", "monumental_sublime:impressionnant"],
+      "confidence_notes": "Très forte confiance pour couleur, vitrail, variation temporelle et spiritualité car la source officielle décrit directement ces effets."
+    },
+    {
+      "reference_id": "ronchamp",
+      "name": "Chapelle Notre-Dame du Haut",
+      "sources": [
+        {"title": "Sites Le Corbusier - Ronchamp", "url": "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/", "type": "patrimoine"},
+        {"title": "Le Corbusier World Heritage - Ronchamp", "url": "https://lecorbusier-worldheritage.org/en/chapelle-notre-dame-du-haut/", "type": "patrimoine"},
+        {"title": "Archimapper - Notre-Dame du Haut", "url": "https://archimapper.com/item/le-corbusier-notre-dame-du-haut/", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["béton", "mur épais", "verre coloré", "lumière indirecte", "toiture", "pente", "colline", "procession"],
+      "extracted_words_subjective": ["sacré", "silence", "prière", "paix", "mystère", "contemplation"],
+      "draft_physical_tags": ["light:filtrée", "light:colorée", "light:réfléchie", "material_texture:béton", "spatiality:épais", "movement_path:ritualisé"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "calm_contemplation:contemplatif", "calm_contemplation:silencieux", "mystery_exploration:mystérieux"],
+      "confidence_notes": "Forte confiance pour lumière filtrée, béton, mur épais et sacré. Les mots paix/silence demandent un relevé précis de citations courtes."
+    },
+    {
+      "reference_id": "monastery_la_tourette",
+      "name": "Couvent Sainte-Marie de La Tourette",
+      "sources": [
+        {"title": "Le Corbusier World Heritage - La Tourette", "url": "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/", "type": "patrimoine"},
+        {"title": "Fondation Le Corbusier - La Tourette", "url": "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-couvent-sainte-marie-de-la-tourette-eveux-sur-larbresle-france-1953-1960/", "type": "fondation"},
+        {"title": "Couvent Sainte-Marie de La Tourette - site du couvent", "url": "https://www.strateforme.com/", "type": "officiel"}
+      ],
+      "extracted_words_physical": ["béton brut", "canons à lumière", "lumière colorée", "cellules", "loggia", "pans ondulatoires", "cloître", "pente"],
+      "extracted_words_subjective": ["austérité", "prière", "réflexion", "retrait", "contemplation", "silence"],
+      "draft_physical_tags": ["light:colorée", "light:zénithale", "material_texture:béton", "material_texture:brut", "spatiality:fermé", "movement_path:progressif"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:ascétique", "calm_contemplation:contemplatif", "inspiration_concentration:studieux", "intimacy_refuge:refuge"],
+      "confidence_notes": "Très forte confiance pour béton brut et dispositifs de lumière. L'effet refuge doit être vérifié car le couvent peut aussi être austère."
+    },
+    {
+      "reference_id": "church_of_the_light",
+      "name": "Church of the Light",
+      "sources": [
+        {"title": "Ibaraki Kasugaoka Church - official site", "url": "http://ibaraki-kasugaoka-church.jp/e-top.html", "type": "officiel"},
+        {"title": "Architecture Lab - Church of the Light", "url": "https://www.architecturelab.net/church-of-the-light-tadao-ando-architect-associates/", "type": "média architecture"},
+        {"title": "Mooponto - Church of the Light", "url": "https://www.mooponto.com/church-of-the-light-tadao-ando-architect-associates/", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["croix de lumière", "fente", "béton", "vide", "contraste", "ombre", "volume simple"],
+      "extracted_words_subjective": ["sacré", "ascèse", "sérénité", "silence", "spirituel", "intériorité"],
+      "draft_physical_tags": ["light:intense", "shadow_contrast:clair-obscur", "material_texture:béton", "framing:fente", "spatiality:vide"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:ascétique", "calm_contemplation:contemplatif", "monumental_sublime:solennel"],
+      "confidence_notes": "Forte confiance pour croix lumineuse, béton et clair-obscur. Les effets subjectifs sont classiques mais doivent être rattachés à des passages précis."
+    },
+    {
+      "reference_id": "chapel_st_ignatius",
+      "name": "Chapel of St. Ignatius",
+      "sources": [
+        {"title": "Steven Holl Architects - Chapel of St. Ignatius", "url": "https://www.stevenholl.com/projects/st-ignatius-chapel", "type": "architecte"},
+        {"title": "Seattle University - Chapel architecture", "url": "https://www.seattleu.edu/life-at-seattle-u/faith-spirituality-meaning/chapel-of-st-ignatius/architecture/", "type": "officiel"},
+        {"title": "Curin - Chapel of St. Ignatius", "url": "https://curin.io/projects/chapel-of-st-ignatius", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["volumes de lumière", "lumière colorée", "baffles", "verre coloré", "béton", "balises lumineuses", "réflexion"],
+      "extracted_words_subjective": ["spirituel", "sacré", "vigilance", "recueillement", "diversité des lumières"],
+      "draft_physical_tags": ["light:colorée", "light:réfléchie", "filtering:volume", "framing:lanterne", "material_texture:béton"],
+      "draft_subjective_tags": ["sacred_ritual:spirituel", "sacred_ritual:sacré", "calm_contemplation:contemplatif", "mystery_exploration:suggestif"],
+      "confidence_notes": "Très forte confiance pour lumière colorée et volumes lumineux grâce aux sources de l'architecte et de l'université."
+    },
+    {
+      "reference_id": "kimbell_art_museum",
+      "name": "Kimbell Art Museum",
+      "sources": [
+        {"title": "Kimbell Art Museum - Louis I. Kahn Building", "url": "https://kimbellart.org/art-architecture/architecture/kahn-building", "type": "officiel"},
+        {"title": "Kimbell Art Museum - Kahn Building in Detail", "url": "https://kimbellart.org/content/kahn-building-detail", "type": "officiel"},
+        {"title": "Kimbell 50th Anniversary - architecture", "url": "https://50.kimbellart.org/architecture/the-louis-i-kahn-building/", "type": "institutionnel"}
+      ],
+      "extracted_words_physical": ["lumière naturelle", "lumière diffuse", "voûtes cycloïdes", "réflecteurs", "béton", "travertin", "chêne blanc", "cour"],
+      "extracted_words_subjective": ["calme", "précision", "contemplation", "clarté", "subtilité"],
+      "draft_physical_tags": ["light:diffuse", "light:réfléchie", "material_texture:béton", "material_texture:travertin", "spatiality:voûte"],
+      "draft_subjective_tags": ["calm_contemplation:contemplatif", "legibility_orientation:clair", "inspiration_concentration:concentré", "calm_contemplation:calme"],
+      "confidence_notes": "Très forte confiance pour lumière diffuse, réflecteurs, béton et travertin. C'est une référence clé pour la taxonomie lumineuse."
+    },
+    {
+      "reference_id": "menil_collection",
+      "name": "Menil Collection",
+      "sources": [
+        {"title": "Menil Collection - Main Building", "url": "https://www.menil.org/campus/main-building", "type": "officiel"},
+        {"title": "Menil Collection - campus main building alternate", "url": "https://www.menil.org/index.php/campus/main-building", "type": "officiel"},
+        {"title": "Condé Nast Traveler - Houston art pilgrimage", "url": "https://www.cntraveler.com/story/why-your-next-art-pilgrimage-should-be-to-houston-menil-collection-rothko", "type": "média culturel"}
+      ],
+      "extracted_words_physical": ["lumière naturelle", "galeries éclairées par le ciel", "cypress", "verre", "quartier résidentiel", "ombrage", "pelouse"],
+      "extracted_words_subjective": ["domestique", "calme", "accueillant", "discret", "contemplatif"],
+      "draft_physical_tags": ["light:naturelle", "light:diffuse", "material_texture:bois", "material_texture:verre", "opening_landscape:ouvert", "nature_living:domestiqué"],
+      "draft_subjective_tags": ["calm_contemplation:calme", "intimacy_refuge:domestique", "legibility_orientation:clair", "calm_contemplation:contemplatif"],
+      "confidence_notes": "Forte confiance pour lumière naturelle et insertion domestique. La qualification de calme doit être renforcée par des sources critiques."
+    },
+    {
+      "reference_id": "fondation_beyeler",
+      "name": "Fondation Beyeler",
+      "sources": [
+        {"title": "Renzo Piano Foundation - Beyeler Foundation Museum", "url": "https://www.fondazionerenzopiano.org/en/project/beyeler-foundation-museum/", "type": "fondation"},
+        {"title": "Fondation Beyeler - Museum", "url": "https://www.fondationbeyeler.ch/en/museum", "type": "officiel"},
+        {"title": "Archilovers - Beyeler Foundation Museum", "url": "https://www.archilovers.com/projects/315768/beyeler-foundation-museum.html", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["lumière naturelle", "surfaces filtrantes", "toiture flottante", "verdure", "murs parallèles", "atrium", "paysage"],
+      "extracted_words_subjective": ["harmonie", "sérénité", "clarté", "équilibre", "retenue"],
+      "draft_physical_tags": ["light:naturelle", "light:filtrée", "opening_landscape:paysage", "nature_living:verdure", "spatiality:ordonné", "material_texture:toit léger"],
+      "draft_subjective_tags": ["calm_contemplation:serein", "legibility_orientation:clair", "wellbeing_restoration:équilibré", "calm_contemplation:calme"],
+      "confidence_notes": "Forte confiance pour lumière naturelle filtrée, paysage et harmonie art/nature."
+    },
+    {
+      "reference_id": "chichu_art_museum",
+      "name": "Chichu Art Museum",
+      "sources": [
+        {"title": "Benesse Art Site Naoshima - Chichu Art Museum", "url": "https://benesse-artsite.jp/en/art/chichu.html", "type": "officiel"},
+        {"title": "Benesse Art Site Naoshima - Art facilities", "url": "https://benesse-artsite.jp/en/art/", "type": "officiel"},
+        {"title": "Good Luck Trip - Chichu Art Museum", "url": "https://www.gltjp.com/en/directory/item/11313/", "type": "guide culturel"}
+      ],
+      "extracted_words_physical": ["souterrain", "lumière naturelle", "béton", "verre", "bois", "Seto Inland Sea", "variation saisonnière"],
+      "extracted_words_subjective": ["contemplatif", "silencieux", "immersif", "non-monumental", "relation nature-art"],
+      "draft_physical_tags": ["light:naturelle", "light:variable", "material_texture:béton", "material_texture:verre", "spatiality:fermé", "opening_landscape:introverti"],
+      "draft_subjective_tags": ["calm_contemplation:contemplatif", "calm_contemplation:silencieux", "mystery_exploration:suggestif", "wellbeing_restoration:équilibré"],
+      "confidence_notes": "Forte confiance pour souterrain, lumière naturelle et variation temporelle. Les effets de silence et d'immersion restent à préciser."
+    },
+    {
+      "reference_id": "teshima_art_museum",
+      "name": "Teshima Art Museum",
+      "sources": [
+        {"title": "Benesse Art Site Naoshima - Teshima Art Museum", "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html", "type": "officiel"},
+        {"title": "Benesse Art Site Naoshima - About Teshima", "url": "https://benesse-artsite.jp/en/about/teshima.html", "type": "officiel"},
+        {"title": "Wallpaper - Seto Inland Sea architecture tour", "url": "https://www.wallpaper.com/architecture/seto-inland-sea-tour-japan", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["goutte d'eau", "coque béton", "ouvertures ovales", "vent", "sons", "lumière", "eau", "rizières", "paysage"],
+      "extracted_words_subjective": ["silence", "harmonie", "contemplation", "fragilité", "infini", "ressourçant"],
+      "draft_physical_tags": ["water:source", "water:humidité", "light:naturelle", "opening_landscape:ouvert", "nature_living:naturel", "material_texture:béton"],
+      "draft_subjective_tags": ["calm_contemplation:contemplatif", "calm_contemplation:silencieux", "wellbeing_restoration:ressourçant", "mystery_exploration:suggestif"],
+      "confidence_notes": "Forte confiance pour eau, ouverture, vent et lumière. Les tags subjectifs doivent être reliés à des descriptions d'expérience."
+    },
+    {
+      "reference_id": "louvre_abu_dhabi",
+      "name": "Louvre Abu Dhabi",
+      "sources": [
+        {"title": "Louvre Abu Dhabi - Architecture", "url": "https://www.louvreabudhabi.ae/en/about-us/architecture", "type": "officiel"},
+        {"title": "Louvre Abu Dhabi - Architecture FR", "url": "https://www.louvreabudhabi.ae/fr/about-us/architecture", "type": "officiel"},
+        {"title": "Architectural Digest - Jean Nouvel Louvre Abu Dhabi", "url": "https://www.architecturaldigest.com/story/jean-nouvel-louvre-abu-dhabi", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["dôme", "pluie de lumière", "ombre", "eau", "reflet", "microclimat", "filtrage", "médina"],
+      "extracted_words_subjective": ["calme", "sérénité", "découverte", "universel", "émerveillement"],
+      "draft_physical_tags": ["light:filtrée", "light:intense", "shadow_contrast:découpé", "water:miroir", "thermal_air:frais", "filtering:perforation", "spatiality:vaste"],
+      "draft_subjective_tags": ["calm_contemplation:serein", "mystery_exploration:suggestif", "monumental_sublime:impressionnant", "legibility_orientation:clair"],
+      "confidence_notes": "Très forte confiance pour pluie de lumière, dôme, eau et microclimat grâce à la source officielle."
+    },
+    {
+      "reference_id": "institut_monde_arabe",
+      "name": "Institut du Monde Arabe",
+      "sources": [
+        {"title": "Institut du Monde Arabe - bâtiment et histoire", "url": "https://www.imarabe.org/fr/batiment-et-son-histoire", "type": "officiel"},
+        {"title": "MIT Dome - Institut du Monde Arabe", "url": "https://dome.mit.edu/handle/1721.3/121823", "type": "archive universitaire"},
+        {"title": "Architecture Lab - Institut du Monde Arabe", "url": "https://www.architecturelab.net/institut-du-monde-arabe-jean-nouvel/", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["moucharabiehs", "diaphragmes", "façade sud", "irises", "lumière ambiante", "hypostyle", "bibliothèque", "métal"],
+      "extracted_words_subjective": ["dialogue culturel", "technicité", "mystère", "filtrage", "identité"],
+      "draft_physical_tags": ["light:filtrée", "light:variable", "filtering:claustra", "material_texture:métal", "shadow_contrast:découpé", "spatiality:haut"],
+      "draft_subjective_tags": ["mystery_exploration:suggestif", "legibility_orientation:structuré", "inspiration_concentration:intellectuel"],
+      "confidence_notes": "Forte confiance pour diaphragmes/moucharabiehs et lumière filtrée. Les tags subjectifs demandent une lecture critique plus large."
+    },
+    {
+      "reference_id": "guggenheim_museum_new_york",
+      "name": "Solomon R. Guggenheim Museum",
+      "sources": [
+        {"title": "UNESCO - The 20th-Century Architecture of Frank Lloyd Wright", "url": "https://whc.unesco.org/en/list/1496/", "type": "patrimoine"},
+        {"title": "Guggenheim - architecture", "url": "https://www.guggenheim.org/about-us/architecture", "type": "officiel"},
+        {"title": "Architectural Digest - facts about Guggenheim Museum", "url": "https://www.architecturaldigest.com/story/you-didnt-know-new-york-city-guggenheim-museum", "type": "média architecture"}
+      ],
+      "extracted_words_physical": ["spirale", "rampe", "atrium", "verrière", "béton", "courbe", "lumière zénithale"],
+      "extracted_words_subjective": ["dynamique", "iconique", "organique", "immersif", "public"],
+      "draft_physical_tags": ["light:zénithale", "spatiality:atrium", "movement_path:progressif", "movement_path:fluide", "material_texture:béton", "framing:oculus"],
+      "draft_subjective_tags": ["mystery_exploration:initiatique", "joy_social_intensity:animé", "monumental_sublime:impressionnant", "legibility_orientation:guidant"],
+      "confidence_notes": "Forte confiance pour rampe spirale, atrium et lumière supérieure. Les tags subjectifs doivent être évalués selon les textes critiques, car le bâtiment est aussi controversé."
+    },
+    {
+      "reference_id": "brasilia_cathedral",
+      "name": "Cathédrale de Brasília",
+      "sources": [
+        {"title": "UNESCO - Brasilia", "url": "https://whc.unesco.org/en/list/445/", "type": "patrimoine"},
+        {"title": "Architecture Lab - Cathedral of Brasilia", "url": "https://www.architecturelab.net/cathedral-of-brasilia-oscar-niemeyer/", "type": "média architecture"},
+        {"title": "Library of Congress - Brasilia Cathedral photo record", "url": "https://www.loc.gov/item/22886782", "type": "archive"}
+      ],
+      "extracted_words_physical": ["colonnes paraboliques", "béton", "verrière", "vitrail bleu", "circularité", "lumière", "anges suspendus"],
+      "extracted_words_subjective": ["sacré moderne", "impressionnant", "élévation", "monumental", "spirituel"],
+      "draft_physical_tags": ["light:colorée", "light:intense", "filtering:vitrail", "material_texture:béton", "spatiality:haut", "spatiality:monumental"],
+      "draft_subjective_tags": ["sacred_ritual:sacré", "sacred_ritual:spirituel", "monumental_sublime:impressionnant", "monumental_sublime:majestueux"],
+      "confidence_notes": "Forte confiance pour béton, colonnes, vitrail et sacré moderne. Les nuances subjectives doivent être complétées par des sources sur l'expérience intérieure."
+    }
+  ]
+}
