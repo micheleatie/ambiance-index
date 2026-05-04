@@ -29,6 +29,8 @@
 - [x] Ajouter une troisième couche `Intentions de conception` dans les données, les filtres et les fiches.
 - [x] Annoter les 100 références avec des `intention_tags` v1.
 - [x] Séparer visuellement les ambiances et les intentions dans l'interface avec deux panneaux de filtres.
+- [x] Ajouter un lot 6 de 20 références canoniques complémentaires, ce qui porte l'app à 120 références indexées.
+- [x] Valider le lot 6 : JSON lisible, tags normalisés, identifiants uniques et 3 sources minimum pour les nouvelles références.
 
 ## À Faire Ensuite
 
@@ -48,4 +50,4 @@
 - Faut-il commencer par un corpus international ou par un corpus français/européen ?
 - Les références doivent-elles inclure uniquement des bâtiments visitables ou aussi des projets disparus, non construits, textes et installations ?
 - Le vocabulaire doit-il rester académique ou être adapté à une recherche plus intuitive pour étudiants et praticiens ?
-- Les 100 références candidates doivent-elles être ajustées vers un corpus plus occidental, plus global, ou plus centré sur l'enseignement français ?
+- Après le seuil de 120 références, faut-il continuer par lots canoniques internationaux ou rééquilibrer vers un corpus plus français/européen ?

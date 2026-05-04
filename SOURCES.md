@@ -193,6 +193,36 @@ Sources institutionnelles, patrimoniales, critiques et techniques importantes ut
 - [Zaha Hadid Architects - MAXXI](https://www.zaha-hadid.com/architecture/maxxi/)
 - [MAXXI - Progetto architettonico](https://www.maxxi.art/progetto-architettonico/)
 
+## Sources Collectées Pour Le Lot 6
+
+Le détail des sources rattachées à chaque référence est structuré dans `data/reference_analysis_lot_6_expanded_canon.json`. Ce lot complète le corpus 100 par 20 références canoniques, iconiques ou publiques, avec une indexation v0 des ambiances et intentions.
+
+Sources institutionnelles, patrimoniales, critiques et techniques importantes utilisées dans ce sixième scan :
+
+- [UNESCO - Sydney Opera House](https://whc.unesco.org/en/list/166)
+- [Sydney Opera House - Building and heritage management](https://www.sydneyoperahouse.com/about-us/how-we-work/building-and-heritage-management)
+- [Oslo Opera House - About the Oslo Opera House](https://www.operaen.no/en/about-us-oslo-operahouse/about-the-oslo-opera-house/)
+- [ArchDaily - Oslo Opera House / Snøhetta](https://www.archdaily.com/440/oslo-opera-house-snohetta)
+- [Osanbashi - About](https://osanbashi.jp/en/about/)
+- [ArchDaily - Yokohama International Passenger Terminal](https://www.archdaily.com/554132/ad-classics-yokohama-international-passenger-terminal-foreign-office-architects-foa)
+- [Louvre - A Pyramid for a Symbol](https://www.louvre.fr/en/explore/the-palace/a-pyramid-for-a-symbol)
+- [Docomomo US - TWA Terminal](https://docomomo-us.org/register/twa-terminal)
+- [Gateway Arch - Fact Sheet](https://www.gatewayarch.com/about/media-press/gateway-arch-fact-sheet/)
+- [Stiftung Preussischer Kulturbesitz - Neue Nationalgalerie](https://www.preussischer-kulturbesitz.de/en/locations/construction-projects/nationalgalerie-at-kulturforum/neue-nationalgalerie.html)
+- [Yale Center for British Art - Architecture](https://britishart.yale.edu/architecture)
+- [Habitat 67 - About](https://www.habitat67.com/en/about/)
+- [Kisho Kurokawa - Nakagin Capsule Tower](https://www.kisho.co.jp/page/209.html)
+- [MoMA - Vanna Venturi House](https://www.moma.org/collection/works/983)
+- [Ricardo Bofill - La Muralla Roja](https://ricardobofill.com/projects/la-muralla-roja/)
+- [Bofill - Walden 7](https://www.bofill.com/projects/walden-7)
+- [Architonic - High Line](https://www.architonic.com/en/project/diller-scofidio-renfro-high-line/5106071)
+- [Elbphilharmonie - The Halls](https://www.elbphilharmonie.de/en/the-halls)
+- [Fondation Louis Vuitton - Le bâtiment](https://www.fondationlouisvuitton.fr/fr/fondation/le-batiment)
+- [Mucem - L'architecture du Mucem](https://www.mucem.org/fr/larchitecture-du-mucem)
+- [British Museum - Great Court](https://www.britishmuseum.org/about-us/british-museum-story/architecture/great-court)
+- [Foster + Partners - Reichstag](https://www.fosterandpartners.com/projects/reichstag-new-german-parliament/)
+- [Bibliothèque Sainte-Geneviève - Bibliothèque virtuelle](https://bvhl.bsg.univ-paris3.fr/)
+
 ## Sources Pour L'Enrichissement Sensoriel V1
 
 Le détail des ajouts est structuré dans `data/reference_sensory_enrichment_v1.json`. Cette passe ne remplace pas les scans par lots : elle approfondit transversalement les dimensions moins représentées, surtout le son, l'odeur, l'air et l'immersion.

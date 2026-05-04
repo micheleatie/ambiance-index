@@ -9,8 +9,8 @@ La phase actuelle combine une base de recherche et un premier prototype navigabl
 - `research/02-taxonomie-ambiances.md` décrit les catégories et micro-rubriques.
 - `research/03-corpus-references.md` liste les premières références architecturales à indexer.
 - `research/04-methode-corpus-100-et-extraction.md` décrit la méthode d'analyse des textes vers les mots et tags.
-- `data/taxonomy_seed.json` et `data/references_seed.json` donnent une base structurée pour une future application. La base indexée contient actuellement 100 références.
-- `data/reference_candidates_100.json` conserve la liste cible de 100 références maintenant indexées.
+- `data/taxonomy_seed.json` et `data/references_seed.json` donnent une base structurée pour une future application. La base indexée contient actuellement 120 références.
+- `data/reference_candidates_100.json` conserve la première liste cible de 100 références maintenant indexées.
 - `data/reference_analysis_lot_1_light_sacred_museums.json` contient le premier scan de sources et de mots d'ambiance pour 20 références.
 - `data/reference_analysis_lot_1_validated.json` distingue les tags forts, moyens et fragiles du premier lot.
 - `data/reference_analysis_lot_2_modernist_domestic.json` contient le scan du lot moderniste/domestique.
@@ -21,6 +21,7 @@ La phase actuelle combine une base de recherche et un premier prototype navigabl
 - `data/reference_analysis_lot_4_validated.json` distingue les tags forts, moyens et fragiles du quatrième lot.
 - `data/reference_analysis_lot_5_public_contemporary.json` contient le scan du dernier lot public/urbain/contemporain.
 - `data/reference_analysis_lot_5_validated.json` distingue les tags forts, moyens et fragiles du cinquième lot.
+- `data/reference_analysis_lot_6_expanded_canon.json` contient un lot complémentaire de 20 références canoniques et publiques pour élargir les combinaisons.
 - `data/reference_sensory_enrichment_v1.json` documente une passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives.
 - `data/reference_design_intentions_v1.json` documente une troisième couche d'indexation : les intentions de conception.
 - `app/` contient un prototype web statique pour explorer la base.
@@ -46,4 +47,4 @@ Le prototype charge les JSON depuis `data/`, donc il doit être servi par un pet
 
 ## Prochaine Étape
 
-Tester dans le prototype les combinaisons entre ambiances et intentions, par exemple son + rituel, silence + matière, site + climat et parcours + matière, puis ajouter un niveau de confiance et des justifications sourcées affichables.
+Tester dans le prototype les combinaisons entre ambiances et intentions sur les 120 références, par exemple son + rituel, silence + matière, site + climat et parcours + matière, puis ajouter un niveau de confiance et des justifications sourcées affichables.

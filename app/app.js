@@ -1,6 +1,6 @@
 const DATA_PATHS = {
-  taxonomy: "../data/taxonomy_seed.json",
-  references: "../data/references_seed.json"
+  taxonomy: "../data/taxonomy_seed.json?v=lot6-v1",
+  references: "../data/references_seed.json?v=lot6-v1"
 };
 
 const PRESETS = {

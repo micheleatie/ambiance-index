@@ -1,4 +1,4 @@
-# Méthode Corpus 100 Et Extraction Des Ambiances
+# Méthode Corpus 100+ Et Extraction Des Ambiances
 
 ## Principe
 
@@ -14,7 +14,7 @@ Une seconde lecture peut ensuite ajouter une couche `intentions de conception`. 
 
 ## Étape 1 : Corpus Candidat
 
-Le fichier `data/reference_candidates_100.json` contient 100 références candidates.
+Le fichier `data/reference_candidates_100.json` contient les 100 premières références candidates. Après leur indexation, des lots complémentaires peuvent élargir le corpus sans remplacer cette liste de contrôle initiale.
 
 Une référence candidate n'est pas encore une fiche validée. Elle indique seulement :
 
@@ -92,13 +92,15 @@ Une référence peut entrer dans `data/references_seed.json` seulement lorsqu'el
 
 ## Lots De Travail
 
-Pour éviter un corpus artificiel, traiter les 100 références par lots de 20 :
+Pour éviter un corpus artificiel, traiter les 100 premières références par lots :
 
 1. 20 références sacrées, lumineuses ou muséales.
 2. 20 références modernistes et domestiques.
 3. 20 références matière, béton, tactilité, ruine, mémoire.
 4. 20 références paysage, eau, climat, jardin, nature.
 5. 10 références publiques, urbaines, sociales ou contemporaines restantes.
+
+Le lot 6 ajoute 20 références complémentaires connues pour renforcer les combinaisons pédagogiques dans l'app : grands équipements culturels, infrastructures publiques, espaces urbains, icônes modernes et postmodernes.
 
 Après intégration des 100 références, faire une passe transversale d'équilibrage sensoriel, car certaines rubriques apparaissent moins spontanément dans les textes généraux :
 

@@ -4,7 +4,7 @@
 
 Le dépôt contient une base documentaire, des données de départ et un premier prototype web statique.
 
-Objectif immédiat : tester les combinaisons entre ambiances et intentions sur les 100 références indexées, puis renforcer les justifications sourcées et les niveaux de confiance.
+Objectif immédiat : tester les combinaisons entre ambiances et intentions sur les 120 références indexées, puis renforcer les justifications sourcées et les niveaux de confiance.
 
 ## Structure
 
@@ -18,7 +18,7 @@ Objectif immédiat : tester les combinaisons entre ambiances et intentions sur l
 - `research/04-methode-corpus-100-et-extraction.md` : méthode pour passer de 100 références candidates aux mots extraits puis aux tags validés.
 - `data/taxonomy_seed.json` : version structurée de la taxonomie.
 - `data/references_seed.json` : version structurée du premier corpus.
-- `data/reference_candidates_100.json` : liste de contrôle du corpus cible de 100 références connues.
+- `data/reference_candidates_100.json` : liste de contrôle du premier corpus cible de 100 références connues.
 - `data/reference_analysis_lot_1_light_sacred_museums.json` : premier scan de sources, mots extraits et tags proposés pour 20 références lumière / sacré / musées.
 - `data/reference_analysis_lot_1_validated.json` : validation v0 du lot 1 avec tags forts, moyens et fragiles.
 - `data/reference_analysis_lot_2_modernist_domestic.json` : scan de sources, mots extraits et tags proposés pour 20 références modernistes / domestiques.
@@ -29,7 +29,8 @@ Objectif immédiat : tester les combinaisons entre ambiances et intentions sur l
 - `data/reference_analysis_lot_4_validated.json` : validation v0 du lot 4 avec tags forts, moyens et fragiles.
 - `data/reference_analysis_lot_5_public_contemporary.json` : scan de sources, mots extraits et tags proposés pour les 10 dernières références publiques / urbaines / contemporaines.
 - `data/reference_analysis_lot_5_validated.json` : validation v0 du lot 5 avec tags forts, moyens et fragiles.
-- `data/reference_sensory_enrichment_v1.json` : passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives sur les 100 références.
+- `data/reference_analysis_lot_6_expanded_canon.json` : lot complémentaire de 20 références canoniques et publiques ajoutées après le corpus 100.
+- `data/reference_sensory_enrichment_v1.json` : passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives sur le corpus.
 - `data/reference_design_intentions_v1.json` : troisième couche d'indexation décrivant les intentions de conception.
 - `app/index.html` : surface du prototype.
 - `app/styles.css` : système visuel et mise en page responsive.
@@ -75,8 +76,8 @@ Fonctions disponibles :
 
 Limites actuelles :
 
-- `data/references_seed.json` contient les 100 références candidates indexées dans l'app.
-- `data/reference_candidates_100.json` conserve le corpus cible et sert maintenant de liste de contrôle complète.
+- `data/references_seed.json` contient 120 références indexées dans l'app.
+- `data/reference_candidates_100.json` conserve le premier corpus cible et sert maintenant de liste de contrôle complète pour les 100 premières références.
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.
 - les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
