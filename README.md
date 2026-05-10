@@ -24,7 +24,7 @@ La phase actuelle combine une base de recherche et un premier prototype navigabl
 - `data/reference_analysis_lot_6_expanded_canon.json` contient un lot complémentaire de 20 références canoniques et publiques pour élargir les combinaisons.
 - `data/reference_sensory_enrichment_v1.json` documente une passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives.
 - `data/reference_design_intentions_v1.json` documente une troisième couche d'indexation : les intentions de conception.
-- `app/` contient un prototype web statique pour explorer la base.
+- `app/` contient un prototype web statique pour explorer la base et saisir des annotations expertes locales par rubrique.
 - `SOURCES.md` garde les sources utilisées.
 
 ## Lancer Le Prototype
@@ -43,7 +43,7 @@ http://127.0.0.1:4173/app/
 
 Si le port `4173` est déjà occupé, utiliser par exemple `4174` et ouvrir `http://localhost:4174/app/`.
 
-Le prototype charge les JSON depuis `data/`, donc il doit être servi par un petit serveur local plutôt qu'ouvert directement en `file://`.
+Le prototype charge les JSON depuis `data/`, donc il doit être servi par un petit serveur local plutôt qu'ouvert directement en `file://`. Les annotations expertes saisies dans l'interface sont stockées dans le navigateur et peuvent être exportées en JSON depuis la fiche d'une référence. Une annotation demande un nom, une fonction ou un rôle, une rubrique, une note et un niveau de confiance ; l'organisation et la source courte restent optionnelles. Une annotation peut être ajoutée par le bouton de la fiche ou avec ⌘+Entrée depuis le champ de note. Le bouton `Retirer` archive localement l'annotation au lieu de la supprimer définitivement.
 
 ## Prochaine Étape
 

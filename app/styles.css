@@ -138,6 +138,11 @@ button {
   background: #fbfbf8;
 }
 
+.ghost-button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
 .workspace {
   display: grid;
   grid-template-columns: minmax(260px, 320px) minmax(420px, 1fr) minmax(300px, 390px);
@@ -191,7 +196,7 @@ button {
 
 .search-field,
 .sort-field,
-.expert-note label {
+.annotation-form label {
   display: grid;
   gap: 7px;
   color: var(--muted);
@@ -204,7 +209,9 @@ button {
 
 .search-field input,
 .sort-field select,
-.expert-note textarea {
+.annotation-form input,
+.annotation-form select,
+.annotation-form textarea {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -221,7 +228,9 @@ button {
 
 .search-field input:focus,
 .sort-field select:focus,
-.expert-note textarea:focus {
+.annotation-form input:focus,
+.annotation-form select:focus,
+.annotation-form textarea:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(155, 63, 47, 0.14);
 }
@@ -723,22 +732,194 @@ button {
   overflow-wrap: anywhere;
 }
 
-.expert-note {
+.expert-annotations {
   display: grid;
+  gap: 12px;
+}
+
+.annotation-header,
+.annotation-entry-header,
+.annotation-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.annotation-header h3 {
+  margin-bottom: 0;
+}
+
+.annotation-export {
+  min-height: 30px;
+  white-space: nowrap;
+}
+
+.annotation-list {
+  display: grid;
+  gap: 10px;
+}
+
+.annotation-archive {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.annotation-archive summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.annotation-archive .annotation-list {
+  margin-top: 10px;
+}
+
+.annotation-entry {
+  padding: 10px 0 0;
+  border-top: 1px solid rgba(218, 216, 206, 0.8);
+}
+
+.annotation-entry:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.annotation-entry-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.annotation-rubric {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 720;
+}
+
+.annotation-pill {
+  border: 1px solid rgba(53, 108, 139, 0.28);
+  border-radius: 999px;
+  padding: 3px 7px;
+  color: #3e5d72;
+  background: #f6fafb;
+  font-size: 10px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.annotation-pill.confidence {
+  color: #5b4d16;
+  border-color: rgba(161, 120, 40, 0.32);
+  background: #fffdf3;
+}
+
+.annotation-pill.withdrawn {
+  color: #696a62;
+  border-color: var(--line-strong);
+  background: var(--panel-muted);
+}
+
+.annotation-entry.is-withdrawn {
+  color: var(--muted);
+}
+
+.annotation-date,
+.annotation-author,
+.annotation-source,
+.note-status {
+  color: var(--soft);
+  font-size: 12px;
+}
+
+.annotation-author {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.annotation-date {
+  display: block;
+  margin-top: 5px;
+}
+
+.annotation-delete {
+  flex: 0 0 auto;
+  border: 0;
+  padding: 3px 0;
+  color: var(--muted);
+  background: transparent;
+  font-size: 12px;
+}
+
+.annotation-delete:hover {
+  color: var(--accent);
+}
+
+.annotation-note {
+  margin: 8px 0 0;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+
+.annotation-source {
+  margin: 7px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.annotation-form {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.annotation-form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 9px;
 }
 
-.expert-note textarea {
-  min-height: 108px;
+.annotation-form select,
+.annotation-form input {
+  min-height: 36px;
+  padding: 7px 9px;
+}
+
+.annotation-form textarea {
+  min-height: 92px;
   resize: vertical;
   padding: 10px;
   font-size: 13px;
   line-height: 1.45;
 }
 
-.note-status {
-  color: var(--soft);
+.annotation-note-field,
+.annotation-source-field {
+  grid-column: 1 / -1;
+}
+
+.annotation-actions {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.primary-button {
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  min-height: 34px;
+  padding: 7px 12px;
+  color: #fff;
+  background: var(--ink);
   font-size: 12px;
+  line-height: 1.2;
+}
+
+.primary-button:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
 }
 
 .empty-state {
@@ -805,6 +986,22 @@ button {
   .reference-card {
     grid-template-columns: 76px 1fr;
     gap: 11px;
+  }
+
+  .annotation-header,
+  .annotation-entry-header,
+  .annotation-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .annotation-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .annotation-export,
+  .primary-button {
+    width: 100%;
   }
 
   .atmosphere-tile {

@@ -31,6 +31,8 @@
 - [x] Séparer visuellement les ambiances et les intentions dans l'interface avec deux panneaux de filtres.
 - [x] Ajouter un lot 6 de 20 références canoniques complémentaires, ce qui porte l'app à 120 références indexées.
 - [x] Valider le lot 6 : JSON lisible, tags normalisés, identifiants uniques et 3 sources minimum pour les nouvelles références.
+- [x] Remplacer la note libre par des annotations expertes structurées par rubrique, stockées localement et exportables en JSON.
+- [x] Ajouter l'identité minimale de l'expert aux annotations et remplacer la suppression directe par un retrait archivé localement.
 
 ## À Faire Ensuite
 
@@ -42,7 +44,8 @@
 - [ ] Décider si le prototype doit rester statique ou évoluer vers React/Next.js.
 - [ ] Définir la fiche type d'une référence : images, sources, mots-clés, annotations, citations courtes, projets comparables.
 - [ ] Ajouter des images ou vignettes fiables pour chaque référence.
-- [ ] Rendre les annotations exportables vers un fichier du projet.
+- [ ] Définir le workflow de validation pour intégrer les exports d'annotations expertes dans les fichiers `data/`.
+- [ ] Définir les vrais rôles de comptes pour les annotations : auteur, expert, modérateur et administrateur.
 - [ ] Ajouter des citations courtes sourcées pour justifier les tags.
 
 ## Questions Ouvertes

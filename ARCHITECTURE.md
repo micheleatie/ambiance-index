@@ -34,7 +34,7 @@ Objectif immédiat : tester les combinaisons entre ambiances et intentions sur l
 - `data/reference_design_intentions_v1.json` : troisième couche d'indexation décrivant les intentions de conception.
 - `app/index.html` : surface du prototype.
 - `app/styles.css` : système visuel et mise en page responsive.
-- `app/app.js` : chargement des données, filtres, recherche, fiche référence et annotation locale.
+- `app/app.js` : chargement des données, filtres, recherche, fiche référence et annotations expertes locales exportables.
 
 ## Modèle Conceptuel
 
@@ -47,7 +47,7 @@ La future plateforme peut être pensée autour de ces objets :
 - `DesignIntent` : intention architecturale, par exemple `filtrer la lumière`, `rassembler`, `reconvertir l'existant`, `faire icône`.
 - `Theme` : regroupement pédagogique, par exemple `ambiances lumineuses`, `matière et tactilité`, `mémoire et absence`.
 - `Annotation` : lien entre une référence et une rubrique, avec intensité, justification, source et niveau de confiance.
-- `ExpertNote` : annotation manuelle ajoutée plus tard par un expert.
+- `ExpertNote` : annotation manuelle ajoutée par un expert, rattachée à une référence et à une rubrique, avec auteur, fonction, intervention, note, source courte, niveau de confiance et état de modération.
 
 ## Phases Probables
 
@@ -72,7 +72,9 @@ Fonctions disponibles :
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
-- annotation expert locale stockée dans `localStorage`.
+- annotations expertes structurées par rubrique, stockées dans `localStorage` et exportables en JSON ;
+- identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation optionnelle ;
+- retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.
 
 Limites actuelles :
 
@@ -81,4 +83,5 @@ Limites actuelles :
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.
 - les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
-- les annotations restent dans le navigateur et ne sont pas encore exportées dans les fichiers du projet.
+- les annotations restent dans le navigateur ; l'export JSON produit un fichier téléchargeable, mais l'intégration dans `data/` reste une étape de validation manuelle.
+- les droits restent simulés côté navigateur : une vraie plateforme devra distinguer comptes auteurs, experts, modérateurs et administrateurs.

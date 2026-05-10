@@ -18,6 +18,24 @@ const PRESETS = {
   matter: ["material_texture:pierre", "material_texture:béton"]
 };
 
+const ANNOTATION_ACTIONS = [
+  ["confirm", "Confirmer"],
+  ["nuance", "Nuancer"],
+  ["correct", "Corriger"],
+  ["add", "Ajouter"],
+  ["source_check", "Source à vérifier"],
+  ["note", "Note"]
+];
+
+const CONFIDENCE_LEVELS = [
+  ["high", "Haute"],
+  ["medium", "Moyenne"],
+  ["low", "Faible"],
+  ["to_review", "À relire"]
+];
+
+const EXPERT_IDENTITY_STORAGE_KEY = "expert-annotation-author:v2";
+
 const TILE_PALETTES = {
   light: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],
   water: ["#356c8b", "#d5e4e6", "#6a8c8e", "#f3f6f3"],
@@ -42,6 +60,8 @@ const state = {
   selectedReferenceId: null,
   activePreset: null
 };
+
+let lastAnnotationSaveAt = 0;
 
 const els = {
   datasetCount: document.querySelector("#dataset-count"),
@@ -115,6 +135,12 @@ function bindEvents() {
     if (!button) return;
     applyPreset(button.dataset.preset);
   });
+
+  document.addEventListener("click", handleDetailCardClick);
+  document.addEventListener("pointerdown", handleDetailCardPointerDown);
+  document.addEventListener("submit", handleDetailCardSubmit);
+  document.addEventListener("input", handleDetailCardInput);
+  document.addEventListener("keydown", handleDetailCardKeydown);
 }
 
 function resetState() {
@@ -317,8 +343,7 @@ function renderDetail(results) {
     return;
   }
 
-  const noteKey = `expert-note:${selected.id}`;
-  const savedNote = localStorage.getItem(noteKey) ?? "";
+  const annotations = getStoredAnnotations(selected);
 
   els.detailCard.innerHTML = `
     ${renderAtmosphereTile(selected, "detail-visual")}
@@ -358,21 +383,474 @@ function renderDetail(results) {
       </div>
     </section>
 
-    <section class="detail-section expert-note">
-      <label>
-        Annotation expert locale
-        <textarea id="expert-note" placeholder="Ajouter une observation, une correction ou une hypothèse d'indexation.">${escapeHtml(savedNote)}</textarea>
-      </label>
-      <span class="note-status" id="note-status">${savedNote ? "Annotation enregistrée dans ce navigateur." : "Aucune annotation locale."}</span>
-    </section>
+    ${renderExpertAnnotations(selected, annotations)}
   `;
 
-  const noteInput = els.detailCard.querySelector("#expert-note");
-  const noteStatus = els.detailCard.querySelector("#note-status");
-  noteInput.addEventListener("input", () => {
-    localStorage.setItem(noteKey, noteInput.value);
-    noteStatus.textContent = "Annotation enregistrée dans ce navigateur.";
-  });
+}
+
+function renderExpertAnnotations(reference, annotations) {
+  const expertIdentity = getSavedExpertIdentity();
+  const activeAnnotations = annotations.filter((annotation) => !annotation.withdrawn_at);
+  const withdrawnAnnotations = annotations.filter((annotation) => annotation.withdrawn_at);
+
+  return `
+    <section class="detail-section expert-annotations">
+      <div class="annotation-header">
+        <h3>Annotations expertes</h3>
+        <button class="ghost-button annotation-export" type="button" ${annotations.length ? "" : "disabled"}>
+          Exporter JSON
+        </button>
+      </div>
+
+      <div class="annotation-list">
+        ${
+          activeAnnotations.length
+            ? activeAnnotations.map((annotation) => renderExpertAnnotation(annotation)).join("")
+            : `<p class="muted-line">Aucune annotation active.</p>`
+        }
+      </div>
+
+      ${
+        withdrawnAnnotations.length
+          ? `
+            <details class="annotation-archive">
+              <summary>${formatCount(withdrawnAnnotations.length, "annotation retirée")}</summary>
+              <div class="annotation-list">
+                ${withdrawnAnnotations.map((annotation) => renderExpertAnnotation(annotation)).join("")}
+              </div>
+            </details>
+          `
+          : ""
+      }
+
+      <form class="annotation-form" id="expert-annotation-form">
+        <div class="annotation-form-grid">
+          <label>
+            <span>Nom</span>
+            <input name="expert_name" type="text" required autocomplete="name" value="${escapeAttribute(expertIdentity.name)}" />
+          </label>
+
+          <label>
+            <span>Fonction / rôle</span>
+            <input name="expert_role" type="text" required placeholder="Architecte, enseignant..." value="${escapeAttribute(expertIdentity.role)}" />
+          </label>
+
+          <label>
+            <span>Organisation</span>
+            <input name="expert_organization" type="text" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.organization)}" />
+          </label>
+
+          <label>
+            <span>Rubrique</span>
+            <select name="rubric_id" required>
+              ${renderRubricOptions(reference)}
+            </select>
+          </label>
+
+          <label>
+            <span>Intervention</span>
+            <select name="action">
+              ${ANNOTATION_ACTIONS.filter(([value]) => value !== "note")
+                .map(([value, label]) => `<option value="${escapeAttribute(value)}">${escapeHtml(label)}</option>`)
+                .join("")}
+            </select>
+          </label>
+
+          <label>
+            <span>Confiance</span>
+            <select name="confidence">
+              ${CONFIDENCE_LEVELS.map(([value, label]) => `<option value="${escapeAttribute(value)}">${escapeHtml(label)}</option>`).join("")}
+            </select>
+          </label>
+
+          <label class="annotation-note-field">
+            <span>Note</span>
+            <textarea name="note" required placeholder="Observation experte, correction ou hypothèse d'indexation."></textarea>
+          </label>
+
+          <label class="annotation-source-field">
+            <span>Source ou référence courte</span>
+            <input name="source" type="text" placeholder="Optionnel : entretien, livre, page, citation courte..." />
+          </label>
+        </div>
+
+        <div class="annotation-actions">
+          <button class="primary-button" type="submit" data-add-annotation>Ajouter l'annotation</button>
+          <span class="note-status" id="annotation-status">Stockage local navigateur.</span>
+        </div>
+      </form>
+    </section>
+  `;
+}
+
+function renderExpertAnnotation(annotation) {
+  const actionLabel = annotation.action_label ?? getAnnotationActionLabel(annotation.action);
+  const confidenceLabel = annotation.confidence_label ?? getConfidenceLabel(annotation.confidence);
+  const source = annotation.source?.trim();
+  const authorLabel = getAnnotationAuthorLabel(annotation);
+  const withdrawn = Boolean(annotation.withdrawn_at);
+
+  return `
+    <article class="annotation-entry ${withdrawn ? "is-withdrawn" : ""}">
+      <div class="annotation-entry-header">
+        <div>
+          <div class="annotation-entry-title">
+            <span class="annotation-rubric">${escapeHtml(annotation.rubric_label)}</span>
+            <span class="annotation-pill">${escapeHtml(actionLabel)}</span>
+            <span class="annotation-pill confidence">${escapeHtml(confidenceLabel)}</span>
+            ${withdrawn ? `<span class="annotation-pill withdrawn">Retirée</span>` : ""}
+          </div>
+          <span class="annotation-author">${escapeHtml(authorLabel)}</span>
+          <span class="annotation-date">
+            ${escapeHtml(formatDateTime(annotation.created_at))}
+            ${withdrawn ? ` · retirée le ${escapeHtml(formatDateTime(annotation.withdrawn_at))}` : ""}
+          </span>
+        </div>
+        ${
+          canWithdrawAnnotation(annotation)
+            ? `<button class="annotation-delete" type="button" data-withdraw-annotation="${escapeAttribute(annotation.id)}">Retirer</button>`
+            : ""
+        }
+      </div>
+      <p class="annotation-note">
+        ${
+          withdrawn
+            ? "Annotation retirée localement. Elle reste conservée dans l'export comme archive."
+            : escapeHtml(annotation.note)
+        }
+      </p>
+      ${source ? `<p class="annotation-source">${escapeHtml(source)}</p>` : ""}
+    </article>
+  `;
+}
+
+function renderRubricOptions(reference) {
+  const usedRubricIds = new Set(getAllTags(reference).map((tag) => tag.split(":")[0]));
+  const usedRubrics = [...usedRubricIds]
+    .map((rubricId) => getRubricMeta(rubricId))
+    .filter((rubric) => rubric.id !== "general");
+  const allRubrics = getAllRubrics().filter((rubric) => !usedRubricIds.has(rubric.id));
+
+  return `
+    <option value="">Choisir une rubrique</option>
+    <option value="general">Observation générale</option>
+    ${
+      usedRubrics.length
+        ? `
+          <optgroup label="Rubriques de cette référence">
+            ${usedRubrics.map((rubric) => renderRubricOption(rubric)).join("")}
+          </optgroup>
+        `
+        : ""
+    }
+    <optgroup label="Toutes les rubriques">
+      ${allRubrics.map((rubric) => renderRubricOption(rubric)).join("")}
+    </optgroup>
+  `;
+}
+
+function renderRubricOption(rubric) {
+  return `<option value="${escapeAttribute(rubric.id)}">${escapeHtml(rubric.familyLabel)} · ${escapeHtml(rubric.label)}</option>`;
+}
+
+function handleDetailCardClick(event) {
+  const selected = getSelectedReference();
+  if (!selected) return;
+  const target = event.target instanceof Element ? event.target : event.target.parentElement;
+  if (!target) return;
+
+  if (target.closest("button[data-add-annotation]")) {
+    saveExpertAnnotationFromForm(event, selected);
+    return;
+  }
+
+  if (target.closest(".annotation-export")) {
+    exportAnnotations(selected, getStoredAnnotations(selected));
+    return;
+  }
+
+  const withdrawButton = target.closest("button[data-withdraw-annotation]");
+  if (withdrawButton) {
+    const annotations = getStoredAnnotations(selected).map((annotation) =>
+      annotation.id === withdrawButton.dataset.withdrawAnnotation ? withdrawAnnotation(annotation) : annotation
+    );
+    saveStoredAnnotations(selected.id, annotations);
+    render();
+  }
+}
+
+function handleDetailCardPointerDown(event) {
+  const selected = getSelectedReference();
+  if (!selected) return;
+  const target = event.target instanceof Element ? event.target : event.target.parentElement;
+  if (!target?.closest("button[data-add-annotation]")) return;
+  saveExpertAnnotationFromForm(event, selected);
+}
+
+function handleDetailCardSubmit(event) {
+  if (!event.target.matches("#expert-annotation-form")) return;
+  const selected = getSelectedReference();
+  if (!selected) return;
+  saveExpertAnnotationFromForm(event, selected);
+}
+
+function handleDetailCardInput(event) {
+  const target = event.target instanceof Element ? event.target : event.target.parentElement;
+  if (!target?.matches("#expert-annotation-form textarea[name='note']")) return;
+  const status = els.detailCard.querySelector("#annotation-status");
+  if (status && target.value.trim()) {
+    status.textContent = "Annotation prête à ajouter.";
+  }
+}
+
+function handleDetailCardKeydown(event) {
+  const target = event.target instanceof Element ? event.target : event.target.parentElement;
+  if (!target?.matches("#expert-annotation-form textarea[name='note']")) return;
+  if (event.key !== "Enter" || (!event.metaKey && !event.ctrlKey)) return;
+  const selected = getSelectedReference();
+  if (!selected) return;
+  saveExpertAnnotationFromForm(event, selected);
+}
+
+function getSelectedReference() {
+  return state.references.find((reference) => reference.id === state.selectedReferenceId);
+}
+
+function saveExpertAnnotationFromForm(event, reference) {
+  event.preventDefault();
+  const now = Date.now();
+  if (now - lastAnnotationSaveAt < 250) return;
+  const form = els.detailCard.querySelector("#expert-annotation-form");
+  const status = els.detailCard.querySelector("#annotation-status");
+  const data = new FormData(form);
+  const rubricId = String(data.get("rubric_id") ?? "");
+  const note = String(data.get("note") ?? "").trim();
+  const expertName = String(data.get("expert_name") ?? "").trim();
+  const expertRole = String(data.get("expert_role") ?? "").trim();
+
+  if (!expertName || !expertRole || !rubricId || !note) {
+    status.textContent = "Nom, fonction, rubrique et note obligatoires.";
+    return;
+  }
+
+  const annotations = getStoredAnnotations(reference);
+  annotations.push(createAnnotation(reference, data));
+  saveExpertIdentity(data);
+  saveStoredAnnotations(reference.id, annotations);
+  lastAnnotationSaveAt = now;
+  render();
+}
+
+function createAnnotation(reference, data) {
+  const rubric = getRubricMeta(String(data.get("rubric_id")));
+  const action = String(data.get("action") ?? "confirm");
+  const confidence = String(data.get("confidence") ?? "high");
+
+  return {
+    id: makeAnnotationId(reference.id),
+    reference_id: reference.id,
+    reference_name: reference.name,
+    rubric_id: rubric.id,
+    rubric_label: rubric.label,
+    family_id: rubric.familyId,
+    family_label: rubric.familyLabel,
+    action,
+    action_label: getAnnotationActionLabel(action),
+    confidence,
+    confidence_label: getConfidenceLabel(confidence),
+    author: createExpertAuthor(data),
+    note: String(data.get("note") ?? "").trim(),
+    source: String(data.get("source") ?? "").trim(),
+    created_at: new Date().toISOString(),
+    moderation_status: "active",
+    local_owner: true
+  };
+}
+
+function getStoredAnnotations(reference) {
+  const key = getAnnotationStorageKey(reference.id);
+  const legacyKey = getLegacyNoteStorageKey(reference.id);
+  const migratedKey = `${legacyKey}:migrated`;
+  let annotations = parseStoredAnnotations(localStorage.getItem(key));
+  const legacyNote = localStorage.getItem(legacyKey)?.trim();
+
+  if (legacyNote && !localStorage.getItem(migratedKey)) {
+    annotations = [createLegacyAnnotation(reference, legacyNote), ...annotations];
+    saveStoredAnnotations(reference.id, annotations);
+    localStorage.setItem(migratedKey, "true");
+  }
+
+  return annotations;
+}
+
+function parseStoredAnnotations(value) {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed.filter((annotation) => annotation && typeof annotation === "object") : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveStoredAnnotations(referenceId, annotations) {
+  localStorage.setItem(getAnnotationStorageKey(referenceId), JSON.stringify(annotations));
+}
+
+function createLegacyAnnotation(reference, note) {
+  return {
+    id: `${reference.id}:legacy-note`,
+    reference_id: reference.id,
+    reference_name: reference.name,
+    rubric_id: "general",
+    rubric_label: "Observation générale",
+    family_id: "expert_notes",
+    family_label: "Annotations expertes",
+    action: "note",
+    action_label: "Note libre héritée",
+    confidence: "to_review",
+    confidence_label: "À relire",
+    author: {
+      name: "",
+      role: "",
+      organization: ""
+    },
+    note,
+    source: "",
+    created_at: new Date().toISOString(),
+    moderation_status: "active",
+    local_owner: true,
+    legacy: true
+  };
+}
+
+function createExpertAuthor(data) {
+  return {
+    name: String(data.get("expert_name") ?? "").trim(),
+    role: String(data.get("expert_role") ?? "").trim(),
+    organization: String(data.get("expert_organization") ?? "").trim()
+  };
+}
+
+function getSavedExpertIdentity() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(EXPERT_IDENTITY_STORAGE_KEY));
+    return {
+      name: typeof parsed?.name === "string" ? parsed.name : "",
+      role: typeof parsed?.role === "string" ? parsed.role : "",
+      organization: typeof parsed?.organization === "string" ? parsed.organization : ""
+    };
+  } catch {
+    return {
+      name: "",
+      role: "",
+      organization: ""
+    };
+  }
+}
+
+function saveExpertIdentity(data) {
+  localStorage.setItem(EXPERT_IDENTITY_STORAGE_KEY, JSON.stringify(createExpertAuthor(data)));
+}
+
+function getAnnotationAuthorLabel(annotation) {
+  const name = annotation.author?.name?.trim() || "Auteur non renseigné";
+  const role = annotation.author?.role?.trim() || "fonction non renseignée";
+  const organization = annotation.author?.organization?.trim();
+  return organization ? `${name} · ${role} · ${organization}` : `${name} · ${role}`;
+}
+
+function canWithdrawAnnotation(annotation) {
+  return !annotation.withdrawn_at && annotation.local_owner !== false;
+}
+
+function withdrawAnnotation(annotation) {
+  if (!canWithdrawAnnotation(annotation)) return annotation;
+  return {
+    ...annotation,
+    moderation_status: "withdrawn",
+    withdrawn_at: new Date().toISOString(),
+    withdrawn_by: "local_author"
+  };
+}
+
+function exportAnnotations(reference, annotations) {
+  if (!annotations.length) return;
+
+  const payload = {
+    version: "0.1.0",
+    exported_at: new Date().toISOString(),
+    reference: {
+      id: reference.id,
+      name: reference.name,
+      architect_or_period: reference.architect_or_period,
+      location: reference.location,
+      year: reference.year
+    },
+    annotations
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `annotations-expertes-${reference.id}-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function getAnnotationStorageKey(referenceId) {
+  return `expert-annotations:v1:${referenceId}`;
+}
+
+function getLegacyNoteStorageKey(referenceId) {
+  return `expert-note:${referenceId}`;
+}
+
+function getAllRubrics() {
+  return state.taxonomy.families.flatMap((family) =>
+    family.rubrics.map((rubric) => ({
+      ...rubric,
+      familyId: family.id,
+      familyLabel: family.label
+    }))
+  );
+}
+
+function getRubricMeta(rubricId) {
+  if (rubricId === "general") {
+    return {
+      id: "general",
+      label: "Observation générale",
+      familyId: "expert_notes",
+      familyLabel: "Annotations expertes"
+    };
+  }
+
+  const rubric = state.rubricLookup.get(rubricId);
+  return {
+    id: rubricId,
+    label: rubric?.label ?? rubricId,
+    familyId: rubric?.familyId ?? "unknown",
+    familyLabel: rubric?.familyLabel ?? "Rubrique non reconnue"
+  };
+}
+
+function getAnnotationActionLabel(action) {
+  return ANNOTATION_ACTIONS.find(([value]) => value === action)?.[1] ?? action;
+}
+
+function getConfidenceLabel(confidence) {
+  return CONFIDENCE_LEVELS.find(([value]) => value === confidence)?.[1] ?? confidence;
+}
+
+function makeAnnotationId(referenceId) {
+  const suffix =
+    typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+      ? crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  return `${referenceId}:${suffix}`;
 }
 
 function renderReferenceTagBlock(label, tags, className = "") {
@@ -562,6 +1040,17 @@ function makeTag(rubricId, value) {
 
 function formatCount(count, singular) {
   return `${count} ${singular}${count > 1 ? "s" : ""}`;
+}
+
+function formatDateTime(value) {
+  try {
+    return new Intl.DateTimeFormat("fr-FR", {
+      dateStyle: "short",
+      timeStyle: "short"
+    }).format(new Date(value));
+  } catch {
+    return value;
+  }
 }
 
 function renderLoadError(error) {
