@@ -165,11 +165,21 @@ button {
 .search-panel {
   display: flex;
   flex-direction: column;
-  padding: 16px;
+  padding: 12px;
   position: sticky;
   top: 92px;
   height: calc(100vh - 108px);
   overflow: auto;
+}
+
+.search-panel > .section-heading {
+  position: sticky;
+  top: -12px;
+  z-index: 2;
+  margin: -12px -12px 0;
+  padding: 12px 12px 7px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .search-panel-content {
@@ -219,7 +229,7 @@ button {
 }
 
 .search-field {
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 .search-field input,
@@ -236,9 +246,9 @@ button {
 }
 
 .search-field input {
-  min-height: 42px;
-  padding: 10px 12px;
-  font-size: 14px;
+  min-height: 38px;
+  padding: 8px 10px;
+  font-size: 13px;
 }
 
 .search-field input:focus,
@@ -253,9 +263,14 @@ button {
 .quick-themes {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  padding: 15px 0 14px;
+  gap: 6px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.quick-themes button {
+  min-height: 28px;
+  padding: 5px 9px;
 }
 
 .quick-themes button.is-active {
@@ -267,9 +282,9 @@ button {
 .filter-scroll {
   display: grid;
   grid-template-rows: auto auto;
-  gap: 12px;
+  gap: 9px;
   overflow: visible;
-  padding: 12px 2px 2px 0;
+  padding: 9px 1px 1px 0;
 }
 
 .filter-box {
@@ -291,7 +306,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: 10px 11px;
+  padding: 8px 10px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -314,7 +329,7 @@ button {
 
 .filter-list {
   overflow: visible;
-  padding: 8px 10px 10px;
+  padding: 6px 9px 8px;
 }
 
 .filter-family {
@@ -341,9 +356,9 @@ button {
 }
 
 .filter-family > summary {
-  padding: 10px 0;
+  padding: 8px 0;
   color: var(--ink);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 740;
 }
 
@@ -367,19 +382,19 @@ button {
 }
 
 .filter-group {
-  padding: 7px 0 10px;
+  padding: 5px 0 7px;
   border-top: 1px solid rgba(218, 216, 206, 0.72);
 }
 
 .filter-family > .filter-group {
-  margin-left: 21px;
-  padding-left: 12px;
+  margin-left: 18px;
+  padding-left: 10px;
   border-left: 1px solid rgba(218, 216, 206, 0.78);
 }
 
 .filter-group > summary {
-  padding: 3px 0 8px;
-  font-size: 12px;
+  padding: 2px 0 6px;
+  font-size: 11px;
   line-height: 1.25;
   font-weight: 660;
   color: var(--muted);
@@ -393,25 +408,27 @@ button {
 .tag-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 7px;
+  gap: 5px;
 }
 
 .tag-list {
   display: grid;
-  gap: 6px;
+  gap: 5px;
 }
 
 .tag-button {
   max-width: 100%;
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
+  min-height: 30px;
+  padding: 6px 9px;
 }
 
 .tag-button-list {
   width: 100%;
   justify-content: space-between;
-  border-radius: 6px;
+  border-radius: 5px;
   background: var(--panel);
 }
 
