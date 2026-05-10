@@ -6,7 +6,12 @@ import {
   getSavedExpertIdentity,
   getStoredAnnotations
 } from "./annotations";
-import { ANNOTATION_ACTIONS, CONFIDENCE_LEVELS } from "./constants";
+import {
+  ANNOTATION_ACTIONS,
+  ANNOTATION_FIELD_LIMITS,
+  ANNOTATION_MIN_NOTE_LENGTH,
+  CONFIDENCE_LEVELS
+} from "./constants";
 import type { AppElements } from "./dom";
 import {
   countTags,
@@ -294,17 +299,22 @@ function renderExpertAnnotations(
   return `
     <section class="detail-section expert-annotations">
       <div class="annotation-header">
-        <h3>Annotations expertes</h3>
-        <button class="ghost-button annotation-export" type="button" ${annotations.length ? "" : "disabled"}>
-          Exporter JSON
-        </button>
+        <h3>Suggestions expertes</h3>
+        <div class="annotation-header-actions">
+          <button class="ghost-button annotation-export" type="button" ${annotations.length ? "" : "disabled"}>
+            Exporter traces locales
+          </button>
+          <button class="ghost-button annotation-clear" type="button" data-clear-local-annotations ${annotations.length || expertIdentity.name || expertIdentity.role || expertIdentity.organization || expertIdentity.email ? "" : "disabled"}>
+            Effacer local
+          </button>
+        </div>
       </div>
 
       <div class="annotation-list">
         ${
           activeAnnotations.length
             ? activeAnnotations.map((annotation) => renderExpertAnnotation(annotation)).join("")
-            : `<p class="muted-line">Aucune annotation active.</p>`
+            : `<p class="muted-line">Aucune suggestion locale.</p>`
         }
       </div>
 
@@ -325,17 +335,22 @@ function renderExpertAnnotations(
         <div class="annotation-form-grid">
           <label>
             <span>Nom</span>
-            <input name="expert_name" type="text" required autocomplete="name" value="${escapeAttribute(expertIdentity.name)}" />
+            <input name="expert_name" type="text" required autocomplete="name" maxlength="${ANNOTATION_FIELD_LIMITS.expert_name}" value="${escapeAttribute(expertIdentity.name)}" />
           </label>
 
           <label>
             <span>Fonction / rôle</span>
-            <input name="expert_role" type="text" required placeholder="Architecte, enseignant..." value="${escapeAttribute(expertIdentity.role)}" />
+            <input name="expert_role" type="text" required maxlength="${ANNOTATION_FIELD_LIMITS.expert_role}" placeholder="Architecte, enseignant..." value="${escapeAttribute(expertIdentity.role)}" />
           </label>
 
           <label>
             <span>Organisation</span>
-            <input name="expert_organization" type="text" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.organization)}" />
+            <input name="expert_organization" type="text" maxlength="${ANNOTATION_FIELD_LIMITS.expert_organization}" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.organization)}" />
+          </label>
+
+          <label>
+            <span>Email de contact</span>
+            <input name="contact_email" type="email" autocomplete="email" maxlength="${ANNOTATION_FIELD_LIMITS.contact_email}" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.email)}" />
           </label>
 
           <label>
@@ -363,18 +378,31 @@ function renderExpertAnnotations(
 
           <label class="annotation-note-field">
             <span>Note</span>
-            <textarea name="note" required placeholder="Observation experte, correction ou hypothèse d'indexation."></textarea>
+            <textarea name="note" required minlength="${ANNOTATION_MIN_NOTE_LENGTH}" maxlength="${ANNOTATION_FIELD_LIMITS.note}" placeholder="Observation experte, correction ou hypothèse d'indexation."></textarea>
           </label>
 
           <label class="annotation-source-field">
             <span>Source ou référence courte</span>
-            <input name="source" type="text" placeholder="Optionnel : entretien, livre, page, citation courte..." />
+            <input name="source" type="text" maxlength="${ANNOTATION_FIELD_LIMITS.source}" placeholder="Optionnel : entretien, livre, page, citation courte..." />
+          </label>
+
+          <label class="annotation-consent-field">
+            <input name="consent_publish" type="checkbox" value="yes" required />
+            <span>J'accepte que cette contribution puisse être relue, corrigée et publiée avec mon nom et ma fonction.</span>
+          </label>
+
+          <label class="annotation-honeypot" aria-hidden="true">
+            <span>Site web</span>
+            <input name="honeypot" type="text" tabindex="-1" autocomplete="off" />
           </label>
         </div>
 
         <div class="annotation-actions">
-          <button class="primary-button" type="submit" data-add-annotation>Ajouter l'annotation</button>
-          <span class="note-status" id="annotation-status">Stockage local navigateur.</span>
+          <div class="annotation-buttons">
+            <button class="primary-button" type="submit" data-submit-annotation>Soumettre pour validation</button>
+            <button class="secondary-button" type="button" data-save-local-annotation>Enregistrer localement</button>
+          </div>
+          <span class="note-status" id="annotation-status">Suggestion non envoyée.</span>
         </div>
       </form>
     </section>
@@ -387,6 +415,7 @@ function renderExpertAnnotation(annotation: ExpertAnnotation): string {
   const source = annotation.source?.trim();
   const authorLabel = getAnnotationAuthorLabel(annotation);
   const withdrawn = Boolean(annotation.withdrawn_at);
+  const submitted = annotation.moderation_status === "submitted" || annotation.submission_status === "submitted";
 
   return `
     <article class="annotation-entry ${withdrawn ? "is-withdrawn" : ""}">
@@ -396,17 +425,19 @@ function renderExpertAnnotation(annotation: ExpertAnnotation): string {
             <span class="annotation-rubric">${escapeHtml(annotation.rubric_label)}</span>
             <span class="annotation-pill">${escapeHtml(actionLabel)}</span>
             <span class="annotation-pill confidence">${escapeHtml(confidenceLabel)}</span>
+            ${submitted ? `<span class="annotation-pill submitted">Envoyée</span>` : ""}
             ${withdrawn ? `<span class="annotation-pill withdrawn">Retirée</span>` : ""}
           </div>
           <span class="annotation-author">${escapeHtml(authorLabel)}</span>
           <span class="annotation-date">
             ${escapeHtml(formatDateTime(annotation.created_at))}
+            ${submitted && annotation.submitted_at ? ` · envoyée le ${escapeHtml(formatDateTime(annotation.submitted_at))}` : ""}
             ${withdrawn ? ` · retirée le ${escapeHtml(formatDateTime(annotation.withdrawn_at ?? ""))}` : ""}
           </span>
         </div>
         ${
           canWithdrawAnnotation(annotation)
-            ? `<button class="annotation-delete" type="button" data-withdraw-annotation="${escapeAttribute(annotation.id)}">Retirer</button>`
+            ? `<button class="annotation-delete" type="button" data-withdraw-annotation="${escapeAttribute(annotation.id)}">Retirer localement</button>`
             : ""
         }
       </div>

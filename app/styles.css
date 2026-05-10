@@ -145,7 +145,7 @@ button {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(260px, 320px) minmax(420px, 1fr) minmax(300px, 390px);
+  grid-template-columns: minmax(240px, 320px) minmax(360px, 1fr) minmax(300px, 390px);
   gap: 16px;
   padding: 16px;
   flex: 1;
@@ -169,6 +169,12 @@ button {
   position: sticky;
   top: 92px;
   height: calc(100vh - 108px);
+  overflow: auto;
+}
+
+.search-panel-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-heading,
@@ -186,6 +192,15 @@ button {
   font-size: 16px;
   font-weight: 720;
   letter-spacing: 0;
+}
+
+.search-toggle {
+  border: 0;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  text-align: left;
 }
 
 .section-heading span {
@@ -250,20 +265,17 @@ button {
 }
 
 .filter-scroll {
-  flex: 1;
-  min-height: 0;
   display: grid;
-  grid-template-rows: minmax(220px, 1.1fr) minmax(220px, 0.9fr);
+  grid-template-rows: auto auto;
   gap: 12px;
-  overflow: hidden;
+  overflow: visible;
   padding: 12px 2px 2px 0;
 }
 
 .filter-box {
-  min-height: 0;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: #fbfbf8;
@@ -301,8 +313,7 @@ button {
 }
 
 .filter-list {
-  min-height: 0;
-  overflow: auto;
+  overflow: visible;
   padding: 8px 10px 10px;
 }
 
@@ -330,9 +341,9 @@ button {
 }
 
 .filter-family > summary {
-  padding: 9px 0;
+  padding: 10px 0;
   color: var(--ink);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 740;
 }
 
@@ -360,14 +371,19 @@ button {
   border-top: 1px solid rgba(218, 216, 206, 0.72);
 }
 
+.filter-family > .filter-group {
+  margin-left: 21px;
+  padding-left: 12px;
+  border-left: 1px solid rgba(218, 216, 206, 0.78);
+}
+
 .filter-group > summary {
   padding: 3px 0 8px;
   font-size: 12px;
   line-height: 1.25;
-  font-weight: 720;
+  font-weight: 660;
   color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
 }
 
 .filter-group[open] > summary {
@@ -490,7 +506,7 @@ button {
   gap: 10px;
 }
 
-@media (min-width: 1181px) {
+@media (min-width: 981px) {
   html,
   body {
     height: 100%;
@@ -770,6 +786,13 @@ button {
   margin-bottom: 0;
 }
 
+.annotation-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .annotation-export {
   min-height: 30px;
   white-space: nowrap;
@@ -840,6 +863,12 @@ button {
   color: #696a62;
   border-color: var(--line-strong);
   background: var(--panel-muted);
+}
+
+.annotation-pill.submitted {
+  color: #2f5e48;
+  border-color: rgba(98, 124, 72, 0.34);
+  background: #f4f8ef;
 }
 
 .annotation-entry.is-withdrawn {
@@ -917,8 +946,33 @@ button {
 }
 
 .annotation-note-field,
-.annotation-source-field {
+.annotation-source-field,
+.annotation-consent-field,
+.annotation-honeypot {
   grid-column: 1 / -1;
+}
+
+.annotation-consent-field {
+  display: flex;
+  grid-template-columns: none;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.annotation-consent-field input {
+  width: auto;
+  margin-top: 2px;
+  flex: 0 0 auto;
+}
+
+.annotation-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .annotation-actions {
@@ -926,20 +980,58 @@ button {
   margin-top: 10px;
 }
 
-.primary-button {
+.annotation-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.primary-button,
+.secondary-button {
   border: 1px solid var(--ink);
   border-radius: 999px;
   min-height: 34px;
   padding: 7px 12px;
-  color: #fff;
-  background: var(--ink);
   font-size: 12px;
   line-height: 1.2;
+}
+
+.primary-button {
+  color: #fff;
+  background: var(--ink);
 }
 
 .primary-button:hover {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
+}
+
+.primary-button:disabled {
+  cursor: wait;
+  opacity: 0.62;
+}
+
+.secondary-button {
+  color: var(--ink);
+  background: var(--panel);
+  border-color: var(--line-strong);
+}
+
+.secondary-button:hover {
+  background: #fbfbf8;
+  border-color: var(--accent);
+}
+
+.note-status.is-error {
+  color: var(--accent);
+}
+
+.note-status.is-success {
+  color: var(--green);
+}
+
+.note-status.is-pending {
+  color: var(--gold);
 }
 
 .empty-state {
@@ -950,15 +1042,79 @@ button {
   background: rgba(255, 255, 255, 0.62);
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 980px) and (min-width: 761px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
   .workspace {
-    grid-template-columns: minmax(240px, 300px) minmax(420px, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 390px);
+    position: relative;
+  }
+
+  .search-panel {
+    position: fixed;
+    top: 92px;
+    left: 16px;
+    z-index: 8;
+    width: min(320px, calc(100vw - 32px));
+    height: calc(100vh - 108px);
+    max-height: calc(100vh - 108px);
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.96);
+  }
+
+  .search-panel.is-collapsed {
+    width: auto;
+    height: auto;
+    padding: 12px 14px;
+  }
+
+  .search-panel.is-collapsed .search-panel-content {
+    display: none;
+  }
+
+  .search-panel.is-collapsible .search-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .search-panel.is-collapsible .search-toggle::before {
+    content: "+";
+    width: 16px;
+    color: var(--soft);
+  }
+
+  .search-panel.is-collapsible.is-open .search-toggle::before {
+    content: "−";
+  }
+
+  .filter-scroll {
+    max-height: none;
+  }
+
+  .results-panel {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 108px);
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .results-list {
+    min-height: 0;
+    overflow: auto;
   }
 
   .detail-panel {
-    grid-column: 1 / -1;
-    position: static;
-    height: auto;
+    grid-column: auto;
+    position: sticky;
+    top: 92px;
+    height: calc(100vh - 108px);
+    overflow: auto;
   }
 }
 
@@ -990,6 +1146,10 @@ button {
     height: auto;
   }
 
+  .search-panel-content {
+    min-height: 0;
+  }
+
   .filter-scroll {
     grid-template-rows: none;
     overflow: visible;
@@ -1015,12 +1175,19 @@ button {
     align-items: stretch;
   }
 
+  .annotation-header-actions {
+    justify-content: stretch;
+  }
+
   .annotation-form-grid {
     grid-template-columns: 1fr;
   }
 
   .annotation-export,
-  .primary-button {
+  .annotation-clear,
+  .annotation-buttons,
+  .primary-button,
+  .secondary-button {
     width: 100%;
   }
 

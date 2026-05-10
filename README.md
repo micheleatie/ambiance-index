@@ -1,63 +1,59 @@
 # Ambiance Index
 
-Ce projet prépare une plateforme pédagogique pour architectes. L'objectif est de permettre la recherche de références architecturales à partir d'index d'ambiances : lumière, son, matière, température, odeur, parcours, intimité, monumentalité, mystère, mémoire, etc.
+Ambiance Index est un site de recherche pour explorer des références architecturales par qualités sensibles : lumière, son, matière, eau, parcours, intimité, mémoire, monumentalité, sacré, refuge, climat, odeur, immersion et intentions de conception.
 
-La phase actuelle combine une base de recherche et un premier prototype navigable.
+Le site est accessible ici : [micheleatie.github.io/ambiance-index](https://micheleatie.github.io/ambiance-index/)
 
-## Contenu Actuel
+## Utiliser Le Site
 
-- `research/02-taxonomie-ambiances.md` décrit les catégories et micro-rubriques.
-- `research/03-corpus-references.md` liste les premières références architecturales à indexer.
-- `research/04-methode-corpus-100-et-extraction.md` décrit la méthode d'analyse des textes vers les mots et tags.
-- `data/taxonomy_seed.json` et `data/references_seed.json` donnent une base structurée pour une future application. La base indexée contient actuellement 120 références.
-- `data/reference_candidates_100.json` conserve la première liste cible de 100 références maintenant indexées.
-- `data/reference_analysis_lot_1_light_sacred_museums.json` contient le premier scan de sources et de mots d'ambiance pour 20 références.
-- `data/reference_analysis_lot_1_validated.json` distingue les tags forts, moyens et fragiles du premier lot.
-- `data/reference_analysis_lot_2_modernist_domestic.json` contient le scan du lot moderniste/domestique.
-- `data/reference_analysis_lot_2_validated.json` distingue les tags forts, moyens et fragiles du deuxième lot.
-- `data/reference_analysis_lot_3_material_memory.json` contient le scan du lot matière/mémoire.
-- `data/reference_analysis_lot_3_validated.json` distingue les tags forts, moyens et fragiles du troisième lot.
-- `data/reference_analysis_lot_4_landscape_climate.json` contient le scan du lot paysage/eau/climat/nature.
-- `data/reference_analysis_lot_4_validated.json` distingue les tags forts, moyens et fragiles du quatrième lot.
-- `data/reference_analysis_lot_5_public_contemporary.json` contient le scan du dernier lot public/urbain/contemporain.
-- `data/reference_analysis_lot_5_validated.json` distingue les tags forts, moyens et fragiles du cinquième lot.
-- `data/reference_analysis_lot_6_expanded_canon.json` contient un lot complémentaire de 20 références canoniques et publiques pour élargir les combinaisons.
-- `data/reference_sensory_enrichment_v1.json` documente une passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives.
-- `data/reference_design_intentions_v1.json` documente une troisième couche d'indexation : les intentions de conception.
-- `app/` contient un prototype web statique Vite + TypeScript pour explorer la base et saisir des annotations expertes locales par rubrique.
-- `SOURCES.md` garde les sources utilisées.
+L'interface est organisée en trois zones :
 
-## Lancer Le Prototype
+- `Recherche` : filtre libre, thèmes rapides et rubriques d'ambiances.
+- `Références` : liste des projets correspondant à la recherche.
+- `Fiche` : détail de la référence sélectionnée, avec tags, sources et formulaire de suggestion.
 
-Prérequis recommandé : Node.js 24 LTS.
+Dans une fenêtre plus étroite, `Recherche` se replie en bouton pour laisser `Références` et la `Fiche` visibles côte à côte.
 
-Depuis la racine du projet :
+## Chercher Une Référence
 
-```sh
-npm install
-npm run dev
-```
+Le champ de recherche accepte un nom de bâtiment, un architecte, un lieu ou un mot d'ambiance. Par exemple : `Zumthor`, `lumière`, `eau`, `refuge`, `béton`, `sacré`.
 
-Puis ouvrir :
+Les thèmes rapides permettent de tester directement des familles d'ambiances comme `Lumière filtrée`, `Eau et rituel`, `Son et rituel`, `Site et climat`, `Mémoire / absence`, `Refuge et étude` ou `Matière et corps`.
 
-```text
-http://127.0.0.1:4173/
-```
+Les rubriques servent à affiner la recherche. Plusieurs choix dans une même rubrique élargissent la recherche ; des choix dans plusieurs rubriques la resserrent.
 
-Si le port `4173` est déjà occupé, Vite proposera un autre port.
+## Lire Une Fiche
 
-Commandes utiles :
+Chaque fiche rassemble :
 
-```sh
-npm run typecheck
-npm run build
-npm run preview
-```
+- les ambiances physiques associées à la référence ;
+- les ambiances subjectives ;
+- les intentions de conception ;
+- des mots figuratifs utiles pour la recherche ;
+- les sources consultables en ligne.
 
-Le prototype est prévu pour être déployé sur GitHub Pages après renommage du dépôt en `ambiance-index`, avec une URL de projet du type `https://micheleatie.github.io/ambiance-index/`.
+Les tags ne sont pas une vérité définitive : ils indiquent une indexation pédagogique en cours, construite à partir de sources et destinée à être corrigée ou enrichie.
 
-Les données canoniques restent dans `data/` et sont importées au moment du build. Les annotations expertes saisies dans l'interface sont stockées dans le navigateur et peuvent être exportées en JSON depuis la fiche d'une référence. Une annotation demande un nom, une fonction ou un rôle, une rubrique, une note et un niveau de confiance ; l'organisation et la source courte restent optionnelles. Une annotation peut être ajoutée par le bouton de la fiche ou avec ⌘+Entrée depuis le champ de note. Le bouton `Retirer` archive localement l'annotation au lieu de la supprimer définitivement.
+## Proposer Une Annotation Experte
 
-## Prochaine Étape
+Dans une fiche, la section `Suggestions expertes` permet de proposer une correction, une nuance, une confirmation ou un ajout.
 
-Activer GitHub Pages après renommage du dépôt, puis ajouter un flux de suggestion public modéré, probablement via GitHub Issue Forms dans un premier temps.
+Une suggestion demande :
+
+- un nom ;
+- une fonction ou un rôle ;
+- une rubrique ;
+- une intervention ;
+- un niveau de confiance ;
+- une note d'au moins 20 caractères ;
+- l'accord pour une éventuelle publication après relecture.
+
+L'organisation, l'email de contact et la source courte sont optionnels. L'email sert seulement à pouvoir demander une précision ; il n'est pas destiné à être publié.
+
+Le bouton `Soumettre pour validation` envoie la suggestion dans une file privée de modération. Elle ne devient publique qu'après relecture et intégration manuelle dans la version canonique du site.
+
+Le bouton `Enregistrer localement` garde une trace dans le navigateur utilisé. Le bouton `Effacer local` supprime ces traces locales pour la fiche ouverte, ainsi que l'identité mémorisée dans ce navigateur.
+
+## Données Et Modération
+
+La base actuelle contient 120 références indexées. Les contributions publiques sont modérées avant publication afin de préserver la cohérence du vocabulaire, distinguer les faits sourcés des hypothèses et éviter de confondre une cause matérielle avec un effet ressenti.

@@ -4,7 +4,7 @@
 
 Le dépôt contient une base documentaire, des données de départ et un prototype web statique Vite + TypeScript.
 
-Objectif immédiat : publier le prototype sur GitHub Pages sous `ambiance-index`, puis définir un flux public de suggestions modérées sans perdre le contrôle de la version canonique des données.
+Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google Apps Script + Google Sheets comme file de suggestions expertes, sans exposer de données canoniques en écriture directe.
 
 ## Structure
 
@@ -74,10 +74,34 @@ Fonctions disponibles :
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
-- annotations expertes structurées par rubrique, stockées dans `localStorage` et exportables en JSON ;
-- identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation optionnelle ;
+- mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
+- suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
+- identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels ;
+- champs obligatoires, limites de longueur, honeypot et limitation locale à 3 soumissions par 10 minutes ;
 - retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.
+- effacement explicite des traces locales et de l'identité mémorisée dans le navigateur pour la référence ouverte.
 - build statique déployable sur GitHub Pages avec base de production `/ambiance-index/`.
+
+## Développement Local Et Déploiement
+
+- Environnement recommandé : Node.js 24 LTS, indiqué dans `.nvmrc`.
+- Installation : `npm install`.
+- Serveur local : `npm run dev`, avec Vite servi depuis `app/` et base locale `/`.
+- Vérifications : `npm run typecheck` puis `npm run build`.
+- Prévisualisation production : `npm run preview`, avec base `/ambiance-index/`.
+- Déploiement : GitHub Actions construit `dist/` depuis `main` et publie sur GitHub Pages.
+- Configuration Vite durable : `root: "app"`, `build.outDir: "../dist"`, base de production `/ambiance-index/`.
+
+## Suggestions Publiques Modérées
+
+- L'app reste statique : aucune donnée canonique n'est modifiée directement depuis le navigateur.
+- Le formulaire `Suggestions expertes` poste vers l'URL Apps Script configurée dans `app/src/constants.ts`.
+- L'URL Apps Script est publique par nature, mais elle ne donne accès qu'aux actions exposées par le script déployé.
+- Le script Apps Script vit dans l'interface Google, pas dans le dépôt GitHub.
+- La Google Sheet liée reste privée et sert seulement de file de modération.
+- Le client applique les champs obligatoires, longueurs maximales, honeypot et limitation locale à 3 soumissions par 10 minutes.
+- Le script Apps Script doit aussi valider côté serveur et journaliser les soumissions limitées, car les contrôles du navigateur ne sont pas fiables.
+- Une suggestion ne devient publique qu'après validation manuelle et intégration dans les fichiers `data/` versionnés.
 
 Limites actuelles :
 
@@ -87,5 +111,6 @@ Limites actuelles :
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.
 - les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
 - les données `data/` sont importées au build ; toute modification canonique reste une modification de fichiers JSON versionnés.
-- les annotations restent dans le navigateur ; l'export JSON produit un fichier téléchargeable, mais l'intégration dans `data/` reste une étape de validation manuelle.
+- les suggestions publiques sont seulement append dans une Google Sheet privée ; l'approbation, la correction et l'intégration dans `data/` restent manuelles.
+- la limitation serveur Apps Script journalise les abus probables, mais elle repose sur un identifiant navigateur et des métadonnées déclarées, donc elle ne remplace pas la modération.
 - les droits restent simulés côté navigateur : une vraie plateforme devra distinguer comptes auteurs, experts, modérateurs et administrateurs.

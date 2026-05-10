@@ -9,10 +9,17 @@ import type {
   RubricMeta
 } from "./types";
 
+export interface CreateAnnotationOptions {
+  moderationStatus?: string;
+  submissionStatus?: string;
+  submittedAt?: string;
+}
+
 export function createAnnotation(
   reference: ReferenceRecord,
   data: FormData,
-  rubric: RubricMeta
+  rubric: RubricMeta,
+  options: CreateAnnotationOptions = {}
 ): ExpertAnnotation {
   const action = String(data.get("action") ?? "confirm") as AnnotationAction;
   const confidence = String(data.get("confidence") ?? "high") as ConfidenceLevel;
@@ -30,10 +37,13 @@ export function createAnnotation(
     confidence,
     confidence_label: getConfidenceLabel(confidence),
     author: createExpertAuthor(data),
+    contact_email: String(data.get("contact_email") ?? "").trim(),
     note: String(data.get("note") ?? "").trim(),
     source: String(data.get("source") ?? "").trim(),
     created_at: new Date().toISOString(),
-    moderation_status: "active",
+    moderation_status: options.moderationStatus ?? "active",
+    submission_status: options.submissionStatus,
+    submitted_at: options.submittedAt,
     local_owner: true
   };
 }
@@ -72,11 +82,22 @@ export function saveStoredAnnotations(referenceId: string, annotations: ExpertAn
   localStorage.setItem(getAnnotationStorageKey(referenceId), JSON.stringify(annotations));
 }
 
+export function clearStoredAnnotations(referenceId: string): void {
+  localStorage.removeItem(getAnnotationStorageKey(referenceId));
+}
+
 export function createExpertAuthor(data: FormData): ExpertAuthor {
   return {
     name: String(data.get("expert_name") ?? "").trim(),
     role: String(data.get("expert_role") ?? "").trim(),
     organization: String(data.get("expert_organization") ?? "").trim()
+  };
+}
+
+export function createExpertIdentity(data: FormData): ExpertIdentity {
+  return {
+    ...createExpertAuthor(data),
+    email: String(data.get("contact_email") ?? "").trim()
   };
 }
 
@@ -90,7 +111,8 @@ export function getSavedExpertIdentity(): ExpertIdentity {
     return {
       name: typeof identity.name === "string" ? identity.name : "",
       role: typeof identity.role === "string" ? identity.role : "",
-      organization: typeof identity.organization === "string" ? identity.organization : ""
+      organization: typeof identity.organization === "string" ? identity.organization : "",
+      email: typeof identity.email === "string" ? identity.email : ""
     };
   } catch {
     return emptyExpertIdentity();
@@ -98,7 +120,11 @@ export function getSavedExpertIdentity(): ExpertIdentity {
 }
 
 export function saveExpertIdentity(data: FormData): void {
-  localStorage.setItem(EXPERT_IDENTITY_STORAGE_KEY, JSON.stringify(createExpertAuthor(data)));
+  localStorage.setItem(EXPERT_IDENTITY_STORAGE_KEY, JSON.stringify(createExpertIdentity(data)));
+}
+
+export function clearSavedExpertIdentity(): void {
+  localStorage.removeItem(EXPERT_IDENTITY_STORAGE_KEY);
 }
 
 export function getAnnotationAuthorLabel(annotation: ExpertAnnotation): string {
@@ -203,6 +229,7 @@ function emptyExpertIdentity(): ExpertIdentity {
   return {
     name: "",
     role: "",
-    organization: ""
+    organization: "",
+    email: ""
   };
 }

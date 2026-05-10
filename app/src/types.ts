@@ -90,8 +90,11 @@ export interface ExpertAnnotation {
   author: ExpertAuthor;
   note: string;
   source: string;
+  contact_email?: string;
   created_at: string;
   moderation_status: "active" | "withdrawn" | string;
+  submission_status?: "submitted" | "local" | string;
+  submitted_at?: string;
   local_owner?: boolean;
   withdrawn_at?: string;
   withdrawn_by?: string;
@@ -102,6 +105,38 @@ export interface ExpertIdentity {
   name: string;
   role: string;
   organization: string;
+  email: string;
+}
+
+export interface AnnotationSubmissionPayload {
+  reference_id: string;
+  reference_name: string;
+  reference_architect_or_period: string;
+  reference_location: string;
+  reference_year: string;
+  rubric_id: string;
+  rubric_label: string;
+  family_id: string;
+  family_label: string;
+  action: string;
+  confidence: string;
+  author_name: string;
+  author_role: string;
+  author_organization: string;
+  contact_email: string;
+  note: string;
+  source: string;
+  page_url: string;
+  consent_publish: string;
+  honeypot: string;
+  user_agent: string;
+  client_id: string;
+}
+
+export interface SubmissionRateStatus {
+  allowed: boolean;
+  remaining: number;
+  retryAfterMs: number;
 }
 
 export interface TagLabel {

@@ -32,6 +32,27 @@ export const CONFIDENCE_LEVELS: ReadonlyArray<readonly [ConfidenceLevel, string]
 ];
 
 export const EXPERT_IDENTITY_STORAGE_KEY = "expert-annotation-author:v2";
+export const SUBMISSION_CLIENT_ID_STORAGE_KEY = "expert-annotation-submission-client:v1";
+export const SUBMISSION_LOG_STORAGE_KEY = "expert-annotation-submission-log:v1";
+
+export const ANNOTATION_SUBMISSION_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbxuTsNoS_Yv1613O8Ir4B0JL2zAEEUY0Hft5o88iHjek0seawidT6F_4zNAA3tOq1c/exec";
+
+export const ANNOTATION_FIELD_LIMITS = {
+  expert_name: 120,
+  expert_role: 160,
+  expert_organization: 160,
+  contact_email: 254,
+  note: 1600,
+  source: 300
+} as const;
+
+export const ANNOTATION_MIN_NOTE_LENGTH = 20;
+
+export const ANNOTATION_RATE_LIMIT = {
+  maxSubmissions: 3,
+  windowMs: 10 * 60 * 1000
+} as const;
 
 export const TILE_PALETTES: Record<string, TilePalette> = {
   light: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],

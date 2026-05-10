@@ -2,6 +2,12 @@
 
 Sources consultées le 4 mai 2026 pour constituer la première taxonomie et le premier corpus.
 
+Sources consultées le 10 mai 2026 pour le flux de suggestions modérées :
+
+- [Google Apps Script - Web apps](https://developers.google.com/apps-script/guides/web) : fonctions `doGet(e)` et `doPost(e)`, retours `ContentService` et paramètres de requête.
+- [Google Apps Script - Create and manage deployments](https://developers.google.com/apps-script/concepts/deployments) : déploiement versionné d'une application web Apps Script.
+- [Google Apps Script - Quotas for Google services](https://developers.google.com/apps-script/guides/services/quotas) : limites d'exécution et quotas susceptibles d'affecter un récepteur public.
+
 ## Cadre Théorique Sur Les Ambiances
 
 - [Laboratoire AAU - Ambiances Architectures Urbanités](https://aau.archi.fr/) : approche par les dimensions physiques, sociales et sensibles des espaces.

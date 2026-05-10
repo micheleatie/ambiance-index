@@ -13,6 +13,7 @@ La première phase du projet consiste à constituer une base de références et 
 - `SOURCES.md` : sources web et théoriques utilisées pour construire le corpus.
 - `research/` : notes de recherche humaines, rédigées en français.
 - `data/` : données de départ structurées pour une future application.
+- `README.md` : this serves only as the user-facing, public README document. Use it as such, to document and explain functionality --- update it whenever anything relevant changes. Don't use it to keep to-do lists and such.
 
 ## Conventions
 

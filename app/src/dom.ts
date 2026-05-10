@@ -2,6 +2,8 @@ export interface AppElements {
   datasetCount: HTMLElement;
   resetButton: HTMLButtonElement;
   activeFilterCount: HTMLElement;
+  searchPanel: HTMLElement;
+  searchToggle: HTMLButtonElement;
   searchInput: HTMLInputElement;
   filters: HTMLElement;
   sortSelect: HTMLSelectElement;
@@ -18,6 +20,8 @@ export function getAppElements(): AppElements {
     datasetCount: getRequiredElement("#dataset-count"),
     resetButton: getRequiredElement("#reset-button"),
     activeFilterCount: getRequiredElement("#active-filter-count"),
+    searchPanel: getRequiredElement("#search-panel"),
+    searchToggle: getRequiredElement("#search-toggle"),
     searchInput: getRequiredElement("#search-input"),
     filters: getRequiredElement("#filters"),
     sortSelect: getRequiredElement("#sort-select"),

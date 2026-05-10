@@ -1,4 +1,6 @@
 import {
+  clearSavedExpertIdentity,
+  clearStoredAnnotations,
   createAnnotation,
   exportAnnotations,
   getStoredAnnotations,
@@ -9,6 +11,15 @@ import {
 import { PRESETS } from "./constants";
 import type { AppElements } from "./dom";
 import { getRubricMeta } from "./references";
+import {
+  createAnnotationSubmissionPayload,
+  formatRetryAfter,
+  getSubmissionRateStatus,
+  recordSubmissionTimestamp,
+  submitAnnotationSuggestion,
+  validateAnnotationSuggestion,
+  validateLocalAnnotationDraft
+} from "./submission";
 import type { AppState, ReferenceRecord, SortMode } from "./types";
 
 export interface AppActions {
@@ -17,8 +28,11 @@ export interface AppActions {
 }
 
 let lastAnnotationSaveAt = 0;
+const SEARCH_OVERLAY_QUERY = "(max-width: 980px) and (min-width: 761px)";
 
 export function bindEvents(state: AppState, els: AppElements, actions: AppActions): void {
+  syncSearchPanelMode(els);
+
   els.searchInput.addEventListener("input", (event) => {
     const input = event.currentTarget as HTMLInputElement;
     state.query = input.value.trim().toLowerCase();
@@ -33,6 +47,8 @@ export function bindEvents(state: AppState, els: AppElements, actions: AppAction
   });
 
   els.resetButton.addEventListener("click", () => resetState(state, els, actions.render));
+  els.searchToggle.addEventListener("click", () => toggleSearchPanel(els));
+  window.addEventListener("resize", () => syncSearchPanelMode(els));
 
   els.quickThemes.addEventListener("click", (event) => {
     const target = event.target instanceof Element ? event.target : null;
@@ -43,10 +59,10 @@ export function bindEvents(state: AppState, els: AppElements, actions: AppAction
   });
 
   document.addEventListener("click", (event) => handleDetailCardClick(event, state, actions.render));
-  document.addEventListener("pointerdown", (event) => handleDetailCardPointerDown(event, state, actions.render));
   document.addEventListener("submit", (event) => handleDetailCardSubmit(event, state, actions.render));
   document.addEventListener("input", (event) => handleDetailCardInput(event, els));
   document.addEventListener("keydown", (event) => handleDetailCardKeydown(event, state, actions.render));
+  document.addEventListener("keydown", (event) => handleSearchPanelKeydown(event, els));
 }
 
 export function resetState(state: AppState, els: AppElements, render: () => void): void {
@@ -69,19 +85,49 @@ export function applyPreset(state: AppState, presetId: string, render: () => voi
   render();
 }
 
+function toggleSearchPanel(els: AppElements): void {
+  if (!window.matchMedia(SEARCH_OVERLAY_QUERY).matches) return;
+  setSearchPanelOpen(els, !els.searchPanel.classList.contains("is-open"));
+}
+
+function syncSearchPanelMode(els: AppElements): void {
+  const overlayMode = window.matchMedia(SEARCH_OVERLAY_QUERY).matches;
+  els.searchPanel.classList.toggle("is-collapsible", overlayMode);
+  setSearchPanelOpen(els, !overlayMode);
+}
+
+function setSearchPanelOpen(els: AppElements, open: boolean): void {
+  els.searchPanel.classList.toggle("is-open", open);
+  els.searchPanel.classList.toggle("is-collapsed", !open);
+  els.searchToggle.setAttribute("aria-expanded", String(open));
+}
+
+function handleSearchPanelKeydown(event: KeyboardEvent, els: AppElements): void {
+  if (event.key !== "Escape" || !els.searchPanel.classList.contains("is-collapsible")) return;
+  setSearchPanelOpen(els, false);
+  els.searchToggle.focus();
+}
+
 function handleDetailCardClick(event: MouseEvent, state: AppState, render: () => void): void {
   const selected = getSelectedReference(state);
   if (!selected) return;
   const target = event.target instanceof Element ? event.target : null;
   if (!target) return;
 
-  if (target.closest("button[data-add-annotation]")) {
-    saveExpertAnnotationFromForm(event, state, selected, render);
+  if (target.closest("button[data-save-local-annotation]")) {
+    saveLocalAnnotationFromForm(event, state, selected, render);
     return;
   }
 
   if (target.closest(".annotation-export")) {
     exportAnnotations(selected, getStoredAnnotations(selected));
+    return;
+  }
+
+  if (target.closest("button[data-clear-local-annotations]")) {
+    clearStoredAnnotations(selected.id);
+    clearSavedExpertIdentity();
+    render();
     return;
   }
 
@@ -96,19 +142,11 @@ function handleDetailCardClick(event: MouseEvent, state: AppState, render: () =>
   }
 }
 
-function handleDetailCardPointerDown(event: PointerEvent, state: AppState, render: () => void): void {
-  const selected = getSelectedReference(state);
-  if (!selected) return;
-  const target = event.target instanceof Element ? event.target : null;
-  if (!target?.closest("button[data-add-annotation]")) return;
-  saveExpertAnnotationFromForm(event, state, selected, render);
-}
-
 function handleDetailCardSubmit(event: SubmitEvent, state: AppState, render: () => void): void {
   if (!(event.target instanceof HTMLFormElement) || event.target.id !== "expert-annotation-form") return;
   const selected = getSelectedReference(state);
   if (!selected) return;
-  saveExpertAnnotationFromForm(event, state, selected, render);
+  void submitExpertAnnotationFromForm(event, state, selected, render);
 }
 
 function handleDetailCardInput(event: Event, els: AppElements): void {
@@ -116,7 +154,7 @@ function handleDetailCardInput(event: Event, els: AppElements): void {
   if (!target?.matches("#expert-annotation-form textarea[name='note']")) return;
   const status = els.detailCard.querySelector("#annotation-status");
   if (status && target instanceof HTMLTextAreaElement && target.value.trim()) {
-    status.textContent = "Annotation prête à ajouter.";
+    setAnnotationStatus(status, "Suggestion prête à soumettre.");
   }
 }
 
@@ -126,14 +164,14 @@ function handleDetailCardKeydown(event: KeyboardEvent, state: AppState, render: 
   if (event.key !== "Enter" || (!event.metaKey && !event.ctrlKey)) return;
   const selected = getSelectedReference(state);
   if (!selected) return;
-  saveExpertAnnotationFromForm(event, state, selected, render);
+  void submitExpertAnnotationFromForm(event, state, selected, render);
 }
 
 function getSelectedReference(state: AppState): ReferenceRecord | undefined {
   return state.references.find((reference) => reference.id === state.selectedReferenceId);
 }
 
-function saveExpertAnnotationFromForm(
+function saveLocalAnnotationFromForm(
   event: Event,
   state: AppState,
   reference: ReferenceRecord,
@@ -149,12 +187,10 @@ function saveExpertAnnotationFromForm(
 
   const data = new FormData(form);
   const rubricId = String(data.get("rubric_id") ?? "");
-  const note = String(data.get("note") ?? "").trim();
-  const expertName = String(data.get("expert_name") ?? "").trim();
-  const expertRole = String(data.get("expert_role") ?? "").trim();
+  const validationMessage = validateLocalAnnotationDraft(data);
 
-  if (!expertName || !expertRole || !rubricId || !note) {
-    status.textContent = "Nom, fonction, rubrique et note obligatoires.";
+  if (validationMessage) {
+    setAnnotationStatus(status, validationMessage, "error");
     return;
   }
 
@@ -164,4 +200,78 @@ function saveExpertAnnotationFromForm(
   saveStoredAnnotations(reference.id, annotations);
   lastAnnotationSaveAt = now;
   render();
+}
+
+async function submitExpertAnnotationFromForm(
+  event: Event,
+  state: AppState,
+  reference: ReferenceRecord,
+  render: () => void
+): Promise<void> {
+  event.preventDefault();
+  const now = Date.now();
+  if (now - lastAnnotationSaveAt < 250) return;
+
+  const form = document.querySelector<HTMLFormElement>("#expert-annotation-form");
+  const status = document.querySelector<HTMLElement>("#annotation-status");
+  const submitButton = form?.querySelector<HTMLButtonElement>("button[data-submit-annotation]");
+  if (!form || !status || !submitButton) return;
+
+  const data = new FormData(form);
+  const rubricId = String(data.get("rubric_id") ?? "");
+  const validationMessage = validateAnnotationSuggestion(data);
+
+  if (validationMessage) {
+    setAnnotationStatus(status, validationMessage, "error");
+    form.reportValidity();
+    return;
+  }
+
+  const rateStatus = getSubmissionRateStatus(now);
+  if (!rateStatus.allowed) {
+    setAnnotationStatus(
+      status,
+      `Limite locale atteinte. Réessayer dans ${formatRetryAfter(rateStatus.retryAfterMs)}.`,
+      "error"
+    );
+    return;
+  }
+
+  const rubric = getRubricMeta(state, rubricId);
+  const payload = createAnnotationSubmissionPayload(reference, data, rubric);
+  submitButton.disabled = true;
+  setAnnotationStatus(status, "Envoi pour validation...", "pending");
+
+  try {
+    await submitAnnotationSuggestion(payload);
+    recordSubmissionTimestamp();
+    const submittedAt = new Date().toISOString();
+    const annotations = getStoredAnnotations(reference);
+    annotations.push(
+      createAnnotation(reference, data, rubric, {
+        moderationStatus: "submitted",
+        submissionStatus: "submitted",
+        submittedAt
+      })
+    );
+    saveExpertIdentity(data);
+    saveStoredAnnotations(reference.id, annotations);
+    lastAnnotationSaveAt = Date.now();
+    render();
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Envoi impossible.";
+    submitButton.disabled = false;
+    setAnnotationStatus(status, message, "error");
+  }
+}
+
+function setAnnotationStatus(
+  status: Element,
+  message: string,
+  tone: "default" | "error" | "success" | "pending" = "default"
+): void {
+  status.textContent = message;
+  status.classList.toggle("is-error", tone === "error");
+  status.classList.toggle("is-success", tone === "success");
+  status.classList.toggle("is-pending", tone === "pending");
 }

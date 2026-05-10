@@ -31,33 +31,45 @@
       </header>
 
       <main class="workspace">
-        <section class="search-panel" aria-labelledby="search-title">
+        <section class="search-panel" id="search-panel" aria-labelledby="search-title">
           <div class="section-heading">
-            <h2 id="search-title">Recherche</h2>
+            <h2 id="search-title">
+              <button
+                class="search-toggle"
+                id="search-toggle"
+                type="button"
+                aria-expanded="true"
+                aria-controls="search-panel-content"
+              >
+                Recherche
+              </button>
+            </h2>
             <span id="active-filter-count">0 filtre</span>
           </div>
 
-          <label class="search-field">
-            <span>Mot, lieu, architecte ou ambiance</span>
-            <input
-              id="search-input"
-              type="search"
-              autocomplete="off"
-              placeholder="ex. lumière diffuse, refuge, Zumthor..."
-            />
-          </label>
+          <div id="search-panel-content" class="search-panel-content">
+            <label class="search-field">
+              <span>Mot, lieu, architecte ou ambiance</span>
+              <input
+                id="search-input"
+                type="search"
+                autocomplete="off"
+                placeholder="ex. lumière diffuse, refuge, Zumthor..."
+              />
+            </label>
 
-          <div class="quick-themes" aria-label="Thèmes rapides">
-            <button type="button" data-preset="light">Lumière filtrée</button>
-            <button type="button" data-preset="water">Eau et rituel</button>
-            <button type="button" data-preset="sound">Son et rituel</button>
-            <button type="button" data-preset="concept">Site et climat</button>
-            <button type="button" data-preset="memory">Mémoire / absence</button>
-            <button type="button" data-preset="refuge">Refuge et étude</button>
-            <button type="button" data-preset="matter">Matière et corps</button>
+            <div class="quick-themes" aria-label="Thèmes rapides">
+              <button type="button" data-preset="light">Lumière filtrée</button>
+              <button type="button" data-preset="water">Eau et rituel</button>
+              <button type="button" data-preset="sound">Son et rituel</button>
+              <button type="button" data-preset="concept">Site et climat</button>
+              <button type="button" data-preset="memory">Mémoire / absence</button>
+              <button type="button" data-preset="refuge">Refuge et étude</button>
+              <button type="button" data-preset="matter">Matière et corps</button>
+            </div>
+
+            <div class="filter-scroll" id="filters"></div>
           </div>
-
-          <div class="filter-scroll" id="filters"></div>
         </section>
 
         <section class="results-panel" aria-live="polite">
