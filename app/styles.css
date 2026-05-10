@@ -234,7 +234,7 @@ button {
 
 .search-field input,
 .sort-field select,
-.annotation-form input,
+.annotation-form input:not([type="checkbox"]),
 .annotation-form select,
 .annotation-form textarea {
   width: 100%;
@@ -253,7 +253,7 @@ button {
 
 .search-field input:focus,
 .sort-field select:focus,
-.annotation-form input:focus,
+.annotation-form input:not([type="checkbox"]):focus,
 .annotation-form select:focus,
 .annotation-form textarea:focus {
   border-color: var(--accent);
@@ -694,47 +694,49 @@ button {
 
 .detail-empty,
 .detail-card {
-  padding: 16px;
+  padding: 14px;
 }
 
 .detail-empty p {
-  margin: 8px 0 0;
+  margin: 6px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
 }
 
 .detail-visual {
-  height: 150px;
-  margin: -16px -16px 16px;
+  height: 128px;
+  margin: -14px -14px 12px;
   border-bottom: 1px solid var(--line);
   border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .detail-card h2 {
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.1;
 }
 
 .detail-card .reference-meta {
-  margin-top: 8px;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.35;
 }
 
 .detail-section {
-  padding: 15px 0;
+  padding: 11px 0;
   border-top: 1px solid var(--line);
 }
 
 .intentions-detail-section {
-  margin-top: 14px;
-  padding: 13px;
+  margin-top: 10px;
+  padding: 11px;
   border: 1px solid rgba(161, 120, 40, 0.3);
   border-radius: var(--radius);
   background: #fffdf3;
 }
 
 .detail-section h3 {
-  margin: 0 0 10px;
+  margin: 0 0 7px;
   color: var(--muted);
   font-size: 12px;
   font-weight: 740;
@@ -748,12 +750,12 @@ button {
 
 .grouped-tags {
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .grouped-tag-row {
   display: grid;
-  gap: 6px;
+  gap: 5px;
 }
 
 .grouped-tag-row .mini-tags {
@@ -763,7 +765,7 @@ button {
 .grouped-tag-label,
 .muted-line {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.35;
 }
 
@@ -773,7 +775,7 @@ button {
 
 .source-list {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .source-link {
@@ -783,6 +785,18 @@ button {
   border-radius: var(--radius);
   text-decoration: none;
   overflow-wrap: anywhere;
+}
+
+.detail-panel .mini-tags,
+.detail-panel .keyword-row {
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.detail-panel .mini-tag,
+.detail-panel .keyword {
+  padding: 3px 6px;
+  font-size: 10px;
 }
 
 .expert-annotations {
@@ -944,12 +958,12 @@ button {
 
 .annotation-form-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 9px;
 }
 
 .annotation-form select,
-.annotation-form input {
+.annotation-form input:not([type="checkbox"]) {
   min-height: 36px;
   padding: 7px 9px;
 }
@@ -970,18 +984,61 @@ button {
 }
 
 .annotation-consent-field {
-  display: flex;
-  grid-template-columns: none;
-  align-items: flex-start;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  align-items: start;
+  gap: 9px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fbfbf8;
   color: var(--muted);
   line-height: 1.35;
+  cursor: pointer;
 }
 
-.annotation-consent-field input {
-  width: auto;
-  margin-top: 2px;
+.annotation-consent-field input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  min-height: 0;
+  margin: 1px 0 0;
+  padding: 0;
   flex: 0 0 auto;
+  display: grid;
+  place-content: center;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--panel);
+  cursor: pointer;
+}
+
+.annotation-consent-field input[type="checkbox"]::before {
+  content: "";
+  width: 8px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg) scale(0);
+  transition: transform 120ms ease;
+}
+
+.annotation-consent-field input[type="checkbox"]:checked {
+  border-color: var(--ink);
+  background: var(--ink);
+}
+
+.annotation-consent-field input[type="checkbox"]:checked::before {
+  transform: rotate(-45deg) scale(1);
+}
+
+.annotation-consent-field input[type="checkbox"]:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(155, 63, 47, 0.16);
+}
+
+.annotation-consent-field span {
+  align-self: center;
 }
 
 .annotation-honeypot {
@@ -1084,9 +1141,28 @@ button {
   }
 
   .search-panel.is-collapsed {
+    top: 80px;
     width: auto;
     height: auto;
-    padding: 12px 14px;
+    max-height: none;
+    padding: 6px 10px;
+    overflow: visible;
+    border-radius: 999px;
+  }
+
+  .search-panel.is-collapsed > .section-heading {
+    position: static;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  .search-panel.is-collapsed .section-heading span {
+    margin-top: 0;
+    font-size: 11px;
   }
 
   .search-panel.is-collapsed .search-panel-content {
