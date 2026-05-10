@@ -490,6 +490,26 @@ button {
   gap: 10px;
 }
 
+@media (min-width: 1181px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .results-panel {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 108px);
+    overflow: hidden;
+  }
+
+  .results-list {
+    min-height: 0;
+    overflow: auto;
+  }
+}
+
 .reference-card {
   display: grid;
   grid-template-columns: 98px 1fr;

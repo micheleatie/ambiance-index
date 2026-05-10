@@ -2,9 +2,9 @@
 
 ## État Actuel
 
-Le dépôt contient une base documentaire, des données de départ et un premier prototype web statique.
+Le dépôt contient une base documentaire, des données de départ et un prototype web statique Vite + TypeScript.
 
-Objectif immédiat : tester les combinaisons entre ambiances et intentions sur les 120 références indexées, puis renforcer les justifications sourcées et les niveaux de confiance.
+Objectif immédiat : publier le prototype sur GitHub Pages sous `ambiance-index`, puis définir un flux public de suggestions modérées sans perdre le contrôle de la version canonique des données.
 
 ## Structure
 
@@ -32,9 +32,11 @@ Objectif immédiat : tester les combinaisons entre ambiances et intentions sur l
 - `data/reference_analysis_lot_6_expanded_canon.json` : lot complémentaire de 20 références canoniques et publiques ajoutées après le corpus 100.
 - `data/reference_sensory_enrichment_v1.json` : passe transversale d'enrichissement des qualités sonores, olfactives, thermiques et immersives sur le corpus.
 - `data/reference_design_intentions_v1.json` : troisième couche d'indexation décrivant les intentions de conception.
-- `app/index.html` : surface du prototype.
+- `package.json`, `tsconfig.json`, `vite.config.ts` : outillage Vite + TypeScript et scripts locaux.
+- `.github/workflows/deploy-pages.yml` : build et déploiement GitHub Pages depuis `main`.
+- `app/index.html` : surface du prototype et point d'entrée Vite.
 - `app/styles.css` : système visuel et mise en page responsive.
-- `app/app.js` : chargement des données, filtres, recherche, fiche référence et annotations expertes locales exportables.
+- `app/src/` : application TypeScript modulaire : chargement des données, état, filtres, rendu, annotations, événements DOM et utilitaires.
 
 ## Modèle Conceptuel
 
@@ -63,7 +65,7 @@ La notion d'ambiance est hybride : elle combine paramètres physiques, perceptio
 
 ## Prototype Web
 
-Le prototype est volontairement sans framework pour l'instant. Il permet de valider le modèle de données avant d'investir dans une app React/Next.js.
+Le prototype est volontairement sans framework d'interface pour l'instant. Vite apporte le serveur local, le build et TypeScript, mais l'interface reste en DOM natif afin de valider le modèle de données avant d'investir dans une app React/Next.js.
 
 Fonctions disponibles :
 
@@ -75,6 +77,7 @@ Fonctions disponibles :
 - annotations expertes structurées par rubrique, stockées dans `localStorage` et exportables en JSON ;
 - identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation optionnelle ;
 - retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.
+- build statique déployable sur GitHub Pages avec base de production `/ambiance-index/`.
 
 Limites actuelles :
 
@@ -83,5 +86,6 @@ Limites actuelles :
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.
 - les fichiers `data/reference_analysis_lot_*_validated.json` contiennent les sélections v0 intégrées ou écartées.
+- les données `data/` sont importées au build ; toute modification canonique reste une modification de fichiers JSON versionnés.
 - les annotations restent dans le navigateur ; l'export JSON produit un fichier téléchargeable, mais l'intégration dans `data/` reste une étape de validation manuelle.
 - les droits restent simulés côté navigateur : une vraie plateforme devra distinguer comptes auteurs, experts, modérateurs et administrateurs.

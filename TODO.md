@@ -33,9 +33,14 @@
 - [x] Valider le lot 6 : JSON lisible, tags normalisés, identifiants uniques et 3 sources minimum pour les nouvelles références.
 - [x] Remplacer la note libre par des annotations expertes structurées par rubrique, stockées localement et exportables en JSON.
 - [x] Ajouter l'identité minimale de l'expert aux annotations et remplacer la suppression directe par un retrait archivé localement.
+- [x] Migrer le prototype vers Vite + TypeScript en conservant une interface statique sans framework.
+- [x] Ajouter les scripts `npm run dev`, `npm run typecheck`, `npm run build` et `npm run preview`.
+- [x] Ajouter un workflow GitHub Actions pour construire et déployer le site sur GitHub Pages.
 
 ## À Faire Ensuite
 
+- [ ] Renommer le dépôt GitHub en `ambiance-index`, activer GitHub Pages avec la source GitHub Actions et vérifier l'URL publique.
+- [ ] Ajouter un flux de suggestion public modéré, probablement via GitHub Issue Forms avant tout backend.
 - [ ] Transformer les justifications v0 du lot 1 en citations courtes ou paraphrases affichables dans l'app.
 - [ ] Tester plus finement les combinaisons multisensorielles et conceptuelles restantes, notamment silence + matière, eau + son, site + climat et parcours + matière.
 - [ ] Ajouter dans l'interface un indicateur de nombre de sources et de niveau de confiance par référence.
