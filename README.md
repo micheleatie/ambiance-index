@@ -4,6 +4,8 @@ Ambiance Index est un site de recherche pour explorer des références architect
 
 Le site est accessible ici : [micheleatie.github.io/ambiance-index](https://micheleatie.github.io/ambiance-index/)
 
+Créatrice de l'outil : Michèle Atié, docteure en architecture. Contact : [atiemichele@gmail.com](mailto:atiemichele@gmail.com)
+
 ## Utiliser Le Site
 
 L'interface est organisée en trois zones :
