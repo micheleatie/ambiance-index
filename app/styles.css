@@ -1270,7 +1270,10 @@ button {
   }
 
   .filter-box {
-    max-height: 420px;
+    max-height: min(520px, 68vh);
+    overflow: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
   .results-toolbar {

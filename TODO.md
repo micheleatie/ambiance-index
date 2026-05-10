@@ -38,6 +38,7 @@
 - [x] Ajouter un workflow GitHub Actions pour construire et déployer le site sur GitHub Pages.
 - [x] Renommer le dépôt GitHub en `ambiance-index`, activer GitHub Pages avec la source GitHub Actions et vérifier l'URL publique.
 - [x] Préparer le flux de suggestion public modéré avec Google Apps Script, Google Sheets privée et soumission en arrière-plan depuis l'interface.
+- [x] Corriger l'affichage mobile des longs panneaux de filtres pour éviter le chevauchement entre `Ambiances` et `Intentions architecturales`.
 
 ## À Faire Ensuite
 
