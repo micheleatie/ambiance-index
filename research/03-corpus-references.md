@@ -13,7 +13,7 @@ Les références sont retenues parce qu'elles remplissent au moins deux critère
 
 ## Références Prioritaires
 
-| Référence | Architecte / période | Ambiances physiques dominantes | Ambiances subjectives dominantes | Intérêt pédagogique |
+| Référence | Architecte / période | Caractéristiques physiques dominants | Effets ressentis dominants | Intérêt pédagogique |
 | --- | --- | --- | --- | --- |
 | Panthéon, Rome | Antiquité romaine | lumière zénithale, oculus, géométrie sphérique, variation temporelle | sacré, sublime, ordre cosmique | Cas fondateur de lumière comme acteur spatial unique. |
 | Sainte-Chapelle, Paris | Gothique rayonnant | vitrail, couleur, verticalité, lumière intense filtrée | immersion, sacré, émerveillement | Exemple extrême d'architecture transformée par la lumière colorée. |

@@ -4,13 +4,13 @@
 
 - [x] Créer la mémoire locale du projet.
 - [x] Cadrer la plateforme et son modèle conceptuel.
-- [x] Produire une première taxonomie physique / subjective des ambiances.
+- [x] Produire une première taxonomie des ambiances.
 - [x] Produire un premier corpus de références emblématiques.
 - [x] Créer des données structurées de départ pour la future application.
 - [x] Créer un premier prototype web statique avec recherche, filtres, fiches et annotation locale.
 - [x] Vérifier le prototype : chargement JSON, recherche, thèmes rapides, annotation locale, responsive mobile et console navigateur.
 - [x] Créer un corpus candidat de 100 références connues à sourcer et analyser.
-- [x] Formaliser la méthode sources -> mots extraits -> tags physiques/subjectifs.
+- [x] Formaliser la méthode sources -> mots extraits -> tags contrôlés.
 - [x] Créer un premier scan du lot 1 : 20 références, 3 sources minimum par référence, mots extraits et tags proposés.
 - [x] Valider le lot 1 en distinguant tags forts, moyens et fragiles.
 - [x] Intégrer 13 nouvelles références validées du lot 1 dans `data/references_seed.json`, ce qui porte l'app à 30 références indexées.
@@ -39,6 +39,35 @@
 - [x] Renommer le dépôt GitHub en `ambiance-index`, activer GitHub Pages avec la source GitHub Actions et vérifier l'URL publique.
 - [x] Préparer le flux de suggestion public modéré avec Google Apps Script, Google Sheets privée et soumission en arrière-plan depuis l'interface.
 - [x] Corriger l'affichage mobile des longs panneaux de filtres pour éviter le chevauchement entre `Ambiances` et `Intentions architecturales`.
+- [x] Clarifier la taxonomie existante : caractéristiques physiques, effets ressentis et intentions de conception.
+- [x] Reclasser la taxonomie autour de caractéristiques physiques et d'effets ressentis par registre perceptif.
+- [x] Intégrer les anciennes rubriques de seuils, cadrages, filtres et strates aux caractéristiques physiques ou aux effets ressentis, et séparer les effets thermiques des effets corporels.
+- [x] Resserrer `Couleur` et `Éléments architecturaux` sur des valeurs observables, puis rattacher les termes interprétatifs comme mystérieux, abstrait ou étrange aux effets symboliques.
+- [x] Regrouper ouvertures, vues, cadrages et abris en une seule rubrique, et déplacer compression/dilatation vers les effets visuels.
+- [x] Déplacer `intime` des effets corporels vers les effets affectifs, en gardant l'usage sonore séparé.
+- [x] Remplacer les rubriques `Formes...` et `Ouvertures...` par `Dispositifs lumineux` et `Dispositifs spatiaux`, déplacer les qualités de transparence/cadrage vers les effets visuels et retirer `volume lumineux`.
+- [x] Séparer les effets affectifs des effets d'ambiance, déplacer `impressionnant` vers les interprétatifs et rattacher `abrité` / `refuge` aux affectifs.
+- [x] Déplacer `convivial` et `généreux` des effets d'ambiance vers les effets affectifs pour mieux distinguer tonalité relationnelle et régime d'usage.
+- [x] Déplacer `inspirant` et `stimulant` des effets d'ambiance vers les effets symboliques et interprétatifs.
+- [x] Séparer les ambiances d'usage, les ambiances symboliques/de milieu et les effets interprétatifs ; retirer `sauvage` / `domestiqué` des caractéristiques végétales.
+- [x] Déplacer `domestique` vers les ambiances d'usage/programme et remplacer `domestiqué` par `jardiné` pour éviter la confusion.
+- [x] Déplacer `douloureux` et `mélancolique` des effets de mémoire vers les effets affectifs.
+- [x] Déplacer `Traces et strates` hors des caractéristiques physiques vers les ambiances d'usage, programme et transformation.
+- [x] Renommer `Effets thermiques` en `Effets thermiques ressentis` et déplacer les odeurs vers `Effets olfactifs ressentis` en retirant `clos`.
+- [x] Distinguer les caractéristiques acoustiques physiques des effets sonores ressentis.
+- [x] Simplifier l'acoustique : garder seulement les sources/contextes sonores côté caractéristiques et déplacer les qualités d'écoute vers les effets ressentis.
+- [x] Séparer les sources/contextes thermiques des effets thermiques ressentis et clarifier que l'odorat reste traité comme effet ressenti.
+- [x] Clarifier `bruit mécanique`, replacer `humide` / `sec` dans les effets thermiques, retirer `tempéré`, `minéral` et `ancien` des effets ressentis ambigus.
+- [x] Déplacer `strate` des ambiances d'usage vers les effets de mémoire et de temps.
+- [x] Auditer le lot 1 de 20 références et corriger les reclassements évidents avant finalisation.
+- [x] Auditer le lot 2 de 20 références, corriger les intentions de programme trop générales et retirer les usages ambigus de `organique` / `exprimer le brut`.
+- [x] Auditer le lot 3 de 20 références, préciser les programmes (`soigner`, `exposer`, `travailler`, `célébrer`) et corriger les relations au site urbain ou mémoriel.
+- [x] Auditer le lot 4 de 20 références, corriger les intentions de site/paysage, les programmes trop larges et les confusions entre mémoire, icône et quotidien.
+- [x] Auditer le lot 5 de 20 références, corriger les relations urbaines trop paysagères, les programmes publics trop génériques et les intentions matérielles abusives.
+- [x] Auditer le lot 6 de 20 références, corriger les icônes, infrastructures, logements expérimentaux et reconversions du canon complémentaire.
+- [x] Faire une passe transversale sur les 120 références et déplacer `cérémoniel` hors des effets sonores vers les ambiances symboliques.
+- [x] Réintroduire `organique` comme effet interprétatif pour la Sagrada Família, sans le confondre avec une présence végétale.
+- [x] Déplacer `jardiné` vers les caractéristiques végétales et ajouter `organique` à d'autres références comme effet interprétatif.
 
 ## À Faire Ensuite
 

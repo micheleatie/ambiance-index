@@ -9,20 +9,20 @@
       "location": "Rome, Italie",
       "year": "vers 120-126",
       "physical_tags": [
-        "light:zénithale",
-        "light:variable",
-        "spatiality:monumental",
-        "framing:oculus",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:écho",
-        "sound:cérémoniel",
-        "immersion:son"
+        "light_aspect:zénithale",
+        "light_aspect:variable",
+        "light_device:oculus",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "monumental_sublime:sublime",
-        "legibility_orientation:ordonné"
+        "visual_effect:monumental",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_effect:sublime",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "sound_effect:écho",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "oculus",
@@ -34,22 +34,20 @@
         "son réverbérant",
         "son ample",
         "son écho",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
         "https://www.britannica.com/list/19-essential-italian-churches/Pantheon"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:séquence rituelle",
         "climate_intention:contrôler l'éclairage",
         "structure_intention:faire forme porteuse",
         "social_intention:célébrer",
         "symbolic_intention:sacraliser",
         "perceptual_intention:envelopper",
-        "perceptual_intention:intensifier",
-        "social_intention:se retirer"
+        "perceptual_intention:intensifier"
       ]
     },
     {
@@ -59,19 +57,19 @@
       "location": "Paris, France",
       "year": "1240s",
       "physical_tags": [
-        "light:colorée",
-        "light:intense",
-        "filtering:vitrail",
-        "spatiality:haut",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:cérémoniel",
-        "immersion:son"
+        "light_aspect:colorée",
+        "light_aspect:intense",
+        "light_device:vitrail"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "monumental_sublime:impressionnant",
-        "mystery_exploration:initiatique"
+        "visual_effect:haut",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:initiatique",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "vitrail",
@@ -81,7 +79,7 @@
         "immersion",
         "son réverbérant",
         "son ample",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
@@ -106,22 +104,22 @@
       "location": "Grenade, Espagne",
       "year": "13e-14e siècles",
       "physical_tags": [
-        "water:bassin",
-        "water:fontaine",
-        "thermal_air:frais",
-        "movement_path:sinueux",
-        "shadow_contrast:pénombre",
-        "sound:aquatique",
-        "sound:continu",
-        "sound:masquant",
-        "smell:végétal",
-        "smell:humide",
-        "thermal_air:humide"
+        "water_aspect:bassin",
+        "water_aspect:fontaine",
+        "path_aspect:sinueux",
+        "shadow_aspect:pénombre",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "intimacy_refuge:intime",
-        "mystery_exploration:mystérieux",
-        "wellbeing_restoration:ressourçant"
+        "thermal_effect:frais",
+        "affective_effect:intime",
+        "symbolic_effect:mystérieux",
+        "body_effect:ressourçant",
+        "olfactory_effect:végétal",
+        "olfactory_effect:humide",
+        "sound_effect:continu",
+        "sound_effect:masquant",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "eau",
@@ -160,30 +158,31 @@
       "location": "Mill Run, Pennsylvanie, États-Unis",
       "year": "1935-1939",
       "physical_tags": [
-        "water:cascade",
-        "sound:aquatique",
-        "material_texture:pierre",
-        "opening_landscape:panoramique",
-        "nature_living:organique",
-        "sound:continu",
-        "sound:masquant",
-        "sound:naturel",
-        "smell:humide",
-        "smell:végétal",
-        "immersion:son",
-        "thermal_air:frais",
-        "thermal_air:humide"
+        "water_aspect:cascade",
+        "sound_aspect:aquatique",
+        "material_aspect:pierre",
+        "vegetal_aspect:naturel",
+        "sound_aspect:naturel"
       ],
       "subjective_tags": [
-        "intimacy_refuge:refuge",
-        "wellbeing_restoration:ressourçant",
-        "calm_contemplation:paisible"
+        "sound_effect:enveloppant",
+        "thermal_effect:frais",
+        "affective_effect:refuge",
+        "body_effect:ressourçant",
+        "affective_effect:paisible",
+        "visual_effect:panoramique",
+        "olfactory_effect:humide",
+        "olfactory_effect:végétal",
+        "sound_effect:continu",
+        "sound_effect:masquant",
+        "thermal_effect:humide",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "cascade",
         "porte-à-faux",
         "rocher",
-        "organique",
+        "architecture intégrée au site",
         "terrasses",
         "nature",
         "son continu",
@@ -193,7 +192,8 @@
         "odeur végétal",
         "immersion son",
         "air frais",
-        "air humide"
+        "air humide",
+        "organique"
       ],
       "sources": [
         "https://fallingwater.org/what-is-fallingwater/"
@@ -217,19 +217,18 @@
       "location": "Mexico, Mexique",
       "year": "1948",
       "physical_tags": [
-        "color:rose",
-        "light:réfléchie",
-        "shadow_contrast:pénombre",
-        "material_texture:patiné",
-        "movement_path:progressif",
-        "sound:silencieux",
-        "sound:feutré",
-        "smell:végétal"
+        "color_aspect:rose",
+        "light_aspect:réfléchie",
+        "shadow_aspect:pénombre",
+        "material_aspect:patiné",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "intimacy_refuge:intime",
-        "calm_contemplation:silencieux",
-        "mystery_exploration:mystérieux"
+        "affective_effect:intime",
+        "sound_effect:silencieux",
+        "symbolic_effect:mystérieux",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "couleur",
@@ -265,20 +264,19 @@
       "location": "Ronchamp, France",
       "year": "1950-1955",
       "physical_tags": [
-        "light:filtrée",
-        "light:colorée",
-        "material_texture:béton",
-        "spatiality:épais",
-        "movement_path:ritualisé",
-        "sound:silencieux",
-        "sound:réverbérant",
-        "sound:cérémoniel",
-        "sound:feutré"
+        "light_aspect:filtrée",
+        "light_aspect:colorée",
+        "material_aspect:béton"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "calm_contemplation:contemplatif",
-        "mystery_exploration:mystérieux"
+        "visual_effect:épais",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:rituel",
+        "affective_effect:contemplatif",
+        "symbolic_effect:mystérieux",
+        "sound_effect:silencieux",
+        "sound_effect:feutré",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "mur épais",
@@ -288,7 +286,7 @@
         "procession",
         "son silencieux",
         "son réverbérant",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son feutré"
       ],
       "sources": [
@@ -313,21 +311,21 @@
       "location": "La Jolla, Californie, États-Unis",
       "year": "1960s",
       "physical_tags": [
-        "light:naturelle",
-        "water:canal",
-        "material_texture:travertin",
-        "opening_landscape:horizon",
-        "spatiality:axial",
-        "sound:continu",
-        "sound:extérieur",
-        "sound:naturel",
-        "sound:aquatique",
-        "thermal_air:exposé"
+        "light_aspect:naturelle",
+        "water_aspect:canal",
+        "material_aspect:travertin",
+        "path_aspect:axial",
+        "sound_aspect:extérieur",
+        "sound_aspect:naturel",
+        "sound_aspect:aquatique",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "calm_contemplation:calme",
-        "monumental_sublime:solennel",
-        "inspiration_concentration:inspirant"
+        "affective_effect:calme",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:inspirant",
+        "visual_effect:horizon",
+        "sound_effect:continu"
       ],
       "keywords_fr": [
         "cour",
@@ -364,19 +362,19 @@
       "location": "Fort Worth, Texas, États-Unis",
       "year": "1972",
       "physical_tags": [
-        "light:diffuse",
-        "light:réfléchie",
-        "material_texture:béton",
-        "material_texture:travertin",
-        "spatiality:voûte",
-        "sound:feutré",
-        "sound:mat",
-        "sound:murmuré"
+        "light_aspect:diffuse",
+        "light_aspect:réfléchie",
+        "material_aspect:béton",
+        "material_aspect:travertin",
+        "spatial_device:voûte"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "legibility_orientation:clair",
-        "inspiration_concentration:concentré"
+        "affective_effect:contemplatif",
+        "visual_effect:clair",
+        "atmosphere_effect:concentré",
+        "sound_effect:murmuré",
+        "sound_effect:feutré",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "lumière diffuse",
@@ -410,19 +408,19 @@
       "location": "Exeter, New Hampshire, États-Unis",
       "year": "1971-1972",
       "physical_tags": [
-        "spatiality:atrium",
-        "material_texture:brique",
-        "material_texture:bois",
-        "light:naturelle",
-        "prospect_refuge:alcôve",
-        "sound:silencieux",
-        "sound:feutré",
-        "sound:murmuré"
+        "spatial_device:atrium",
+        "material_aspect:brique",
+        "material_aspect:bois",
+        "light_aspect:naturelle",
+        "spatial_device:alcôve"
       ],
       "subjective_tags": [
-        "inspiration_concentration:studieux",
-        "intimacy_refuge:refuge",
-        "legibility_orientation:structuré"
+        "atmosphere_effect:studieux",
+        "affective_effect:refuge",
+        "visual_effect:structuré",
+        "sound_effect:murmuré",
+        "sound_effect:silencieux",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "atrium",
@@ -457,19 +455,19 @@
       "location": "Ibaraki, Osaka, Japon",
       "year": "1989",
       "physical_tags": [
-        "light:intense",
-        "shadow_contrast:clair-obscur",
-        "material_texture:béton",
-        "framing:fente",
-        "spatiality:vide",
-        "sound:silencieux",
-        "sound:cérémoniel",
-        "sound:réverbérant"
+        "light_aspect:intense",
+        "shadow_aspect:clair-obscur",
+        "material_aspect:béton",
+        "light_device:fente"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "calm_contemplation:contemplatif",
-        "monumental_sublime:solennel"
+        "visual_effect:vide",
+        "symbolic_atmosphere:sacré",
+        "affective_effect:contemplatif",
+        "symbolic_atmosphere:solennel",
+        "sound_effect:silencieux",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "croix de lumière",
@@ -478,7 +476,7 @@
         "ascèse",
         "contraste",
         "son silencieux",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son réverbérant"
       ],
       "sources": [
@@ -503,25 +501,23 @@
       "location": "Vals, Suisse",
       "year": "1996",
       "physical_tags": [
-        "material_texture:pierre",
-        "water:source",
-        "thermal_air:chaud",
-        "thermal_air:humide",
-        "shadow_contrast:pénombre",
-        "sound:aquatique",
-        "sound:continu",
-        "sound:réverbérant",
-        "smell:minéral",
-        "smell:humide",
-        "immersion:vapeur",
-        "immersion:bain",
-        "immersion:son",
-        "smell:chloré"
+        "material_aspect:pierre",
+        "water_aspect:source",
+        "shadow_aspect:pénombre",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "wellbeing_restoration:réparateur",
-        "calm_contemplation:méditatif",
-        "mystery_exploration:mystérieux"
+        "body_effect:enveloppant",
+        "sound_effect:enveloppant",
+        "thermal_effect:chaud",
+        "body_effect:réparateur",
+        "affective_effect:méditatif",
+        "symbolic_effect:mystérieux",
+        "olfactory_effect:humide",
+        "olfactory_effect:chloré",
+        "sound_effect:continu",
+        "sound_effect:réverbérant",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "pierre",
@@ -533,7 +529,6 @@
         "tactilité",
         "son continu",
         "son réverbérant",
-        "odeur minéral",
         "odeur humide",
         "immersion vapeur",
         "immersion bain",
@@ -563,19 +558,18 @@
       "location": "Mechernich, Allemagne",
       "year": "2007",
       "physical_tags": [
-        "material_texture:béton",
-        "smell:fumé",
-        "light:zénithale",
-        "framing:oculus",
-        "shadow_contrast:sombre",
-        "sound:silencieux",
-        "sound:réverbérant",
-        "smell:minéral"
+        "material_aspect:béton",
+        "light_aspect:zénithale",
+        "light_device:oculus",
+        "shadow_aspect:sombre"
       ],
       "subjective_tags": [
-        "sacred_ritual:mystique",
-        "unease_oppression:austère",
-        "monumental_sublime:sublime"
+        "symbolic_atmosphere:mystique",
+        "affective_effect:austère",
+        "symbolic_effect:sublime",
+        "olfactory_effect:fumé",
+        "sound_effect:silencieux",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "béton brûlé",
@@ -585,8 +579,7 @@
         "pluie",
         "cavité",
         "son silencieux",
-        "son réverbérant",
-        "odeur minéral"
+        "son réverbérant"
       ],
       "sources": [
         "https://www.archdaily.com/106352/bruder-klaus-field-chapel-peter-zumthor"
@@ -610,20 +603,18 @@
       "location": "Cologne, Allemagne",
       "year": "2007",
       "physical_tags": [
-        "material_texture:brique",
-        "filtering:perforation",
-        "light:diffuse",
-        "palimpsest:ruine",
-        "movement_path:progressif",
-        "sound:feutré",
-        "sound:silencieux",
-        "smell:ancien",
-        "smell:minéral"
+        "material_aspect:brique",
+        "light_device:perforation",
+        "light_aspect:diffuse",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "memory_absence:mémoriel",
-        "calm_contemplation:contemplatif",
-        "mystery_exploration:suggestif"
+        "memory_effect:mémoriel",
+        "affective_effect:contemplatif",
+        "symbolic_effect:suggestif",
+        "atmosphere_effect:ruine",
+        "sound_effect:feutré",
+        "sound_effect:silencieux"
       ],
       "keywords_fr": [
         "ruine",
@@ -632,9 +623,7 @@
         "palimpseste",
         "musée de contemplation",
         "son feutré",
-        "son silencieux",
-        "odeur ancien",
-        "odeur minéral"
+        "son silencieux"
       ],
       "sources": [
         "https://www.museen.koeln/en/visit/museums/kolumba"
@@ -658,20 +647,20 @@
       "location": "Berlin, Allemagne",
       "year": "1999-2001",
       "physical_tags": [
-        "spatiality:vide",
-        "material_texture:béton",
-        "shadow_contrast:sombre",
-        "movement_path:contraint",
-        "thermal_air:froid",
-        "sound:silencieux",
-        "sound:creux",
-        "sound:résonant",
-        "immersion:son"
+        "material_aspect:béton",
+        "shadow_aspect:sombre",
+        "path_aspect:contraint"
       ],
       "subjective_tags": [
-        "memory_absence:absent",
-        "unease_oppression:oppressant",
-        "mystery_exploration:ambigu"
+        "visual_effect:vide",
+        "sound_effect:enveloppant",
+        "thermal_effect:froid",
+        "memory_effect:absent",
+        "body_effect:oppressant",
+        "symbolic_effect:ambigu",
+        "sound_effect:silencieux",
+        "sound_effect:creux",
+        "sound_effect:résonant"
       ],
       "keywords_fr": [
         "vide",
@@ -707,20 +696,19 @@
       "location": "Seattle, Washington, États-Unis",
       "year": "1997",
       "physical_tags": [
-        "light:colorée",
-        "light:réfléchie",
-        "filtering:volume",
-        "material_texture:béton",
-        "framing:lanterne",
-        "sound:cérémoniel",
-        "sound:réverbérant",
-        "sound:enveloppant",
-        "immersion:son"
+        "light_aspect:colorée",
+        "light_aspect:réfléchie",
+        "spatial_device:volume",
+        "material_aspect:béton",
+        "light_device:lanterne"
       ],
       "subjective_tags": [
-        "sacred_ritual:spirituel",
-        "mystery_exploration:suggestif",
-        "calm_contemplation:contemplatif"
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:spirituel",
+        "symbolic_effect:suggestif",
+        "affective_effect:contemplatif",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "bouteilles de lumière",
@@ -728,7 +716,7 @@
         "chapelle",
         "réflexion",
         "volumes lumineux",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son réverbérant",
         "son enveloppant",
         "immersion son"
@@ -755,18 +743,18 @@
       "location": "Houston, Texas, États-Unis",
       "year": "1995",
       "physical_tags": [
-        "light:filtrée",
-        "material_texture:plâtre",
-        "material_texture:toile",
-        "spatiality:symétrique",
-        "sound:feutré",
-        "sound:silencieux",
-        "sound:mat"
+        "light_aspect:filtrée",
+        "material_aspect:plâtre",
+        "material_aspect:toile"
       ],
       "subjective_tags": [
-        "calm_contemplation:calme",
-        "inspiration_concentration:concentré",
-        "wellbeing_restoration:doux"
+        "visual_effect:symétrique",
+        "affective_effect:calme",
+        "atmosphere_effect:concentré",
+        "body_effect:doux",
+        "sound_effect:feutré",
+        "sound_effect:silencieux",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "lumière filtrée",
@@ -799,20 +787,20 @@
       "location": "Riehen, Suisse",
       "year": "1997",
       "physical_tags": [
-        "light:naturelle",
-        "light:filtrée",
-        "opening_landscape:paysage",
-        "nature_living:verdure",
-        "spatiality:ordonné",
-        "material_texture:toit léger",
-        "sound:feutré",
-        "sound:silencieux",
-        "smell:végétal"
+        "light_aspect:naturelle",
+        "light_aspect:filtrée",
+        "vegetal_aspect:verdure",
+        "spatial_device:toiture",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "calm_contemplation:serein",
-        "legibility_orientation:clair",
-        "wellbeing_restoration:équilibré"
+        "affective_effect:serein",
+        "visual_effect:clair",
+        "affective_effect:équilibré",
+        "visual_effect:paysage",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré",
+        "sound_effect:silencieux"
       ],
       "keywords_fr": [
         "lumière naturelle",
@@ -846,21 +834,21 @@
       "location": "Istanbul, Turquie",
       "year": "532-537",
       "physical_tags": [
-        "light:zénithale",
-        "light:diffuse",
-        "spatiality:monumental",
-        "spatiality:voûte",
-        "material_texture:pierre",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:écho",
-        "sound:cérémoniel",
-        "immersion:son"
+        "light_aspect:zénithale",
+        "light_aspect:diffuse",
+        "spatial_device:voûte",
+        "material_aspect:pierre"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "monumental_sublime:majestueux"
+        "visual_effect:monumental",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "symbolic_effect:majestueux",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "sound_effect:écho",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "dôme",
@@ -872,7 +860,7 @@
         "son réverbérant",
         "son ample",
         "son écho",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
@@ -899,20 +887,19 @@
       "location": "Cordoue, Espagne",
       "year": "8e-16e siècles",
       "physical_tags": [
-        "shadow_contrast:pénombre",
-        "spatiality:labyrinthique",
-        "spatiality:vaste",
-        "material_texture:pierre",
-        "movement_path:exploratoire",
-        "sound:réverbérant",
-        "sound:cérémoniel",
-        "sound:feutré",
-        "smell:ancien"
+        "shadow_aspect:pénombre",
+        "material_aspect:pierre",
+        "path_aspect:exploratoire"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "mystery_exploration:mystérieux",
-        "monumental_sublime:impressionnant"
+        "symbolic_effect:labyrinthique",
+        "visual_effect:vaste",
+        "symbolic_atmosphere:sacré",
+        "symbolic_effect:mystérieux",
+        "symbolic_effect:impressionnant",
+        "sound_effect:feutré",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "forêt de colonnes",
@@ -922,9 +909,8 @@
         "marbre",
         "rythme",
         "son réverbérant",
-        "son cérémoniel",
-        "son feutré",
-        "odeur ancien"
+        "ambiance rituelle",
+        "son feutré"
       ],
       "sources": [
         "https://www.britannica.com/topic/Mosque-Cathedral-of-Cordoba",
@@ -950,20 +936,20 @@
       "location": "Chartres, France",
       "year": "12e-13e siècles",
       "physical_tags": [
-        "light:colorée",
-        "light:filtrée",
-        "filtering:vitrail",
-        "spatiality:haut",
-        "spatiality:monumental",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:cérémoniel",
-        "immersion:son"
+        "light_aspect:colorée",
+        "light_aspect:filtrée",
+        "light_device:vitrail"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "memory_absence:historique",
-        "monumental_sublime:majestueux"
+        "visual_effect:haut",
+        "visual_effect:monumental",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "memory_effect:historique",
+        "symbolic_effect:majestueux",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "vitraux",
@@ -974,7 +960,7 @@
         "hauteur",
         "son réverbérant",
         "son ample",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
@@ -1001,22 +987,21 @@
       "location": "Paris, France",
       "year": "1163-14e siècle",
       "physical_tags": [
-        "light:naturelle",
-        "light:colorée",
-        "filtering:vitrail",
-        "spatiality:haut",
-        "spatiality:voûte",
-        "material_texture:pierre",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:cérémoniel",
-        "smell:ancien",
-        "immersion:son"
+        "light_aspect:naturelle",
+        "light_aspect:colorée",
+        "light_device:vitrail",
+        "spatial_device:voûte",
+        "material_aspect:pierre"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "memory_absence:historique"
+        "visual_effect:haut",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "memory_effect:historique",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "roses",
@@ -1027,8 +1012,7 @@
         "mémoire collective",
         "son réverbérant",
         "son ample",
-        "son cérémoniel",
-        "odeur ancien",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
@@ -1055,33 +1039,34 @@
       "location": "Barcelone, Espagne",
       "year": "1882-en cours",
       "physical_tags": [
-        "light:colorée",
-        "light:intense",
-        "light:variable",
-        "filtering:vitrail",
-        "spatiality:haut",
-        "nature_living:organique",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:cérémoniel",
-        "immersion:son"
+        "light_aspect:colorée",
+        "light_aspect:intense",
+        "light_aspect:variable",
+        "light_device:vitrail"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "calm_contemplation:contemplatif",
-        "monumental_sublime:impressionnant"
+        "visual_effect:haut",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "affective_effect:contemplatif",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:organique",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "vitraux",
         "couleurs chaudes",
         "couleurs froides",
         "structure arborescente",
+        "organique",
         "verticalité",
         "temple de lumière",
         "son réverbérant",
         "son ample",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son"
       ],
       "sources": [
@@ -1108,22 +1093,21 @@
       "location": "Éveux, France",
       "year": "1953-1960",
       "physical_tags": [
-        "light:colorée",
-        "light:zénithale",
-        "material_texture:béton",
-        "material_texture:brut",
-        "spatiality:fermé",
-        "movement_path:progressif",
-        "sound:silencieux",
-        "sound:réverbérant",
-        "sound:cérémoniel",
-        "smell:minéral"
+        "light_aspect:colorée",
+        "light_aspect:zénithale",
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:ascétique",
-        "calm_contemplation:contemplatif",
-        "inspiration_concentration:studieux"
+        "visual_effect:fermé",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:ascétique",
+        "affective_effect:contemplatif",
+        "atmosphere_effect:studieux",
+        "sound_effect:silencieux",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "béton brut",
@@ -1134,8 +1118,7 @@
         "retraite",
         "son silencieux",
         "son réverbérant",
-        "son cérémoniel",
-        "odeur minéral"
+        "ambiance rituelle"
       ],
       "sources": [
         "https://lecorbusier-worldheritage.org/en/couvent-sainte-marie-de-la-tourette/",
@@ -1161,20 +1144,20 @@
       "location": "Houston, Texas, États-Unis",
       "year": "1987",
       "physical_tags": [
-        "light:naturelle",
-        "light:diffuse",
-        "material_texture:bois",
-        "material_texture:verre",
-        "opening_landscape:ouvert",
-        "nature_living:domestiqué",
-        "sound:feutré",
-        "sound:silencieux",
-        "smell:boisé"
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "material_aspect:bois",
+        "material_aspect:verre",
+        "vegetal_aspect:verdure"
       ],
       "subjective_tags": [
-        "calm_contemplation:calme",
-        "intimacy_refuge:domestique",
-        "legibility_orientation:clair"
+        "affective_effect:calme",
+        "atmosphere_effect:domestique",
+        "visual_effect:clair",
+        "visual_effect:ouvert",
+        "olfactory_effect:boisé",
+        "sound_effect:feutré",
+        "sound_effect:silencieux"
       ],
       "keywords_fr": [
         "lumière naturelle",
@@ -1211,21 +1194,20 @@
       "location": "Naoshima, Japon",
       "year": "2004",
       "physical_tags": [
-        "light:naturelle",
-        "light:variable",
-        "material_texture:béton",
-        "material_texture:verre",
-        "spatiality:fermé",
-        "opening_landscape:introverti",
-        "sound:silencieux",
-        "sound:feutré",
-        "sound:murmuré"
+        "light_aspect:naturelle",
+        "light_aspect:variable",
+        "material_aspect:béton",
+        "material_aspect:verre"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "calm_contemplation:silencieux",
-        "mystery_exploration:suggestif",
-        "wellbeing_restoration:équilibré"
+        "visual_effect:introverti",
+        "visual_effect:fermé",
+        "affective_effect:contemplatif",
+        "sound_effect:silencieux",
+        "symbolic_effect:suggestif",
+        "affective_effect:équilibré",
+        "sound_effect:murmuré",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "souterrain",
@@ -1246,13 +1228,13 @@
       "intention_tags": [
         "site_intention:cadrer le paysage",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:exploiter l'inertie",
-        "material_intention:chercher la transparence"
+        "material_intention:chercher la transparence",
+        "material_intention:faire monolithe"
       ]
     },
     {
@@ -1262,24 +1244,23 @@
       "location": "Teshima, Japon",
       "year": "2010",
       "physical_tags": [
-        "water:source",
-        "water:humidité",
-        "light:naturelle",
-        "opening_landscape:ouvert",
-        "nature_living:naturel",
-        "material_texture:béton",
-        "sound:silencieux",
-        "sound:aquatique",
-        "sound:vent",
-        "sound:naturel",
-        "immersion:son",
-        "thermal_air:ventilé",
-        "thermal_air:humide"
+        "water_aspect:source",
+        "light_aspect:naturelle",
+        "vegetal_aspect:naturel",
+        "material_aspect:béton",
+        "sound_aspect:aquatique",
+        "sound_aspect:vent",
+        "sound_aspect:naturel",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "calm_contemplation:silencieux",
-        "wellbeing_restoration:ressourçant"
+        "sound_effect:enveloppant",
+        "affective_effect:contemplatif",
+        "sound_effect:silencieux",
+        "body_effect:ressourçant",
+        "visual_effect:ouvert",
+        "thermal_effect:humide",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "goutte d'eau",
@@ -1294,7 +1275,8 @@
         "son naturel",
         "immersion son",
         "air ventilé",
-        "air humide"
+        "air humide",
+        "organique"
       ],
       "sources": [
         "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
@@ -1304,13 +1286,13 @@
       "intention_tags": [
         "site_intention:cadrer le paysage",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
-        "social_intention:rassembler",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:ventiler naturellement",
-        "climate_intention:rafraîchir par l'eau"
+        "climate_intention:rafraîchir par l'eau",
+        "social_intention:exposer",
+        "material_intention:faire monolithe"
       ]
     },
     {
@@ -1320,23 +1302,23 @@
       "location": "Abu Dhabi, Émirats arabes unis",
       "year": "2017",
       "physical_tags": [
-        "light:filtrée",
-        "light:intense",
-        "shadow_contrast:découpé",
-        "water:miroir",
-        "thermal_air:frais",
-        "filtering:perforation",
-        "spatiality:vaste",
-        "sound:aquatique",
-        "sound:extérieur",
-        "sound:feutré",
-        "thermal_air:humide"
+        "light_aspect:filtrée",
+        "light_aspect:intense",
+        "shadow_aspect:découpé",
+        "water_aspect:miroir",
+        "light_device:perforation",
+        "sound_aspect:aquatique",
+        "sound_aspect:extérieur"
       ],
       "subjective_tags": [
-        "calm_contemplation:serein",
-        "mystery_exploration:suggestif",
-        "monumental_sublime:impressionnant",
-        "legibility_orientation:clair"
+        "visual_effect:vaste",
+        "thermal_effect:frais",
+        "affective_effect:serein",
+        "symbolic_effect:suggestif",
+        "symbolic_effect:impressionnant",
+        "visual_effect:clair",
+        "sound_effect:feutré",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "pluie de lumière",
@@ -1374,17 +1356,17 @@
       "location": "Paris, France",
       "year": "1981-1987",
       "physical_tags": [
-        "light:filtrée",
-        "light:variable",
-        "filtering:claustra",
-        "material_texture:métal",
-        "shadow_contrast:découpé",
-        "spatiality:haut"
+        "light_aspect:filtrée",
+        "light_aspect:variable",
+        "light_device:claustra",
+        "material_aspect:métal",
+        "shadow_aspect:découpé"
       ],
       "subjective_tags": [
-        "mystery_exploration:suggestif",
-        "legibility_orientation:structuré",
-        "inspiration_concentration:intellectuel"
+        "visual_effect:haut",
+        "symbolic_effect:suggestif",
+        "visual_effect:structuré",
+        "atmosphere_effect:intellectuel"
       ],
       "keywords_fr": [
         "moucharabiehs",
@@ -1418,21 +1400,21 @@
       "location": "New York, États-Unis",
       "year": "1959",
       "physical_tags": [
-        "light:zénithale",
-        "spatiality:atrium",
-        "movement_path:progressif",
-        "movement_path:fluide",
-        "material_texture:béton",
-        "framing:oculus",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:public"
+        "light_aspect:zénithale",
+        "spatial_device:atrium",
+        "path_aspect:progressif",
+        "path_aspect:fluide",
+        "material_aspect:béton",
+        "light_device:oculus",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "mystery_exploration:initiatique",
-        "joy_social_intensity:animé",
-        "monumental_sublime:impressionnant",
-        "legibility_orientation:guidant"
+        "symbolic_effect:initiatique",
+        "atmosphere_effect:animé",
+        "symbolic_effect:impressionnant",
+        "visual_effect:guidant",
+        "sound_effect:ample",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "spirale",
@@ -1454,12 +1436,11 @@
         "site_intention:ouvrir sur la ville",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
-        "social_intention:rassembler",
         "perceptual_intention:ralentir",
         "perceptual_intention:surprendre",
         "site_intention:créer un repère",
-        "spatial_intention:rampe continue"
+        "spatial_intention:rampe continue",
+        "social_intention:exposer"
       ]
     },
     {
@@ -1469,22 +1450,22 @@
       "location": "Brasília, Brésil",
       "year": "1958-1970",
       "physical_tags": [
-        "light:colorée",
-        "light:intense",
-        "filtering:vitrail",
-        "material_texture:béton",
-        "spatiality:haut",
-        "spatiality:monumental",
-        "sound:réverbérant",
-        "sound:cérémoniel",
-        "sound:ample",
-        "immersion:son"
+        "light_aspect:colorée",
+        "light_aspect:intense",
+        "light_device:vitrail",
+        "material_aspect:béton"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "monumental_sublime:impressionnant",
-        "monumental_sublime:majestueux"
+        "visual_effect:haut",
+        "visual_effect:monumental",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:majestueux",
+        "sound_effect:ample",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "colonnes paraboliques",
@@ -1494,7 +1475,7 @@
         "lumière bleue",
         "élévation",
         "son réverbérant",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son ample",
         "immersion son"
       ],
@@ -1507,7 +1488,6 @@
         "site_intention:créer un repère",
         "spatial_intention:séquence rituelle",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
         "social_intention:célébrer",
         "symbolic_intention:sacraliser",
@@ -1522,19 +1502,18 @@
       "location": "Vicence, Italie",
       "year": "1566-1571",
       "physical_tags": [
-        "light:naturelle",
-        "light:variable",
-        "spatiality:symétrique",
-        "spatiality:axial",
-        "framing:panorama",
-        "opening_landscape:panoramique",
-        "material_texture:pierre"
+        "light_aspect:naturelle",
+        "light_aspect:variable",
+        "path_aspect:axial",
+        "material_aspect:pierre",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "legibility_orientation:ordonné",
-        "legibility_orientation:clair",
-        "monumental_sublime:majestueux",
-        "calm_contemplation:contemplatif"
+        "visual_effect:symétrique",
+        "visual_effect:clair",
+        "symbolic_effect:majestueux",
+        "affective_effect:contemplatif",
+        "visual_effect:panoramique"
       ],
       "keywords_fr": [
         "plan central",
@@ -1574,23 +1553,23 @@
       "location": "Kyoto, Japon",
       "year": "17e siècle",
       "physical_tags": [
-        "material_texture:bois",
-        "water:bassin",
-        "nature_living:végétal",
-        "nature_living:saisonnier",
-        "movement_path:sinueux",
-        "opening_landscape:cadré",
-        "light:tamisée",
-        "sound:feutré",
-        "sound:naturel",
-        "smell:boisé",
-        "smell:végétal"
+        "material_aspect:bois",
+        "water_aspect:bassin",
+        "vegetal_aspect:végétal",
+        "vegetal_aspect:saisonnier",
+        "path_aspect:sinueux",
+        "light_aspect:tamisée",
+        "sound_aspect:naturel"
       ],
       "subjective_tags": [
-        "calm_contemplation:serein",
-        "calm_contemplation:contemplatif",
-        "intimacy_refuge:intime",
-        "wellbeing_restoration:ressourçant"
+        "affective_effect:serein",
+        "affective_effect:contemplatif",
+        "affective_effect:intime",
+        "body_effect:ressourçant",
+        "visual_effect:cadré",
+        "olfactory_effect:boisé",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "jardin de promenade",
@@ -1634,19 +1613,19 @@
       "location": "Poissy, France",
       "year": "1928-1931",
       "physical_tags": [
-        "light:naturelle",
-        "material_texture:béton",
-        "color:blanc",
-        "movement_path:progressif",
-        "movement_path:fluide",
-        "opening_landscape:cadré",
-        "spatiality:ouvert"
+        "light_aspect:naturelle",
+        "material_aspect:béton",
+        "color_aspect:blanc",
+        "path_aspect:progressif",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "legibility_orientation:clair",
-        "legibility_orientation:rationnel",
-        "strangeness_displacement:abstrait",
-        "inspiration_concentration:stimulant"
+        "visual_effect:ouvert",
+        "visual_effect:clair",
+        "symbolic_effect:rationnel",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:stimulant",
+        "visual_effect:cadré"
       ],
       "keywords_fr": [
         "pilotis",
@@ -1671,7 +1650,6 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:suspendre",
         "social_intention:habiter",
         "perceptual_intention:ralentir",
@@ -1686,19 +1664,19 @@
       "location": "Marseille, France",
       "year": "1947-1952",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:brut",
-        "light:naturelle",
-        "spatiality:haut",
-        "spatiality:monumental",
-        "opening_landscape:panoramique",
-        "movement_path:traversant"
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "light_aspect:naturelle",
+        "path_aspect:traversant"
       ],
       "subjective_tags": [
-        "joy_social_intensity:convivial",
-        "intimacy_refuge:domestique",
-        "legibility_orientation:rationnel",
-        "monumental_sublime:impressionnant"
+        "visual_effect:haut",
+        "visual_effect:monumental",
+        "affective_effect:convivial",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:rationnel",
+        "symbolic_effect:impressionnant",
+        "visual_effect:panoramique"
       ],
       "keywords_fr": [
         "barre sur pilotis",
@@ -1738,18 +1716,18 @@
       "location": "La Plata, Argentine",
       "year": "1949-1953",
       "physical_tags": [
-        "light:naturelle",
-        "material_texture:béton",
-        "movement_path:progressif",
-        "threshold:filtre",
-        "opening_landscape:cadré",
-        "spatiality:étroit"
+        "light_aspect:naturelle",
+        "material_aspect:béton",
+        "path_aspect:progressif",
+        "threshold:filtre"
       ],
       "subjective_tags": [
-        "legibility_orientation:clair",
-        "intimacy_refuge:domestique",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:rationnel"
+        "visual_effect:étroit",
+        "visual_effect:clair",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:rationnel",
+        "visual_effect:cadré"
       ],
       "keywords_fr": [
         "parcelle étroite",
@@ -1774,7 +1752,6 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "social_intention:habiter",
         "perceptual_intention:ralentir",
         "perceptual_intention:orienter",
@@ -1789,20 +1766,20 @@
       "location": "Barcelone, Espagne",
       "year": "1929",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:travertin",
-        "material_texture:pierre",
-        "water:miroir",
-        "light:réfléchie",
-        "movement_path:fluide",
-        "opening_landscape:transparent"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:travertin",
+        "material_aspect:pierre",
+        "water_aspect:miroir",
+        "light_aspect:réfléchie",
+        "path_aspect:fluide",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "legibility_orientation:clair",
-        "legibility_orientation:ordonné",
-        "strangeness_displacement:abstrait"
+        "affective_effect:contemplatif",
+        "visual_effect:clair",
+        "symbolic_effect:abstrait",
+        "visual_effect:transparent"
       ],
       "keywords_fr": [
         "verre",
@@ -1829,10 +1806,10 @@
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
         "structure_intention:libérer le plan",
-        "social_intention:habiter",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
-        "spatial_intention:parcours fluide"
+        "spatial_intention:parcours fluide",
+        "social_intention:exposer"
       ]
     },
     {
@@ -1842,21 +1819,21 @@
       "location": "Plano, Illinois, États-Unis",
       "year": "1945-1951",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:travertin",
-        "opening_landscape:transparent",
-        "opening_landscape:paysage",
-        "light:naturelle",
-        "spatiality:ouvert",
-        "sound:naturel",
-        "sound:extérieur"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:travertin",
+        "light_aspect:naturelle",
+        "sound_aspect:naturel",
+        "sound_aspect:extérieur"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "wellbeing_restoration:ressourçant",
-        "strangeness_displacement:abstrait",
-        "memory_absence:fragile"
+        "visual_effect:ouvert",
+        "affective_effect:contemplatif",
+        "body_effect:ressourçant",
+        "symbolic_effect:abstrait",
+        "memory_effect:fragile",
+        "visual_effect:transparent",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "acier blanc",
@@ -1886,7 +1863,6 @@
         "material_intention:rendre tactile",
         "structure_intention:suspendre",
         "social_intention:habiter",
-        "symbolic_intention:commémorer",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir"
       ]
@@ -1898,20 +1874,20 @@
       "location": "Brno, Tchéquie",
       "year": "1928-1930",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:pierre",
-        "opening_landscape:transparent",
-        "opening_landscape:paysage",
-        "spatiality:ouvert",
-        "light:naturelle",
-        "movement_path:fluide"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:pierre",
+        "light_aspect:naturelle",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "legibility_orientation:clair",
-        "intimacy_refuge:domestique",
-        "inspiration_concentration:stimulant",
-        "calm_contemplation:calme"
+        "visual_effect:ouvert",
+        "visual_effect:clair",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:stimulant",
+        "affective_effect:calme",
+        "visual_effect:transparent",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "pureté formelle",
@@ -1951,19 +1927,19 @@
       "location": "New York, États-Unis",
       "year": "1958",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "color:doré",
-        "spatiality:haut",
-        "spatiality:monumental",
-        "opening_landscape:transparent",
-        "light:réfléchie"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "color_aspect:doré",
+        "light_aspect:réfléchie",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "legibility_orientation:ordonné",
-        "legibility_orientation:structuré",
-        "monumental_sublime:impressionnant",
-        "unease_oppression:austère"
+        "visual_effect:haut",
+        "visual_effect:monumental",
+        "visual_effect:structuré",
+        "symbolic_effect:impressionnant",
+        "affective_effect:austère",
+        "visual_effect:transparent"
       ],
       "keywords_fr": [
         "tour de verre et bronze",
@@ -1985,7 +1961,6 @@
         "https://en.wikipedia.org/wiki/Seagram_Building"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
@@ -2003,18 +1978,18 @@
       "location": "Chicago, États-Unis",
       "year": "1956",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "spatiality:vaste",
-        "spatiality:ouvert",
-        "light:naturelle",
-        "movement_path:fluide"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "light_aspect:naturelle",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "inspiration_concentration:studieux",
-        "inspiration_concentration:concentré",
-        "legibility_orientation:clair",
-        "monumental_sublime:impressionnant"
+        "visual_effect:vaste",
+        "visual_effect:ouvert",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:concentré",
+        "visual_effect:clair",
+        "symbolic_effect:impressionnant"
       ],
       "keywords_fr": [
         "halle ouverte",
@@ -2041,10 +2016,10 @@
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
-        "social_intention:rassembler",
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter",
-        "spatial_intention:parcours fluide"
+        "spatial_intention:parcours fluide",
+        "social_intention:étudier"
       ]
     },
     {
@@ -2054,19 +2029,19 @@
       "location": "Chicago, États-Unis",
       "year": "1909-1910",
       "physical_tags": [
-        "material_texture:brique",
-        "material_texture:bois",
-        "light:filtrée",
-        "light:naturelle",
-        "spatiality:ouvert",
-        "opening_landscape:poreux",
-        "framing:fenêtre"
+        "material_aspect:brique",
+        "material_aspect:bois",
+        "light_aspect:filtrée",
+        "light_aspect:naturelle",
+        "light_device:fenêtre"
       ],
       "subjective_tags": [
-        "intimacy_refuge:domestique",
-        "intimacy_refuge:chaleureux",
-        "intimacy_refuge:protecteur",
-        "calm_contemplation:serein"
+        "visual_effect:ouvert",
+        "atmosphere_effect:domestique",
+        "affective_effect:chaleureux",
+        "affective_effect:protecteur",
+        "affective_effect:serein",
+        "visual_effect:poreux"
       ],
       "keywords_fr": [
         "horizontalité",
@@ -2106,23 +2081,22 @@
       "location": "Oak Park, Illinois, États-Unis",
       "year": "1905-1908",
       "physical_tags": [
-        "material_texture:béton",
-        "light:zénithale",
-        "light:filtrée",
-        "light:colorée",
-        "shadow_contrast:pénombre",
-        "spatiality:haut",
-        "movement_path:progressif",
-        "sound:réverbérant",
-        "sound:cérémoniel",
-        "sound:enveloppant",
-        "immersion:son"
+        "material_aspect:béton",
+        "light_aspect:zénithale",
+        "light_aspect:filtrée",
+        "light_aspect:colorée",
+        "shadow_aspect:pénombre",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "intimacy_refuge:intime",
-        "calm_contemplation:contemplatif"
+        "visual_effect:haut",
+        "sound_effect:enveloppant",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "affective_effect:intime",
+        "affective_effect:contemplatif",
+        "sound_effect:réverbérant",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "béton",
@@ -2138,7 +2112,7 @@
         "grand mais contenu",
         "contemplation",
         "son réverbérant",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son enveloppant",
         "immersion son"
       ],
@@ -2152,7 +2126,7 @@
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
         "material_intention:exprimer le brut",
-        "social_intention:se retirer",
+        "social_intention:célébrer",
         "symbolic_intention:sacraliser",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
@@ -2166,24 +2140,23 @@
       "location": "Scottsdale, Arizona, États-Unis",
       "year": "1937-",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:béton",
-        "material_texture:toit léger",
-        "light:diffuse",
-        "thermal_air:sec",
-        "opening_landscape:paysage",
-        "nature_living:sauvage",
-        "sound:naturel",
-        "sound:vent",
-        "smell:minéral",
-        "smell:terreux",
-        "thermal_air:exposé"
+        "material_aspect:pierre",
+        "material_aspect:béton",
+        "spatial_device:toiture",
+        "light_aspect:diffuse",
+        "sound_aspect:naturel",
+        "sound_aspect:vent",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "inspiration_concentration:stimulant",
-        "intimacy_refuge:abrité",
-        "joy_social_intensity:vivant",
-        "wellbeing_restoration:ressourçant"
+        "symbolic_effect:stimulant",
+        "affective_effect:abrité",
+        "atmosphere_effect:vivant",
+        "body_effect:ressourçant",
+        "visual_effect:paysage",
+        "symbolic_atmosphere:sauvage",
+        "olfactory_effect:terreux",
+        "thermal_effect:sec"
       ],
       "keywords_fr": [
         "désert",
@@ -2200,7 +2173,6 @@
         "vie collective",
         "son naturel",
         "son vent",
-        "odeur minéral",
         "odeur terreux",
         "air exposé"
       ],
@@ -2228,18 +2200,18 @@
       "location": "Dessau, Allemagne",
       "year": "1925-1926",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:béton",
-        "material_texture:métal",
-        "opening_landscape:transparent",
-        "light:naturelle",
-        "spatiality:ouvert"
+        "material_aspect:verre",
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "light_aspect:naturelle"
       ],
       "subjective_tags": [
-        "legibility_orientation:rationnel",
-        "legibility_orientation:structuré",
-        "inspiration_concentration:studieux",
-        "inspiration_concentration:intellectuel"
+        "visual_effect:ouvert",
+        "symbolic_effect:rationnel",
+        "visual_effect:structuré",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:intellectuel",
+        "visual_effect:transparent"
       ],
       "keywords_fr": [
         "verre",
@@ -2261,15 +2233,14 @@
         "https://www.visitdessau.com/en/world-heritage/bauhaus/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ouvrir sur la ville",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:exprimer la grille",
         "social_intention:étudier",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:orienter",
-        "climate_intention:exploiter l'inertie"
+        "material_intention:chercher la transparence"
       ]
     },
     {
@@ -2279,23 +2250,24 @@
       "location": "Noormarkku, Finlande",
       "year": "1938-1939",
       "physical_tags": [
-        "material_texture:bois",
-        "material_texture:pierre",
-        "nature_living:végétal",
-        "light:naturelle",
-        "light:tamisée",
-        "opening_landscape:ouvert",
-        "movement_path:fluide",
-        "sound:feutré",
-        "sound:naturel",
-        "smell:boisé",
-        "smell:végétal"
+        "material_aspect:bois",
+        "material_aspect:pierre",
+        "vegetal_aspect:végétal",
+        "light_aspect:naturelle",
+        "light_aspect:tamisée",
+        "path_aspect:fluide",
+        "sound_aspect:naturel"
       ],
       "subjective_tags": [
-        "intimacy_refuge:intime",
-        "intimacy_refuge:chaleureux",
-        "calm_contemplation:serein",
-        "wellbeing_restoration:ressourçant"
+        "affective_effect:intime",
+        "affective_effect:chaleureux",
+        "affective_effect:serein",
+        "body_effect:ressourçant",
+        "visual_effect:ouvert",
+        "olfactory_effect:boisé",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "bois",
@@ -2313,7 +2285,8 @@
         "son feutré",
         "son naturel",
         "odeur boisé",
-        "odeur végétal"
+        "odeur végétal",
+        "organique"
       ],
       "sources": [
         "https://www.alvaraalto.fi/en/architecture/villa-mairea/",
@@ -2339,22 +2312,22 @@
       "location": "Paimio, Finlande",
       "year": "1929-1933",
       "physical_tags": [
-        "material_texture:béton",
-        "light:naturelle",
-        "color:chaud",
-        "thermal_air:ventilé",
-        "nature_living:naturel",
-        "opening_landscape:paysage",
-        "spatiality:ouvert",
-        "sound:silencieux",
-        "sound:feutré",
-        "thermal_air:frais"
+        "material_aspect:béton",
+        "light_aspect:naturelle",
+        "vegetal_aspect:naturel",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "wellbeing_restoration:réparateur",
-        "wellbeing_restoration:sain",
-        "calm_contemplation:calme",
-        "intimacy_refuge:protecteur"
+        "visual_effect:chaud",
+        "visual_effect:ouvert",
+        "thermal_effect:frais",
+        "body_effect:réparateur",
+        "body_effect:sain",
+        "affective_effect:calme",
+        "affective_effect:protecteur",
+        "visual_effect:paysage",
+        "sound_effect:silencieux",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "béton",
@@ -2382,12 +2355,12 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
-        "social_intention:étudier",
+        "social_intention:soigner",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
-        "site_intention:fusionner avec la nature"
+        "site_intention:fusionner avec la nature",
+        "climate_intention:ventiler naturellement"
       ]
     },
     {
@@ -2397,21 +2370,21 @@
       "location": "Säynätsalo, Finlande",
       "year": "1949-1952",
       "physical_tags": [
-        "material_texture:brique",
-        "material_texture:bois",
-        "nature_living:végétal",
-        "movement_path:progressif",
+        "material_aspect:brique",
+        "material_aspect:bois",
+        "vegetal_aspect:végétal",
+        "path_aspect:progressif",
         "threshold:entrée",
-        "spatiality:haut",
-        "light:naturelle",
-        "sound:feutré",
-        "sound:public"
+        "light_aspect:naturelle",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "intimacy_refuge:chaleureux",
-        "joy_social_intensity:convivial",
-        "monumental_sublime:solennel",
-        "legibility_orientation:structuré"
+        "visual_effect:haut",
+        "affective_effect:chaleureux",
+        "affective_effect:convivial",
+        "symbolic_atmosphere:solennel",
+        "visual_effect:structuré",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "brique rouge",
@@ -2453,19 +2426,19 @@
       "location": "Pacific Palisades, Californie, États-Unis",
       "year": "1949",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "color:polychrome",
-        "nature_living:végétal",
-        "opening_landscape:transparent",
-        "light:naturelle",
-        "spatiality:ouvert"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "color_aspect:polychrome",
+        "vegetal_aspect:végétal",
+        "light_aspect:naturelle"
       ],
       "subjective_tags": [
-        "joy_social_intensity:ludique",
-        "joy_social_intensity:vivant",
-        "intimacy_refuge:domestique",
-        "inspiration_concentration:stimulant"
+        "visual_effect:ouvert",
+        "atmosphere_effect:ludique",
+        "atmosphere_effect:vivant",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:stimulant",
+        "visual_effect:transparent"
       ],
       "keywords_fr": [
         "structure acier",
@@ -2505,20 +2478,20 @@
       "location": "New Canaan, Connecticut, États-Unis",
       "year": "1949",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:brique",
-        "opening_landscape:transparent",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "light:naturelle",
-        "spatiality:ouvert"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:brique",
+        "light_aspect:naturelle"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "strangeness_displacement:abstrait",
-        "strangeness_displacement:irréel",
-        "inspiration_concentration:stimulant"
+        "visual_effect:ouvert",
+        "affective_effect:contemplatif",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:irréel",
+        "symbolic_effect:stimulant",
+        "visual_effect:transparent",
+        "visual_effect:panoramique",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "verre",
@@ -2543,7 +2516,7 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:rendre tactile",
+        "material_intention:chercher la transparence",
         "social_intention:habiter",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
@@ -2558,21 +2531,21 @@
       "location": "Paris, France",
       "year": "1928-1932",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "light:diffuse",
-        "light:filtrée",
-        "filtering:grille",
-        "filtering:perforation",
-        "opening_landscape:opaque",
-        "spatiality:ouvert"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "light_aspect:diffuse",
+        "light_aspect:filtrée",
+        "light_device:grille",
+        "light_device:perforation"
       ],
       "subjective_tags": [
-        "mystery_exploration:suggestif",
-        "mystery_exploration:caché",
-        "strangeness_displacement:étrange",
-        "intimacy_refuge:domestique",
-        "inspiration_concentration:stimulant"
+        "visual_effect:ouvert",
+        "symbolic_effect:suggestif",
+        "visual_effect:caché",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:stimulant",
+        "visual_effect:opaque"
       ],
       "keywords_fr": [
         "briques de verre",
@@ -2594,15 +2567,14 @@
         "https://dome.mit.edu/handle/1721.3/119743"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:s'isoler du contexte",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "social_intention:habiter",
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire",
-        "climate_intention:filtrer la lumière",
-        "social_intention:se retirer"
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -2612,29 +2584,25 @@
       "location": "San Vito d'Altivole, Italie",
       "year": "1968-1978",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:brut",
-        "water:bassin",
-        "water:miroir",
-        "movement_path:ritualisé",
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "water_aspect:bassin",
+        "water_aspect:miroir",
         "threshold:transition",
-        "palimpsest:mémoire",
-        "spatiality:fermé",
-        "sound:aquatique",
-        "sound:silencieux",
-        "sound:cérémoniel",
-        "smell:humide",
-        "smell:minéral",
-        "immersion:son",
-        "thermal_air:frais",
-        "thermal_air:humide"
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "memory_absence:mémoriel",
-        "memory_absence:mélancolique",
-        "sacred_ritual:rituel",
-        "calm_contemplation:méditatif",
-        "mystery_exploration:suggestif"
+        "memory_effect:mémoriel",
+        "visual_effect:fermé",
+        "sound_effect:enveloppant",
+        "thermal_effect:frais",
+        "affective_effect:mélancolique",
+        "symbolic_atmosphere:rituel",
+        "affective_effect:méditatif",
+        "symbolic_effect:suggestif",
+        "olfactory_effect:humide",
+        "sound_effect:silencieux",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "béton brut",
@@ -2651,9 +2619,8 @@
         "deuil",
         "son aquatique",
         "son silencieux",
-        "son cérémoniel",
+        "ambiance rituelle",
         "odeur humide",
-        "odeur minéral",
         "immersion son",
         "air frais",
         "air humide"
@@ -2672,7 +2639,7 @@
         "symbolic_intention:sacraliser",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
-        "site_intention:reconvertir l'existant"
+        "site_intention:composer avec l'existant"
       ]
     },
     {
@@ -2682,24 +2649,23 @@
       "location": "Vérone, Italie",
       "year": "1956-1973",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:béton",
-        "material_texture:bois",
-        "material_texture:métal",
-        "palimpsest:réparation",
-        "palimpsest:strate",
-        "movement_path:progressif",
-        "light:naturelle",
-        "sound:feutré",
-        "sound:mat",
-        "smell:ancien"
+        "material_aspect:pierre",
+        "material_aspect:béton",
+        "material_aspect:bois",
+        "material_aspect:métal",
+        "path_aspect:progressif",
+        "light_aspect:naturelle"
       ],
       "subjective_tags": [
-        "memory_absence:historique",
-        "legibility_orientation:guidant",
-        "legibility_orientation:structuré",
-        "mystery_exploration:suggestif",
-        "inspiration_concentration:stimulant"
+        "memory_effect:historique",
+        "visual_effect:guidant",
+        "visual_effect:structuré",
+        "symbolic_effect:suggestif",
+        "symbolic_effect:stimulant",
+        "atmosphere_effect:réparation",
+        "sound_effect:feutré",
+        "sound_effect:mat",
+        "memory_effect:strate"
       ],
       "keywords_fr": [
         "restauration",
@@ -2715,8 +2681,7 @@
         "stratification",
         "mémoire historique",
         "son feutré",
-        "son mat",
-        "odeur ancien"
+        "son mat"
       ],
       "sources": [
         "https://archiviocarloscarpa.it/en/",
@@ -2727,7 +2692,7 @@
         "site_intention:reconvertir l'existant",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
+        "material_intention:rendre tactile",
         "social_intention:exposer",
         "symbolic_intention:commémorer",
         "perceptual_intention:ralentir",
@@ -2742,24 +2707,24 @@
       "location": "Venise, Italie",
       "year": "1957-1958",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:bois",
-        "color:doré",
-        "light:diffuse",
-        "movement_path:fluide",
-        "spatiality:étroit",
-        "sound:feutré",
-        "sound:aquatique",
-        "smell:humide"
+        "material_aspect:pierre",
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:bois",
+        "color_aspect:doré",
+        "light_aspect:diffuse",
+        "path_aspect:fluide",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "intimacy_refuge:intime",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:clair",
-        "strangeness_displacement:étrange",
-        "joy_social_intensity:ludique"
+        "visual_effect:étroit",
+        "affective_effect:intime",
+        "symbolic_effect:stimulant",
+        "visual_effect:clair",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:ludique",
+        "olfactory_effect:humide",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "mosaïque de sol",
@@ -2788,7 +2753,7 @@
         "spatial_intention:parcours fluide",
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
-        "social_intention:rassembler",
+        "social_intention:exposer",
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "climate_intention:exploiter l'inertie",
@@ -2802,25 +2767,23 @@
       "location": "Dacca, Bangladesh",
       "year": "1962-1983",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:pierre",
-        "water:bassin",
-        "light:zénithale",
-        "framing:fente",
-        "spatiality:monumental",
-        "spatiality:voûte",
-        "shadow_contrast:profond",
-        "sound:cérémoniel",
-        "sound:extérieur",
-        "sound:aquatique",
-        "thermal_air:humide"
+        "material_aspect:béton",
+        "material_aspect:pierre",
+        "water_aspect:bassin",
+        "light_aspect:zénithale",
+        "light_device:fente",
+        "spatial_device:voûte",
+        "shadow_aspect:profond",
+        "sound_aspect:extérieur",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "monumental_sublime:monumental",
-        "monumental_sublime:solennel",
-        "monumental_sublime:majestueux",
-        "legibility_orientation:structuré",
-        "sacred_ritual:spirituel"
+        "visual_effect:monumental",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:majestueux",
+        "visual_effect:structuré",
+        "symbolic_atmosphere:spirituel",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "béton coulé",
@@ -2835,7 +2798,7 @@
         "solennité civique",
         "sublime",
         "majesté",
-        "son cérémoniel",
+        "ambiance solennelle",
         "son extérieur",
         "son aquatique",
         "air humide"
@@ -2851,7 +2814,7 @@
         "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
         "social_intention:rassembler",
-        "symbolic_intention:sacraliser",
+        "symbolic_intention:représenter le pouvoir",
         "perceptual_intention:envelopper",
         "perceptual_intention:intensifier",
         "climate_intention:rafraîchir par l'eau"
@@ -2864,28 +2827,27 @@
       "location": "Awaji, Japon",
       "year": "1991",
       "physical_tags": [
-        "material_texture:béton",
-        "water:bassin",
-        "nature_living:végétal",
-        "movement_path:ritualisé",
-        "movement_path:progressif",
-        "light:colorée",
-        "light:filtrée",
-        "shadow_contrast:pénombre",
-        "sound:aquatique",
-        "sound:silencieux",
-        "sound:cérémoniel",
-        "immersion:son",
-        "thermal_air:frais",
-        "thermal_air:humide",
-        "smell:humide"
+        "material_aspect:béton",
+        "water_aspect:bassin",
+        "vegetal_aspect:végétal",
+        "path_aspect:progressif",
+        "light_aspect:colorée",
+        "light_aspect:filtrée",
+        "shadow_aspect:pénombre",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:spirituel",
-        "calm_contemplation:contemplatif",
-        "mystery_exploration:initiatique",
-        "mystery_exploration:mystérieux"
+        "sound_effect:enveloppant",
+        "thermal_effect:frais",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:spirituel",
+        "symbolic_atmosphere:rituel",
+        "affective_effect:contemplatif",
+        "symbolic_effect:initiatique",
+        "symbolic_effect:mystérieux",
+        "olfactory_effect:humide",
+        "sound_effect:silencieux",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "mur courbe en béton",
@@ -2902,7 +2864,7 @@
         "initiation",
         "son aquatique",
         "son silencieux",
-        "son cérémoniel",
+        "ambiance rituelle",
         "immersion son",
         "air frais",
         "air humide",
@@ -2932,23 +2894,23 @@
       "location": "Osaka, Japon",
       "year": "1976",
       "physical_tags": [
-        "material_texture:béton",
-        "spatiality:étroit",
-        "spatiality:fermé",
-        "light:zénithale",
-        "light:naturelle",
-        "thermal_air:exposé",
-        "movement_path:contraint",
-        "opening_landscape:introverti",
-        "sound:extérieur",
-        "sound:mat"
+        "material_aspect:béton",
+        "light_aspect:zénithale",
+        "light_aspect:naturelle",
+        "path_aspect:contraint",
+        "sound_aspect:extérieur",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "intimacy_refuge:intime",
-        "intimacy_refuge:domestique",
-        "unease_oppression:austère",
-        "strangeness_displacement:abstrait",
-        "legibility_orientation:rationnel"
+        "visual_effect:introverti",
+        "visual_effect:étroit",
+        "visual_effect:fermé",
+        "affective_effect:intime",
+        "atmosphere_effect:domestique",
+        "affective_effect:austère",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:rationnel",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "béton apparent",
@@ -2972,7 +2934,7 @@
         "https://en.wikiarquitectura.com/building/azuma-house/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:s'isoler du contexte",
         "spatial_intention:fragmentation",
         "climate_intention:contrôler l'éclairage",
         "material_intention:exprimer le brut",
@@ -2990,25 +2952,25 @@
       "location": "Sumvitg, Suisse",
       "year": "1988",
       "physical_tags": [
-        "material_texture:bois",
-        "material_texture:toit léger",
-        "light:naturelle",
-        "light:diffuse",
-        "framing:lanterne",
-        "opening_landscape:paysage",
-        "nature_living:naturel",
-        "spatiality:bas",
-        "sound:silencieux",
-        "sound:feutré",
-        "sound:cérémoniel",
-        "smell:boisé"
+        "material_aspect:bois",
+        "spatial_device:toiture",
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "light_device:lanterne",
+        "vegetal_aspect:naturel"
       ],
       "subjective_tags": [
-        "calm_contemplation:serein",
-        "sacred_ritual:spirituel",
-        "intimacy_refuge:protecteur",
-        "intimacy_refuge:chaleureux",
-        "wellbeing_restoration:ressourçant"
+        "visual_effect:bas",
+        "affective_effect:serein",
+        "symbolic_atmosphere:spirituel",
+        "affective_effect:protecteur",
+        "affective_effect:chaleureux",
+        "body_effect:ressourçant",
+        "visual_effect:paysage",
+        "olfactory_effect:boisé",
+        "sound_effect:silencieux",
+        "sound_effect:feutré",
+        "symbolic_atmosphere:rituel"
       ],
       "keywords_fr": [
         "bardeaux de bois",
@@ -3025,7 +2987,7 @@
         "chaleur du bois",
         "son silencieux",
         "son feutré",
-        "son cérémoniel",
+        "ambiance rituelle",
         "odeur boisé"
       ],
       "sources": [
@@ -3052,20 +3014,19 @@
       "location": "Berlin, Allemagne",
       "year": "2005",
       "physical_tags": [
-        "material_texture:béton",
-        "spatiality:labyrinthique",
-        "spatiality:étroit",
-        "movement_path:contraint",
-        "shadow_contrast:profond",
-        "palimpsest:mémoire",
-        "compression_expansion:resserrement"
+        "material_aspect:béton",
+        "path_aspect:contraint",
+        "shadow_aspect:profond"
       ],
       "subjective_tags": [
-        "memory_absence:mémoriel",
-        "memory_absence:douloureux",
-        "memory_absence:absent",
-        "unease_oppression:oppressant",
-        "unease_oppression:instable"
+        "memory_effect:mémoriel",
+        "visual_effect:resserrement",
+        "symbolic_effect:labyrinthique",
+        "visual_effect:étroit",
+        "affective_effect:douloureux",
+        "memory_effect:absent",
+        "body_effect:oppressant",
+        "body_effect:instable"
       ],
       "keywords_fr": [
         "2710 stèles de béton",
@@ -3087,12 +3048,10 @@
         "https://www.cipdh.gob.ar/memorias-situadas/en/lugar-de-memoria/monumento-a-los-judios-asesinados-en-europa/"
       ],
       "intention_tags": [
-        "site_intention:reconvertir l'existant",
         "spatial_intention:labyrinthe",
         "climate_intention:exploiter l'inertie",
         "material_intention:exprimer le brut",
         "structure_intention:exprimer la grille",
-        "social_intention:se retirer",
         "symbolic_intention:commémorer",
         "perceptual_intention:désorienter",
         "site_intention:composer avec l'existant"
@@ -3105,25 +3064,25 @@
       "location": "Paris, France",
       "year": "1977",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:béton",
-        "color:polychrome",
-        "light:naturelle",
-        "spatiality:vaste",
-        "spatiality:ouvert",
-        "movement_path:traversant",
-        "sound:urbain",
-        "sound:public",
-        "sound:mécanique",
-        "sound:amplifié"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:béton",
+        "color_aspect:polychrome",
+        "light_aspect:naturelle",
+        "path_aspect:traversant",
+        "sound_aspect:urbain",
+        "sound_aspect:public",
+        "sound_aspect:bruit mécanique"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "joy_social_intensity:ludique",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant",
-        "strangeness_displacement:étrange"
+        "visual_effect:vaste",
+        "visual_effect:ouvert",
+        "atmosphere_effect:vivant",
+        "atmosphere_effect:ludique",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:étrange",
+        "sound_effect:amplifié"
       ],
       "keywords_fr": [
         "structure de verre et métal",
@@ -3140,7 +3099,7 @@
         "populaire",
         "son urbain",
         "son public",
-        "son mécanique",
+        "bruit mécanique",
         "son amplifié"
       ],
       "sources": [
@@ -3152,12 +3111,12 @@
         "site_intention:ouvrir sur la ville",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
         "social_intention:exposer",
-        "symbolic_intention:représenter le pouvoir",
+        "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
-        "perceptual_intention:intensifier"
+        "perceptual_intention:intensifier",
+        "social_intention:démocratiser la culture"
       ]
     },
     {
@@ -3167,23 +3126,23 @@
       "location": "Londres, Royaume-Uni",
       "year": "1986",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:verre",
-        "spatiality:atrium",
-        "spatiality:haut",
-        "opening_landscape:transparent",
-        "light:naturelle",
-        "movement_path:traversant",
-        "sound:mécanique",
-        "sound:urbain",
-        "sound:amplifié"
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "spatial_device:atrium",
+        "light_aspect:naturelle",
+        "path_aspect:traversant",
+        "sound_aspect:bruit mécanique",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "inspiration_concentration:stimulant",
-        "monumental_sublime:impressionnant",
-        "strangeness_displacement:étrange",
-        "legibility_orientation:structuré",
-        "legibility_orientation:rationnel"
+        "visual_effect:haut",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:étrange",
+        "visual_effect:structuré",
+        "symbolic_effect:rationnel",
+        "visual_effect:transparent",
+        "sound_effect:amplifié"
       ],
       "keywords_fr": [
         "services extérieurs",
@@ -3198,7 +3157,7 @@
         "futuriste",
         "radical",
         "impressionnant",
-        "son mécanique",
+        "bruit mécanique",
         "son urbain",
         "son amplifié"
       ],
@@ -3208,12 +3167,12 @@
         "https://www.archweb.com/en/architettures/lloyd-s-building/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ouvrir sur la ville",
         "spatial_intention:centralité",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
-        "social_intention:démocratiser la culture",
+        "social_intention:travailler",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier"
@@ -3226,27 +3185,28 @@
       "location": "Nouméa, Nouvelle-Calédonie",
       "year": "1998",
       "physical_tags": [
-        "material_texture:bois",
-        "material_texture:métal",
-        "material_texture:verre",
-        "thermal_air:ventilé",
-        "opening_landscape:paysage",
-        "nature_living:végétal",
-        "sound:vibrant",
-        "movement_path:progressif",
-        "sound:vent",
-        "sound:naturel",
-        "sound:extérieur",
-        "smell:boisé",
-        "smell:végétal",
-        "thermal_air:humide"
+        "material_aspect:bois",
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "vegetal_aspect:végétal",
+        "path_aspect:progressif",
+        "sound_aspect:vent",
+        "sound_aspect:naturel",
+        "sound_aspect:extérieur",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "memory_absence:mémoriel",
-        "joy_social_intensity:vivant",
-        "wellbeing_restoration:ressourçant",
-        "legibility_orientation:structuré",
-        "inspiration_concentration:stimulant"
+        "memory_effect:mémoriel",
+        "atmosphere_effect:vivant",
+        "body_effect:ressourçant",
+        "visual_effect:structuré",
+        "symbolic_effect:stimulant",
+        "visual_effect:paysage",
+        "olfactory_effect:boisé",
+        "olfactory_effect:végétal",
+        "sound_effect:vibrant",
+        "thermal_effect:humide",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "coques de bois",
@@ -3266,7 +3226,8 @@
         "son extérieur",
         "odeur boisé",
         "odeur végétal",
-        "air humide"
+        "air humide",
+        "organique"
       ],
       "sources": [
         "https://www.architecturelab.net/centre-culturel-jean-marie-tjibaou-renzo-piano/",
@@ -3282,7 +3243,8 @@
         "social_intention:rassembler",
         "symbolic_intention:commémorer",
         "perceptual_intention:apaiser",
-        "perceptual_intention:ralentir"
+        "perceptual_intention:ralentir",
+        "climate_intention:ventiler naturellement"
       ]
     },
     {
@@ -3292,25 +3254,25 @@
       "location": "Osaka, Japon",
       "year": "1994",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:verre",
-        "material_texture:toit léger",
-        "thermal_air:ventilé",
-        "light:naturelle",
-        "light:diffuse",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "sound:public",
-        "sound:mécanique",
-        "sound:amplifié",
-        "sound:continu"
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "spatial_device:toiture",
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "path_aspect:fluide",
+        "sound_aspect:public",
+        "sound_aspect:bruit mécanique",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "legibility_orientation:guidant",
-        "legibility_orientation:clair",
-        "inspiration_concentration:stimulant",
-        "monumental_sublime:impressionnant",
-        "wellbeing_restoration:équilibré"
+        "visual_effect:vaste",
+        "visual_effect:guidant",
+        "visual_effect:clair",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:impressionnant",
+        "affective_effect:équilibré",
+        "sound_effect:amplifié",
+        "sound_effect:continu"
       ],
       "keywords_fr": [
         "toit ondulant",
@@ -3326,7 +3288,7 @@
         "orientation",
         "clarté",
         "son public",
-        "son mécanique",
+        "bruit mécanique",
         "son amplifié",
         "son continu"
       ],
@@ -3341,10 +3303,11 @@
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
-        "social_intention:travailler",
+        "social_intention:rassembler",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
-        "perceptual_intention:intensifier"
+        "perceptual_intention:intensifier",
+        "climate_intention:ventiler naturellement"
       ]
     },
     {
@@ -3354,27 +3317,28 @@
       "location": "Bilbao, Espagne",
       "year": "1997",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:verre",
-        "material_texture:pierre",
-        "light:réfléchie",
-        "light:variable",
-        "opening_landscape:paysage",
-        "spatiality:monumental",
-        "movement_path:exploratoire"
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "material_aspect:pierre",
+        "light_aspect:réfléchie",
+        "light_aspect:variable",
+        "path_aspect:exploratoire"
       ],
       "subjective_tags": [
-        "monumental_sublime:sublime",
-        "monumental_sublime:impressionnant",
-        "strangeness_displacement:étrange",
-        "inspiration_concentration:stimulant",
-        "joy_social_intensity:animé"
+        "visual_effect:monumental",
+        "symbolic_effect:sublime",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:étrange",
+        "symbolic_effect:stimulant",
+        "atmosphere_effect:animé",
+        "visual_effect:paysage",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "titane",
         "verre",
         "calcaire",
-        "peau organique",
+        "peau courbe",
         "reflets",
         "courbes",
         "Nervión",
@@ -3382,7 +3346,8 @@
         "logiciel CATIA",
         "variation lumineuse",
         "icône",
-        "sublime"
+        "sublime",
+        "organique"
       ],
       "sources": [
         "https://www.guggenheim-bilbao.eus/en/the-building/the-construction/",
@@ -3390,7 +3355,7 @@
         "https://www.britannica.com/topic/Guggenheim-Museum-Bilbao"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ouvrir sur la ville",
         "spatial_intention:labyrinthe",
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
@@ -3398,7 +3363,8 @@
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
-        "perceptual_intention:intensifier"
+        "perceptual_intention:intensifier",
+        "symbolic_intention:faire icône"
       ]
     },
     {
@@ -3408,24 +3374,23 @@
       "location": "Los Angeles, États-Unis",
       "year": "2003",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:bois",
-        "light:réfléchie",
-        "spatiality:monumental",
-        "movement_path:fluide",
-        "sound:enveloppant",
-        "sound:réverbérant",
-        "sound:musical",
-        "sound:intime",
-        "sound:clair",
-        "immersion:son"
+        "material_aspect:métal",
+        "material_aspect:bois",
+        "light_aspect:réfléchie",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "joy_social_intensity:festif",
-        "monumental_sublime:impressionnant",
-        "inspiration_concentration:inspirant",
-        "calm_contemplation:contemplatif"
+        "visual_effect:monumental",
+        "sound_effect:enveloppant",
+        "sound_effect:musical",
+        "sound_effect:intime",
+        "atmosphere_effect:vivant",
+        "atmosphere_effect:festif",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:inspirant",
+        "affective_effect:contemplatif",
+        "sound_effect:clair",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "peau en acier inoxydable",
@@ -3469,20 +3434,20 @@
       "location": "Weil am Rhein, Allemagne",
       "year": "1989",
       "physical_tags": [
-        "material_texture:plâtre",
-        "color:blanc",
-        "light:naturelle",
-        "framing:fenêtre",
-        "movement_path:exploratoire",
-        "spatiality:haut",
-        "spatiality:ouvert"
+        "material_aspect:plâtre",
+        "color_aspect:blanc",
+        "light_aspect:naturelle",
+        "light_device:fenêtre",
+        "path_aspect:exploratoire"
       ],
       "subjective_tags": [
-        "joy_social_intensity:ludique",
-        "strangeness_displacement:étrange",
-        "strangeness_displacement:abstrait",
-        "inspiration_concentration:stimulant",
-        "mystery_exploration:suggestif"
+        "visual_effect:haut",
+        "visual_effect:ouvert",
+        "atmosphere_effect:ludique",
+        "symbolic_effect:étrange",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:suggestif"
       ],
       "keywords_fr": [
         "plâtre blanc",
@@ -3505,7 +3470,6 @@
       ],
       "intention_tags": [
         "site_intention:créer un repère",
-        "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
@@ -3522,26 +3486,26 @@
       "location": "Londres, Royaume-Uni",
       "year": "2000",
       "physical_tags": [
-        "material_texture:brique",
-        "material_texture:béton",
-        "material_texture:métal",
-        "spatiality:monumental",
-        "spatiality:vaste",
-        "movement_path:progressif",
-        "palimpsest:réparation",
-        "palimpsest:strate",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:creux",
-        "sound:public",
-        "immersion:son"
+        "material_aspect:brique",
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "path_aspect:progressif",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "memory_absence:historique",
-        "joy_social_intensity:animé",
-        "joy_social_intensity:convivial",
-        "monumental_sublime:impressionnant",
-        "inspiration_concentration:stimulant"
+        "visual_effect:monumental",
+        "visual_effect:vaste",
+        "sound_effect:enveloppant",
+        "memory_effect:historique",
+        "atmosphere_effect:animé",
+        "affective_effect:convivial",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:stimulant",
+        "atmosphere_effect:réparation",
+        "sound_effect:ample",
+        "sound_effect:creux",
+        "sound_effect:réverbérant",
+        "memory_effect:strate"
       ],
       "keywords_fr": [
         "ancienne centrale électrique",
@@ -3573,7 +3537,7 @@
         "climate_intention:exploiter l'inertie",
         "material_intention:exprimer le brut",
         "social_intention:exposer",
-        "symbolic_intention:commémorer",
+        "symbolic_intention:moderniser une institution",
         "perceptual_intention:ralentir",
         "perceptual_intention:envelopper",
         "site_intention:reconvertir l'existant"
@@ -3586,21 +3550,20 @@
       "location": "Yountville, Californie, États-Unis",
       "year": "1997",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:rugueux",
-        "filtering:grille",
-        "light:filtrée",
-        "thermal_air:tempéré",
-        "opening_landscape:paysage",
-        "nature_living:naturel",
-        "spatiality:bas"
+        "material_aspect:pierre",
+        "material_aspect:rugueux",
+        "light_device:grille",
+        "light_aspect:filtrée",
+        "vegetal_aspect:naturel"
       ],
       "subjective_tags": [
-        "mystery_exploration:énigmatique",
-        "calm_contemplation:calme",
-        "wellbeing_restoration:équilibré",
-        "legibility_orientation:structuré",
-        "strangeness_displacement:abstrait"
+        "visual_effect:bas",
+        "symbolic_effect:énigmatique",
+        "affective_effect:calme",
+        "affective_effect:équilibré",
+        "visual_effect:structuré",
+        "symbolic_effect:abstrait",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "gabions",
@@ -3626,11 +3589,12 @@
         "spatial_intention:fragmentation",
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
-        "social_intention:rassembler",
+        "social_intention:travailler",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
-        "climate_intention:filtrer la lumière"
+        "climate_intention:filtrer la lumière",
+        "climate_intention:exploiter l'inertie"
       ]
     },
     {
@@ -3640,25 +3604,25 @@
       "location": "Pékin, Chine",
       "year": "2008",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:béton",
-        "filtering:grille",
-        "color:rouge",
-        "light:naturelle",
-        "spatiality:monumental",
-        "spatiality:ouvert",
-        "movement_path:traversant",
-        "sound:amplifié",
-        "sound:public",
-        "sound:vibrant",
-        "immersion:son"
+        "material_aspect:métal",
+        "material_aspect:béton",
+        "light_device:grille",
+        "color_aspect:rouge",
+        "light_aspect:naturelle",
+        "path_aspect:traversant",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "monumental_sublime:grandiose",
-        "monumental_sublime:impressionnant",
-        "joy_social_intensity:festif",
-        "joy_social_intensity:animé",
-        "strangeness_displacement:étrange"
+        "visual_effect:monumental",
+        "visual_effect:ouvert",
+        "sound_effect:enveloppant",
+        "symbolic_effect:grandiose",
+        "symbolic_effect:impressionnant",
+        "atmosphere_effect:festif",
+        "atmosphere_effect:animé",
+        "symbolic_effect:étrange",
+        "sound_effect:vibrant",
+        "sound_effect:amplifié"
       ],
       "keywords_fr": [
         "nid d’oiseau",
@@ -3687,7 +3651,6 @@
         "site_intention:ouvrir sur la ville",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
         "social_intention:célébrer",
         "symbolic_intention:faire icône",
@@ -3702,24 +3665,24 @@
       "location": "São Paulo, Brésil",
       "year": "1968",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "material_texture:métal",
-        "color:rouge",
-        "spatiality:vide",
-        "spatiality:monumental",
-        "opening_landscape:transparent",
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "color_aspect:rouge",
         "threshold:entrée",
-        "sound:urbain",
-        "sound:public",
-        "sound:amplifié"
+        "sound_aspect:urbain",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:clair",
-        "monumental_sublime:impressionnant"
+        "visual_effect:vide",
+        "visual_effect:monumental",
+        "affective_effect:convivial",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "visual_effect:clair",
+        "symbolic_effect:impressionnant",
+        "visual_effect:transparent",
+        "sound_effect:amplifié"
       ],
       "keywords_fr": [
         "béton",
@@ -3744,12 +3707,11 @@
         "https://masp.com.br/en/sobre-o-masp"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "climate_intention:exploiter l'inertie",
         "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
         "social_intention:démocratiser la culture",
-        "symbolic_intention:représenter le pouvoir",
+        "symbolic_intention:moderniser une institution",
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter",
         "site_intention:ouvrir sur la ville"
@@ -3762,25 +3724,25 @@
       "location": "São Paulo, Brésil",
       "year": "1977-1986",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:brut",
-        "material_texture:brique",
-        "palimpsest:réparation",
-        "palimpsest:strate",
-        "movement_path:traversant",
-        "spatiality:haut",
-        "framing:fente",
-        "sound:public",
-        "sound:vibrant",
-        "sound:urbain",
-        "sound:amplifié"
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "material_aspect:brique",
+        "path_aspect:traversant",
+        "light_device:fente",
+        "sound_aspect:public",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:ludique",
-        "memory_absence:historique",
-        "intimacy_refuge:chaleureux"
+        "visual_effect:haut",
+        "atmosphere_effect:vivant",
+        "affective_effect:convivial",
+        "atmosphere_effect:ludique",
+        "memory_effect:historique",
+        "affective_effect:chaleureux",
+        "atmosphere_effect:réparation",
+        "sound_effect:vibrant",
+        "sound_effect:amplifié",
+        "memory_effect:strate"
       ],
       "keywords_fr": [
         "ancienne fabrique",
@@ -3810,7 +3772,7 @@
         "climate_intention:exploiter l'inertie",
         "material_intention:exprimer le brut",
         "social_intention:démocratiser la culture",
-        "symbolic_intention:commémorer",
+        "symbolic_intention:mettre en scène le quotidien",
         "perceptual_intention:intensifier",
         "site_intention:reconvertir l'existant",
         "site_intention:composer avec l'existant",
@@ -3824,27 +3786,26 @@
       "location": "Tivoli, Italie",
       "year": "16e siècle",
       "physical_tags": [
-        "water:fontaine",
-        "water:bassin",
-        "water:cascade",
-        "water:ruisselant",
-        "thermal_air:frais",
-        "nature_living:végétal",
-        "movement_path:axial",
-        "spatiality:axial",
-        "sound:aquatique",
-        "sound:continu",
-        "sound:masquant",
-        "smell:végétal",
-        "smell:humide",
-        "immersion:son",
-        "thermal_air:humide"
+        "water_aspect:fontaine",
+        "water_aspect:bassin",
+        "water_aspect:cascade",
+        "water_aspect:ruisselant",
+        "vegetal_aspect:végétal",
+        "path_aspect:axial",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "joy_social_intensity:ludique",
-        "calm_contemplation:contemplatif",
-        "monumental_sublime:majestueux",
-        "inspiration_concentration:stimulant"
+        "sound_effect:enveloppant",
+        "thermal_effect:frais",
+        "atmosphere_effect:ludique",
+        "affective_effect:contemplatif",
+        "symbolic_effect:majestueux",
+        "symbolic_effect:stimulant",
+        "olfactory_effect:végétal",
+        "olfactory_effect:humide",
+        "sound_effect:continu",
+        "sound_effect:masquant",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "jardin en terrasses",
@@ -3876,7 +3837,6 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:axe monumental",
         "climate_intention:protéger du soleil",
-        "social_intention:rassembler",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
@@ -3891,21 +3851,21 @@
       "location": "Agra, Inde",
       "year": "1632-1653",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:poli",
-        "color:blanc",
-        "water:miroir",
-        "water:bassin",
-        "spatiality:symétrique",
-        "spatiality:axial",
-        "nature_living:végétal"
+        "material_aspect:pierre",
+        "material_aspect:poli",
+        "color_aspect:blanc",
+        "water_aspect:miroir",
+        "water_aspect:bassin",
+        "path_aspect:axial",
+        "vegetal_aspect:végétal"
       ],
       "subjective_tags": [
-        "memory_absence:mémoriel",
-        "memory_absence:mélancolique",
-        "monumental_sublime:majestueux",
-        "monumental_sublime:sublime",
-        "calm_contemplation:contemplatif"
+        "visual_effect:symétrique",
+        "memory_effect:mémoriel",
+        "affective_effect:mélancolique",
+        "symbolic_effect:majestueux",
+        "symbolic_effect:sublime",
+        "affective_effect:contemplatif"
       ],
       "keywords_fr": [
         "marbre blanc",
@@ -3931,7 +3891,6 @@
         "spatial_intention:axe monumental",
         "climate_intention:rafraîchir par l'eau",
         "material_intention:rendre tactile",
-        "social_intention:se retirer",
         "symbolic_intention:commémorer",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
@@ -3945,26 +3904,25 @@
       "location": "Kyoto, Japon",
       "year": "15e siècle",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:rugueux",
-        "color:blanc",
-        "opening_landscape:introverti",
-        "spatiality:bas",
-        "light:naturelle",
-        "nature_living:végétal",
-        "water:bassin",
-        "sound:silencieux",
-        "sound:feutré",
-        "smell:minéral",
-        "smell:végétal",
-        "thermal_air:sec"
+        "material_aspect:pierre",
+        "material_aspect:rugueux",
+        "color_aspect:blanc",
+        "light_aspect:naturelle",
+        "vegetal_aspect:végétal",
+        "water_aspect:bassin"
       ],
       "subjective_tags": [
-        "calm_contemplation:méditatif",
-        "calm_contemplation:serein",
-        "mystery_exploration:énigmatique",
-        "sacred_ritual:spirituel",
-        "strangeness_displacement:abstrait"
+        "visual_effect:introverti",
+        "visual_effect:bas",
+        "affective_effect:méditatif",
+        "affective_effect:serein",
+        "symbolic_effect:énigmatique",
+        "symbolic_atmosphere:spirituel",
+        "symbolic_effect:abstrait",
+        "olfactory_effect:végétal",
+        "sound_effect:silencieux",
+        "sound_effect:feutré",
+        "thermal_effect:sec"
       ],
       "keywords_fr": [
         "jardin sec",
@@ -3981,7 +3939,6 @@
         "calme",
         "son silencieux",
         "son feutré",
-        "odeur minéral",
         "odeur végétal",
         "air sec"
       ],
@@ -3991,11 +3948,11 @@
         "https://www.discoverkyoto.com/places-go/ryoan-ji/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:s'isoler du contexte",
         "spatial_intention:fragmentation",
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
-        "social_intention:rassembler",
+        "social_intention:se retirer",
         "symbolic_intention:sacraliser",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
@@ -4009,26 +3966,24 @@
       "location": "Ise, Japon",
       "year": "reconstruction cyclique",
       "physical_tags": [
-        "material_texture:bois",
-        "material_texture:toit léger",
-        "nature_living:sauvage",
-        "nature_living:naturel",
-        "smell:boisé",
-        "light:tamisée",
-        "movement_path:ritualisé",
+        "material_aspect:bois",
+        "spatial_device:toiture",
+        "vegetal_aspect:naturel",
+        "light_aspect:tamisée",
         "threshold:entrée",
-        "sound:feutré",
-        "sound:cérémoniel",
-        "sound:naturel",
-        "smell:végétal",
-        "thermal_air:frais"
+        "sound_aspect:naturel"
       ],
       "subjective_tags": [
-        "sacred_ritual:sacré",
-        "sacred_ritual:rituel",
-        "memory_absence:historique",
-        "calm_contemplation:serein",
-        "wellbeing_restoration:ressourçant"
+        "thermal_effect:frais",
+        "symbolic_atmosphere:sacré",
+        "symbolic_atmosphere:rituel",
+        "memory_effect:historique",
+        "affective_effect:serein",
+        "body_effect:ressourçant",
+        "symbolic_atmosphere:sauvage",
+        "olfactory_effect:boisé",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "sanctuaire shinto",
@@ -4044,7 +3999,7 @@
         "sacré",
         "renouvellement",
         "son feutré",
-        "son cérémoniel",
+        "ambiance rituelle",
         "son naturel",
         "odeur végétal",
         "air frais"
@@ -4063,7 +4018,7 @@
         "symbolic_intention:sacraliser",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
-        "climate_intention:rafraîchir par l'eau"
+        "symbolic_intention:renouveler une tradition"
       ]
     },
     {
@@ -4073,27 +4028,27 @@
       "location": "Mexico, Mexique",
       "year": "1976",
       "physical_tags": [
-        "water:miroir",
-        "water:bassin",
-        "light:zénithale",
-        "light:colorée",
-        "color:rouge",
-        "color:bleu",
-        "nature_living:végétal",
-        "opening_landscape:introverti",
-        "sound:aquatique",
-        "sound:feutré",
-        "sound:continu",
-        "smell:végétal",
-        "thermal_air:humide",
-        "smell:humide"
+        "water_aspect:miroir",
+        "water_aspect:bassin",
+        "light_aspect:zénithale",
+        "light_aspect:colorée",
+        "color_aspect:rouge",
+        "color_aspect:bleu",
+        "vegetal_aspect:végétal",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "joy_social_intensity:ludique",
-        "intimacy_refuge:domestique",
-        "intimacy_refuge:intime",
-        "calm_contemplation:contemplatif",
-        "strangeness_displacement:irréel"
+        "visual_effect:introverti",
+        "atmosphere_effect:ludique",
+        "atmosphere_effect:domestique",
+        "affective_effect:intime",
+        "affective_effect:contemplatif",
+        "symbolic_effect:irréel",
+        "olfactory_effect:végétal",
+        "olfactory_effect:humide",
+        "sound_effect:feutré",
+        "sound_effect:continu",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "piscine intérieure",
@@ -4121,15 +4076,14 @@
         "https://www.archdaily.com/898028/how-luis-barragan-used-light-to-make-us-see-color"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:s'isoler du contexte",
         "climate_intention:contrôler l'éclairage",
         "social_intention:habiter",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:rafraîchir par l'eau",
-        "social_intention:rassembler",
-        "social_intention:se retirer"
+        "perceptual_intention:surprendre"
       ]
     },
     {
@@ -4139,24 +4093,23 @@
       "location": "Mexico, Mexique",
       "year": "1966-1968",
       "physical_tags": [
-        "water:bassin",
-        "water:fontaine",
-        "color:rose",
-        "material_texture:terre",
-        "sound:aquatique",
-        "nature_living:domestiqué",
-        "movement_path:ritualisé",
-        "opening_landscape:cadré",
-        "sound:continu",
-        "sound:extérieur",
-        "smell:végétal"
+        "water_aspect:bassin",
+        "water_aspect:fontaine",
+        "color_aspect:rose",
+        "material_aspect:terre",
+        "sound_aspect:aquatique",
+        "sound_aspect:extérieur",
+        "vegetal_aspect:jardiné"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "calm_contemplation:serein",
-        "intimacy_refuge:abrité",
-        "strangeness_displacement:dépaysant",
-        "inspiration_concentration:stimulant"
+        "atmosphere_effect:vivant",
+        "affective_effect:serein",
+        "affective_effect:abrité",
+        "symbolic_effect:dépaysant",
+        "symbolic_effect:stimulant",
+        "visual_effect:cadré",
+        "olfactory_effect:végétal",
+        "sound_effect:continu"
       ],
       "keywords_fr": [
         "mur rose",
@@ -4199,25 +4152,25 @@
       "location": "Paris, France",
       "year": "1994",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "opening_landscape:transparent",
-        "nature_living:végétal",
-        "nature_living:saisonnier",
-        "light:réfléchie",
-        "light:variable",
-        "spatiality:ouvert",
-        "sound:naturel",
-        "sound:urbain",
-        "sound:feutré",
-        "smell:végétal"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "vegetal_aspect:végétal",
+        "vegetal_aspect:saisonnier",
+        "light_aspect:réfléchie",
+        "light_aspect:variable",
+        "sound_aspect:naturel",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "strangeness_displacement:irréel",
-        "mystery_exploration:suggestif",
-        "inspiration_concentration:stimulant",
-        "joy_social_intensity:vivant",
-        "calm_contemplation:contemplatif"
+        "visual_effect:ouvert",
+        "symbolic_effect:irréel",
+        "symbolic_effect:suggestif",
+        "symbolic_effect:stimulant",
+        "atmosphere_effect:vivant",
+        "affective_effect:contemplatif",
+        "visual_effect:transparent",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "verre",
@@ -4261,23 +4214,22 @@
       "location": "Kansas City, États-Unis",
       "year": "2007",
       "physical_tags": [
-        "material_texture:verre",
-        "light:diffuse",
-        "light:naturelle",
-        "opening_landscape:paysage",
-        "nature_living:végétal",
-        "spatiality:bas",
-        "movement_path:sinueux",
-        "filtering:volume lumineux",
-        "sound:feutré",
-        "sound:mat"
+        "material_aspect:verre",
+        "light_aspect:diffuse",
+        "light_aspect:naturelle",
+        "vegetal_aspect:végétal",
+        "path_aspect:sinueux"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "wellbeing_restoration:doux",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:guidant",
-        "wellbeing_restoration:ressourçant"
+        "visual_effect:bas",
+        "affective_effect:contemplatif",
+        "body_effect:doux",
+        "symbolic_effect:stimulant",
+        "visual_effect:guidant",
+        "body_effect:ressourçant",
+        "visual_effect:paysage",
+        "sound_effect:feutré",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "lentilles de verre",
@@ -4319,24 +4271,24 @@
       "location": "Kanazawa, Japon",
       "year": "2004",
       "physical_tags": [
-        "material_texture:verre",
-        "opening_landscape:transparent",
-        "spatiality:ouvert",
-        "movement_path:fluide",
-        "movement_path:exploratoire",
-        "light:naturelle",
-        "nature_living:domestiqué",
-        "spatiality:bas",
-        "sound:public",
-        "sound:feutré",
-        "sound:murmuré"
+        "material_aspect:verre",
+        "path_aspect:fluide",
+        "path_aspect:exploratoire",
+        "light_aspect:naturelle",
+        "sound_aspect:public",
+        "vegetal_aspect:jardiné"
       ],
       "subjective_tags": [
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:vivant",
-        "legibility_orientation:clair",
-        "inspiration_concentration:stimulant",
-        "wellbeing_restoration:doux"
+        "visual_effect:ouvert",
+        "visual_effect:bas",
+        "affective_effect:convivial",
+        "atmosphere_effect:vivant",
+        "visual_effect:clair",
+        "symbolic_effect:stimulant",
+        "body_effect:doux",
+        "sound_effect:murmuré",
+        "visual_effect:transparent",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "cercle de verre",
@@ -4361,7 +4313,7 @@
         "https://dac.dk/en/21st-century-museum-of-contemporary-art/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ouvrir sur la ville",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
@@ -4369,7 +4321,8 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:intensifier",
-        "site_intention:fusionner avec la nature"
+        "site_intention:fusionner avec la nature",
+        "social_intention:démocratiser la culture"
       ]
     },
     {
@@ -4379,24 +4332,23 @@
       "location": "Lausanne, Suisse",
       "year": "2010",
       "physical_tags": [
-        "spatiality:ouvert",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "compression_expansion:expansion",
-        "opening_landscape:ouvert",
-        "light:naturelle",
-        "nature_living:domestiqué",
-        "framing:lanterne",
-        "sound:feutré",
-        "sound:murmuré",
-        "sound:public"
+        "path_aspect:fluide",
+        "light_aspect:naturelle",
+        "light_device:lanterne",
+        "sound_aspect:public",
+        "vegetal_aspect:jardiné"
       ],
       "subjective_tags": [
-        "inspiration_concentration:studieux",
-        "inspiration_concentration:concentré",
-        "joy_social_intensity:convivial",
-        "wellbeing_restoration:équilibré",
-        "legibility_orientation:guidant"
+        "visual_effect:expansion",
+        "visual_effect:ouvert",
+        "visual_effect:vaste",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:concentré",
+        "affective_effect:convivial",
+        "affective_effect:équilibré",
+        "visual_effect:guidant",
+        "sound_effect:murmuré",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "espace continu",
@@ -4429,7 +4381,7 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:intensifier",
         "site_intention:fusionner avec la nature",
-        "site_intention:ouvrir sur la ville"
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -4439,24 +4391,24 @@
       "location": "Lens, France",
       "year": "2012",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:verre",
-        "light:diffuse",
-        "opening_landscape:paysage",
-        "opening_landscape:transparent",
-        "nature_living:naturel",
-        "movement_path:progressif",
-        "spatiality:bas",
-        "sound:feutré",
-        "sound:mat",
-        "sound:silencieux"
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "light_aspect:diffuse",
+        "vegetal_aspect:naturel",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "memory_absence:historique",
-        "wellbeing_restoration:doux",
-        "calm_contemplation:calme",
-        "legibility_orientation:clair",
-        "inspiration_concentration:stimulant"
+        "visual_effect:bas",
+        "memory_effect:historique",
+        "body_effect:doux",
+        "affective_effect:calme",
+        "visual_effect:clair",
+        "symbolic_effect:stimulant",
+        "visual_effect:paysage",
+        "visual_effect:transparent",
+        "sound_effect:feutré",
+        "sound_effect:silencieux",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "ancienne mine",
@@ -4486,7 +4438,7 @@
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
         "social_intention:exposer",
-        "symbolic_intention:commémorer",
+        "site_intention:composer avec l'existant",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
@@ -4499,24 +4451,25 @@
       "location": "Sendai, Japon",
       "year": "2001",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "opening_landscape:transparent",
-        "light:naturelle",
-        "spatiality:ouvert",
-        "movement_path:fluide",
-        "spatiality:haut",
-        "framing:lanterne",
-        "sound:public",
-        "sound:murmuré",
-        "sound:urbain"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "light_aspect:naturelle",
+        "path_aspect:fluide",
+        "light_device:lanterne",
+        "sound_aspect:public",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:clair",
-        "strangeness_displacement:abstrait",
-        "wellbeing_restoration:équilibré"
+        "visual_effect:ouvert",
+        "visual_effect:haut",
+        "atmosphere_effect:vivant",
+        "symbolic_effect:stimulant",
+        "visual_effect:clair",
+        "symbolic_effect:abstrait",
+        "affective_effect:équilibré",
+        "sound_effect:murmuré",
+        "visual_effect:transparent",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "cube de verre",
@@ -4527,13 +4480,14 @@
         "eau",
         "circulation",
         "transparence urbaine",
-        "structure organique",
+        "structure arborescente",
         "liberté",
         "ouverture publique",
         "fluidité",
         "son public",
         "son murmuré",
-        "son urbain"
+        "son urbain",
+        "organique"
       ],
       "sources": [
         "https://www.smt.city.sendai.jp/en/",
@@ -4541,7 +4495,6 @@
         "https://www.archweb.com/en/architettures/sendai-mediatheque/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
@@ -4559,24 +4512,24 @@
       "location": "Tokyo, Japon",
       "year": "2007",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "spatiality:voûte",
-        "light:naturelle",
-        "opening_landscape:paysage",
-        "nature_living:naturel",
-        "movement_path:fluide",
-        "spatiality:ouvert",
-        "sound:silencieux",
-        "sound:feutré",
-        "sound:murmuré"
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "spatial_device:voûte",
+        "light_aspect:naturelle",
+        "vegetal_aspect:naturel",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "inspiration_concentration:studieux",
-        "calm_contemplation:calme",
-        "wellbeing_restoration:ressourçant",
-        "mystery_exploration:suggestif",
-        "inspiration_concentration:inspirant"
+        "visual_effect:ouvert",
+        "atmosphere_effect:studieux",
+        "affective_effect:calme",
+        "body_effect:ressourçant",
+        "symbolic_effect:suggestif",
+        "symbolic_effect:inspirant",
+        "sound_effect:murmuré",
+        "visual_effect:paysage",
+        "sound_effect:silencieux",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "arches en béton",
@@ -4604,7 +4557,7 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
+        "material_intention:rendre tactile",
         "social_intention:étudier",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
@@ -4619,24 +4572,23 @@
       "location": "Niterói, Brésil",
       "year": "1996",
       "physical_tags": [
-        "material_texture:béton",
-        "water:miroir",
-        "water:bassin",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "spatiality:monumental",
-        "movement_path:progressif",
-        "framing:panorama",
-        "sound:extérieur",
-        "sound:vent",
-        "sound:naturel"
+        "material_aspect:béton",
+        "water_aspect:miroir",
+        "water_aspect:bassin",
+        "path_aspect:progressif",
+        "sound_aspect:extérieur",
+        "sound_aspect:vent",
+        "sound_aspect:naturel"
       ],
       "subjective_tags": [
-        "monumental_sublime:impressionnant",
-        "strangeness_displacement:irréel",
-        "inspiration_concentration:stimulant",
-        "joy_social_intensity:animé",
-        "calm_contemplation:contemplatif"
+        "visual_effect:monumental",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:irréel",
+        "symbolic_effect:stimulant",
+        "atmosphere_effect:animé",
+        "affective_effect:contemplatif",
+        "visual_effect:panoramique",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "falaise",
@@ -4664,7 +4616,7 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "climate_intention:rafraîchir par l'eau",
-        "material_intention:exprimer le brut",
+        "structure_intention:faire forme porteuse",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
@@ -4679,28 +4631,27 @@
       "location": "Londres, Royaume-Uni",
       "year": "2011",
       "physical_tags": [
-        "water:bassin",
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:toit léger",
-        "light:naturelle",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "opening_landscape:paysage",
-        "sound:aquatique",
-        "sound:public",
-        "sound:amplifié",
-        "sound:enveloppant",
-        "immersion:son",
-        "thermal_air:humide",
-        "smell:chloré"
+        "water_aspect:bassin",
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "spatial_device:toiture",
+        "light_aspect:naturelle",
+        "path_aspect:fluide",
+        "sound_aspect:aquatique",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "wellbeing_restoration:sain",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:guidant",
-        "strangeness_displacement:abstrait"
+        "visual_effect:vaste",
+        "sound_effect:enveloppant",
+        "atmosphere_effect:vivant",
+        "body_effect:sain",
+        "symbolic_effect:stimulant",
+        "visual_effect:guidant",
+        "symbolic_effect:abstrait",
+        "visual_effect:paysage",
+        "olfactory_effect:chloré",
+        "sound_effect:amplifié",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "géométrie de l’eau en mouvement",
@@ -4733,7 +4684,7 @@
         "spatial_intention:parcours fluide",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
-        "social_intention:démocratiser la culture",
+        "social_intention:rassembler",
         "symbolic_intention:faire icône",
         "perceptual_intention:apaiser",
         "perceptual_intention:surprendre",
@@ -4747,29 +4698,28 @@
       "location": "Leça da Palmeira, Portugal",
       "year": "1958-1963",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:bois",
-        "material_texture:béton",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "movement_path:progressif",
+        "material_aspect:pierre",
+        "material_aspect:bois",
+        "material_aspect:béton",
+        "path_aspect:progressif",
         "threshold:transition",
-        "thermal_air:exposé",
-        "sound:naturel",
-        "sound:vent",
-        "sound:aquatique",
-        "sound:extérieur",
-        "smell:minéral",
-        "smell:humide",
-        "thermal_air:ventilé",
-        "thermal_air:humide"
+        "sound_aspect:naturel",
+        "sound_aspect:vent",
+        "sound_aspect:aquatique",
+        "sound_aspect:extérieur",
+        "thermal_context:exposé",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "intimacy_refuge:abrité",
-        "wellbeing_restoration:ressourçant",
-        "mystery_exploration:suggestif",
-        "intimacy_refuge:intime"
+        "affective_effect:contemplatif",
+        "affective_effect:abrité",
+        "body_effect:ressourçant",
+        "symbolic_effect:suggestif",
+        "affective_effect:intime",
+        "visual_effect:panoramique",
+        "visual_effect:paysage",
+        "olfactory_effect:humide",
+        "thermal_effect:humide"
       ],
       "keywords_fr": [
         "rochers atlantiques",
@@ -4788,7 +4738,6 @@
         "son vent",
         "son aquatique",
         "son extérieur",
-        "odeur minéral",
         "odeur humide",
         "air ventilé",
         "air humide"
@@ -4802,8 +4751,8 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "climate_intention:protéger du soleil",
-        "material_intention:exprimer le brut",
-        "social_intention:habiter",
+        "material_intention:rendre tactile",
+        "social_intention:se retirer",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
@@ -4817,24 +4766,24 @@
       "location": "Porto, Portugal",
       "year": "1999",
       "physical_tags": [
-        "nature_living:végétal",
-        "opening_landscape:paysage",
-        "material_texture:pierre",
-        "material_texture:poli",
-        "color:blanc",
-        "light:naturelle",
-        "movement_path:progressif",
-        "spatiality:bas",
-        "sound:feutré",
-        "sound:silencieux",
-        "smell:végétal"
+        "vegetal_aspect:végétal",
+        "material_aspect:pierre",
+        "material_aspect:poli",
+        "color_aspect:blanc",
+        "light_aspect:naturelle",
+        "path_aspect:progressif"
       ],
       "subjective_tags": [
-        "calm_contemplation:calme",
-        "wellbeing_restoration:équilibré",
-        "inspiration_concentration:stimulant",
-        "legibility_orientation:clair",
-        "wellbeing_restoration:doux"
+        "visual_effect:bas",
+        "affective_effect:calme",
+        "affective_effect:équilibré",
+        "symbolic_effect:stimulant",
+        "visual_effect:clair",
+        "body_effect:doux",
+        "visual_effect:paysage",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré",
+        "sound_effect:silencieux"
       ],
       "keywords_fr": [
         "parc",
@@ -4877,25 +4826,25 @@
       "location": "Braga, Portugal",
       "year": "2003",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:béton",
-        "spatiality:monumental",
-        "opening_landscape:paysage",
-        "framing:panorama",
-        "movement_path:traversant",
-        "compression_expansion:vaste",
-        "spatiality:ouvert",
-        "sound:public",
-        "sound:amplifié",
-        "sound:extérieur",
-        "sound:réverbérant"
+        "material_aspect:pierre",
+        "material_aspect:béton",
+        "path_aspect:traversant",
+        "sound_aspect:public",
+        "sound_aspect:extérieur"
       ],
       "subjective_tags": [
-        "monumental_sublime:impressionnant",
-        "strangeness_displacement:étrange",
-        "joy_social_intensity:festif",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant"
+        "visual_effect:vaste",
+        "visual_effect:monumental",
+        "visual_effect:ouvert",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:festif",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "visual_effect:paysage",
+        "visual_effect:panoramique",
+        "sound_effect:amplifié",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "ancienne carrière",
@@ -4922,7 +4871,6 @@
       ],
       "intention_tags": [
         "site_intention:cadrer le paysage",
-        "spatial_intention:plan libre",
         "climate_intention:protéger du soleil",
         "material_intention:exprimer le brut",
         "structure_intention:montrer la structure",
@@ -4939,26 +4887,26 @@
       "location": "Gando, Burkina Faso",
       "year": "2001",
       "physical_tags": [
-        "material_texture:terre",
-        "material_texture:brique",
-        "material_texture:toit léger",
-        "thermal_air:ventilé",
-        "thermal_air:chaud",
-        "light:naturelle",
-        "shadow_contrast:pénombre",
-        "opening_landscape:ouvert",
-        "sound:public",
-        "sound:naturel",
-        "sound:feutré",
-        "smell:terreux",
-        "thermal_air:sec"
+        "material_aspect:terre",
+        "material_aspect:brique",
+        "spatial_device:toiture",
+        "light_aspect:naturelle",
+        "shadow_aspect:pénombre",
+        "sound_aspect:public",
+        "sound_aspect:naturel",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "wellbeing_restoration:sain",
-        "joy_social_intensity:convivial",
-        "inspiration_concentration:stimulant",
-        "intimacy_refuge:protecteur",
-        "legibility_orientation:clair"
+        "thermal_effect:chaud",
+        "body_effect:sain",
+        "affective_effect:convivial",
+        "symbolic_effect:stimulant",
+        "affective_effect:protecteur",
+        "visual_effect:clair",
+        "visual_effect:ouvert",
+        "olfactory_effect:terreux",
+        "sound_effect:feutré",
+        "thermal_effect:sec"
       ],
       "keywords_fr": [
         "terre comprimée",
@@ -4985,7 +4933,7 @@
         "https://www.archnet.org/sites/4363"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ancrer dans le site",
         "climate_intention:contrôler l'éclairage",
         "material_intention:rendre tactile",
         "structure_intention:montrer la structure",
@@ -4993,7 +4941,9 @@
         "symbolic_intention:exprimer une identité",
         "perceptual_intention:apaiser",
         "perceptual_intention:intensifier",
-        "site_intention:fusionner avec la nature"
+        "site_intention:fusionner avec la nature",
+        "climate_intention:protéger du soleil",
+        "climate_intention:ventiler naturellement"
       ]
     },
     {
@@ -5003,25 +4953,24 @@
       "location": "Bakou, Azerbaïdjan",
       "year": "2012",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "color:blanc",
-        "light:réfléchie",
-        "movement_path:fluide",
-        "opening_landscape:ouvert",
-        "spatiality:monumental",
-        "spatiality:ouvert",
-        "sound:réverbérant",
-        "sound:ample",
-        "sound:public",
-        "immersion:son"
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "color_aspect:blanc",
+        "light_aspect:réfléchie",
+        "path_aspect:fluide",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "strangeness_displacement:irréel",
-        "strangeness_displacement:abstrait",
-        "monumental_sublime:impressionnant",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant"
+        "visual_effect:monumental",
+        "visual_effect:ouvert",
+        "sound_effect:enveloppant",
+        "symbolic_effect:irréel",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:impressionnant",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "sound_effect:ample",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "plaza",
@@ -5047,10 +4996,9 @@
         "https://www.archiscene.net/firms/zaha-hadid/heydar-aliyev-center-zaha-hadid/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:créer un repère",
         "spatial_intention:plan libre",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:faire forme porteuse",
         "social_intention:démocratiser la culture",
         "symbolic_intention:représenter le pouvoir",
@@ -5065,21 +5013,20 @@
       "location": "Chandigarh, Inde",
       "year": "1950s-1960s",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:brut",
-        "light:intense",
-        "thermal_air:chaud",
-        "thermal_air:exposé",
-        "movement_path:axial",
-        "spatiality:monumental",
-        "opening_landscape:paysage"
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "light_aspect:intense",
+        "path_aspect:axial",
+        "path_aspect:ordonné",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "monumental_sublime:monumental",
-        "monumental_sublime:solennel",
-        "monumental_sublime:majestueux",
-        "legibility_orientation:ordonné",
-        "unease_oppression:austère"
+        "visual_effect:monumental",
+        "thermal_effect:chaud",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:majestueux",
+        "affective_effect:austère",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "béton brut",
@@ -5119,23 +5066,23 @@
       "location": "Tokyo, Japon",
       "year": "1959",
       "physical_tags": [
-        "material_texture:béton",
-        "spatiality:atrium",
-        "spatiality:ordonné",
-        "light:zénithale",
-        "light:naturelle",
-        "movement_path:progressif",
-        "framing:lanterne",
-        "sound:feutré",
-        "sound:mat",
-        "sound:murmuré"
+        "material_aspect:béton",
+        "spatial_device:atrium",
+        "light_aspect:zénithale",
+        "light_aspect:naturelle",
+        "path_aspect:progressif",
+        "light_device:lanterne",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "legibility_orientation:rationnel",
-        "legibility_orientation:structuré",
-        "legibility_orientation:guidant",
-        "calm_contemplation:contemplatif",
-        "inspiration_concentration:intellectuel"
+        "symbolic_effect:rationnel",
+        "visual_effect:structuré",
+        "visual_effect:guidant",
+        "affective_effect:contemplatif",
+        "atmosphere_effect:intellectuel",
+        "sound_effect:murmuré",
+        "sound_effect:feutré",
+        "sound_effect:mat"
       ],
       "keywords_fr": [
         "béton armé",
@@ -5163,7 +5110,7 @@
         "site_intention:ancrer dans le site",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
+        "material_intention:rendre tactile",
         "structure_intention:suspendre",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
@@ -5178,27 +5125,27 @@
       "location": "Venise, Italie",
       "year": "1958-1962",
       "physical_tags": [
-        "light:filtrée",
-        "light:diffuse",
-        "light:naturelle",
-        "material_texture:béton",
-        "color:blanc",
-        "filtering:grille",
-        "nature_living:végétal",
-        "opening_landscape:ouvert",
-        "sound:naturel",
-        "sound:vent",
-        "sound:feutré",
-        "smell:végétal",
-        "thermal_air:frais",
-        "thermal_air:ventilé"
+        "light_aspect:filtrée",
+        "light_aspect:diffuse",
+        "light_aspect:naturelle",
+        "material_aspect:béton",
+        "color_aspect:blanc",
+        "light_device:grille",
+        "vegetal_aspect:végétal",
+        "sound_aspect:naturel",
+        "sound_aspect:vent",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "calm_contemplation:calme",
-        "calm_contemplation:serein",
-        "wellbeing_restoration:doux",
-        "strangeness_displacement:abstrait",
-        "inspiration_concentration:inspirant"
+        "thermal_effect:frais",
+        "affective_effect:calme",
+        "affective_effect:serein",
+        "body_effect:doux",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:inspirant",
+        "visual_effect:ouvert",
+        "olfactory_effect:végétal",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "toiture en poutres de béton",
@@ -5229,12 +5176,12 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:fragmentation",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
-        "social_intention:rassembler",
+        "social_intention:exposer",
         "symbolic_intention:renouveler une tradition",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
-        "site_intention:fusionner avec la nature"
+        "site_intention:fusionner avec la nature",
+        "climate_intention:filtrer la lumière"
       ]
     },
     {
@@ -5244,25 +5191,25 @@
       "location": "Helsinki, Finlande",
       "year": "1998",
       "physical_tags": [
-        "light:naturelle",
-        "light:variable",
-        "material_texture:métal",
-        "material_texture:verre",
-        "material_texture:béton",
-        "movement_path:sinueux",
-        "movement_path:fluide",
-        "water:bassin",
-        "water:cascade",
-        "sound:aquatique",
-        "sound:feutré",
-        "sound:murmuré"
+        "light_aspect:naturelle",
+        "light_aspect:variable",
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "material_aspect:béton",
+        "path_aspect:sinueux",
+        "path_aspect:fluide",
+        "water_aspect:bassin",
+        "water_aspect:cascade",
+        "sound_aspect:aquatique"
       ],
       "subjective_tags": [
-        "inspiration_concentration:stimulant",
-        "mystery_exploration:suggestif",
-        "joy_social_intensity:animé",
-        "strangeness_displacement:étrange",
-        "legibility_orientation:guidant"
+        "symbolic_effect:stimulant",
+        "symbolic_effect:suggestif",
+        "atmosphere_effect:animé",
+        "symbolic_effect:étrange",
+        "visual_effect:guidant",
+        "sound_effect:murmuré",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "lumière naturelle finlandaise",
@@ -5290,7 +5237,6 @@
         "site_intention:ancrer dans le site",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
@@ -5305,26 +5251,26 @@
       "location": "Seattle, Washington, États-Unis",
       "year": "2004",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "opening_landscape:transparent",
-        "light:naturelle",
-        "spatiality:atrium",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "movement_path:progressif",
-        "sound:public",
-        "sound:murmuré",
-        "sound:feutré",
-        "sound:urbain"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "light_aspect:naturelle",
+        "spatial_device:atrium",
+        "path_aspect:fluide",
+        "path_aspect:progressif",
+        "sound_aspect:public",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "inspiration_concentration:intellectuel",
-        "inspiration_concentration:studieux",
-        "joy_social_intensity:animé",
-        "joy_social_intensity:généreux",
-        "legibility_orientation:structuré",
-        "monumental_sublime:impressionnant"
+        "visual_effect:vaste",
+        "atmosphere_effect:intellectuel",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:animé",
+        "affective_effect:généreux",
+        "visual_effect:structuré",
+        "symbolic_effect:impressionnant",
+        "sound_effect:murmuré",
+        "visual_effect:transparent",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "verre et acier",
@@ -5350,7 +5296,6 @@
         "https://www.archdaily.com/11651/seattle-central-library-oma-lmn"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
         "material_intention:chercher la transparence",
@@ -5368,22 +5313,22 @@
       "location": "Pékin, Chine",
       "year": "2012",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "spatiality:monumental",
-        "movement_path:fluide",
-        "opening_landscape:extraverti",
-        "compression_expansion:expansion",
-        "sound:urbain",
-        "sound:extérieur",
-        "sound:public"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "path_aspect:fluide",
+        "sound_aspect:urbain",
+        "sound_aspect:extérieur",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "monumental_sublime:impressionnant",
-        "monumental_sublime:vertigineux",
-        "strangeness_displacement:étrange",
-        "unease_oppression:instable",
-        "inspiration_concentration:stimulant"
+        "visual_effect:extraverti",
+        "visual_effect:expansion",
+        "visual_effect:monumental",
+        "symbolic_effect:impressionnant",
+        "body_effect:vertigineux",
+        "symbolic_effect:étrange",
+        "body_effect:instable",
+        "symbolic_effect:stimulant"
       ],
       "keywords_fr": [
         "boucle tridimensionnelle",
@@ -5408,11 +5353,10 @@
         "https://www.arup.com/en-us/projects/china-central-television-headquarters/"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:parcours fluide",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
-        "social_intention:démocratiser la culture",
+        "social_intention:travailler",
         "symbolic_intention:représenter le pouvoir",
         "perceptual_intention:surprendre",
         "perceptual_intention:désorienter",
@@ -5426,25 +5370,24 @@
       "location": "Porto, Portugal",
       "year": "2005",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "color:blanc",
-        "sound:enveloppant",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "opening_landscape:transparent",
-        "sound:musical",
-        "sound:réverbérant",
-        "sound:clair",
-        "sound:intime",
-        "immersion:son"
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "color_aspect:blanc",
+        "path_aspect:fluide"
       ],
       "subjective_tags": [
-        "joy_social_intensity:animé",
-        "joy_social_intensity:festif",
-        "inspiration_concentration:stimulant",
-        "strangeness_displacement:étrange",
-        "monumental_sublime:impressionnant"
+        "visual_effect:vaste",
+        "sound_effect:enveloppant",
+        "sound_effect:musical",
+        "atmosphere_effect:animé",
+        "atmosphere_effect:festif",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:étrange",
+        "symbolic_effect:impressionnant",
+        "visual_effect:transparent",
+        "sound_effect:clair",
+        "sound_effect:réverbérant",
+        "affective_effect:intime"
       ],
       "keywords_fr": [
         "béton blanc",
@@ -5471,7 +5414,6 @@
         "https://www.archdaily.com/619294/casa-da-musica-oma"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:parcours fluide",
         "climate_intention:exploiter l'inertie",
         "material_intention:exprimer le brut",
@@ -5489,23 +5431,23 @@
       "location": "Rotterdam, Pays-Bas",
       "year": "1992",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:métal",
-        "material_texture:verre",
-        "light:filtrée",
-        "movement_path:traversant",
-        "movement_path:fluide",
-        "opening_landscape:poreux",
-        "sound:public",
-        "sound:urbain",
-        "sound:résonant"
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "light_aspect:filtrée",
+        "path_aspect:traversant",
+        "path_aspect:fluide",
+        "sound_aspect:public",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "mystery_exploration:suggestif",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant",
-        "strangeness_displacement:étrange",
-        "legibility_orientation:guidant"
+        "symbolic_effect:suggestif",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:étrange",
+        "visual_effect:guidant",
+        "visual_effect:poreux",
+        "sound_effect:résonant"
       ],
       "keywords_fr": [
         "rampes raides",
@@ -5530,7 +5472,6 @@
         "https://www.archdaily.com/102825/ad-classics-kunsthal-oma"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
         "spatial_intention:rampe continue",
         "climate_intention:contrôler l'éclairage",
         "material_intention:exprimer le brut",
@@ -5548,25 +5489,23 @@
       "location": "Brasília, Brésil",
       "year": "1960",
       "physical_tags": [
-        "spatiality:monumental",
-        "spatiality:symétrique",
-        "movement_path:axial",
-        "opening_landscape:panoramique",
-        "opening_landscape:ouvert",
-        "material_texture:béton",
-        "color:blanc",
-        "framing:axe",
-        "sound:cérémoniel",
-        "sound:public",
-        "sound:extérieur"
+        "path_aspect:axial",
+        "material_aspect:béton",
+        "color_aspect:blanc",
+        "spatial_device:axe",
+        "sound_aspect:public",
+        "sound_aspect:extérieur",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "monumental_sublime:monumental",
-        "monumental_sublime:solennel",
-        "monumental_sublime:majestueux",
-        "legibility_orientation:ordonné",
-        "legibility_orientation:clair",
-        "inspiration_concentration:inspirant"
+        "visual_effect:monumental",
+        "visual_effect:symétrique",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:majestueux",
+        "visual_effect:clair",
+        "symbolic_effect:inspirant",
+        "visual_effect:panoramique",
+        "visual_effect:ouvert"
       ],
       "keywords_fr": [
         "Eixo Monumental",
@@ -5581,7 +5520,7 @@
         "Place des Trois Pouvoirs",
         "perspectives",
         "ciel ouvert",
-        "son cérémoniel",
+        "ambiance solennelle",
         "son public",
         "son extérieur"
       ],
@@ -5594,8 +5533,7 @@
         "site_intention:cadrer le paysage",
         "spatial_intention:axe monumental",
         "climate_intention:exploiter l'inertie",
-        "material_intention:exprimer le brut",
-        "social_intention:démocratiser la culture",
+        "social_intention:rassembler",
         "symbolic_intention:représenter le pouvoir",
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
@@ -5609,25 +5547,25 @@
       "location": "Rome, Italie",
       "year": "2009",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "material_texture:métal",
-        "light:naturelle",
-        "light:filtrée",
-        "movement_path:fluide",
-        "movement_path:sinueux",
-        "movement_path:exploratoire",
-        "opening_landscape:poreux",
-        "sound:feutré",
-        "sound:murmuré",
-        "sound:public"
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "light_aspect:naturelle",
+        "light_aspect:filtrée",
+        "path_aspect:fluide",
+        "path_aspect:sinueux",
+        "path_aspect:exploratoire",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "inspiration_concentration:stimulant",
-        "mystery_exploration:suggestif",
-        "strangeness_displacement:abstrait",
-        "strangeness_displacement:étrange",
-        "joy_social_intensity:animé"
+        "symbolic_effect:stimulant",
+        "symbolic_effect:suggestif",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:animé",
+        "sound_effect:murmuré",
+        "visual_effect:poreux",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "béton courbe",
@@ -5652,15 +5590,15 @@
         "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects"
       ],
       "intention_tags": [
-        "site_intention:cadrer le paysage",
+        "site_intention:ouvrir sur la ville",
         "spatial_intention:promenade architecturale",
         "climate_intention:contrôler l'éclairage",
-        "material_intention:exprimer le brut",
         "structure_intention:suspendre",
         "social_intention:exposer",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
-        "perceptual_intention:intensifier"
+        "perceptual_intention:intensifier",
+        "spatial_intention:parcours fluide"
       ]
     },
     {
@@ -5670,28 +5608,27 @@
       "location": "Sydney, Australie",
       "year": "1957-1973",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:lisse",
-        "light:naturelle",
-        "light:intense",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "spatiality:monumental",
-        "spatiality:ouvert",
-        "water:miroir",
-        "thermal_air:exposé",
-        "sound:ample",
-        "sound:public",
-        "movement_path:traversant",
-        "framing:panorama"
+        "material_aspect:béton",
+        "material_aspect:lisse",
+        "light_aspect:naturelle",
+        "light_aspect:intense",
+        "water_aspect:miroir",
+        "sound_aspect:public",
+        "path_aspect:traversant",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "monumental_sublime:majestueux",
-        "monumental_sublime:grandiose",
-        "monumental_sublime:impressionnant",
-        "joy_social_intensity:animé",
-        "strangeness_displacement:abstrait",
-        "legibility_orientation:guidant"
+        "visual_effect:monumental",
+        "visual_effect:ouvert",
+        "symbolic_effect:majestueux",
+        "symbolic_effect:grandiose",
+        "symbolic_effect:impressionnant",
+        "atmosphere_effect:animé",
+        "symbolic_effect:abstrait",
+        "visual_effect:guidant",
+        "visual_effect:panoramique",
+        "visual_effect:paysage",
+        "sound_effect:ample"
       ],
       "keywords_fr": [
         "coquilles blanches",
@@ -5736,29 +5673,29 @@
       "location": "Oslo, Norvège",
       "year": "2007-2008",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:bois",
-        "material_texture:verre",
-        "light:naturelle",
-        "spatiality:ouvert",
-        "movement_path:progressif",
-        "movement_path:traversant",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "water:miroir",
-        "thermal_air:froid",
-        "thermal_air:exposé",
-        "sound:musical",
-        "sound:clair",
-        "sound:enveloppant"
+        "material_aspect:pierre",
+        "material_aspect:bois",
+        "material_aspect:verre",
+        "light_aspect:naturelle",
+        "path_aspect:progressif",
+        "path_aspect:traversant",
+        "water_aspect:miroir",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "calm_contemplation:serein",
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:animé",
-        "monumental_sublime:majestueux",
-        "wellbeing_restoration:ressourçant",
-        "legibility_orientation:guidant"
+        "visual_effect:ouvert",
+        "thermal_effect:froid",
+        "sound_effect:musical",
+        "sound_effect:enveloppant",
+        "affective_effect:serein",
+        "affective_effect:convivial",
+        "atmosphere_effect:animé",
+        "symbolic_effect:majestueux",
+        "body_effect:ressourçant",
+        "visual_effect:guidant",
+        "visual_effect:panoramique",
+        "visual_effect:paysage",
+        "sound_effect:clair"
       ],
       "keywords_fr": [
         "toit public",
@@ -5785,7 +5722,6 @@
       "intention_tags": [
         "site_intention:fusionner avec la nature",
         "site_intention:ouvrir sur la ville",
-        "site_intention:cadrer le paysage",
         "spatial_intention:promenade architecturale",
         "spatial_intention:rampe continue",
         "climate_intention:exposer au climat",
@@ -5805,29 +5741,28 @@
       "location": "Yokohama, Japon",
       "year": "1995-2002",
       "physical_tags": [
-        "material_texture:bois",
-        "material_texture:métal",
-        "material_texture:béton",
-        "movement_path:fluide",
-        "movement_path:sinueux",
-        "movement_path:traversant",
-        "movement_path:exploratoire",
-        "spatiality:ouvert",
-        "spatiality:vaste",
-        "opening_landscape:panoramique",
-        "opening_landscape:paysage",
-        "thermal_air:exposé",
-        "sound:public",
-        "sound:extérieur",
-        "framing:panorama"
+        "material_aspect:bois",
+        "material_aspect:métal",
+        "material_aspect:béton",
+        "path_aspect:fluide",
+        "path_aspect:sinueux",
+        "path_aspect:traversant",
+        "path_aspect:exploratoire",
+        "sound_aspect:public",
+        "sound_aspect:extérieur",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "strangeness_displacement:étrange",
-        "strangeness_displacement:abstrait",
-        "mystery_exploration:suggestif",
-        "joy_social_intensity:animé",
-        "legibility_orientation:guidant",
-        "monumental_sublime:impressionnant"
+        "visual_effect:ouvert",
+        "visual_effect:vaste",
+        "symbolic_effect:étrange",
+        "symbolic_effect:abstrait",
+        "symbolic_effect:suggestif",
+        "atmosphere_effect:animé",
+        "visual_effect:guidant",
+        "symbolic_effect:impressionnant",
+        "visual_effect:panoramique",
+        "visual_effect:paysage"
       ],
       "keywords_fr": [
         "surface pliée",
@@ -5859,7 +5794,7 @@
         "material_intention:rendre tactile",
         "structure_intention:montrer la structure",
         "social_intention:rassembler",
-        "symbolic_intention:moderniser une institution",
+        "symbolic_intention:exprimer une identité",
         "perceptual_intention:désorienter",
         "perceptual_intention:surprendre"
       ]
@@ -5871,28 +5806,28 @@
       "location": "Paris, France",
       "year": "1983-1989",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:pierre",
-        "light:naturelle",
-        "light:zénithale",
-        "light:filtrée",
-        "shadow_contrast:contrasté",
-        "spatiality:atrium",
-        "spatiality:ouvert",
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:pierre",
+        "light_aspect:naturelle",
+        "light_aspect:zénithale",
+        "light_aspect:filtrée",
+        "shadow_aspect:contrasté",
+        "spatial_device:atrium",
         "threshold:entrée",
         "threshold:transition",
-        "sound:public",
-        "sound:réverbérant",
-        "opening_landscape:transparent"
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "monumental_sublime:solennel",
-        "strangeness_displacement:abstrait",
-        "legibility_orientation:guidant",
-        "legibility_orientation:clair",
-        "joy_social_intensity:animé",
-        "memory_absence:historique"
+        "visual_effect:ouvert",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:abstrait",
+        "visual_effect:guidant",
+        "visual_effect:clair",
+        "atmosphere_effect:animé",
+        "memory_effect:historique",
+        "visual_effect:transparent",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "entrée souterraine",
@@ -5938,27 +5873,28 @@
       "location": "New York, États-Unis",
       "year": "1956-1962",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:verre",
-        "material_texture:lisse",
-        "light:naturelle",
-        "light:diffuse",
-        "spatiality:ouvert",
-        "spatiality:vaste",
-        "movement_path:fluide",
-        "movement_path:traversant",
-        "sound:public",
-        "sound:murmuré",
-        "shadow_contrast:découpé",
-        "framing:fente"
+        "material_aspect:béton",
+        "material_aspect:verre",
+        "material_aspect:lisse",
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "path_aspect:fluide",
+        "path_aspect:traversant",
+        "sound_aspect:public",
+        "shadow_aspect:découpé",
+        "light_device:fente"
       ],
       "subjective_tags": [
-        "strangeness_displacement:irréel",
-        "strangeness_displacement:étrange",
-        "joy_social_intensity:animé",
-        "monumental_sublime:impressionnant",
-        "legibility_orientation:guidant",
-        "mystery_exploration:suggestif"
+        "visual_effect:ouvert",
+        "visual_effect:vaste",
+        "symbolic_effect:irréel",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:animé",
+        "symbolic_effect:impressionnant",
+        "visual_effect:guidant",
+        "symbolic_effect:suggestif",
+        "sound_effect:murmuré",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "sensation de voler",
@@ -5975,7 +5911,8 @@
         "transition",
         "mobilité",
         "restauration patrimoniale",
-        "jet age"
+        "jet age",
+        "organique"
       ],
       "sources": [
         "https://docomomo-us.org/register/twa-terminal",
@@ -5986,7 +5923,6 @@
         "site_intention:créer un repère",
         "spatial_intention:parcours fluide",
         "material_intention:faire monolithe",
-        "material_intention:exprimer le brut",
         "structure_intention:faire forme porteuse",
         "social_intention:rassembler",
         "symbolic_intention:exprimer une identité",
@@ -6002,26 +5938,25 @@
       "location": "Saint-Louis, Missouri, États-Unis",
       "year": "1948-1965",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:lisse",
-        "light:réfléchie",
-        "light:intense",
-        "spatiality:monumental",
-        "spatiality:haut",
-        "opening_landscape:panoramique",
-        "opening_landscape:horizon",
-        "movement_path:axial",
-        "sound:extérieur",
-        "sound:urbain",
-        "framing:panorama"
+        "material_aspect:métal",
+        "material_aspect:lisse",
+        "light_aspect:réfléchie",
+        "light_aspect:intense",
+        "path_aspect:axial",
+        "sound_aspect:extérieur",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "monumental_sublime:grandiose",
-        "monumental_sublime:sublime",
-        "monumental_sublime:vertigineux",
-        "memory_absence:historique",
-        "legibility_orientation:évident",
-        "inspiration_concentration:stimulant"
+        "visual_effect:monumental",
+        "visual_effect:haut",
+        "symbolic_effect:grandiose",
+        "symbolic_effect:sublime",
+        "body_effect:vertigineux",
+        "memory_effect:historique",
+        "visual_effect:évident",
+        "symbolic_effect:stimulant",
+        "visual_effect:panoramique",
+        "visual_effect:horizon"
       ],
       "keywords_fr": [
         "arche caténaire",
@@ -6064,26 +5999,26 @@
       "location": "Berlin, Allemagne",
       "year": "1963-1968",
       "physical_tags": [
-        "material_texture:métal",
-        "material_texture:verre",
-        "material_texture:pierre",
-        "light:naturelle",
-        "light:diffuse",
-        "spatiality:ouvert",
-        "spatiality:vide",
-        "spatiality:ordonné",
-        "opening_landscape:transparent",
-        "sound:feutré",
-        "sound:public",
-        "shadow_contrast:semi-obscur"
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "material_aspect:pierre",
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "sound_aspect:public",
+        "shadow_aspect:semi-obscur",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "calm_contemplation:posé",
-        "legibility_orientation:clair",
-        "legibility_orientation:rationnel",
-        "monumental_sublime:solennel",
-        "inspiration_concentration:concentré",
-        "strangeness_displacement:abstrait"
+        "visual_effect:ouvert",
+        "visual_effect:vide",
+        "affective_effect:posé",
+        "visual_effect:clair",
+        "symbolic_effect:rationnel",
+        "symbolic_atmosphere:solennel",
+        "atmosphere_effect:concentré",
+        "symbolic_effect:abstrait",
+        "visual_effect:transparent",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "pavillon de verre",
@@ -6129,28 +6064,25 @@
       "location": "New Haven, Connecticut, États-Unis",
       "year": "1969-1977",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:bois",
-        "material_texture:travertin",
-        "material_texture:métal",
-        "light:naturelle",
-        "light:diffuse",
-        "light:zénithale",
-        "spatiality:atrium",
-        "spatiality:ordonné",
-        "sound:feutré",
-        "sound:intime",
-        "smell:boisé",
-        "thermal_air:tempéré"
+        "material_aspect:béton",
+        "material_aspect:bois",
+        "material_aspect:travertin",
+        "material_aspect:métal",
+        "light_aspect:naturelle",
+        "light_aspect:diffuse",
+        "light_aspect:zénithale",
+        "spatial_device:atrium",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "calm_contemplation:contemplatif",
-        "calm_contemplation:calme",
-        "inspiration_concentration:studieux",
-        "inspiration_concentration:concentré",
-        "intimacy_refuge:intime",
-        "legibility_orientation:ordonné",
-        "monumental_sublime:solennel"
+        "affective_effect:contemplatif",
+        "affective_effect:calme",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:concentré",
+        "affective_effect:intime",
+        "symbolic_atmosphere:solennel",
+        "olfactory_effect:boisé",
+        "sound_effect:feutré"
       ],
       "keywords_fr": [
         "lumière naturelle diffuse",
@@ -6195,27 +6127,26 @@
       "location": "Montréal, Canada",
       "year": "1964-1967",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:brut",
-        "spatiality:haut",
-        "spatiality:ouvert",
-        "spatiality:labyrinthique",
-        "opening_landscape:panoramique",
-        "opening_landscape:ouvert",
-        "nature_living:végétal",
-        "nature_living:verdure",
-        "thermal_air:exposé",
-        "sound:extérieur",
-        "sound:public",
-        "movement_path:exploratoire"
+        "material_aspect:béton",
+        "material_aspect:brut",
+        "vegetal_aspect:végétal",
+        "vegetal_aspect:verdure",
+        "sound_aspect:extérieur",
+        "sound_aspect:public",
+        "path_aspect:exploratoire",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "joy_social_intensity:vivant",
-        "joy_social_intensity:convivial",
-        "intimacy_refuge:domestique",
-        "strangeness_displacement:étrange",
-        "wellbeing_restoration:ressourçant",
-        "inspiration_concentration:stimulant"
+        "visual_effect:haut",
+        "visual_effect:ouvert",
+        "symbolic_effect:labyrinthique",
+        "atmosphere_effect:vivant",
+        "affective_effect:convivial",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:étrange",
+        "body_effect:ressourçant",
+        "symbolic_effect:stimulant",
+        "visual_effect:panoramique"
       ],
       "keywords_fr": [
         "modules préfabriqués",
@@ -6245,9 +6176,7 @@
         "spatial_intention:fragmentation",
         "material_intention:exprimer le brut",
         "social_intention:habiter",
-        "social_intention:rassembler",
         "symbolic_intention:renouveler une tradition",
-        "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire"
       ]
@@ -6259,27 +6188,26 @@
       "location": "Tokyo, Japon",
       "year": "1970-1972, démolie en 2022",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:métal",
-        "material_texture:lisse",
-        "light:faible",
-        "spatiality:haut",
-        "spatiality:fermé",
-        "opening_landscape:introverti",
-        "sound:sourd",
-        "sound:mécanique",
-        "sound:urbain",
-        "smell:clos",
-        "movement_path:contraint"
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "material_aspect:lisse",
+        "light_aspect:faible",
+        "sound_aspect:bruit mécanique",
+        "sound_aspect:urbain",
+        "path_aspect:contraint"
       ],
       "subjective_tags": [
-        "strangeness_displacement:étrange",
-        "strangeness_displacement:abstrait",
-        "unease_oppression:instable",
-        "unease_oppression:austère",
-        "intimacy_refuge:refuge",
-        "memory_absence:fragile",
-        "memory_absence:historique"
+        "visual_effect:introverti",
+        "visual_effect:haut",
+        "visual_effect:fermé",
+        "symbolic_effect:étrange",
+        "symbolic_effect:abstrait",
+        "body_effect:instable",
+        "affective_effect:austère",
+        "affective_effect:refuge",
+        "memory_effect:fragile",
+        "memory_effect:historique",
+        "sound_effect:sourd"
       ],
       "keywords_fr": [
         "capsules",
@@ -6324,25 +6252,25 @@
       "location": "Philadelphie, Pennsylvanie, États-Unis",
       "year": "1959-1964",
       "physical_tags": [
-        "material_texture:brique",
-        "material_texture:bois",
-        "material_texture:plâtre",
-        "light:naturelle",
-        "spatiality:bas",
-        "spatiality:fermé",
-        "spatiality:symétrique",
-        "opening_landscape:introverti",
-        "color:neutre",
-        "threshold:entrée",
-        "sound:intime"
+        "material_aspect:brique",
+        "material_aspect:bois",
+        "material_aspect:plâtre",
+        "light_aspect:naturelle",
+        "threshold:entrée"
       ],
       "subjective_tags": [
-        "intimacy_refuge:domestique",
-        "intimacy_refuge:secret",
-        "strangeness_displacement:étrange",
-        "joy_social_intensity:ludique",
-        "legibility_orientation:évident",
-        "memory_absence:historique"
+        "visual_effect:introverti",
+        "visual_effect:bas",
+        "visual_effect:fermé",
+        "visual_effect:symétrique",
+        "visual_effect:neutre",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:secret",
+        "symbolic_effect:étrange",
+        "atmosphere_effect:ludique",
+        "visual_effect:évident",
+        "memory_effect:historique",
+        "affective_effect:intime"
       ],
       "keywords_fr": [
         "maison pour sa mère",
@@ -6383,31 +6311,31 @@
       "location": "Calpe, Espagne",
       "year": "1968-1973",
       "physical_tags": [
-        "color:rouge",
-        "color:bleu",
-        "color:polychrome",
-        "color:éclatant",
-        "material_texture:béton",
-        "material_texture:plâtre",
-        "spatiality:labyrinthique",
-        "spatiality:haut",
-        "movement_path:sinueux",
-        "movement_path:exploratoire",
-        "opening_landscape:cadré",
-        "opening_landscape:horizon",
-        "thermal_air:exposé",
-        "shadow_contrast:contrasté",
-        "water:bassin",
-        "sound:extérieur"
+        "color_aspect:rouge",
+        "color_aspect:bleu",
+        "color_aspect:polychrome",
+        "material_aspect:béton",
+        "material_aspect:plâtre",
+        "path_aspect:sinueux",
+        "path_aspect:exploratoire",
+        "shadow_aspect:contrasté",
+        "water_aspect:bassin",
+        "sound_aspect:extérieur",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "joy_social_intensity:ludique",
-        "joy_social_intensity:vivant",
-        "strangeness_displacement:onirique",
-        "strangeness_displacement:dépaysant",
-        "mystery_exploration:mystérieux",
-        "intimacy_refuge:secret",
-        "monumental_sublime:impressionnant"
+        "visual_effect:éclatant",
+        "symbolic_effect:labyrinthique",
+        "visual_effect:haut",
+        "atmosphere_effect:ludique",
+        "atmosphere_effect:vivant",
+        "symbolic_effect:onirique",
+        "symbolic_effect:dépaysant",
+        "symbolic_effect:mystérieux",
+        "symbolic_effect:secret",
+        "symbolic_effect:impressionnant",
+        "visual_effect:cadré",
+        "visual_effect:horizon"
       ],
       "keywords_fr": [
         "kasbah",
@@ -6453,28 +6381,28 @@
       "location": "Sant Just Desvern, Espagne",
       "year": "1970-1975",
       "physical_tags": [
-        "color:rouge",
-        "color:bleu",
-        "color:polychrome",
-        "material_texture:béton",
-        "material_texture:brique",
-        "spatiality:labyrinthique",
-        "spatiality:haut",
-        "spatiality:atrium",
-        "movement_path:sinueux",
-        "movement_path:exploratoire",
-        "nature_living:végétal",
-        "opening_landscape:ouvert",
-        "sound:public",
-        "sound:résonant"
+        "color_aspect:rouge",
+        "color_aspect:bleu",
+        "color_aspect:polychrome",
+        "material_aspect:béton",
+        "material_aspect:brique",
+        "spatial_device:atrium",
+        "path_aspect:sinueux",
+        "path_aspect:exploratoire",
+        "vegetal_aspect:végétal",
+        "sound_aspect:public"
       ],
       "subjective_tags": [
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:vivant",
-        "mystery_exploration:énigmatique",
-        "intimacy_refuge:domestique",
-        "strangeness_displacement:étrange",
-        "inspiration_concentration:stimulant"
+        "symbolic_effect:labyrinthique",
+        "visual_effect:haut",
+        "affective_effect:convivial",
+        "atmosphere_effect:vivant",
+        "symbolic_effect:énigmatique",
+        "atmosphere_effect:domestique",
+        "symbolic_effect:étrange",
+        "symbolic_effect:stimulant",
+        "visual_effect:ouvert",
+        "sound_effect:résonant"
       ],
       "keywords_fr": [
         "ville dans la ville",
@@ -6502,7 +6430,6 @@
         "site_intention:composer avec l'existant",
         "spatial_intention:labyrinthe",
         "spatial_intention:fragmentation",
-        "material_intention:exprimer le brut",
         "social_intention:habiter",
         "social_intention:rassembler",
         "symbolic_intention:renouveler une tradition",
@@ -6517,33 +6444,33 @@
       "location": "New York, États-Unis",
       "year": "2004-2014",
       "physical_tags": [
-        "nature_living:végétal",
-        "nature_living:sauvage",
-        "nature_living:saisonnier",
-        "nature_living:verdure",
-        "material_texture:métal",
-        "material_texture:béton",
-        "material_texture:bois",
-        "movement_path:traversant",
-        "movement_path:fluide",
-        "movement_path:exploratoire",
-        "opening_landscape:panoramique",
-        "opening_landscape:ouvert",
-        "thermal_air:exposé",
-        "thermal_air:ventilé",
-        "sound:urbain",
-        "sound:extérieur",
-        "sound:naturel",
-        "smell:végétal"
+        "vegetal_aspect:végétal",
+        "vegetal_aspect:saisonnier",
+        "vegetal_aspect:verdure",
+        "material_aspect:métal",
+        "material_aspect:béton",
+        "material_aspect:bois",
+        "path_aspect:traversant",
+        "path_aspect:fluide",
+        "path_aspect:exploratoire",
+        "sound_aspect:urbain",
+        "sound_aspect:extérieur",
+        "sound_aspect:naturel",
+        "thermal_context:exposé",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "wellbeing_restoration:ressourçant",
-        "calm_contemplation:calme",
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:animé",
-        "memory_absence:historique",
-        "mystery_exploration:suggestif",
-        "legibility_orientation:guidant"
+        "body_effect:ressourçant",
+        "affective_effect:calme",
+        "affective_effect:convivial",
+        "atmosphere_effect:animé",
+        "memory_effect:historique",
+        "symbolic_effect:suggestif",
+        "visual_effect:guidant",
+        "visual_effect:panoramique",
+        "visual_effect:ouvert",
+        "symbolic_atmosphere:sauvage",
+        "olfactory_effect:végétal"
       ],
       "keywords_fr": [
         "voie ferrée reconvertie",
@@ -6588,28 +6515,28 @@
       "location": "Hambourg, Allemagne",
       "year": "2003-2017",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:brique",
-        "material_texture:métal",
-        "light:réfléchie",
-        "light:naturelle",
-        "water:miroir",
-        "opening_landscape:panoramique",
-        "spatiality:monumental",
-        "spatiality:haut",
-        "sound:musical",
-        "sound:clair",
-        "sound:enveloppant",
-        "movement_path:progressif",
-        "thermal_air:exposé"
+        "material_aspect:verre",
+        "material_aspect:brique",
+        "material_aspect:métal",
+        "light_aspect:réfléchie",
+        "light_aspect:naturelle",
+        "water_aspect:miroir",
+        "path_aspect:progressif",
+        "thermal_context:exposé"
       ],
       "subjective_tags": [
-        "monumental_sublime:impressionnant",
-        "monumental_sublime:vertigineux",
-        "joy_social_intensity:animé",
-        "inspiration_concentration:stimulant",
-        "strangeness_displacement:abstrait",
-        "wellbeing_restoration:ressourçant"
+        "visual_effect:monumental",
+        "visual_effect:haut",
+        "sound_effect:musical",
+        "sound_effect:enveloppant",
+        "symbolic_effect:impressionnant",
+        "body_effect:vertigineux",
+        "atmosphere_effect:animé",
+        "symbolic_effect:stimulant",
+        "symbolic_effect:abstrait",
+        "body_effect:ressourçant",
+        "visual_effect:panoramique",
+        "sound_effect:clair"
       ],
       "keywords_fr": [
         "entrepôt reconverti",
@@ -6655,27 +6582,28 @@
       "location": "Paris, France",
       "year": "2006-2014",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:béton",
-        "material_texture:métal",
-        "light:réfléchie",
-        "light:variable",
-        "light:naturelle",
-        "water:miroir",
-        "opening_landscape:transparent",
-        "opening_landscape:paysage",
-        "spatiality:ouvert",
-        "movement_path:exploratoire",
-        "sound:public",
-        "color:blanc"
+        "material_aspect:verre",
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "light_aspect:réfléchie",
+        "light_aspect:variable",
+        "light_aspect:naturelle",
+        "water_aspect:miroir",
+        "path_aspect:exploratoire",
+        "sound_aspect:public",
+        "color_aspect:blanc"
       ],
       "subjective_tags": [
-        "joy_social_intensity:animé",
-        "strangeness_displacement:onirique",
-        "monumental_sublime:impressionnant",
-        "mystery_exploration:suggestif",
-        "wellbeing_restoration:ressourçant",
-        "inspiration_concentration:stimulant"
+        "visual_effect:ouvert",
+        "atmosphere_effect:animé",
+        "symbolic_effect:onirique",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:suggestif",
+        "body_effect:ressourçant",
+        "symbolic_effect:stimulant",
+        "visual_effect:transparent",
+        "visual_effect:paysage",
+        "symbolic_effect:organique"
       ],
       "keywords_fr": [
         "nuage de verre",
@@ -6692,7 +6620,8 @@
         "architecture de jardin",
         "lumière changeante",
         "musée privé",
-        "forme mouvante"
+        "forme mouvante",
+        "organique"
       ],
       "sources": [
         "https://www.fondationlouisvuitton.fr/fr/fondation/le-batiment",
@@ -6701,7 +6630,6 @@
       ],
       "intention_tags": [
         "site_intention:fusionner avec la nature",
-        "site_intention:cadrer le paysage",
         "site_intention:créer un repère",
         "spatial_intention:promenade architecturale",
         "climate_intention:filtrer la lumière",
@@ -6721,33 +6649,32 @@
       "location": "Marseille, France",
       "year": "2004-2013",
       "physical_tags": [
-        "material_texture:béton",
-        "material_texture:métal",
-        "material_texture:verre",
-        "light:filtrée",
-        "light:intense",
-        "light:naturelle",
-        "shadow_contrast:strié",
-        "shadow_contrast:contrasté",
-        "opening_landscape:panoramique",
-        "opening_landscape:horizon",
-        "opening_landscape:poreux",
-        "thermal_air:exposé",
-        "thermal_air:ventilé",
-        "sound:urbain",
-        "sound:public",
-        "sound:extérieur",
-        "smell:minéral",
-        "smell:humide",
-        "movement_path:progressif"
+        "material_aspect:béton",
+        "material_aspect:métal",
+        "material_aspect:verre",
+        "light_aspect:filtrée",
+        "light_aspect:intense",
+        "light_aspect:naturelle",
+        "shadow_aspect:strié",
+        "shadow_aspect:contrasté",
+        "sound_aspect:urbain",
+        "sound_aspect:public",
+        "sound_aspect:extérieur",
+        "path_aspect:progressif",
+        "thermal_context:exposé",
+        "thermal_context:ventilé"
       ],
       "subjective_tags": [
-        "joy_social_intensity:convivial",
-        "joy_social_intensity:animé",
-        "mystery_exploration:suggestif",
-        "wellbeing_restoration:ressourçant",
-        "monumental_sublime:impressionnant",
-        "strangeness_displacement:abstrait"
+        "affective_effect:convivial",
+        "atmosphere_effect:animé",
+        "symbolic_effect:suggestif",
+        "body_effect:ressourçant",
+        "symbolic_effect:impressionnant",
+        "symbolic_effect:abstrait",
+        "visual_effect:panoramique",
+        "visual_effect:horizon",
+        "visual_effect:poreux",
+        "olfactory_effect:humide"
       ],
       "keywords_fr": [
         "résille de béton",
@@ -6797,30 +6724,30 @@
       "location": "Londres, Royaume-Uni",
       "year": "1994-2000",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:pierre",
-        "light:diffuse",
-        "light:zénithale",
-        "light:naturelle",
-        "spatiality:atrium",
-        "spatiality:vaste",
-        "spatiality:monumental",
-        "sound:public",
-        "sound:réverbérant",
-        "sound:murmuré",
-        "movement_path:fluide",
-        "movement_path:traversant",
-        "opening_landscape:transparent",
-        "shadow_contrast:semi-obscur"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:pierre",
+        "light_aspect:diffuse",
+        "light_aspect:zénithale",
+        "light_aspect:naturelle",
+        "spatial_device:atrium",
+        "sound_aspect:public",
+        "path_aspect:fluide",
+        "path_aspect:traversant",
+        "shadow_aspect:semi-obscur"
       ],
       "subjective_tags": [
-        "legibility_orientation:clair",
-        "legibility_orientation:guidant",
-        "joy_social_intensity:animé",
-        "monumental_sublime:solennel",
-        "inspiration_concentration:stimulant",
-        "calm_contemplation:posé"
+        "visual_effect:vaste",
+        "visual_effect:monumental",
+        "visual_effect:clair",
+        "visual_effect:guidant",
+        "atmosphere_effect:animé",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:stimulant",
+        "affective_effect:posé",
+        "sound_effect:murmuré",
+        "visual_effect:transparent",
+        "sound_effect:réverbérant"
       ],
       "keywords_fr": [
         "cour couverte",
@@ -6867,28 +6794,28 @@
       "location": "Berlin, Allemagne",
       "year": "1992-1999",
       "physical_tags": [
-        "material_texture:verre",
-        "material_texture:métal",
-        "material_texture:pierre",
-        "light:naturelle",
-        "light:zénithale",
-        "light:réfléchie",
-        "light:variable",
-        "spatiality:haut",
-        "spatiality:monumental",
-        "movement_path:progressif",
-        "movement_path:axial",
-        "opening_landscape:panoramique",
-        "sound:public",
-        "sound:urbain"
+        "material_aspect:verre",
+        "material_aspect:métal",
+        "material_aspect:pierre",
+        "light_aspect:naturelle",
+        "light_aspect:zénithale",
+        "light_aspect:réfléchie",
+        "light_aspect:variable",
+        "path_aspect:progressif",
+        "path_aspect:axial",
+        "sound_aspect:public",
+        "sound_aspect:urbain"
       ],
       "subjective_tags": [
-        "legibility_orientation:guidant",
-        "legibility_orientation:clair",
-        "monumental_sublime:solennel",
-        "monumental_sublime:sublime",
-        "memory_absence:historique",
-        "inspiration_concentration:stimulant"
+        "visual_effect:haut",
+        "visual_effect:monumental",
+        "visual_effect:guidant",
+        "visual_effect:clair",
+        "symbolic_atmosphere:solennel",
+        "symbolic_effect:sublime",
+        "memory_effect:historique",
+        "symbolic_effect:stimulant",
+        "visual_effect:panoramique"
       ],
       "keywords_fr": [
         "coupole de verre",
@@ -6923,7 +6850,6 @@
         "climate_intention:ventiler naturellement",
         "material_intention:chercher la transparence",
         "structure_intention:montrer la structure",
-        "social_intention:démocratiser la culture",
         "social_intention:rassembler",
         "symbolic_intention:représenter le pouvoir",
         "symbolic_intention:moderniser une institution",
@@ -6937,33 +6863,30 @@
       "location": "Paris, France",
       "year": "1843-1851",
       "physical_tags": [
-        "material_texture:pierre",
-        "material_texture:métal",
-        "material_texture:bois",
-        "light:diffuse",
-        "light:naturelle",
-        "spatiality:haut",
-        "spatiality:voûte",
-        "spatiality:ordonné",
-        "sound:silencieux",
-        "sound:feutré",
-        "sound:intime",
-        "smell:ancien",
-        "smell:boisé",
-        "movement_path:axial",
-        "movement_path:progressif",
-        "color:neutre",
-        "shadow_contrast:semi-obscur"
+        "material_aspect:pierre",
+        "material_aspect:métal",
+        "material_aspect:bois",
+        "light_aspect:diffuse",
+        "light_aspect:naturelle",
+        "spatial_device:voûte",
+        "path_aspect:axial",
+        "path_aspect:progressif",
+        "shadow_aspect:semi-obscur",
+        "path_aspect:ordonné"
       ],
       "subjective_tags": [
-        "inspiration_concentration:studieux",
-        "inspiration_concentration:concentré",
-        "inspiration_concentration:intellectuel",
-        "calm_contemplation:silencieux",
-        "calm_contemplation:calme",
-        "intimacy_refuge:protecteur",
-        "legibility_orientation:ordonné",
-        "monumental_sublime:solennel"
+        "visual_effect:haut",
+        "visual_effect:neutre",
+        "atmosphere_effect:studieux",
+        "atmosphere_effect:concentré",
+        "atmosphere_effect:intellectuel",
+        "sound_effect:silencieux",
+        "affective_effect:calme",
+        "affective_effect:protecteur",
+        "symbolic_atmosphere:solennel",
+        "olfactory_effect:boisé",
+        "sound_effect:feutré",
+        "affective_effect:intime"
       ],
       "keywords_fr": [
         "salle de lecture",

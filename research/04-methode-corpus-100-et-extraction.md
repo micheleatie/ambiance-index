@@ -42,9 +42,9 @@ Pour chaque référence, collecter idéalement 3 à 5 sources :
 
 Pour chaque source, relever les mots et expressions qui décrivent :
 
-- les phénomènes physiques : lumière, ombre, matière, texture, son, eau, air, chaleur, froid, odeur, couleur, paysage, parcours, échelle ;
-- les dispositifs spatiaux : seuil, filtre, cadrage, vide, compression, dilatation, rampe, cour, atrium, alcôve ;
-- les effets subjectifs : calme, sacré, intime, oppressant, mémoriel, joyeux, austère, mystérieux, contemplatif, stimulant.
+- les caractéristiques physiques : lumière, ombre, matière, texture, source sonore, contexte thermique, eau, couleur, paysage, parcours, échelle ;
+- les caractéristiques physiques spatiales : seuil, filtre, cadrage, vide, compression, dilatation, rampe, cour, atrium, alcôve ;
+- les effets ressentis : calme, sacré, intime, oppressant, mémoriel, joyeux, austère, mystérieux, contemplatif, stimulant, frais, chaud, humide, sec, enveloppant, boisé, végétal ;
 - les intentions de conception quand elles sont explicitement formulées ou fortement inférables : rapport au site, stratégie spatiale, climat, matière, structure, usage, symbolique, effet perceptif recherché.
 
 Chaque mot extrait doit garder une trace minimale :
@@ -64,20 +64,26 @@ Les mots extraits sont ensuite regroupés dans le vocabulaire contrôlé.
 
 Exemples :
 
-- `soft light`, `diffused daylight`, `lumière douce` -> `light:diffuse`
-- `raw concrete`, `béton brut`, `exposed concrete` -> `material_texture:béton` et éventuellement `material_texture:brut`
-- `silence`, `quiet`, `stillness` -> selon le contexte `sound:silencieux` ou `calm_contemplation:calme`
-- `disorientation`, `void`, `absence` -> selon le contexte `movement_path:contraint`, `spatiality:vide`, `memory_absence:absent`
-- `architectural promenade`, `sequence`, `procession` -> selon le contexte `spatial_intention:promenade architecturale`, `spatial_intention:séquence rituelle` ou `movement_path:ritualisé`
-- `shade`, `screen`, `filtered daylight` -> selon le contexte `climate_intention:filtrer la lumière` ou `light:filtrée`
+- `soft light`, `diffused daylight`, `lumière douce` -> `light_aspect:diffuse`
+- `raw concrete`, `béton brut`, `exposed concrete` -> `material_aspect:béton` et éventuellement `material_aspect:brut`
+- `silence`, `quiet`, `stillness` -> selon le contexte `sound_effect:silencieux` ou `affective_effect:calme`
+- `reverberation`, `echo`, `muted sound` -> selon le contexte `sound_effect:réverbérant`, `sound_effect:écho`, `sound_effect:mat` ou `sound_effect:feutré`
+- `water sound`, `mechanical noise`, `urban noise`, `wind` -> selon le contexte `sound_aspect:aquatique`, `sound_aspect:bruit mécanique`, `sound_aspect:urbain` ou `sound_aspect:vent`
+- `ventilated`, `exposed to climate` -> selon le contexte `thermal_context:ventilé` ou `thermal_context:exposé`
+- `warm`, `cool`, `cold`, `humid`, `dry` -> `thermal_effect:chaud`, `thermal_effect:frais`, `thermal_effect:froid`, `thermal_effect:humide` ou `thermal_effect:sec`
+- `wood smell`, `humid smell`, `smoky smell` -> `olfactory_effect:boisé`, `olfactory_effect:humide` ou `olfactory_effect:fumé`
+- `disorientation`, `void`, `absence` -> selon le contexte `body_effect:instable`, `visual_effect:vide`, `memory_effect:absent`, `symbolic_effect:labyrinthique` ou `perceptual_intention:désorienter`
+- `architectural promenade`, `sequence`, `procession` -> selon le contexte `path_aspect:progressif`, `path_aspect:fluide`, `spatial_intention:promenade architecturale`, `spatial_intention:séquence rituelle` ou `symbolic_atmosphere:rituel`
+- `shade`, `screen`, `filtered daylight` -> selon le contexte `climate_intention:filtrer la lumière`, `light_aspect:filtrée` ou `light_device:grille`
 
-La règle importante : ne pas confondre un phénomène physique et un effet ressenti.
+La règle importante : ne pas confondre une caractéristique physique et un effet ressenti.
 
 Exemple :
 
-- `béton` est physique ;
-- `austère` est subjectif ;
-- `béton froid` peut devenir `material_texture:béton`, `thermal_air:froid` et, si les sources le justifient, `unease_oppression:austère`.
+- `béton` est une caractéristique physique ;
+- `austère` est un effet ressenti ;
+- `béton froid` peut devenir `material_aspect:béton` et, si les sources le justifient, `thermal_effect:froid` ou `affective_effect:austère`.
+- `odeur de bois` devient `olfactory_effect:boisé`, car l'odeur est traitée comme un effet sensoriel ressenti ; la source observable peut rester `material_aspect:bois`.
 - `exprimer le béton brut` peut devenir `material_intention:exprimer le brut`, seulement si le texte parle d'une stratégie architecturale et pas seulement d'une surface observée.
 
 ## Étape 5 : Fiche Indexée
@@ -85,8 +91,8 @@ Exemple :
 Une référence peut entrer dans `data/references_seed.json` seulement lorsqu'elle a :
 
 - au moins deux sources exploitables ;
-- au moins trois tags physiques ;
-- au moins deux tags subjectifs ;
+- au moins trois tags de caractéristiques physiques ;
+- au moins deux tags d'effets ressentis ;
 - des mots figuratifs utiles pour la recherche ;
 - un niveau de confiance clair ou une note indiquant ce qui reste à vérifier.
 
@@ -104,10 +110,12 @@ Le lot 6 ajoute 20 références complémentaires connues pour renforcer les comb
 
 Après intégration des 100 références, faire une passe transversale d'équilibrage sensoriel, car certaines rubriques apparaissent moins spontanément dans les textes généraux :
 
-- son : silence, réverbération, absorption, écho, son d'eau, son public, bruit mécanique, son naturel ;
-- air et thermique : humidité, fraîcheur, ventilation, exposition ;
-- odeur : bois, humidité, végétal, minéral, terre, fumée, chlore ;
-- immersion : bain, vapeur, son, pénombre, couleur.
+- sources et contextes acoustiques : son d'eau, son public, bruit mécanique, son urbain, vent, son naturel, extérieur ;
+- effets sonores ressentis : silence, son feutré, son sourd, réverbération, résonance, écho, amplification, continuité, masquage, ampleur sonore, clarté sonore, enveloppement ;
+- sources et contextes thermiques : ventilation, exposition ;
+- effets thermiques ressentis : chaleur, fraîcheur, froid, humidité, sécheresse ;
+- odeur : bois, humidité, végétal, terre, fumée, chlore ;
+- enveloppement : bain, vapeur, son, pénombre, couleur, à répartir entre effets thermiques, effets sonores, effets corporels et caractéristiques physiques selon le contexte.
 
 Faire ensuite une passe transversale d'intentions de conception pour que les filtres puissent croiser une ambiance et une stratégie de projet :
 

@@ -1,18 +1,18 @@
 import type { AnnotationAction, ConfidenceLevel, TilePalette } from "./types";
 
 export const PRESETS: Record<string, string[]> = {
-  light: ["light:filtrée", "light:colorée"],
-  water: ["water:source", "water:bassin", "wellbeing_restoration:ressourçant"],
-  sound: ["sound:réverbérant", "sound:cérémoniel", "sacred_ritual:sacré", "sacred_ritual:rituel"],
+  light: ["light_aspect:filtrée", "light_aspect:colorée"],
+  water: ["water_aspect:source", "water_aspect:bassin", "body_effect:ressourçant"],
+  sound: ["sound_effect:réverbérant", "sound_effect:silencieux", "symbolic_atmosphere:sacré", "symbolic_atmosphere:rituel"],
   concept: [
     "site_intention:cadrer le paysage",
     "site_intention:fusionner avec la nature",
     "climate_intention:filtrer la lumière",
     "climate_intention:rafraîchir par l'eau"
   ],
-  memory: ["memory_absence:mémoriel", "memory_absence:absent"],
-  refuge: ["intimacy_refuge:refuge", "inspiration_concentration:studieux"],
-  matter: ["material_texture:pierre", "material_texture:béton"]
+  memory: ["memory_effect:mémoriel", "memory_effect:absent"],
+  refuge: ["affective_effect:refuge", "atmosphere_effect:studieux"],
+  matter: ["material_aspect:pierre", "material_aspect:béton"]
 };
 
 export const ANNOTATION_ACTIONS: ReadonlyArray<readonly [AnnotationAction, string]> = [
@@ -55,15 +55,15 @@ export const ANNOTATION_RATE_LIMIT = {
 } as const;
 
 export const TILE_PALETTES: Record<string, TilePalette> = {
-  light: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],
-  water: ["#356c8b", "#d5e4e6", "#6a8c8e", "#f3f6f3"],
-  sound: ["#49515f", "#d8d2c2", "#8a6f45", "#f4f1ea"],
+  light_aspect: ["#e9d184", "#f7f3de", "#d4b35d", "#fffaf0"],
+  water_aspect: ["#356c8b", "#d5e4e6", "#6a8c8e", "#f3f6f3"],
+  sound_aspect: ["#49515f", "#d8d2c2", "#8a6f45", "#f4f1ea"],
   site_intention: ["#61715f", "#d9dfcc", "#a36f3b", "#f4f1ea"],
   spatial_intention: ["#514e59", "#d8d2c2", "#7c765f", "#f7f7f4"],
-  material_texture: ["#8c7861", "#d5c5ad", "#5d544b", "#eee8de"],
-  shadow_contrast: ["#242621", "#b8b19f", "#5b5a52", "#efeade"],
-  color: ["#9b3f2f", "#d8a34f", "#2f6c76", "#f2e8d2"],
-  memory_absence: ["#35363a", "#d8d5cc", "#7b7480", "#f2f0eb"],
-  nature_living: ["#627c48", "#dfe9cc", "#889a65", "#f5f7ed"],
+  material_aspect: ["#8c7861", "#d5c5ad", "#5d544b", "#eee8de"],
+  shadow_aspect: ["#242621", "#b8b19f", "#5b5a52", "#efeade"],
+  color_aspect: ["#9b3f2f", "#d8a34f", "#2f6c76", "#f2e8d2"],
+  memory_effect: ["#35363a", "#d8d5cc", "#7b7480", "#f2f0eb"],
+  vegetal_aspect: ["#627c48", "#dfe9cc", "#889a65", "#f5f7ed"],
   default: ["#9b3f2f", "#d9d3c6", "#356c8b", "#f7f7f4"]
 };

@@ -21,6 +21,7 @@ import {
   getFilteredReferences,
   getPalette,
   getReferenceAmbianceTags,
+  getReferenceFamilyTags,
   getReferenceIntentionTags,
   getRubricMeta,
   getTagFamilyClass,
@@ -244,6 +245,8 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
   }
 
   const annotations = getStoredAnnotations(selected);
+  const physicalTags = getReferenceFamilyTags(state, selected, "physical");
+  const subjectiveTags = getReferenceFamilyTags(state, selected, "subjective");
 
   els.detailCard.innerHTML = `
     ${renderAtmosphereTile(selected, "detail-visual")}
@@ -251,16 +254,16 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
     <p class="reference-meta">${escapeHtml(selected.architect_or_period)} · ${escapeHtml(selected.location)} · ${escapeHtml(selected.year)}</p>
 
     <section class="detail-section">
-      <h3>Ambiances physiques</h3>
+      <h3>Caractéristiques physiques</h3>
       <div class="mini-tags">
-        ${selected.physical_tags.map((tag) => renderTagPill(state, tag, "physical")).join("")}
+        ${physicalTags.map((tag) => renderTagPill(state, tag, "physical")).join("")}
       </div>
     </section>
 
     <section class="detail-section">
-      <h3>Ambiances subjectives</h3>
+      <h3>Effets ressentis</h3>
       <div class="mini-tags">
-        ${selected.subjective_tags.map((tag) => renderTagPill(state, tag, "subjective")).join("")}
+        ${subjectiveTags.map((tag) => renderTagPill(state, tag, "subjective")).join("")}
       </div>
     </section>
 

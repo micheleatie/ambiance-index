@@ -13,7 +13,7 @@ Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google A
 - `TODO.md` : plan de travail.
 - `SOURCES.md` : bibliographie et sources web.
 - `research/01-cadrage-plateforme.md` : cadrage produit et méthode de constitution de la base.
-- `research/02-taxonomie-ambiances.md` : taxonomie initiale des ambiances physiques et subjectives.
+- `research/02-taxonomie-ambiances.md` : taxonomie initiale des caractéristiques physiques, effets ressentis et intentions.
 - `research/03-corpus-references.md` : premier corpus de références emblématiques.
 - `research/04-methode-corpus-100-et-extraction.md` : méthode pour passer de 100 références candidates aux mots extraits puis aux tags validés.
 - `data/taxonomy_seed.json` : version structurée de la taxonomie.
@@ -45,9 +45,9 @@ La future plateforme peut être pensée autour de ces objets :
 - `Reference` : bâtiment, lieu, ensemble urbain ou paysage architectural.
 - `Source` : article, page officielle, livre, notice patrimoniale, entretien ou discours expert.
 - `Descriptor` : mot ou expression trouvée dans une source, par exemple `lumière diffuse`, `silence`, `caverneux`.
-- `Rubric` : catégorie contrôlée, par exemple `lumière.intensité` ou `subjectif.contemplatif`.
+- `Rubric` : catégorie contrôlée, par exemple `light_aspect:diffuse` ou `thermal_effect:frais`.
 - `DesignIntent` : intention architecturale, par exemple `filtrer la lumière`, `rassembler`, `reconvertir l'existant`, `faire icône`.
-- `Theme` : regroupement pédagogique, par exemple `ambiances lumineuses`, `matière et tactilité`, `mémoire et absence`.
+- `Theme` : regroupement pédagogique, par exemple `lumière filtrée`, `matière et corps`, `mémoire et absence`.
 - `Annotation` : lien entre une référence et une rubrique, avec intensité, justification, source et niveau de confiance.
 - `ExpertNote` : annotation manuelle ajoutée par un expert, rattachée à une référence et à une rubrique, avec auteur, fonction, intervention, note, source courte, niveau de confiance et état de modération.
 
@@ -70,11 +70,12 @@ Le prototype est volontairement sans framework d'interface pour l'instant. Vite 
 Fonctions disponibles :
 
 - recherche libre sur nom, lieu, architecte, mots figuratifs et tags ;
-- filtres par valeurs de rubriques, séparés entre ambiances et intentions architecturales ;
+- filtres par valeurs de rubriques, séparés entre ambiances et intentions de conception ;
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
 - mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
+- séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
 - suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
 - identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels ;
 - champs obligatoires, limites de longueur, honeypot et limitation locale à 3 soumissions par 10 minutes ;

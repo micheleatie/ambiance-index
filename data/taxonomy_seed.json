@@ -5,18 +5,17 @@
   "families": [
     {
       "id": "physical",
-      "label": "Ambiances physiques",
+      "label": "Caractéristiques physiques",
       "rubrics": [
         {
-          "id": "light",
+          "id": "light_aspect",
           "label": "Lumière",
           "micro_rubrics": [
             "intensité",
             "direction",
             "source",
             "diffusion",
-            "variation temporelle",
-            "éblouissement"
+            "variation temporelle"
           ],
           "values": [
             "très faible",
@@ -36,7 +35,7 @@
           ]
         },
         {
-          "id": "shadow_contrast",
+          "id": "shadow_aspect",
           "label": "Ombre et contraste",
           "micro_rubrics": [
             "clair-obscur",
@@ -58,21 +57,14 @@
           ]
         },
         {
-          "id": "color",
+          "id": "color_aspect",
           "label": "Couleur",
           "micro_rubrics": [
-            "saturation",
-            "température chromatique",
-            "réflexion",
+            "teinte",
             "dominante",
-            "contraste coloré"
+            "polychromie"
           ],
           "values": [
-            "neutre",
-            "chaud",
-            "froid",
-            "sourd",
-            "éclatant",
             "polychrome",
             "rose",
             "rouge",
@@ -83,14 +75,35 @@
           ]
         },
         {
-          "id": "material_texture",
-          "label": "Matière et texture",
+          "id": "light_device",
+          "label": "Dispositifs lumineux",
           "micro_rubrics": [
+            "prise de lumière",
+            "filtre lumineux",
+            "conduit lumineux",
+            "surface ajourée"
+          ],
+          "values": [
+            "fenêtre",
+            "oculus",
+            "fente",
+            "lanterne",
+            "vitrail",
+            "claustra",
+            "rideau",
+            "grille",
+            "perforation"
+          ]
+        },
+        {
+          "id": "material_aspect",
+          "label": "Matière et surface",
+          "micro_rubrics": [
+            "matériau",
             "rugosité",
             "grain",
-            "poids",
+            "poids visuel",
             "patine",
-            "température tactile",
             "absorption"
           ],
           "values": [
@@ -104,7 +117,6 @@
             "brique",
             "plâtre",
             "toile",
-            "toit léger",
             "rugueux",
             "lisse",
             "brut",
@@ -115,107 +127,55 @@
           ]
         },
         {
-          "id": "sound",
-          "label": "Son",
+          "id": "spatial_device",
+          "label": "Dispositifs spatiaux",
           "micro_rubrics": [
-            "silence",
-            "réverbération",
-            "absorption",
-            "écho",
-            "diffusion",
-            "masque sonore",
-            "bruit d'eau",
-            "bruit de pas",
-            "son naturel",
-            "son public",
-            "seuil sonore"
+            "forme spatiale",
+            "type spatial",
+            "axe",
+            "retrait",
+            "abri"
           ],
           "values": [
-            "silencieux",
-            "feutré",
-            "réverbérant",
-            "sourd",
-            "vibrant",
-            "amplifié",
-            "aquatique",
-            "creux",
-            "enveloppant",
-            "ample",
-            "écho",
-            "mat",
-            "absorbé",
-            "diffus",
-            "clair",
-            "intime",
-            "musical",
-            "cérémoniel",
-            "murmuré",
-            "continu",
-            "masquant",
-            "urbain",
-            "public",
-            "mécanique",
-            "extérieur",
-            "vent",
-            "naturel",
-            "résonant"
+            "voûte",
+            "atrium",
+            "volume",
+            "axe",
+            "belvédère",
+            "alcôve",
+            "abri",
+            "toiture"
           ]
         },
         {
-          "id": "thermal_air",
-          "label": "Thermique et air",
+          "id": "path_aspect",
+          "label": "Organisation spatiale et parcours",
           "micro_rubrics": [
-            "chaleur",
-            "fraîcheur",
-            "humidité",
-            "ventilation",
-            "courant d'air",
-            "rayonnement"
+            "ordre",
+            "séquence",
+            "axe",
+            "promenade",
+            "détour",
+            "traversée"
           ],
           "values": [
-            "chaud",
-            "frais",
-            "froid",
-            "humide",
-            "sec",
-            "ventilé",
-            "stagnant",
-            "tempéré",
-            "exposé"
+            "ordonné",
+            "progressif",
+            "sinueux",
+            "axial",
+            "fluide",
+            "contraint",
+            "exploratoire",
+            "traversant"
           ]
         },
         {
-          "id": "smell",
-          "label": "Odeur",
-          "micro_rubrics": [
-            "minéral",
-            "bois",
-            "végétal",
-            "eau",
-            "fumée",
-            "poussière",
-            "air confiné"
-          ],
-          "values": [
-            "boisé",
-            "humide",
-            "minéral",
-            "végétal",
-            "fumé",
-            "terreux",
-            "chloré",
-            "ancien",
-            "clos"
-          ]
-        },
-        {
-          "id": "water",
-          "label": "Eau",
+          "id": "water_aspect",
+          "label": "Présence de l'eau",
           "micro_rubrics": [
             "présence visible",
-            "son",
             "reflet",
-            "évaporation",
+            "écoulement",
             "bain",
             "pluie",
             "canal"
@@ -228,92 +188,12 @@
             "vapeur",
             "source",
             "cascade",
-            "canal",
-            "humidité",
-            "fraîcheur"
+            "canal"
           ]
         },
         {
-          "id": "spatiality",
-          "label": "Spatialité",
-          "micro_rubrics": [
-            "échelle",
-            "hauteur",
-            "proportion",
-            "densité",
-            "vide",
-            "épaisseur",
-            "profondeur"
-          ],
-          "values": [
-            "monumental",
-            "bas",
-            "haut",
-            "étroit",
-            "vaste",
-            "épais",
-            "ouvert",
-            "fermé",
-            "vide",
-            "voûte",
-            "atrium",
-            "axial",
-            "symétrique",
-            "ordonné",
-            "caverneux",
-            "labyrinthique"
-          ]
-        },
-        {
-          "id": "movement_path",
-          "label": "Parcours et mouvement",
-          "micro_rubrics": [
-            "seuil",
-            "séquence",
-            "promenade",
-            "détour",
-            "montée",
-            "descente",
-            "ralentissement"
-          ],
-          "values": [
-            "progressif",
-            "sinueux",
-            "axial",
-            "ritualisé",
-            "fluide",
-            "contraint",
-            "exploratoire",
-            "traversant"
-          ]
-        },
-        {
-          "id": "opening_landscape",
-          "label": "Ouverture et paysage",
-          "micro_rubrics": [
-            "cadrage",
-            "horizon",
-            "vue",
-            "porosité",
-            "transparence",
-            "limites"
-          ],
-          "values": [
-            "panoramique",
-            "cadré",
-            "introverti",
-            "extraverti",
-            "transparent",
-            "opaque",
-            "poreux",
-            "ouvert",
-            "horizon",
-            "paysage"
-          ]
-        },
-        {
-          "id": "nature_living",
-          "label": "Nature et vivant",
+          "id": "vegetal_aspect",
+          "label": "Présence végétale et vivant",
           "micro_rubrics": [
             "végétation",
             "ciel",
@@ -325,24 +205,177 @@
           "values": [
             "végétal",
             "saisonnier",
-            "organique",
             "naturel",
             "fertile",
-            "sauvage",
-            "domestiqué",
             "vivant",
-            "verdure"
+            "verdure",
+            "jardiné"
+          ]
+        },
+        {
+          "id": "sound_aspect",
+          "label": "Sources et contextes acoustiques",
+          "micro_rubrics": [
+            "source sonore",
+            "milieu sonore",
+            "contexte sonore"
+          ],
+          "values": [
+            "aquatique",
+            "vent",
+            "naturel",
+            "urbain",
+            "public",
+            "bruit mécanique",
+            "extérieur"
+          ]
+        },
+        {
+          "id": "thermal_context",
+          "label": "Sources et contextes thermiques",
+          "micro_rubrics": [
+            "ventilation",
+            "exposition"
+          ],
+          "values": [
+            "ventilé",
+            "exposé"
+          ]
+        },
+        {
+          "id": "threshold",
+          "label": "Seuils, passages et transitions",
+          "values": [
+            "entrée",
+            "seuil",
+            "transition",
+            "sas",
+            "porche",
+            "filtre"
           ]
         }
       ]
     },
     {
       "id": "subjective",
-      "label": "Ambiances subjectives",
+      "label": "Effets ressentis",
       "rubrics": [
         {
-          "id": "calm_contemplation",
-          "label": "Calme et contemplation",
+          "id": "visual_effect",
+          "label": "Effets visuels",
+          "values": [
+            "clair",
+            "lisible",
+            "guidant",
+            "évident",
+            "structuré",
+            "caché",
+            "monumental",
+            "bas",
+            "haut",
+            "étroit",
+            "vaste",
+            "épais",
+            "ouvert",
+            "fermé",
+            "vide",
+            "symétrique",
+            "chaud",
+            "froid",
+            "neutre",
+            "sourd",
+            "éclatant",
+            "introverti",
+            "extraverti",
+            "resserrement",
+            "expansion",
+            "cadré",
+            "panoramique",
+            "horizon",
+            "paysage",
+            "transparent",
+            "opaque",
+            "poreux"
+          ]
+        },
+        {
+          "id": "body_effect",
+          "label": "Effets corporels",
+          "values": [
+            "enveloppant",
+            "vertigineux",
+            "oppressant",
+            "instable",
+            "doux",
+            "sain",
+            "réparateur",
+            "ressourçant"
+          ],
+          "micro_rubrics": [
+            "enveloppement",
+            "vertige",
+            "oppression",
+            "équilibre corporel",
+            "bien-être corporel"
+          ]
+        },
+        {
+          "id": "thermal_effect",
+          "label": "Effets thermiques ressentis",
+          "values": [
+            "chaud",
+            "frais",
+            "froid",
+            "humide",
+            "sec"
+          ]
+        },
+        {
+          "id": "sound_effect",
+          "label": "Effets sonores ressentis",
+          "values": [
+            "silencieux",
+            "feutré",
+            "sourd",
+            "mat",
+            "absorbé",
+            "réverbérant",
+            "résonant",
+            "écho",
+            "vibrant",
+            "creux",
+            "ample",
+            "diffus",
+            "clair",
+            "amplifié",
+            "continu",
+            "masquant",
+            "intime",
+            "enveloppant",
+            "musical",
+            "murmuré"
+          ]
+        },
+        {
+          "id": "olfactory_effect",
+          "label": "Effets olfactifs ressentis",
+          "micro_rubrics": [
+            "famille olfactive",
+            "humidité",
+            "matière perçue"
+          ],
+          "values": [
+            "boisé",
+            "humide",
+            "végétal",
+            "fumé",
+            "terreux",
+            "chloré"
+          ]
+        },
+        {
+          "id": "affective_effect",
+          "label": "Effets affectifs",
           "values": [
             "calme",
             "serein",
@@ -350,233 +383,122 @@
             "méditatif",
             "contemplatif",
             "posé",
-            "silencieux"
-          ]
-        },
-        {
-          "id": "intimacy_refuge",
-          "label": "Intimité et refuge",
-          "values": [
             "intime",
             "abrité",
             "refuge",
-            "enveloppant",
             "protecteur",
-            "domestique",
             "chaleureux",
-            "secret"
+            "austère",
+            "anxiogène",
+            "violent",
+            "équilibré",
+            "convivial",
+            "généreux",
+            "douloureux",
+            "mélancolique"
+          ],
+          "micro_rubrics": [
+            "calme",
+            "sécurité",
+            "intimité",
+            "inquiétude",
+            "tonalité émotionnelle"
           ]
         },
         {
-          "id": "monumental_sublime",
-          "label": "Monumentalité et sublime",
+          "id": "atmosphere_effect",
+          "label": "Ambiances d'usage, programme et transformation",
+          "micro_rubrics": [
+            "usage",
+            "programme",
+            "jeu",
+            "étude",
+            "situation collective",
+            "transformation",
+            "stratification"
+          ],
           "values": [
-            "monumental",
-            "grandiose",
-            "solennel",
-            "sublime",
-            "majestueux",
-            "impressionnant",
-            "vertigineux"
+            "joyeux",
+            "vivant",
+            "ludique",
+            "festif",
+            "animé",
+            "studieux",
+            "concentré",
+            "intellectuel",
+            "aspirant",
+            "domestique",
+            "ruine",
+            "réparation",
+            "fragment"
           ]
         },
         {
-          "id": "mystery_exploration",
-          "label": "Mystère et exploration",
-          "values": [
-            "mystérieux",
-            "énigmatique",
-            "caché",
-            "ambigu",
-            "suggestif",
-            "initiatique"
-          ]
-        },
-        {
-          "id": "sacred_ritual",
-          "label": "Sacré et rituel",
+          "id": "symbolic_atmosphere",
+          "label": "Ambiances symboliques et de milieu",
+          "micro_rubrics": [
+            "rite",
+            "sacré",
+            "domesticité",
+            "relation au vivant",
+            "solennité"
+          ],
           "values": [
             "sacré",
             "mystique",
             "spirituel",
             "liturgique",
             "rituel",
-            "ascétique"
+            "ascétique",
+            "solennel",
+            "sauvage"
           ]
         },
         {
-          "id": "memory_absence",
-          "label": "Mémoire et absence",
+          "id": "symbolic_effect",
+          "label": "Effets interprétatifs",
+          "values": [
+            "rationnel",
+            "mystérieux",
+            "énigmatique",
+            "ambigu",
+            "suggestif",
+            "initiatique",
+            "abstrait",
+            "organique",
+            "étrange",
+            "irréel",
+            "dépaysant",
+            "autre",
+            "onirique",
+            "labyrinthique",
+            "secret",
+            "grandiose",
+            "sublime",
+            "majestueux",
+            "disloqué",
+            "impressionnant",
+            "inspirant",
+            "stimulant"
+          ],
+          "micro_rubrics": [
+            "lecture",
+            "imaginaire",
+            "abstraction",
+            "étrangeté",
+            "valeur attribuée"
+          ]
+        },
+        {
+          "id": "memory_effect",
+          "label": "Effets de mémoire et de temps",
           "values": [
             "mémoriel",
             "absent",
             "fragile",
-            "douloureux",
             "historique",
             "hanté",
-            "mélancolique"
-          ]
-        },
-        {
-          "id": "joy_social_intensity",
-          "label": "Joie et intensité sociale",
-          "values": [
-            "joyeux",
-            "vivant",
-            "ludique",
-            "festif",
-            "généreux",
-            "convivial",
-            "animé"
-          ]
-        },
-        {
-          "id": "unease_oppression",
-          "label": "Inquiétude et oppression",
-          "values": [
-            "oppressant",
-            "anxiogène",
-            "instable",
-            "froid",
-            "austère",
-            "violent",
-            "disloqué"
-          ]
-        },
-        {
-          "id": "legibility_orientation",
-          "label": "Lisibilité et orientation",
-          "values": [
-            "lisible",
-            "clair",
-            "ordonné",
-            "rationnel",
-            "guidant",
-            "évident",
-            "structuré"
-          ]
-        },
-        {
-          "id": "strangeness_displacement",
-          "label": "Étrangeté et dépaysement",
-          "values": [
-            "étrange",
-            "irréel",
-            "abstrait",
-            "dépaysant",
-            "autre",
-            "onirique"
-          ]
-        },
-        {
-          "id": "inspiration_concentration",
-          "label": "Inspiration et concentration",
-          "values": [
-            "inspirant",
-            "studieux",
-            "stimulant",
-            "concentré",
-            "intellectuel",
-            "aspirant"
-          ]
-        },
-        {
-          "id": "wellbeing_restoration",
-          "label": "Bien-être et restauration",
-          "values": [
-            "réparateur",
-            "doux",
-            "sain",
-            "relaxant",
-            "équilibré",
-            "ressourçant"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "experience_devices",
-      "label": "Dispositifs d'expérience",
-      "rubrics": [
-        {
-          "id": "threshold",
-          "label": "Seuil",
-          "values": [
-            "entrée",
-            "transition",
-            "sas",
-            "filtre",
-            "porche"
-          ]
-        },
-        {
-          "id": "compression_expansion",
-          "label": "Compression / dilatation",
-          "values": [
-            "resserrement",
-            "expansion",
-            "bas",
-            "haut",
-            "étroit",
-            "vaste"
-          ]
-        },
-        {
-          "id": "framing",
-          "label": "Cadrage",
-          "values": [
-            "fenêtre",
-            "oculus",
-            "fente",
-            "panorama",
-            "axe",
-            "lanterne"
-          ]
-        },
-        {
-          "id": "filtering",
-          "label": "Filtrage",
-          "values": [
-            "claustra",
-            "vitrail",
-            "rideau",
-            "grille",
-            "perforation",
-            "volume",
-            "volume lumineux"
-          ]
-        },
-        {
-          "id": "immersion",
-          "label": "Immersion",
-          "values": [
-            "bain",
-            "couleur",
-            "pénombre",
-            "son",
-            "vapeur"
-          ]
-        },
-        {
-          "id": "prospect_refuge",
-          "label": "Prospect / refuge",
-          "values": [
-            "belvédère",
-            "alcôve",
-            "seuil",
-            "abri",
-            "horizon"
-          ]
-        },
-        {
-          "id": "palimpsest",
-          "label": "Palimpseste",
-          "values": [
-            "ruine",
-            "réparation",
-            "strate",
-            "mémoire",
-            "fragment"
+            "strate"
           ]
         }
       ]

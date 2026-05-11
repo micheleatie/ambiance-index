@@ -8,17 +8,16 @@ Le principe de départ :
 
 1. Collecter des références souvent citées dans les discours architecturaux.
 2. Extraire les mots et expressions employés pour décrire leurs ambiances.
-3. Classer ces mots dans une taxonomie physique et subjective.
-4. Permettre une recherche par choix combinés : par exemple `lumière > diffuse`, `matière > pierre`, `subjectif > contemplatif`, `spatialité > caverneux`.
+3. Classer ces mots dans une taxonomie distinguant caractéristiques physiques, effets ressentis et intentions de conception.
+4. Permettre une recherche par choix combinés : par exemple `lumière > diffuse`, `matière et surface > pierre`, `effet affectif > contemplatif`, `éléments architecturaux > atrium`, `effet symbolique > mystérieux`.
 5. À long terme, permettre à des experts d'annoter les références manuellement.
 
 ## Hypothèse De Travail
 
 Une ambiance architecturale n'est pas seulement un style visuel. Elle résulte d'un assemblage :
 
-- paramètres physiques : lumière, son, température, humidité, matière, couleur, géométrie, air, odeur ;
-- perception corporelle : mouvement, posture, tactilité, seuils, compression, dilatation ;
-- effets subjectifs : calme, mystère, sacré, intimité, oppression, joie, mémoire, orientation ;
+- caractéristiques physiques : lumière, dispositifs lumineux, dispositifs spatiaux, sources sonores, contextes thermiques, matière, couleur, eau, végétation, seuils, parcours, rampes, alcôves ;
+- effets ressentis : calme, mystère, sacré, intimité, oppression, joie, mémoire, orientation, chaleur, fraîcheur, odeur ;
 - contexte culturel : religion, deuil, rituel, domesticité, prestige, paysage, patrimoine.
 
 La plateforme doit donc accepter plusieurs lectures d'un même lieu.
@@ -35,9 +34,9 @@ Cette étape permet de construire rapidement une base pédagogique cohérente, s
 
 Transformer les mots trouvés en ligne en rubriques contrôlées :
 
-- `tamisé`, `diffus`, `zénithal` deviennent des valeurs de la rubrique `lumière`.
-- `caverneux`, `stratifié`, `rugueux` deviennent des valeurs de `matière` ou `spatialité`.
-- `contemplatif`, `mystique`, `apaisant` deviennent des valeurs subjectives.
+- `tamisé`, `diffus`, `zénithal` deviennent des valeurs de `lumière`.
+- `atrium`, `voûte`, `stratifié`, `rugueux` deviennent des valeurs d'éléments architecturaux ou de matière et surface.
+- `contemplatif`, `mystique`, `apaisant`, `frais`, `boisé` deviennent des valeurs d'effets ressentis.
 
 ### Étape 3 : Annotation Sourcée
 
@@ -56,8 +55,8 @@ Chaque annotation doit conserver :
 L'interface pourra proposer :
 
 - recherche par mots libres ;
-- filtres par ambiances physiques ;
-- filtres par ambiances subjectives ;
+- filtres par caractéristiques physiques ;
+- filtres par effets ressentis ;
 - cartes de thèmes pédagogiques ;
 - fiche détaillée avec sources, images, mots-clés et références voisines.
 

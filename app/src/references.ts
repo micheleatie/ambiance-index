@@ -107,7 +107,7 @@ export function getTagLabel(state: AppState, tag: string): TagLabel {
 export function getTagFamilyClass(state: AppState, tag: string): string {
   const familyId = getTagLabel(state, tag).familyId;
   if (familyId === "design_intentions") return "intention";
-  return familyId === "physical" || familyId === "experience_devices" ? "physical" : "subjective";
+  return familyId === "physical" ? "physical" : "subjective";
 }
 
 export function getPalette(reference: ReferenceRecord): TilePalette {
@@ -126,6 +126,14 @@ export function getReferenceAmbianceTags(reference: ReferenceRecord): string[] {
 
 export function getReferenceIntentionTags(reference: ReferenceRecord): string[] {
   return (reference.intention_tags ?? []).slice(0, 2);
+}
+
+export function getReferenceFamilyTags(
+  state: AppState,
+  reference: ReferenceRecord,
+  familyId: string
+): string[] {
+  return getAllTags(reference).filter((tag) => getTagLabel(state, tag).familyId === familyId);
 }
 
 export function getAllRubrics(state: AppState): RubricMeta[] {

@@ -1,6 +1,6 @@
 # Ambiance Index
 
-Ambiance Index est un site de recherche pour explorer des références architecturales par qualités sensibles : lumière, son, matière, eau, parcours, intimité, mémoire, monumentalité, sacré, refuge, climat, odeur, immersion et intentions de conception.
+Ambiance Index est un site de recherche pour explorer des références architecturales par ambiances : lumière, dispositifs lumineux, dispositifs spatiaux, son, matière, eau, parcours, seuil, effets visuels, intimité, mémoire, monumentalité, sacré, refuge, climat, odeur et intentions de conception.
 
 Le site est accessible ici : [micheleatie.github.io/ambiance-index](https://micheleatie.github.io/ambiance-index/)
 
@@ -10,7 +10,7 @@ Créatrice de l'outil : Michèle Atié, docteure en architecture. Contact : [ati
 
 L'interface est organisée en trois zones :
 
-- `Recherche` : filtre libre, thèmes rapides et rubriques d'ambiances.
+- `Recherche` : filtre libre, thèmes rapides, caractéristiques physiques, effets ressentis et intentions architecturales.
 - `Références` : liste des projets correspondant à la recherche.
 - `Fiche` : détail de la référence sélectionnée, avec tags, sources et formulaire de suggestion.
 
@@ -20,7 +20,7 @@ Dans une fenêtre plus étroite, `Recherche` se replie en bouton pour laisser `R
 
 Le champ de recherche accepte un nom de bâtiment, un architecte, un lieu ou un mot d'ambiance. Par exemple : `Zumthor`, `lumière`, `eau`, `refuge`, `béton`, `sacré`.
 
-Les thèmes rapides permettent de tester directement des familles d'ambiances comme `Lumière filtrée`, `Eau et rituel`, `Son et rituel`, `Site et climat`, `Mémoire / absence`, `Refuge et étude` ou `Matière et corps`.
+Les thèmes rapides permettent de tester directement des associations d'aspects, d'effets et d'intentions comme `Lumière filtrée`, `Eau et rituel`, `Son et rituel`, `Site et climat`, `Mémoire / absence`, `Refuge et étude` ou `Matière et corps`.
 
 Les rubriques servent à affiner la recherche. Plusieurs choix dans une même rubrique élargissent la recherche ; des choix dans plusieurs rubriques la resserrent.
 
@@ -28,8 +28,8 @@ Les rubriques servent à affiner la recherche. Plusieurs choix dans une même ru
 
 Chaque fiche rassemble :
 
-- les ambiances physiques associées à la référence ;
-- les ambiances subjectives ;
+- les caractéristiques physiques associées à la référence ;
+- les effets ressentis ;
 - les intentions de conception ;
 - des mots figuratifs utiles pour la recherche ;
 - les sources consultables en ligne.
@@ -58,4 +58,4 @@ Le bouton `Enregistrer localement` garde une trace dans le navigateur utilisé. 
 
 ## Données Et Modération
 
-La base actuelle contient 120 références indexées. Les contributions publiques sont modérées avant publication afin de préserver la cohérence du vocabulaire, distinguer les faits sourcés des hypothèses et éviter de confondre une cause matérielle avec un effet ressenti.
+La base actuelle contient 120 références indexées. Les contributions publiques sont modérées avant publication afin de préserver la cohérence du vocabulaire, distinguer les faits sourcés des hypothèses et éviter de confondre une caractéristique physique, un effet ressenti et une intention de conception.
