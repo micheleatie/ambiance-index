@@ -68,6 +68,7 @@
 - [x] Faire une passe transversale sur les 120 références et déplacer `cérémoniel` hors des effets sonores vers les ambiances symboliques.
 - [x] Réintroduire `organique` comme effet interprétatif pour la Sagrada Família, sans le confondre avec une présence végétale.
 - [x] Déplacer `jardiné` vers les caractéristiques végétales et ajouter `organique` à d'autres références comme effet interprétatif.
+- [x] Ajouter les métadonnées SEO, la balise Google Search Console et un sitemap XML public.
 
 ## À Faire Ensuite
 

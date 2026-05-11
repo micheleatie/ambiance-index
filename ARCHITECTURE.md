@@ -12,6 +12,7 @@ Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google A
 - `README.md` : résumé utilisateur du projet.
 - `TODO.md` : plan de travail.
 - `SOURCES.md` : bibliographie et sources web.
+- `sitemap.xml` : sitemap public du site GitHub Pages, copié dans `dist/` pendant le build.
 - `research/01-cadrage-plateforme.md` : cadrage produit et méthode de constitution de la base.
 - `research/02-taxonomie-ambiances.md` : taxonomie initiale des caractéristiques physiques, effets ressentis et intentions.
 - `research/03-corpus-references.md` : premier corpus de références emblématiques.
@@ -92,6 +93,7 @@ Fonctions disponibles :
 - Prévisualisation production : `npm run preview`, avec base `/ambiance-index/`.
 - Déploiement : GitHub Actions construit `dist/` depuis `main` et publie sur GitHub Pages.
 - Configuration Vite durable : `root: "app"`, `build.outDir: "../dist"`, base de production `/ambiance-index/`.
+- SEO : les métadonnées principales et la balise de vérification Google Search Console sont dans `app/index.html`; le sitemap canonique est `sitemap.xml` à la racine du dépôt et il est copié vers `dist/sitemap.xml` au build.
 
 ## Suggestions Publiques Modérées
 
