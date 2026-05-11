@@ -4,8 +4,7 @@ import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 
 const repoRoot = fileURLToPath(new URL(".", import.meta.url));
-const rootSitemap = resolve(repoRoot, "sitemap.xml");
-const distSitemap = resolve(repoRoot, "dist", "sitemap.xml");
+const rootSeoFiles = ["sitemap.xml", "robots.txt"];
 
 export default defineConfig(({ command }) => ({
   root: "app",
@@ -13,10 +12,12 @@ export default defineConfig(({ command }) => ({
   publicDir: false,
   plugins: [
     {
-      name: "copy-root-sitemap",
+      name: "copy-root-seo-files",
       apply: "build",
       closeBundle() {
-        copyFileSync(rootSitemap, distSitemap);
+        for (const fileName of rootSeoFiles) {
+          copyFileSync(resolve(repoRoot, fileName), resolve(repoRoot, "dist", fileName));
+        }
       }
     }
   ],

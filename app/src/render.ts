@@ -30,7 +30,13 @@ import {
   makeTag
 } from "./references";
 import type { AppState, ExpertAnnotation, ReferenceRecord, Rubric, RubricMeta, TaxonomyFamily } from "./types";
-import { escapeAttribute, escapeHtml, formatCount, formatDateTime } from "./utils/format";
+import {
+  escapeAttribute,
+  escapeHtml,
+  formatCount,
+  formatDateTime,
+  normalizeExternalHttpUrl
+} from "./utils/format";
 
 export interface RenderHandlers {
   toggleTag(tag: string): void;
@@ -282,7 +288,7 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
     <section class="detail-section">
       <h3>Sources</h3>
       <div class="source-list">
-        ${selected.sources.map((source) => `<a class="source-link" href="${escapeAttribute(source)}" target="_blank" rel="noreferrer">${escapeHtml(source)}</a>`).join("")}
+        ${selected.sources.map((source) => renderSourceLink(source)).join("")}
       </div>
     </section>
 
@@ -483,6 +489,15 @@ function renderRubricOptions(state: AppState, reference: ReferenceRecord): strin
 
 function renderRubricOption(rubric: RubricMeta): string {
   return `<option value="${escapeAttribute(rubric.id)}">${escapeHtml(rubric.familyLabel)} · ${escapeHtml(rubric.label)}</option>`;
+}
+
+function renderSourceLink(source: string): string {
+  const href = normalizeExternalHttpUrl(source);
+  if (!href) {
+    return `<span class="source-link">${escapeHtml(source)}</span>`;
+  }
+
+  return `<a class="source-link" href="${escapeAttribute(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source)}</a>`;
 }
 
 function renderReferenceTagBlock(state: AppState, label: string, tags: string[], className = ""): string {

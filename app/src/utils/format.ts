@@ -25,3 +25,15 @@ export function escapeHtml(value: unknown): string {
 export function escapeAttribute(value: unknown): string {
   return escapeHtml(value);
 }
+
+export function normalizeExternalHttpUrl(value: unknown): string | null {
+  const urlText = String(value ?? "").trim();
+  if (!urlText) return null;
+
+  try {
+    const url = new URL(urlText);
+    return url.protocol === "http:" || url.protocol === "https:" ? url.href : null;
+  } catch {
+    return null;
+  }
+}

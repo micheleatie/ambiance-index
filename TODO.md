@@ -69,9 +69,13 @@
 - [x] Réintroduire `organique` comme effet interprétatif pour la Sagrada Família, sans le confondre avec une présence végétale.
 - [x] Déplacer `jardiné` vers les caractéristiques végétales et ajouter `organique` à d'autres références comme effet interprétatif.
 - [x] Ajouter les métadonnées SEO, la balise Google Search Console et un sitemap XML public.
+- [x] Ajouter `robots.txt` et des données structurées JSON-LD pour la page d'accueil.
+- [x] Retirer l'email personnel public du site et du README.
+- [x] Durcir les liens de sources : seules les URL `http`/`https` sont rendues cliquables, avec `noopener noreferrer`.
 
 ## À Faire Ensuite
 
+- [ ] Générer automatiquement des pages statiques pour chaque référence depuis `data/references_seed.json`, avec slug stable, titre, description, tags, sources, JSON-LD par référence et entrée dédiée dans `sitemap.xml`.
 - [ ] Vérifier une soumission depuis le site public après redéploiement Apps Script.
 - [ ] Définir le fichier canonique des annotations approuvées et le processus de passage de Google Sheets vers `data/`.
 - [ ] Transformer les justifications v0 du lot 1 en citations courtes ou paraphrases affichables dans l'app.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /ambiance-index/
+
+Sitemap: https://micheleatie.github.io/ambiance-index/sitemap.xml

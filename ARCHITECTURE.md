@@ -13,6 +13,7 @@ Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google A
 - `TODO.md` : plan de travail.
 - `SOURCES.md` : bibliographie et sources web.
 - `sitemap.xml` : sitemap public du site GitHub Pages, copié dans `dist/` pendant le build.
+- `robots.txt` : consignes publiques minimales pour les robots, copié dans `dist/` pendant le build.
 - `research/01-cadrage-plateforme.md` : cadrage produit et méthode de constitution de la base.
 - `research/02-taxonomie-ambiances.md` : taxonomie initiale des caractéristiques physiques, effets ressentis et intentions.
 - `research/03-corpus-references.md` : premier corpus de références emblématiques.
@@ -79,10 +80,12 @@ Fonctions disponibles :
 - séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
 - suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
 - identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels ;
+- l'email personnel de la créatrice n'est pas publié dans le site ou les données structurées ; les emails saisis dans le formulaire restent des données de contact optionnelles propres aux contributions ;
 - champs obligatoires, limites de longueur, honeypot et limitation locale à 3 soumissions par 10 minutes ;
 - retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.
 - effacement explicite des traces locales et de l'identité mémorisée dans le navigateur pour la référence ouverte.
 - build statique déployable sur GitHub Pages avec base de production `/ambiance-index/`.
+- les liens de sources sont limités aux URL `http`/`https` avant d'être rendus cliquables.
 
 ## Développement Local Et Déploiement
 
@@ -93,7 +96,7 @@ Fonctions disponibles :
 - Prévisualisation production : `npm run preview`, avec base `/ambiance-index/`.
 - Déploiement : GitHub Actions construit `dist/` depuis `main` et publie sur GitHub Pages.
 - Configuration Vite durable : `root: "app"`, `build.outDir: "../dist"`, base de production `/ambiance-index/`.
-- SEO : les métadonnées principales et la balise de vérification Google Search Console sont dans `app/index.html`; le sitemap canonique est `sitemap.xml` à la racine du dépôt et il est copié vers `dist/sitemap.xml` au build.
+- SEO : les métadonnées principales, la balise de vérification Google Search Console et le JSON-LD de la page d'accueil sont dans `app/index.html`; le sitemap canonique et `robots.txt` sont à la racine du dépôt et copiés vers `dist/` au build.
 
 ## Suggestions Publiques Modérées
 
