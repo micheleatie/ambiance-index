@@ -72,6 +72,7 @@
 - [x] Ajouter `robots.txt` et des données structurées JSON-LD pour la page d'accueil.
 - [x] Retirer l'email personnel public du site et du README.
 - [x] Durcir les liens de sources : seules les URL `http`/`https` sont rendues cliquables, avec `noopener noreferrer`.
+- [x] Supprimer la mémorisation globale de l'identité dans le formulaire de suggestions expertes.
 
 ## À Faire Ensuite
 

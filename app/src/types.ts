@@ -101,13 +101,6 @@ export interface ExpertAnnotation {
   legacy?: boolean;
 }
 
-export interface ExpertIdentity {
-  name: string;
-  role: string;
-  organization: string;
-  email: string;
-}
-
 export interface AnnotationSubmissionPayload {
   reference_id: string;
   reference_name: string;

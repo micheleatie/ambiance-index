@@ -3,7 +3,6 @@ import {
   getAnnotationActionLabel,
   getAnnotationAuthorLabel,
   getConfidenceLabel,
-  getSavedExpertIdentity,
   getStoredAnnotations
 } from "./annotations";
 import {
@@ -301,7 +300,6 @@ function renderExpertAnnotations(
   reference: ReferenceRecord,
   annotations: ExpertAnnotation[]
 ): string {
-  const expertIdentity = getSavedExpertIdentity();
   const activeAnnotations = annotations.filter((annotation) => !annotation.withdrawn_at);
   const withdrawnAnnotations = annotations.filter((annotation) => annotation.withdrawn_at);
 
@@ -313,7 +311,7 @@ function renderExpertAnnotations(
           <button class="ghost-button annotation-export" type="button" ${annotations.length ? "" : "disabled"}>
             Exporter traces locales
           </button>
-          <button class="ghost-button annotation-clear" type="button" data-clear-local-annotations ${annotations.length || expertIdentity.name || expertIdentity.role || expertIdentity.organization || expertIdentity.email ? "" : "disabled"}>
+          <button class="ghost-button annotation-clear" type="button" data-clear-local-annotations ${annotations.length ? "" : "disabled"}>
             Effacer local
           </button>
         </div>
@@ -340,26 +338,26 @@ function renderExpertAnnotations(
           : ""
       }
 
-      <form class="annotation-form" id="expert-annotation-form">
+      <form class="annotation-form" id="expert-annotation-form" autocomplete="off">
         <div class="annotation-form-grid">
           <label>
             <span>Nom</span>
-            <input name="expert_name" type="text" required autocomplete="name" maxlength="${ANNOTATION_FIELD_LIMITS.expert_name}" value="${escapeAttribute(expertIdentity.name)}" />
+            <input name="expert_name" type="text" required autocomplete="off" maxlength="${ANNOTATION_FIELD_LIMITS.expert_name}" />
           </label>
 
           <label>
             <span>Fonction / rôle</span>
-            <input name="expert_role" type="text" required maxlength="${ANNOTATION_FIELD_LIMITS.expert_role}" placeholder="Architecte, enseignant..." value="${escapeAttribute(expertIdentity.role)}" />
+            <input name="expert_role" type="text" required autocomplete="off" maxlength="${ANNOTATION_FIELD_LIMITS.expert_role}" placeholder="Architecte, enseignant..." />
           </label>
 
           <label>
             <span>Organisation</span>
-            <input name="expert_organization" type="text" maxlength="${ANNOTATION_FIELD_LIMITS.expert_organization}" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.organization)}" />
+            <input name="expert_organization" type="text" autocomplete="off" maxlength="${ANNOTATION_FIELD_LIMITS.expert_organization}" placeholder="Optionnel" />
           </label>
 
           <label>
             <span>Email de contact</span>
-            <input name="contact_email" type="email" autocomplete="email" maxlength="${ANNOTATION_FIELD_LIMITS.contact_email}" placeholder="Optionnel" value="${escapeAttribute(expertIdentity.email)}" />
+            <input name="contact_email" type="email" autocomplete="off" maxlength="${ANNOTATION_FIELD_LIMITS.contact_email}" placeholder="Optionnel" />
           </label>
 
           <label>

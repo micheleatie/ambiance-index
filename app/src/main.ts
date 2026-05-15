@@ -1,3 +1,4 @@
+import { clearSavedExpertIdentity } from "./annotations";
 import { loadSeedData } from "./data/loadData";
 import { getAppElements } from "./dom";
 import { bindEvents } from "./events";
@@ -31,6 +32,7 @@ function selectReference(referenceId: string): void {
 
 async function init(): Promise<void> {
   try {
+    clearSavedExpertIdentity();
     const { taxonomy, referencesDataset } = await loadSeedData();
     state.taxonomy = taxonomy;
     state.references = referencesDataset.references;

@@ -79,7 +79,7 @@ Fonctions disponibles :
 - mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
 - séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
 - suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
-- identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels ;
+- identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels, saisis au moment de la contribution et non réutilisés globalement entre les références ;
 - l'email personnel de la créatrice n'est pas publié dans le site ou les données structurées ; les emails saisis dans le formulaire restent des données de contact optionnelles propres aux contributions ;
 - champs obligatoires, limites de longueur, honeypot et limitation locale à 3 soumissions par 10 minutes ;
 - retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.

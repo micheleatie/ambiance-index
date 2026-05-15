@@ -4,7 +4,6 @@ import type {
   ConfidenceLevel,
   ExpertAnnotation,
   ExpertAuthor,
-  ExpertIdentity,
   ReferenceRecord,
   RubricMeta
 } from "./types";
@@ -92,35 +91,6 @@ export function createExpertAuthor(data: FormData): ExpertAuthor {
     role: String(data.get("expert_role") ?? "").trim(),
     organization: String(data.get("expert_organization") ?? "").trim()
   };
-}
-
-export function createExpertIdentity(data: FormData): ExpertIdentity {
-  return {
-    ...createExpertAuthor(data),
-    email: String(data.get("contact_email") ?? "").trim()
-  };
-}
-
-export function getSavedExpertIdentity(): ExpertIdentity {
-  try {
-    const parsed: unknown = JSON.parse(localStorage.getItem(EXPERT_IDENTITY_STORAGE_KEY) ?? "null");
-    if (!parsed || typeof parsed !== "object") {
-      return emptyExpertIdentity();
-    }
-    const identity = parsed as Partial<ExpertIdentity>;
-    return {
-      name: typeof identity.name === "string" ? identity.name : "",
-      role: typeof identity.role === "string" ? identity.role : "",
-      organization: typeof identity.organization === "string" ? identity.organization : "",
-      email: typeof identity.email === "string" ? identity.email : ""
-    };
-  } catch {
-    return emptyExpertIdentity();
-  }
-}
-
-export function saveExpertIdentity(data: FormData): void {
-  localStorage.setItem(EXPERT_IDENTITY_STORAGE_KEY, JSON.stringify(createExpertIdentity(data)));
 }
 
 export function clearSavedExpertIdentity(): void {
@@ -223,13 +193,4 @@ function makeAnnotationId(referenceId: string): string {
       ? crypto.randomUUID()
       : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   return `${referenceId}:${suffix}`;
-}
-
-function emptyExpertIdentity(): ExpertIdentity {
-  return {
-    name: "",
-    role: "",
-    organization: "",
-    email: ""
-  };
 }

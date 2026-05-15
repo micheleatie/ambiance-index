@@ -4,7 +4,6 @@ import {
   createAnnotation,
   exportAnnotations,
   getStoredAnnotations,
-  saveExpertIdentity,
   saveStoredAnnotations,
   withdrawAnnotation
 } from "./annotations";
@@ -196,7 +195,6 @@ function saveLocalAnnotationFromForm(
 
   const annotations = getStoredAnnotations(reference);
   annotations.push(createAnnotation(reference, data, getRubricMeta(state, rubricId)));
-  saveExpertIdentity(data);
   saveStoredAnnotations(reference.id, annotations);
   lastAnnotationSaveAt = now;
   render();
@@ -254,7 +252,6 @@ async function submitExpertAnnotationFromForm(
         submittedAt
       })
     );
-    saveExpertIdentity(data);
     saveStoredAnnotations(reference.id, annotations);
     lastAnnotationSaveAt = Date.now();
     render();
