@@ -48,7 +48,13 @@
         "symbolic_intention:sacraliser",
         "perceptual_intention:envelopper",
         "perceptual_intention:intensifier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/1280px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg",
+        "alt": "Façade et portique du Panthéon de Rome vus depuis la Piazza della Rotonda.",
+        "credit": "Image : Wikimedia Commons, fichier Pantheon (Rome) - Right side and front",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg"
+      }
     },
     {
       "id": "sainte_chapelle_paris",
@@ -95,7 +101,13 @@
         "perceptual_intention:envelopper",
         "climate_intention:filtrer la lumière",
         "social_intention:se retirer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sainte_Chapelle_-_Upper_level_1.jpg/960px-Sainte_Chapelle_-_Upper_level_1.jpg",
+        "alt": "Niveau haut de la Sainte-Chapelle avec ses grands vitraux colorés.",
+        "credit": "Image : Wikimedia Commons, fichier Sainte Chapelle - Upper level 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_-_Upper_level_1.jpg"
+      }
     },
     {
       "id": "alhambra_generalife",
@@ -149,7 +161,13 @@
         "perceptual_intention:surprendre",
         "site_intention:fusionner avec la nature",
         "climate_intention:rafraîchir par l'eau"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1280px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+        "alt": "Vue de l’Alhambra à Grenade à l’aube.",
+        "credit": "Image : Wikimedia Commons, fichier Dawn Charles V Palace Alhambra Granada Andalusia Spain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+      }
     },
     {
       "id": "fallingwater",
@@ -208,7 +226,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fallingwater3.jpg/1280px-Fallingwater3.jpg",
+        "alt": "Fallingwater de Frank Lloyd Wright au-dessus de la cascade.",
+        "credit": "Image : Wikimedia Commons, fichier Fallingwater3",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fallingwater3.jpg"
+      }
     },
     {
       "id": "casa_luis_barragan",
@@ -255,7 +279,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "social_intention:se retirer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Luis_Barrag%C3%A1n_House_and_Studio-115242.jpg/960px-Luis_Barrag%C3%A1n_House_and_Studio-115242.jpg",
+        "alt": "Intérieur coloré de la Casa Luis Barragán.",
+        "credit": "Image : Wikimedia Commons, fichier Luis Barragán House and Studio-115242",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Luis_Barrag%C3%A1n_House_and_Studio-115242.jpg"
+      }
     },
     {
       "id": "ronchamp",
@@ -302,7 +332,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://sites-le-corbusier.org/wp-content/uploads/2022/06/Chapelle-Notre-Dame-du-Haut_Gabriel-Vieille_AONDH_2019-scaled.jpg",
+        "alt": "Chapelle Notre-Dame du Haut à Ronchamp, avec sa toiture courbe et ses murs blancs.",
+        "credit": "Image : Sites Le Corbusier / Gabriel Vieille / AONDH, 2019",
+        "source_url": "https://sites-le-corbusier.org/en/oeuvres/chapelle-notre-dame-du-haut-ronchamp/"
+      }
     },
     {
       "id": "salk_institute",
@@ -353,7 +389,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Salk_Institute_2.jpg/1280px-Salk_Institute_2.jpg",
+        "alt": "Cour centrale du Salk Institute avec canal d’eau orienté vers l’océan.",
+        "credit": "Image : Wikimedia Commons, fichier Salk Institute 2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salk_Institute_2.jpg"
+      }
     },
     {
       "id": "kimbell_art_museum",
@@ -399,7 +441,13 @@
         "perceptual_intention:ralentir",
         "climate_intention:exploiter l'inertie",
         "material_intention:rendre tactile"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kimbell_Art_Museum_Highsmith.jpg/1280px-Kimbell_Art_Museum_Highsmith.jpg",
+        "alt": "Façade du Kimbell Art Museum et ses voûtes basses.",
+        "credit": "Image : Wikimedia Commons, fichier Kimbell Art Museum Highsmith",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kimbell_Art_Museum_Highsmith.jpg"
+      }
     },
     {
       "id": "phillips_exeter_library",
@@ -446,7 +494,13 @@
         "perceptual_intention:orienter",
         "material_intention:mettre en valeur l'artisanat",
         "social_intention:apprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Phillips_Exeter_Library_atrium_Highsmith.jpg/960px-Phillips_Exeter_Library_atrium_Highsmith.jpg",
+        "alt": "Atrium central de la bibliothèque Phillips Exeter Academy.",
+        "credit": "Image : Wikimedia Commons, fichier Phillips Exeter Library atrium Highsmith",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Phillips_Exeter_Library_atrium_Highsmith.jpg"
+      }
     },
     {
       "id": "church_of_the_light",
@@ -492,7 +546,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ibaraki_Kasugaoka_Church_light_cross.jpg",
+        "alt": "Croix de lumière dans la Church of the Light de Tadao Ando.",
+        "credit": "Image : Wikimedia Commons, fichier Ibaraki Kasugaoka Church light cross",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ibaraki_Kasugaoka_Church_light_cross.jpg"
+      }
     },
     {
       "id": "therme_vals",
@@ -549,7 +609,13 @@
         "climate_intention:rafraîchir par l'eau",
         "climate_intention:exploiter l'inertie",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/7132_Thermal_Baths_%26_Hotels.png",
+        "alt": "Thermes de Vals, bassins extérieurs et volumes en pierre.",
+        "credit": "Image : Wikimedia Commons, fichier 7132 Thermal Baths & Hotels",
+        "source_url": "https://commons.wikimedia.org/wiki/File:7132_Thermal_Baths_%26_Hotels.png"
+      }
     },
     {
       "id": "bruder_klaus_field_chapel",
@@ -594,7 +660,13 @@
         "perceptual_intention:intensifier",
         "climate_intention:exploiter l'inertie",
         "social_intention:se retirer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Zumthor_Feldkapelle_Wachendorf.jpg",
+        "alt": "Bruder Klaus Field Chapel de Peter Zumthor dans le paysage agricole de Wachendorf.",
+        "credit": "Image : Wikimedia Commons, fichier Zumthor Feldkapelle Wachendorf",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Zumthor_Feldkapelle_Wachendorf.jpg"
+      }
     },
     {
       "id": "kolumba_museum",
@@ -638,7 +710,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:composer avec l'existant"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kolumba_museum%2C_peter_zumthor_1997-2007_%283457230236%29.jpg",
+        "alt": "Façade en brique perforée du Kolumba Museum de Peter Zumthor.",
+        "credit": "Image : Wikimedia Commons, fichier Kolumba museum, Peter Zumthor 1997-2007",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kolumba_museum,_peter_zumthor_1997-2007_(3457230236).jpg"
+      }
     },
     {
       "id": "jewish_museum_berlin",
@@ -687,7 +765,13 @@
         "perceptual_intention:désorienter",
         "social_intention:démocratiser la culture",
         "social_intention:se retirer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Berlin_J%C3%BCdisches_Museum_und_der_Libeskind-Bau.jpg",
+        "alt": "Bâtiment de Daniel Libeskind du Jewish Museum Berlin.",
+        "credit": "Image : Wikimedia Commons, fichier Berlin Jüdisches Museum und der Libeskind-Bau",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_J%C3%BCdisches_Museum_und_der_Libeskind-Bau.jpg"
+      }
     },
     {
       "id": "chapel_st_ignatius",
@@ -734,7 +818,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://www.stevenholl.com/wp-content/uploads/2017/06/142BE04PW-1-scaled-e1745004336680.jpg",
+        "alt": "Chapel of St. Ignatius de Steven Holl, vue intérieure colorée par la lumière.",
+        "credit": "Image : Steven Holl Architects",
+        "source_url": "https://www.stevenholl.com/projects/st-ignatius-chapel"
+      }
     },
     {
       "id": "cy_twombly_gallery",
@@ -778,7 +868,13 @@
         "perceptual_intention:ralentir",
         "climate_intention:filtrer la lumière",
         "social_intention:démocratiser la culture"
-      ]
+      ],
+      "image": {
+        "url": "https://blob.production.menil.org/images/twill/5afd72fa-03fb-4552-9b75-c5e195868043/the-cy-twombly-gallery-exterior-photo-by-peter-molick.jpg",
+        "alt": "Extérieur de la Cy Twombly Gallery à Houston.",
+        "credit": "Image : The Menil Collection, photo Peter Molick",
+        "source_url": "https://www.menil.org/campus/cy-twombly-gallery"
+      }
     },
     {
       "id": "fondation_beyeler",
@@ -825,7 +921,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Riehen_-_Fondation_Beyeler.jpg/1280px-Riehen_-_Fondation_Beyeler.jpg",
+        "alt": "Façade de la Fondation Beyeler à Riehen.",
+        "credit": "Image : Wikimedia Commons, fichier Riehen - Fondation Beyeler",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Riehen_-_Fondation_Beyeler.jpg"
+      }
     },
     {
       "id": "hagia_sophia",
@@ -878,7 +980,13 @@
         "symbolic_intention:sacraliser",
         "perceptual_intention:envelopper",
         "perceptual_intention:intensifier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/1280px-Hagia_Sophia_%28228968325%29.jpeg",
+        "alt": "Hagia Sophia à Istanbul, avec son grand volume central et ses coupoles.",
+        "credit": "Image : Wikimedia Commons, fichier Hagia Sophia (228968325)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg"
+      }
     },
     {
       "id": "great_mosque_cordoba",
@@ -927,7 +1035,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:désorienter",
         "spatial_intention:labyrinthe"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg/1280px-Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg",
+        "alt": "Vue aérienne de la Grande Mosquée-Cathédrale de Cordoue.",
+        "credit": "Image : Wikimedia Commons, fichier Mezquita de Córdoba desde el aire",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_(C%C3%B3rdoba,_Espa%C3%B1a).jpg"
+      }
     },
     {
       "id": "chartres_cathedral",
@@ -978,7 +1092,13 @@
         "perceptual_intention:intensifier",
         "climate_intention:filtrer la lumière",
         "social_intention:se retirer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/1280px-Notre_Dame_de_Chartres.jpg",
+        "alt": "Façade occidentale de la cathédrale Notre-Dame de Chartres.",
+        "credit": "Image : Wikimedia Commons, fichier Notre Dame de Chartres",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_Chartres.jpg"
+      }
     },
     {
       "id": "notre_dame_paris",
@@ -1030,7 +1150,13 @@
         "perceptual_intention:envelopper",
         "climate_intention:filtrer la lumière",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/1280px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+        "alt": "Façade occidentale de Notre-Dame de Paris avec les deux tours et la rose.",
+        "credit": "Image : Wikimedia Commons, fichier Notre-Dame de Paris, 4 October 2017",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_4_October_2017.jpg"
+      }
     },
     {
       "id": "sagrada_familia",
@@ -1084,7 +1210,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:créer un repère"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/1280px-SF_maig_2026.jpg",
+        "alt": "Vue extérieure de la Sagrada Família à Barcelone, avec ses tours et façades sculptées.",
+        "credit": "Image : Wikimedia Commons, fichier SF maig 2026",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg"
+      }
     },
     {
       "id": "monastery_la_tourette",
@@ -1135,7 +1267,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "spatial_intention:séquence rituelle"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/La_Tourette_1.jpg",
+        "alt": "Vue extérieure du couvent Sainte-Marie de La Tourette, volumes en béton dans le paysage.",
+        "credit": "Image : Wikimedia Commons, fichier La Tourette 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:La_Tourette_1.jpg"
+      }
     },
     {
       "id": "menil_collection",
@@ -1185,7 +1323,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "material_intention:mettre en valeur l'artisanat"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/MenilCollection.JPG/1280px-MenilCollection.JPG",
+        "alt": "Façade basse de la Menil Collection à Houston, avec toiture fine et filtre végétal.",
+        "credit": "Image : Wikimedia Commons, fichier MenilCollection",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MenilCollection.JPG"
+      }
     },
     {
       "id": "chichu_art_museum",
@@ -1235,7 +1379,13 @@
         "climate_intention:exploiter l'inertie",
         "material_intention:chercher la transparence",
         "material_intention:faire monolithe"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg/1280px-150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg",
+        "alt": "Vue extérieure du Chichu Art Museum sur l’île de Naoshima, inscrit dans le relief.",
+        "credit": "Image : Wikimedia Commons, fichier 150505 Chichu Art Museum Naoshima Island Kagawa pref Japan01s3",
+        "source_url": "https://commons.wikimedia.org/wiki/File:150505_Chichu_Art_Museum_Naoshima_Island_Kagawa_pref_Japan01s3.jpg"
+      }
     },
     {
       "id": "teshima_art_museum",
@@ -1293,7 +1443,13 @@
         "climate_intention:rafraîchir par l'eau",
         "social_intention:exposer",
         "material_intention:faire monolithe"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Teshima_Art_Museum_exterior_view_201310.jpg/1280px-Teshima_Art_Museum_exterior_view_201310.jpg",
+        "alt": "Vue extérieure du Teshima Art Museum, coque blanche ouverte dans le paysage.",
+        "credit": "Image : Wikimedia Commons, fichier Teshima Art Museum exterior view 201310",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Teshima_Art_Museum_exterior_view_201310.jpg"
+      }
     },
     {
       "id": "louvre_abu_dhabi",
@@ -1347,7 +1503,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "site_intention:créer un repère"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/LouvreAD_water.jpg",
+        "alt": "Cour d’eau sous la grande coupole ajourée du Louvre Abu Dhabi.",
+        "credit": "Image : Wikimedia Commons, fichier LouvreAD water",
+        "source_url": "https://commons.wikimedia.org/wiki/File:LouvreAD_water.jpg"
+      }
     },
     {
       "id": "institut_monde_arabe",
@@ -1391,7 +1553,13 @@
         "perceptual_intention:orienter",
         "climate_intention:filtrer la lumière",
         "social_intention:démocratiser la culture"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Institut_du_Monde_Arabe_-_Mousharabieh_Eiffel_(3388328705).jpg/1280px-Institut_du_Monde_Arabe_-_Mousharabieh_Eiffel_(3388328705).jpg",
+        "alt": "Façade de l’Institut du Monde Arabe avec les diaphragmes métalliques inspirés du moucharabieh.",
+        "credit": "Image : Wikimedia Commons, fichier Institut du Monde Arabe - Mousharabieh Eiffel (3388328705)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Institut_du_Monde_Arabe_-_Mousharabieh_Eiffel_(3388328705).jpg"
+      }
     },
     {
       "id": "guggenheim_museum_new_york",
@@ -1441,7 +1609,13 @@
         "site_intention:créer un repère",
         "spatial_intention:rampe continue",
         "social_intention:exposer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_(48059131351).jpg/1280px-Solomon_R._Guggenheim_Museum_(48059131351).jpg",
+        "alt": "Façade courbe du Solomon R. Guggenheim Museum à New York.",
+        "credit": "Image : Wikimedia Commons, fichier Solomon R. Guggenheim Museum (48059131351)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_(48059131351).jpg"
+      }
     },
     {
       "id": "brasilia_cathedral",
@@ -1493,7 +1667,13 @@
         "symbolic_intention:sacraliser",
         "perceptual_intention:surprendre",
         "perceptual_intention:envelopper"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Catedral_Metropolitana_de_Brasilia.jpg/1280px-Catedral_Metropolitana_de_Brasilia.jpg",
+        "alt": "Vue extérieure de la cathédrale de Brasília et de sa structure en couronne.",
+        "credit": "Image : Wikimedia Commons, fichier Catedral Metropolitana de Brasilia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_Brasilia.jpg"
+      }
     },
     {
       "id": "villa_rotonda",
@@ -1544,7 +1724,13 @@
         "perceptual_intention:ralentir",
         "spatial_intention:centralité",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Larotonda2009.JPG",
+        "alt": "Villa Rotonda dans son paysage, avec portique classique et volume central.",
+        "credit": "Image : Wikimedia Commons, fichier Larotonda2009",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Larotonda2009.JPG"
+      }
     },
     {
       "id": "katsura_imperial_villa",
@@ -1604,7 +1790,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Katsura_Rikyu_(3264799678).jpg/1280px-Katsura_Rikyu_(3264799678).jpg",
+        "alt": "Bâtiment et jardin de la villa impériale Katsura à Kyoto.",
+        "credit": "Image : Wikimedia Commons, fichier Katsura Rikyu (3264799678)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Katsura_Rikyu_(3264799678).jpg"
+      }
     },
     {
       "id": "villa_savoye",
@@ -1655,7 +1847,13 @@
         "perceptual_intention:ralentir",
         "perceptual_intention:surprendre",
         "spatial_intention:plan libre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Savoye_(8237925975).jpg/1280px-Villa_Savoye_(8237925975).jpg",
+        "alt": "Vue extérieure de la Villa Savoye à Poissy, pilotis et volume blanc.",
+        "credit": "Image : Wikimedia Commons, fichier Villa Savoye (8237925975)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Villa_Savoye_(8237925975).jpg"
+      }
     },
     {
       "id": "unite_habitation_marseille",
@@ -1707,7 +1905,13 @@
         "perceptual_intention:orienter",
         "site_intention:créer un repère",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://lecorbusier-worldheritage.org/wp-content/uploads/2019/07/unite-habitation.jpg",
+        "alt": "Vue générale de l’Unité d’habitation de Marseille, façade en béton et loggias colorées.",
+        "credit": "Image : Fondation Le Corbusier / ADAGP, Ph. Cemal Emden",
+        "source_url": "https://lecorbusier-worldheritage.org/en/unite-habitation/"
+      }
     },
     {
       "id": "maison_curutchet",
@@ -1757,7 +1961,13 @@
         "perceptual_intention:orienter",
         "spatial_intention:rampe continue",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Curutchet.jpg",
+        "alt": "Façade de la Maison Curutchet à La Plata, avec brise-soleil et rampe.",
+        "credit": "Image : Wikimedia Commons, fichier Curutchet",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Curutchet.jpg"
+      }
     },
     {
       "id": "barcelona_pavilion",
@@ -1810,7 +2020,13 @@
         "perceptual_intention:ralentir",
         "spatial_intention:parcours fluide",
         "social_intention:exposer"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/1280px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
+        "alt": "Vue du Pavillon de Barcelone avec bassin, toiture plane et parois de pierre.",
+        "credit": "Image : Wikimedia Commons, fichier The Barcelona Pavilion, Barcelona, 2010",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Barcelona_Pavilion,_Barcelona,_2010.jpg"
+      }
     },
     {
       "id": "farnsworth_house",
@@ -1865,7 +2081,13 @@
         "social_intention:habiter",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Farnsworth_House_by_Mies_Van_Der_Rohe_-_exterior-8.jpg/1280px-Farnsworth_House_by_Mies_Van_Der_Rohe_-_exterior-8.jpg",
+        "alt": "Vue extérieure de la Farnsworth House, structure blanche et parois vitrées dans le paysage.",
+        "credit": "Image : Wikimedia Commons, fichier Farnsworth House by Mies Van Der Rohe - exterior-8",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_by_Mies_Van_Der_Rohe_-_exterior-8.jpg"
+      }
     },
     {
       "id": "tugendhat_house",
@@ -1918,7 +2140,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "spatial_intention:parcours fluide"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Vila_Tugendhat_exterior_Dvorak2.JPG/1280px-Vila_Tugendhat_exterior_Dvorak2.JPG",
+        "alt": "Vue extérieure de la Villa Tugendhat à Brno depuis le jardin.",
+        "credit": "Image : Wikimedia Commons, fichier Vila Tugendhat exterior Dvorak2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vila_Tugendhat_exterior_Dvorak2.JPG"
+      }
     },
     {
       "id": "seagram_building",
@@ -1969,7 +2197,13 @@
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seagram_Building_(35098307116).jpg/1280px-Seagram_Building_(35098307116).jpg",
+        "alt": "Vue verticale du Seagram Building à New York, façade de verre et bronze.",
+        "credit": "Image : Wikimedia Commons, fichier Seagram Building (35098307116)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seagram_Building_(35098307116).jpg"
+      }
     },
     {
       "id": "crown_hall",
@@ -2020,7 +2254,13 @@
         "perceptual_intention:orienter",
         "spatial_intention:parcours fluide",
         "social_intention:étudier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/S.R._Crown_Hall.jpg/1280px-S.R._Crown_Hall.jpg",
+        "alt": "Vue extérieure de S. R. Crown Hall sur le campus de l’IIT à Chicago.",
+        "credit": "Image : Wikimedia Commons, fichier S.R. Crown Hall",
+        "source_url": "https://commons.wikimedia.org/wiki/File:S.R._Crown_Hall.jpg"
+      }
     },
     {
       "id": "robie_house",
@@ -2072,7 +2312,13 @@
         "symbolic_intention:mettre en scène le quotidien",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frederick_C._Robie_House.JPG/1280px-Frederick_C._Robie_House.JPG",
+        "alt": "Vue extérieure de la Robie House à Chicago, avec ses lignes horizontales et ses débords de toiture.",
+        "credit": "Image : Wikimedia Commons, fichier Frederick C. Robie House",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frederick_C._Robie_House.JPG"
+      }
     },
     {
       "id": "unity_temple",
@@ -2131,7 +2377,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Oak_Park_Il_Unity_Temple8.jpg/1280px-Oak_Park_Il_Unity_Temple8.jpg",
+        "alt": "Vue extérieure de l’Unity Temple à Oak Park, volumes géométriques en béton.",
+        "credit": "Image : Wikimedia Commons, fichier Oak Park Il Unity Temple8",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Oak_Park_Il_Unity_Temple8.jpg"
+      }
     },
     {
       "id": "taliesin_west",
@@ -2191,7 +2443,13 @@
         "site_intention:fusionner avec la nature",
         "climate_intention:protéger du soleil",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taliesin_West_Complex_DSCN2137.jpg/1280px-Taliesin_West_Complex_DSCN2137.jpg",
+        "alt": "Vue du complexe Taliesin West dans le paysage désertique de l’Arizona.",
+        "credit": "Image : Wikimedia Commons, fichier Taliesin West Complex DSCN2137",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taliesin_West_Complex_DSCN2137.jpg"
+      }
     },
     {
       "id": "bauhaus_dessau",
@@ -2241,7 +2499,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:orienter",
         "material_intention:chercher la transparence"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg/1280px-Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg",
+        "alt": "Façade vitrée de l’école du Bauhaus à Dessau.",
+        "credit": "Image : Wikimedia Commons, fichier Dessau Bauhaus-Gebäude asv2024-06 img1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg"
+      }
     },
     {
       "id": "villa_mairea",
@@ -2303,7 +2567,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/4Y1A7841_Alvar_Aalto%2C_Finland_(26710745140).jpg/1280px-4Y1A7841_Alvar_Aalto%2C_Finland_(26710745140).jpg",
+        "alt": "Vue extérieure de la Villa Mairea d’Alvar Aalto, entre bois, pierre et végétation.",
+        "credit": "Image : Wikimedia Commons, fichier 4Y1A7841 Alvar Aalto, Finland (26710745140)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:4Y1A7841_Alvar_Aalto,_Finland_(26710745140).jpg"
+      }
     },
     {
       "id": "paimio_sanatorium",
@@ -2361,7 +2631,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:ventiler naturellement"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Paimio_Sanatorium2.jpg/1280px-Paimio_Sanatorium2.jpg",
+        "alt": "Vue extérieure du sanatorium de Paimio, volumes blancs allongés dans le paysage.",
+        "credit": "Image : Wikimedia Commons, fichier Paimio Sanatorium2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paimio_Sanatorium2.jpg"
+      }
     },
     {
       "id": "saynatsalo_town_hall",
@@ -2417,7 +2693,13 @@
         "perceptual_intention:ralentir",
         "perceptual_intention:intensifier",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SaynatsaloTownHall4.jpg/1280px-SaynatsaloTownHall4.jpg",
+        "alt": "Cour et volumes en brique du Säynätsalo Town Hall.",
+        "credit": "Image : Wikimedia Commons, fichier SaynatsaloTownHall4",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SaynatsaloTownHall4.jpg"
+      }
     },
     {
       "id": "eames_house",
@@ -2469,7 +2751,13 @@
         "symbolic_intention:mettre en scène le quotidien",
         "perceptual_intention:intensifier",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eames_house_entry.jpg",
+        "alt": "Entrée de la Eames House, avec panneaux colorés et structure légère.",
+        "credit": "Image : Wikimedia Commons, fichier Eames house entry",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eames_house_entry.jpg"
+      }
     },
     {
       "id": "glass_house_philip_johnson",
@@ -2522,7 +2810,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "spatial_intention:fragmentation"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Philip_Johnson_Glass_House_The_House.jpg/1280px-Philip_Johnson_Glass_House_The_House.jpg",
+        "alt": "Vue extérieure de la Glass House de Philip Johnson dans son paysage arboré.",
+        "credit": "Image : Wikimedia Commons, fichier Philip Johnson Glass House The House",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Philip_Johnson_Glass_House_The_House.jpg"
+      }
     },
     {
       "id": "maison_de_verre",
@@ -2575,7 +2869,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Maison_de_verre_Chareau.jpg/1280px-Maison_de_verre_Chareau.jpg",
+        "alt": "Façade de la Maison de Verre à Paris, avec ses pavés de verre translucides.",
+        "credit": "Image : Wikimedia Commons, fichier Maison de verre Chareau",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_verre_Chareau.jpg"
+      }
     },
     {
       "id": "brion_cemetery",
@@ -2640,7 +2940,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:composer avec l'existant"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/31_Tomba_Brion_-_San_Vito_d'Altivole%2C_Treviso%2C_Italy_-_Carlo_Scarpa-FPPL3028.jpg/960px-31_Tomba_Brion_-_San_Vito_d'Altivole%2C_Treviso%2C_Italy_-_Carlo_Scarpa-FPPL3028.jpg",
+        "alt": "Vue du cimetière Brion de Carlo Scarpa, entre béton, bassin et dispositifs rituels.",
+        "credit": "Image : Wikimedia Commons, fichier 31 Tomba Brion - San Vito d'Altivole, Treviso, Italy - Carlo Scarpa-FPPL3028",
+        "source_url": "https://commons.wikimedia.org/wiki/File:31_Tomba_Brion_-_San_Vito_d'Altivole,_Treviso,_Italy_-_Carlo_Scarpa-FPPL3028.jpg"
+      }
     },
     {
       "id": "castelvecchio_museum",
@@ -2698,7 +3004,13 @@
         "perceptual_intention:ralentir",
         "perceptual_intention:surprendre",
         "site_intention:composer avec l'existant"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Verona%2C_castelvecchio%2C_museo_01.jpg/1280px-Verona%2C_castelvecchio%2C_museo_01.jpg",
+        "alt": "Vue du musée de Castelvecchio à Vérone, avec intervention muséographique de Carlo Scarpa.",
+        "credit": "Image : Wikimedia Commons, fichier Verona, castelvecchio, museo 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Verona,_castelvecchio,_museo_01.jpg"
+      }
     },
     {
       "id": "olivetti_showroom",
@@ -2758,7 +3070,13 @@
         "perceptual_intention:intensifier",
         "climate_intention:exploiter l'inertie",
         "material_intention:mettre en valeur l'artisanat"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Le_magasin_Olivetti_de_Carlo_Scarpa_(Venise)_(8068024216).jpg",
+        "alt": "Intérieur du showroom Olivetti de Carlo Scarpa à Venise, avec escalier central et matériaux travaillés.",
+        "credit": "Image : Wikimedia Commons, fichier Le magasin Olivetti de Carlo Scarpa (Venise) (8068024216)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Le_magasin_Olivetti_de_Carlo_Scarpa_(Venise)_(8068024216).jpg"
+      }
     },
     {
       "id": "national_assembly_bangladesh",
@@ -2818,7 +3136,13 @@
         "perceptual_intention:envelopper",
         "perceptual_intention:intensifier",
         "climate_intention:rafraîchir par l'eau"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/National_Assembly_of_Bangladesh_(10).jpg/1280px-National_Assembly_of_Bangladesh_(10).jpg",
+        "alt": "Vue de l’Assemblée nationale du Bangladesh à Dacca, volumes monumentaux et plans d’eau.",
+        "credit": "Image : Wikimedia Commons, fichier National Assembly of Bangladesh (10)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:National_Assembly_of_Bangladesh_(10).jpg"
+      }
     },
     {
       "id": "water_temple_ando",
@@ -2885,7 +3209,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "spatial_intention:séquence rituelle"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Temple_of_water_ando_1.jpg/1280px-Temple_of_water_ando_1.jpg",
+        "alt": "Bassin de lotus et parcours descendant du Temple de l’Eau de Tadao Ando.",
+        "credit": "Image : Wikimedia Commons, fichier Temple of water ando 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_water_ando_1.jpg"
+      }
     },
     {
       "id": "row_house_sumiyoshi",
@@ -2943,7 +3273,13 @@
         "perceptual_intention:orienter",
         "climate_intention:protéger du soleil",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Azuma_house.JPG/960px-Azuma_house.JPG",
+        "alt": "Façade étroite de la Row House in Sumiyoshi de Tadao Ando à Osaka.",
+        "credit": "Image : Wikimedia Commons, fichier Azuma house",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Azuma_house.JPG"
+      }
     },
     {
       "id": "saint_benedict_chapel",
@@ -3005,7 +3341,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sogn_Benedetg1.jpg/1280px-Sogn_Benedetg1.jpg",
+        "alt": "Chapelle Saint-Benoît de Peter Zumthor à Sumvitg, volume en bois posé dans la pente.",
+        "credit": "Image : Wikimedia Commons, fichier Sogn Benedetg1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sogn_Benedetg1.jpg"
+      }
     },
     {
       "id": "holocaust_memorial_berlin",
@@ -3055,7 +3397,13 @@
         "symbolic_intention:commémorer",
         "perceptual_intention:désorienter",
         "site_intention:composer avec l'existant"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Memorial_to_the_Murdered_Jews_of_Europeabove.jpg/1280px-Memorial_to_the_Murdered_Jews_of_Europeabove.jpg",
+        "alt": "Vue du Mémorial aux Juifs assassinés d’Europe, champ de stèles en béton à Berlin.",
+        "credit": "Image : Wikimedia Commons, fichier Memorial to the Murdered Jews of Europeabove",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Memorial_to_the_Murdered_Jews_of_Europeabove.jpg"
+      }
     },
     {
       "id": "centre_pompidou",
@@ -3117,7 +3465,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "social_intention:démocratiser la culture"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Front_Fa%C3%A7ade_of_the_Centre_Pompidou_5.jpg/1280px-Front_Fa%C3%A7ade_of_the_Centre_Pompidou_5.jpg",
+        "alt": "Façade du Centre Pompidou à Paris, avec escalators et structure apparente.",
+        "credit": "Image : Wikimedia Commons, fichier Front Façade of the Centre Pompidou 5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Front_Fa%C3%A7ade_of_the_Centre_Pompidou_5.jpg"
+      }
     },
     {
       "id": "lloyds_building",
@@ -3176,7 +3530,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lloyds_building_taken_2011.jpg",
+        "alt": "Vue extérieure du Lloyd’s Building à Londres, avec services et circulations apparents.",
+        "credit": "Image : Wikimedia Commons, fichier Lloyds building taken 2011",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lloyds_building_taken_2011.jpg"
+      }
     },
     {
       "id": "jean_marie_tjibaou_cultural_centre",
@@ -3245,7 +3605,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "climate_intention:ventiler naturellement"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Egrant-190-91.jpg",
+        "alt": "Vue du Centre culturel Jean-Marie Tjibaou, coques de bois dressées dans le paysage de Nouméa.",
+        "credit": "Image : Wikimedia Commons, fichier Egrant-190-91",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Egrant-190-91.jpg"
+      }
     },
     {
       "id": "kansai_airport_terminal",
@@ -3308,7 +3674,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:intensifier",
         "climate_intention:ventiler naturellement"
-      ]
+      ],
+      "image": {
+        "url": "https://cdn.sanity.io/images/zi3g9jaq/production/6997b4dbeb341f7cfffc852ddfd17b34ddd79bb9-1400x787.jpg",
+        "alt": "Vue du terminal de l’aéroport international du Kansai, grande toiture linéaire et structure légère.",
+        "credit": "Image : Renzo Piano Building Workshop",
+        "source_url": "https://www.rpbw.com/project/kansai-international-airport-terminal"
+      }
     },
     {
       "id": "guggenheim_bilbao",
@@ -3365,7 +3737,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "symbolic_intention:faire icône"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_(31273245344).jpg/1280px-Museo_Guggenheim%2C_Bilbao_(31273245344).jpg",
+        "alt": "Vue extérieure du Guggenheim Museum Bilbao, volumes métalliques courbes au bord de l’eau.",
+        "credit": "Image : Wikimedia Commons, fichier Museo Guggenheim, Bilbao (31273245344)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim,_Bilbao_(31273245344).jpg"
+      }
     },
     {
       "id": "walt_disney_concert_hall",
@@ -3425,7 +3803,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg/1280px-Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg",
+        "alt": "Vue extérieure du Walt Disney Concert Hall, coques métalliques réfléchissantes à Los Angeles.",
+        "credit": "Image : Wikimedia Commons, fichier Walt Disney Concert Hall, LA, CA, jjron 22.03.2012",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Concert_Hall,_LA,_CA,_jjron_22.03.2012.jpg"
+      }
     },
     {
       "id": "vitra_design_museum",
@@ -3477,7 +3861,13 @@
         "perceptual_intention:intensifier",
         "spatial_intention:rampe continue",
         "spatial_intention:labyrinthe"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vitra_Design_Museum.JPG/1280px-Vitra_Design_Museum.JPG",
+        "alt": "Vue extérieure du Vitra Design Museum, volumes blancs fragmentés de Frank Gehry.",
+        "credit": "Image : Wikimedia Commons, fichier Vitra Design Museum",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vitra_Design_Museum.JPG"
+      }
     },
     {
       "id": "tate_modern",
@@ -3541,7 +3931,13 @@
         "perceptual_intention:ralentir",
         "perceptual_intention:envelopper",
         "site_intention:reconvertir l'existant"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tate_Modern_-_Bankside_Power_Station.jpg/1280px-Tate_Modern_-_Bankside_Power_Station.jpg",
+        "alt": "Vue de la Tate Modern installée dans l’ancienne Bankside Power Station à Londres.",
+        "credit": "Image : Wikimedia Commons, fichier Tate Modern - Bankside Power Station",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tate_Modern_-_Bankside_Power_Station.jpg"
+      }
     },
     {
       "id": "dominus_winery",
@@ -3595,7 +3991,13 @@
         "site_intention:fusionner avec la nature",
         "climate_intention:filtrer la lumière",
         "climate_intention:exploiter l'inertie"
-      ]
+      ],
+      "image": {
+        "url": "https://www.dominusestate.com/content/wp-content/uploads/2021/03/dominus_winter_2021_0317.jpg",
+        "alt": "Dominus Winery dans le vignoble de Napa Valley, bâtiment linéaire en gabions de pierre.",
+        "credit": "Image : Dominus Estate",
+        "source_url": "https://www.dominusestate.com/architecture/"
+      }
     },
     {
       "id": "beijing_national_stadium",
@@ -3656,7 +4058,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:surprendre",
         "perceptual_intention:envelopper"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Beijing_China_Beijing-National-Stadium-01.jpg/1280px-Beijing_China_Beijing-National-Stadium-01.jpg",
+        "alt": "Vue du Beijing National Stadium, structure entrelacée dite Nid d’oiseau.",
+        "credit": "Image : Wikimedia Commons, fichier Beijing China Beijing-National-Stadium-01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_China_Beijing-National-Stadium-01.jpg"
+      }
     },
     {
       "id": "masp_sao_paulo",
@@ -3715,7 +4123,13 @@
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Novo_MASP.jpg/1280px-Novo_MASP.jpg",
+        "alt": "Vue du MASP à São Paulo, volume suspendu rouge au-dessus de l’espace public.",
+        "credit": "Image : Wikimedia Commons, fichier Novo MASP",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Novo_MASP.jpg"
+      }
     },
     {
       "id": "sesc_pompeia",
@@ -3777,7 +4191,13 @@
         "site_intention:reconvertir l'existant",
         "site_intention:composer avec l'existant",
         "material_intention:rendre tactile"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sesc_Pompeia%2C_Lina_Bo_Bardi_(5878450630).jpg/1280px-Sesc_Pompeia%2C_Lina_Bo_Bardi_(5878450630).jpg",
+        "alt": "Vue du SESC Pompéia de Lina Bo Bardi, tours en béton et passerelles.",
+        "credit": "Image : Wikimedia Commons, fichier Sesc Pompeia, Lina Bo Bardi (5878450630)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sesc_Pompeia,_Lina_Bo_Bardi_(5878450630).jpg"
+      }
     },
     {
       "id": "villa_deste_tivoli",
@@ -3842,7 +4262,13 @@
         "site_intention:fusionner avec la nature",
         "climate_intention:rafraîchir par l'eau",
         "perceptual_intention:envelopper"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Villa_Deste_park_Rometta_2011_2.jpg/1280px-Villa_Deste_park_Rometta_2011_2.jpg",
+        "alt": "Jardin de la Villa d’Este à Tivoli, terrasses, fontaines et bassins.",
+        "credit": "Image : Wikimedia Commons, fichier Villa Deste park Rometta 2011 2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Villa_Deste_park_Rometta_2011_2.jpg"
+      }
     },
     {
       "id": "taj_mahal",
@@ -3895,7 +4321,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_(Edited).jpeg/1280px-Taj_Mahal_(Edited).jpeg",
+        "alt": "Vue frontale du Taj Mahal et de son bassin axial à Agra.",
+        "credit": "Image : Wikimedia Commons, fichier Taj Mahal (Edited)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+      }
     },
     {
       "id": "ryoanji",
@@ -3957,7 +4389,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/1280px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg",
+        "alt": "Jardin sec du Ryōan-ji à Kyoto, graviers ratissés et pierres disposées.",
+        "credit": "Image : Wikimedia Commons, fichier Kare-sansui zen garden, Ryōan-ji, Kyoto 20190416 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kare-sansui_zen_garden,_Ry%C5%8Dan-ji,_Kyoto_20190416_1.jpg"
+      }
     },
     {
       "id": "ise_jingu",
@@ -4019,7 +4457,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "symbolic_intention:renouveler une tradition"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Naiku_04.jpg/1280px-Naiku_04.jpg",
+        "alt": "Sanctuaire intérieur d’Ise Jingū, architecture de bois et seuils rituels.",
+        "credit": "Image : Wikimedia Commons, fichier Naiku 04",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Naiku_04.jpg"
+      }
     },
     {
       "id": "gilardi_house",
@@ -4084,7 +4528,13 @@
         "site_intention:fusionner avec la nature",
         "climate_intention:rafraîchir par l'eau",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Casa_gilardi.jpg/1280px-Casa_gilardi.jpg",
+        "alt": "Vue de la Casa Gilardi de Luis Barragán, murs colorés et lumière filtrée.",
+        "credit": "Image : Wikimedia Commons, fichier Casa gilardi",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_gilardi.jpg"
+      }
     },
     {
       "id": "cuadra_san_cristobal",
@@ -4143,7 +4593,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Cuadra_San_Crist%C3%B3bal_(17423058118).jpg/1280px-Cuadra_San_Crist%C3%B3bal_(17423058118).jpg",
+        "alt": "Cuadra San Cristóbal de Luis Barragán, murs colorés et bassin pour chevaux.",
+        "credit": "Image : Wikimedia Commons, fichier Cuadra San Cristóbal (17423058118)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cuadra_San_Crist%C3%B3bal_(17423058118).jpg"
+      }
     },
     {
       "id": "fondation_cartier",
@@ -4205,7 +4661,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/La_Fondation_Cartier_pour_l'art_contemporain_(15907035710).jpg/1280px-La_Fondation_Cartier_pour_l'art_contemporain_(15907035710).jpg",
+        "alt": "Façade vitrée de la Fondation Cartier à Paris, transparence et arbres en premier plan.",
+        "credit": "Image : Wikimedia Commons, fichier La Fondation Cartier pour l'art contemporain (15907035710)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:La_Fondation_Cartier_pour_l'art_contemporain_(15907035710).jpg"
+      }
     },
     {
       "id": "nelson_atkins_bloch_building",
@@ -4262,7 +4724,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://www.stevenholl.com/wp-content/uploads/2020/01/NAMAP-0025-SHA-scaled-e1744753992296.jpg",
+        "alt": "Bloch Building du Nelson-Atkins Museum, volumes lumineux de verre dans le paysage.",
+        "credit": "Image : Steven Holl Architects",
+        "source_url": "https://www.stevenholl.com/projects/nelson-atkins-museum-of-art/"
+      }
     },
     {
       "id": "museum_21st_century_kanazawa",
@@ -4323,7 +4791,13 @@
         "perceptual_intention:intensifier",
         "site_intention:fusionner avec la nature",
         "social_intention:démocratiser la culture"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/21st_Century_Museum_of_Contemporary_Art%2C_Kanazawa011.jpg/1280px-21st_Century_Museum_of_Contemporary_Art%2C_Kanazawa011.jpg",
+        "alt": "Vue du 21st Century Museum of Contemporary Art à Kanazawa, bâtiment circulaire vitré.",
+        "credit": "Image : Wikimedia Commons, fichier 21st Century Museum of Contemporary Art, Kanazawa011",
+        "source_url": "https://commons.wikimedia.org/wiki/File:21st_Century_Museum_of_Contemporary_Art,_Kanazawa011.jpg"
+      }
     },
     {
       "id": "rolex_learning_center",
@@ -4382,7 +4856,13 @@
         "perceptual_intention:intensifier",
         "site_intention:fusionner avec la nature",
         "spatial_intention:parcours fluide"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Learning_center.jpg",
+        "alt": "Vue du Rolex Learning Center à Lausanne, dalle ondulante et façade vitrée.",
+        "credit": "Image : Wikimedia Commons, fichier Rolex Learning center",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rolex_Learning_center.jpg"
+      }
     },
     {
       "id": "louvre_lens",
@@ -4442,7 +4922,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/PHOTO_LOUVRE_LENS_Lens_2012_SANAA_ARCHITECTURE_DESIGN_1.jpg/1280px-PHOTO_LOUVRE_LENS_Lens_2012_SANAA_ARCHITECTURE_DESIGN_1.jpg",
+        "alt": "Vue extérieure du Louvre-Lens, volumes bas et surfaces vitrées dans le parc.",
+        "credit": "Image : Wikimedia Commons, fichier PHOTO LOUVRE LENS Lens 2012 SANAA ARCHITECTURE DESIGN 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PHOTO_LOUVRE_LENS_Lens_2012_SANAA_ARCHITECTURE_DESIGN_1.jpg"
+      }
     },
     {
       "id": "sendai_mediatheque",
@@ -4503,7 +4989,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:surprendre",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sendai_Mediatheque_2009.jpg",
+        "alt": "Vue extérieure de la Sendai Mediatheque, façade vitrée et plateaux traversés par les tubes structurels.",
+        "credit": "Image : Wikimedia Commons, fichier Sendai Mediatheque 2009",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sendai_Mediatheque_2009.jpg"
+      }
     },
     {
       "id": "tama_art_university_library",
@@ -4563,7 +5055,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tama_bijutsu_daigaku_library.jpg",
+        "alt": "Intérieur de la bibliothèque de la Tama Art University, série d’arches en béton.",
+        "credit": "Image : Wikimedia Commons, fichier Tama bijutsu daigaku library",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tama_bijutsu_daigaku_library.jpg"
+      }
     },
     {
       "id": "niteroi_contemporary_art_museum",
@@ -4622,7 +5120,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:créer un repère"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Contemporary_Art_Museum_in_Niteroi_City_4.jpg/1280px-Contemporary_Art_Museum_in_Niteroi_City_4.jpg",
+        "alt": "Musée d’art contemporain de Niterói, volume circulaire posé au-dessus de la baie.",
+        "credit": "Image : Wikimedia Commons, fichier Contemporary Art Museum in Niteroi City 4",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Contemporary_Art_Museum_in_Niteroi_City_4.jpg"
+      }
     },
     {
       "id": "london_aquatics_centre",
@@ -4689,7 +5193,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:surprendre",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/London%2C_England_(15513446165).jpg/1280px-London%2C_England_(15513446165).jpg",
+        "alt": "Vue du London Aquatics Centre, toiture ondulante et bassin olympique.",
+        "credit": "Image : Wikimedia Commons, fichier London, England (15513446165)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:London,_England_(15513446165).jpg"
+      }
     },
     {
       "id": "boa_nova_tea_house",
@@ -4757,7 +5267,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:ventiler naturellement"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Boa_Nova_Tea_House_Renovation.jpg/1280px-Boa_Nova_Tea_House_Renovation.jpg",
+        "alt": "Boa Nova Tea House d’Álvaro Siza, toiture basse inscrite dans les rochers atlantiques.",
+        "credit": "Image : Wikimedia Commons, fichier Boa Nova Tea House Renovation",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Boa_Nova_Tea_House_Renovation.jpg"
+      }
     },
     {
       "id": "serralves_museum",
@@ -4817,7 +5333,13 @@
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Museu_Serralves_exterior_(Porto).jpg/1280px-Museu_Serralves_exterior_(Porto).jpg",
+        "alt": "Vue extérieure du Museu de Serralves à Porto, volumes blancs dans le parc.",
+        "credit": "Image : Wikimedia Commons, fichier Museu Serralves exterior (Porto)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Museu_Serralves_exterior_(Porto).jpg"
+      }
     },
     {
       "id": "braga_municipal_stadium",
@@ -4878,7 +5400,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eduardo_Souto_de_Moura_-_Braga_Stadium_02_(6010593292).jpg/1280px-Eduardo_Souto_de_Moura_-_Braga_Stadium_02_(6010593292).jpg",
+        "alt": "Stade municipal de Braga, gradins entre parois minérales et câbles tendus.",
+        "credit": "Image : Wikimedia Commons, fichier Eduardo Souto de Moura - Braga Stadium 02 (6010593292)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eduardo_Souto_de_Moura_-_Braga_Stadium_02_(6010593292).jpg"
+      }
     },
     {
       "id": "gando_primary_school",
@@ -4944,7 +5472,13 @@
         "site_intention:fusionner avec la nature",
         "climate_intention:protéger du soleil",
         "climate_intention:ventiler naturellement"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gando-School-Burkina-Faso.JPG/1280px-Gando-School-Burkina-Faso.JPG",
+        "alt": "École primaire de Gando, bâtiment bas en terre et toiture ventilée.",
+        "credit": "Image : Wikimedia Commons, fichier Gando-School-Burkina-Faso",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gando-School-Burkina-Faso.JPG"
+      }
     },
     {
       "id": "heydar_aliyev_center",
@@ -5004,7 +5538,13 @@
         "symbolic_intention:représenter le pouvoir",
         "perceptual_intention:surprendre",
         "perceptual_intention:envelopper"
-      ]
+      ],
+      "image": {
+        "url": "https://www.zaha-hadid.com/wp-content/uploads/2019/12/hac_exterior_photobyhuftoncrow6copy41-1373x1080.jpg",
+        "alt": "Vue extérieure du Heydar Aliyev Center à Bakou, enveloppe blanche continue et fluide.",
+        "credit": "Image : Zaha Hadid Architects / Hufton+Crow",
+        "source_url": "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/"
+      }
     },
     {
       "id": "capitol_complex_chandigarh",
@@ -5057,7 +5597,13 @@
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter",
         "climate_intention:protéger du soleil"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Palace_of_Assembly_Chandigarh_2006.jpg/1280px-Palace_of_Assembly_Chandigarh_2006.jpg",
+        "alt": "Palais de l’Assemblée du Capitol Complex de Chandigarh, béton monumental et portique coloré.",
+        "credit": "Image : Wikimedia Commons, fichier Palace of Assembly Chandigarh 2006",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Palace_of_Assembly_Chandigarh_2006.jpg"
+      }
     },
     {
       "id": "national_museum_western_art_tokyo",
@@ -5116,7 +5662,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:ralentir"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/National_museum_of_western_art05s3200.jpg/1280px-National_museum_of_western_art05s3200.jpg",
+        "alt": "National Museum of Western Art à Tokyo, façade modulaire de béton.",
+        "credit": "Image : Wikimedia Commons, fichier National museum of western art05s3200",
+        "source_url": "https://commons.wikimedia.org/wiki/File:National_museum_of_western_art05s3200.jpg"
+      }
     },
     {
       "id": "nordic_pavilion_venice",
@@ -5182,7 +5734,13 @@
         "perceptual_intention:ralentir",
         "site_intention:fusionner avec la nature",
         "climate_intention:filtrer la lumière"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nordic_Pavilion%2C_Biennale_di_Venezia.jpg/1280px-Nordic_Pavilion%2C_Biennale_di_Venezia.jpg",
+        "alt": "Nordic Pavilion à Venise, toiture légère et arbres traversant l’espace.",
+        "credit": "Image : Wikimedia Commons, fichier Nordic Pavilion, Biennale di Venezia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nordic_Pavilion,_Biennale_di_Venezia.jpg"
+      }
     },
     {
       "id": "kiasma_museum",
@@ -5242,7 +5800,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "spatial_intention:rampe continue"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kiasmamodernartmuseum.JPG/1280px-Kiasmamodernartmuseum.JPG",
+        "alt": "Vue extérieure du Kiasma Museum à Helsinki, volume courbe et façade claire.",
+        "credit": "Image : Wikimedia Commons, fichier Kiasmamodernartmuseum",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kiasmamodernartmuseum.JPG"
+      }
     },
     {
       "id": "seattle_central_library",
@@ -5304,7 +5868,13 @@
         "perceptual_intention:ralentir",
         "perceptual_intention:surprendre",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Seattle_Library_01.jpg/1280px-Seattle_Library_01.jpg",
+        "alt": "Seattle Central Library, enveloppe vitrée plissée et structure diagonale.",
+        "credit": "Image : Wikimedia Commons, fichier Seattle Library 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seattle_Library_01.jpg"
+      }
     },
     {
       "id": "cctv_headquarters",
@@ -5361,7 +5931,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:désorienter",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/China_Central_Television_HQ%2C_from_China_World_Trade_Centre_(Cropped).jpg/1280px-China_Central_Television_HQ%2C_from_China_World_Trade_Centre_(Cropped).jpg",
+        "alt": "CCTV Headquarters à Pékin, boucle structurelle haute dans le skyline.",
+        "credit": "Image : Wikimedia Commons, fichier China Central Television HQ, from China World Trade Centre (Cropped)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:China_Central_Television_HQ,_from_China_World_Trade_Centre_(Cropped).jpg"
+      }
     },
     {
       "id": "casa_da_musica",
@@ -5422,7 +5998,13 @@
         "perceptual_intention:envelopper",
         "site_intention:ouvrir sur la ville",
         "site_intention:créer un repère"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Casa_Da_Musica_(3190746009).jpg/1280px-Casa_Da_Musica_(3190746009).jpg",
+        "alt": "Casa da Música à Porto, volume facetté posé sur l’espace public.",
+        "credit": "Image : Wikimedia Commons, fichier Casa Da Musica (3190746009)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Da_Musica_(3190746009).jpg"
+      }
     },
     {
       "id": "kunsthal_rotterdam",
@@ -5480,7 +6062,13 @@
         "perceptual_intention:intensifier",
         "site_intention:ouvrir sur la ville",
         "spatial_intention:parcours fluide"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kunsthal_Rotterdam.JPG/1280px-Kunsthal_Rotterdam.JPG",
+        "alt": "Kunsthal Rotterdam, volumes bas et rampes dans le parc urbain.",
+        "credit": "Image : Wikimedia Commons, fichier Kunsthal Rotterdam",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
+      }
     },
     {
       "id": "national_congress_brazil",
@@ -5538,7 +6126,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "site_intention:ouvrir sur la ville"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Brazilian_National_Congress.jpg/1280px-Brazilian_National_Congress.jpg",
+        "alt": "Congrès national du Brésil à Brasília, deux tours et coupoles d’Oscar Niemeyer.",
+        "credit": "Image : Wikimedia Commons, fichier Brazilian National Congress",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg"
+      }
     },
     {
       "id": "maxxi_rome",
@@ -5599,7 +6193,13 @@
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier",
         "spatial_intention:parcours fluide"
-      ]
+      ],
+      "image": {
+        "url": "https://www.zaha-hadid.com/wp-content/uploads/2019/12/965_maxxi_phot_04-1514x1080.jpg",
+        "alt": "Vue du MAXXI à Rome, volumes de béton et lignes courbes conçus par Zaha Hadid Architects.",
+        "credit": "Image : Zaha Hadid Architects",
+        "source_url": "https://www.zaha-hadid.com/architecture/maxxi/"
+      }
     },
     {
       "id": "sydney_opera_house",
@@ -5664,7 +6264,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:intensifier",
         "perceptual_intention:ouvrir l'imaginaire"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._(21339175489).jpg/1280px-Sydney_Australia._(21339175489).jpg",
+        "alt": "Vue du Sydney Opera House, coques blanches au bord de la baie.",
+        "credit": "Image : Wikimedia Commons, fichier Sydney Australia. (21339175489)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg"
+      }
     },
     {
       "id": "oslo_opera_house",
@@ -5732,7 +6338,13 @@
         "social_intention:démocratiser la culture",
         "perceptual_intention:orienter",
         "perceptual_intention:apaiser"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Oslo_opera_house3.jpg/1280px-Oslo_opera_house3.jpg",
+        "alt": "Vue de l’Oslo Opera House, plan incliné blanc descendant vers le fjord.",
+        "credit": "Image : Wikimedia Commons, fichier Oslo opera house3",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Oslo_opera_house3.jpg"
+      }
     },
     {
       "id": "yokohama_passenger_terminal",
@@ -5797,7 +6409,13 @@
         "symbolic_intention:exprimer une identité",
         "perceptual_intention:désorienter",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Osanbashi.jpg",
+        "alt": "Yokohama International Passenger Terminal, promenade ondulante en bois au bord de l’eau.",
+        "credit": "Image : Wikimedia Commons, fichier Osanbashi",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Osanbashi.jpg"
+      }
     },
     {
       "id": "louvre_pyramid",
@@ -5864,7 +6482,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:orienter",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Palais_du_Louvre%2C_reflet_sur_la_Pyramide.jpg/1280px-Palais_du_Louvre%2C_reflet_sur_la_Pyramide.jpg",
+        "alt": "Pyramide du Louvre dans la cour Napoléon, verre et reflets du palais.",
+        "credit": "Image : Wikimedia Commons, fichier Palais du Louvre, reflet sur la Pyramide",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Palais_du_Louvre,_reflet_sur_la_Pyramide.jpg"
+      }
     },
     {
       "id": "twa_flight_center",
@@ -5929,7 +6553,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:surprendre",
         "perceptual_intention:intensifier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ehemaliges_TWA-Terminal_am_John_F._Kennedy_International_Airport_in_New_York.JPG/1280px-Ehemaliges_TWA-Terminal_am_John_F._Kennedy_International_Airport_in_New_York.JPG",
+        "alt": "TWA Flight Center à New York, toiture courbe et formes aériennes.",
+        "credit": "Image : Wikimedia Commons, fichier Ehemaliges TWA-Terminal am John F. Kennedy International Airport in New York",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ehemaliges_TWA-Terminal_am_John_F._Kennedy_International_Airport_in_New_York.JPG"
+      }
     },
     {
       "id": "gateway_arch",
@@ -5990,7 +6620,13 @@
         "symbolic_intention:exprimer une identité",
         "perceptual_intention:intensifier",
         "perceptual_intention:orienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/St_Louis_night_expblend_cropped.jpg/1280px-St_Louis_night_expblend_cropped.jpg",
+        "alt": "Gateway Arch de Saint-Louis, arche métallique monumentale au bord du Mississippi.",
+        "credit": "Image : Wikimedia Commons, fichier St Louis night expblend cropped",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend_cropped.jpg"
+      }
     },
     {
       "id": "neue_nationalgalerie",
@@ -6055,7 +6691,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:orienter",
         "perceptual_intention:apaiser"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Berlin_Neue_Nationalgalerie_asv2021-11_img1.jpg/1280px-Berlin_Neue_Nationalgalerie_asv2021-11_img1.jpg",
+        "alt": "Neue Nationalgalerie à Berlin, grand toit d’acier et hall vitré.",
+        "credit": "Image : Wikimedia Commons, fichier Berlin Neue Nationalgalerie asv2021-11 img1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Neue_Nationalgalerie_asv2021-11_img1.jpg"
+      }
     },
     {
       "id": "yale_center_british_art",
@@ -6118,7 +6760,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:orienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Yale_Center_for_British_Art_(54106458295).jpg/1280px-Yale_Center_for_British_Art_(54106458295).jpg",
+        "alt": "Yale Center for British Art, façade sobre de Louis I. Kahn à New Haven.",
+        "credit": "Image : Wikimedia Commons, fichier Yale Center for British Art (54106458295)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yale_Center_for_British_Art_(54106458295).jpg"
+      }
     },
     {
       "id": "habitat_67",
@@ -6179,7 +6827,13 @@
         "symbolic_intention:renouveler une tradition",
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Habitat_67_2019_dllu_01.jpg/1280px-Habitat_67_2019_dllu_01.jpg",
+        "alt": "Habitat 67 à Montréal, empilement de modules résidentiels en béton.",
+        "credit": "Image : Wikimedia Commons, fichier Habitat 67 2019 dllu 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Habitat_67_2019_dllu_01.jpg"
+      }
     },
     {
       "id": "nakagin_capsule_tower",
@@ -6243,7 +6897,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:surprendre",
         "perceptual_intention:désorienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nakagin.jpg/960px-Nakagin.jpg",
+        "alt": "Nakagin Capsule Tower à Tokyo, accumulation de capsules modulaires.",
+        "credit": "Image : Wikimedia Commons, fichier Nakagin",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nakagin.jpg"
+      }
     },
     {
       "id": "vanna_venturi_house",
@@ -6302,7 +6962,13 @@
         "symbolic_intention:mettre en scène le quotidien",
         "perceptual_intention:surprendre",
         "material_intention:rendre tactile"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/VVenturi_House_Highsmith.jpeg",
+        "alt": "Façade de la Vanna Venturi House, fronton brisé et composition postmoderne.",
+        "credit": "Image : Wikimedia Commons, fichier VVenturi House Highsmith",
+        "source_url": "https://commons.wikimedia.org/wiki/File:VVenturi_House_Highsmith.jpeg"
+      }
     },
     {
       "id": "la_muralla_roja",
@@ -6372,7 +7038,13 @@
         "perceptual_intention:désorienter",
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Muralla_Roja%2C_Calp.JPG/1280px-Muralla_Roja%2C_Calp.JPG",
+        "alt": "La Muralla Roja à Calpe, escaliers et volumes rouges géométriques.",
+        "credit": "Image : Wikimedia Commons, fichier Muralla Roja, Calp",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Muralla_Roja,_Calp.JPG"
+      }
     },
     {
       "id": "walden_7",
@@ -6435,7 +7107,13 @@
         "symbolic_intention:renouveler une tradition",
         "perceptual_intention:désorienter",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sant_Just_Desvern_-_Walden_7_(13).jpg/1280px-Sant_Just_Desvern_-_Walden_7_(13).jpg",
+        "alt": "Walden 7 à Sant Just Desvern, façades rouges et volumes résidentiels imbriqués.",
+        "credit": "Image : Wikimedia Commons, fichier Sant Just Desvern - Walden 7 (13)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sant_Just_Desvern_-_Walden_7_(13).jpg"
+      }
     },
     {
       "id": "high_line_new_york",
@@ -6506,7 +7184,13 @@
         "symbolic_intention:mettre en scène le quotidien",
         "perceptual_intention:ralentir",
         "perceptual_intention:apaiser"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/High_Line_Park%2C_Section_1a.jpg/1280px-High_Line_Park%2C_Section_1a.jpg",
+        "alt": "High Line à New York, promenade plantée sur infrastructure ferroviaire reconvertie.",
+        "credit": "Image : Wikimedia Commons, fichier High Line Park, Section 1a",
+        "source_url": "https://commons.wikimedia.org/wiki/File:High_Line_Park,_Section_1a.jpg"
+      }
     },
     {
       "id": "elbphilharmonie",
@@ -6573,7 +7257,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:intensifier",
         "perceptual_intention:surprendre"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Elbphilharmonie_2025.jpg/1280px-Elbphilharmonie_2025.jpg",
+        "alt": "Elbphilharmonie à Hambourg, volume vitré ondulant au-dessus de l’ancien entrepôt.",
+        "credit": "Image : Wikimedia Commons, fichier Elbphilharmonie 2025",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie_2025.jpg"
+      }
     },
     {
       "id": "fondation_louis_vuitton",
@@ -6640,7 +7330,13 @@
         "symbolic_intention:faire icône",
         "perceptual_intention:surprendre",
         "perceptual_intention:ouvrir l'imaginaire"
-      ]
+      ],
+      "image": {
+        "url": "https://flv-prd-oxud8mggj93od145.imgix.net/4f5f7fc5-c5a4-4d84-9f01-421ab0325723/27890-DetailarchitecturaldubatimentdelaFondationLouisVuitton..jpg?fm=pjpg&q=80&dpi=72&cs=srgb&s=a8c3b93dc34095a8d465ccc3c8ccd34b",
+        "alt": "Détail architectural de la Fondation Louis Vuitton, voiles de verre conçus par Frank Gehry.",
+        "credit": "Image : Fondation Louis Vuitton",
+        "source_url": "https://www.fondationlouisvuitton.fr/en/fondation/the-building"
+      }
     },
     {
       "id": "mucem_marseille",
@@ -6715,7 +7411,13 @@
         "symbolic_intention:exprimer une identité",
         "perceptual_intention:ralentir",
         "perceptual_intention:orienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/%22Beeindruckende_Architektur%22._5.jpg/1280px-%22Beeindruckende_Architektur%22._5.jpg",
+        "alt": "Mucem à Marseille, résille sombre et passerelle vers le fort Saint-Jean.",
+        "credit": "Image : Wikimedia Commons, fichier \"Beeindruckende Architektur\". 5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%22Beeindruckende_Architektur%22._5.jpg"
+      }
     },
     {
       "id": "british_museum_great_court",
@@ -6785,7 +7487,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:orienter",
         "perceptual_intention:intensifier"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg/1280px-British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg",
+        "alt": "Great Court du British Museum, grande verrière couvrant la cour centrale.",
+        "credit": "Image : Wikimedia Commons, fichier British Museum Great Court, London, UK - Diliff",
+        "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Great_Court,_London,_UK_-_Diliff.jpg"
+      }
     },
     {
       "id": "reichstag_dome",
@@ -6854,7 +7562,13 @@
         "symbolic_intention:représenter le pouvoir",
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:orienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Glaskuppel_des_Reichstagsgeb%C3%A4ude_Deutscher_Bundestag_Berlin.JPG/1280px-Glaskuppel_des_Reichstagsgeb%C3%A4ude_Deutscher_Bundestag_Berlin.JPG",
+        "alt": "Coupole vitrée du Reichstag à Berlin, rampe hélicoïdale et structure transparente.",
+        "credit": "Image : Wikimedia Commons, fichier Glaskuppel des Reichstagsgebäude Deutscher Bundestag Berlin",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Glaskuppel_des_Reichstagsgeb%C3%A4ude_Deutscher_Bundestag_Berlin.JPG"
+      }
     },
     {
       "id": "bibliotheque_sainte_genevieve",
@@ -6923,7 +7637,13 @@
         "symbolic_intention:moderniser une institution",
         "perceptual_intention:apaiser",
         "perceptual_intention:orienter"
-      ]
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg/1280px-Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg",
+        "alt": "Salle de lecture de la Bibliothèque Sainte-Geneviève, arcs métalliques et longues tables.",
+        "credit": "Image : Wikimedia Commons, fichier Salle de lecture Bibliotheque Sainte-Genevieve n03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg"
+      }
     }
   ]
 }

@@ -291,6 +291,7 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
       </div>
     </section>
 
+    ${renderImageCredit(selected)}
     ${renderExpertAnnotations(state, selected, annotations)}
   `;
 }
@@ -498,6 +499,21 @@ function renderSourceLink(source: string): string {
   return `<a class="source-link" href="${escapeAttribute(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source)}</a>`;
 }
 
+function renderImageCredit(reference: ReferenceRecord): string {
+  const image = reference.image;
+  const source = normalizeExternalHttpUrl(image?.source_url);
+  if (!image || !source) return "";
+
+  return `
+    <section class="detail-section image-credit-section">
+      <h3>Image</h3>
+      <a class="source-link image-credit-link" href="${escapeAttribute(source)}" target="_blank" rel="noopener noreferrer">
+        ${escapeHtml(image.credit)}
+      </a>
+    </section>
+  `;
+}
+
 function renderReferenceTagBlock(state: AppState, label: string, tags: string[], className = ""): string {
   if (!tags.length) return "";
   return `
@@ -545,6 +561,17 @@ function renderTagPill(state: AppState, tag: string, fallbackClass = ""): string
 function renderAtmosphereTile(reference: ReferenceRecord, className = "atmosphere-tile"): string {
   const palette = getPalette(reference);
   const classes = className.includes("atmosphere-tile") ? className : `atmosphere-tile ${className}`;
+  const imageUrl = normalizeExternalHttpUrl(reference.image?.url);
+  if (imageUrl) {
+    const detailAlt = className.includes("detail-visual") ? reference.image?.alt : "";
+    const hidden = detailAlt ? "" : ` aria-hidden="true"`;
+    return `
+      <span class="${classes} has-image"${hidden}>
+        <img src="${escapeAttribute(imageUrl)}" alt="${escapeAttribute(detailAlt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+      </span>
+    `;
+  }
+
   return `
     <span
       class="${classes}"

@@ -28,6 +28,7 @@ Les rubriques servent à affiner la recherche. Plusieurs choix dans une même ru
 
 Chaque fiche rassemble :
 
+- une image illustrative avec crédit et source ;
 - les caractéristiques physiques associées à la référence ;
 - les effets ressentis ;
 - les intentions de conception ;

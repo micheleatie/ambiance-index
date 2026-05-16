@@ -583,6 +583,7 @@ button {
 }
 
 .atmosphere-tile {
+  display: block;
   min-height: 112px;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -611,6 +612,24 @@ button {
     repeating-linear-gradient(90deg, rgba(255,255,255,0.36) 0 1px, transparent 1px 10px),
     repeating-linear-gradient(0deg, rgba(32,32,28,0.18) 0 1px, transparent 1px 14px);
   mix-blend-mode: multiply;
+}
+
+.atmosphere-tile.has-image {
+  background: var(--panel-muted);
+}
+
+.atmosphere-tile.has-image::before,
+.atmosphere-tile.has-image::after {
+  display: none;
+}
+
+.atmosphere-tile img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .reference-main {
@@ -802,6 +821,11 @@ button {
   border-radius: var(--radius);
   text-decoration: none;
   overflow-wrap: anywhere;
+}
+
+.image-credit-link {
+  color: var(--soft);
+  font-size: 11px;
 }
 
 .detail-panel .mini-tags,

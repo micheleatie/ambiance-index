@@ -31,6 +31,14 @@ export interface ReferenceRecord {
   keywords_fr: string[];
   sources: string[];
   intention_tags?: string[];
+  image?: ReferenceImage;
+}
+
+export interface ReferenceImage {
+  url: string;
+  alt: string;
+  credit: string;
+  source_url: string;
 }
 
 export interface ReferencesDataset {

@@ -73,9 +73,17 @@
 - [x] Retirer l'email personnel public du site et du README.
 - [x] Durcir les liens de sources : seules les URL `http`/`https` sont rendues cliquables, avec `noopener noreferrer`.
 - [x] Supprimer la mémorisation globale de l'identité dans le formulaire de suggestions expertes.
+- [x] Ajouter une première série de 20 images de références, avec URL, texte alternatif, crédit et source.
 
 ## À Faire Ensuite
 
+- [x] Continuer l'ajout progressif d'images pour les références 21 à 40, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
+- [x] Continuer l'ajout progressif d'images pour les références 41 à 60, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
+- [x] Continuer l'ajout progressif d'images pour les références 61 à 80, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
+- [x] Continuer l'ajout progressif d'images pour les références 81 à 100, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
+- [x] Continuer l'ajout progressif d'images pour les références 101 à 120, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
+- [x] Ajouter des images ou vignettes fiables pour chaque référence.
+- [ ] Faire une passe qualitative sur les 120 images pour remplacer les vues trop générales, logos, détails faibles ou cadrages peu lisibles.
 - [ ] Générer automatiquement des pages statiques pour chaque référence depuis `data/references_seed.json`, avec slug stable, titre, description, tags, sources, JSON-LD par référence et entrée dédiée dans `sitemap.xml`.
 - [ ] Vérifier une soumission depuis le site public après redéploiement Apps Script.
 - [ ] Définir le fichier canonique des annotations approuvées et le processus de passage de Google Sheets vers `data/`.
@@ -86,7 +94,6 @@
 - [ ] Ajouter un champ de score : fréquence de citation, autorité de la source, pertinence pédagogique.
 - [ ] Décider si le prototype doit rester statique ou évoluer vers React/Next.js.
 - [ ] Définir la fiche type d'une référence : images, sources, mots-clés, annotations, citations courtes, projets comparables.
-- [ ] Ajouter des images ou vignettes fiables pour chaque référence.
 - [ ] Définir le workflow de validation pour intégrer les exports d'annotations expertes dans les fichiers `data/`.
 - [ ] Définir les vrais rôles de comptes pour les annotations : auteur, expert, modérateur et administrateur.
 - [ ] Ajouter des citations courtes sourcées pour justifier les tags.
