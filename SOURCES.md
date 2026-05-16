@@ -74,7 +74,7 @@ Sources consultées le 16 mai 2026 pour la troisième série d'images :
 - [Wikimedia Commons - Azuma house](https://commons.wikimedia.org/wiki/File:Azuma_house.JPG)
 - [Wikimedia Commons - Sogn Benedetg1](https://commons.wikimedia.org/wiki/File:Sogn_Benedetg1.jpg)
 - [Wikimedia Commons - Memorial to the Murdered Jews of Europeabove](https://commons.wikimedia.org/wiki/File:Memorial_to_the_Murdered_Jews_of_Europeabove.jpg)
-- [Wikimedia Commons - Front Façade of the Centre Pompidou 5](https://commons.wikimedia.org/wiki/File:Front_Fa%C3%A7ade_of_the_Centre_Pompidou_5.jpg)
+- [Wikimedia Commons - Pompidou Centre](https://commons.wikimedia.org/wiki/File:Pompidou_Centre.jpg)
 - [Wikimedia Commons - Lloyds building taken 2011](https://commons.wikimedia.org/wiki/File:Lloyds_building_taken_2011.jpg)
 
 Sources consultées le 16 mai 2026 pour la quatrième série d'images :
