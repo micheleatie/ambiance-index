@@ -28,7 +28,7 @@ Les rubriques servent à affiner la recherche. Plusieurs choix dans une même ru
 
 Chaque fiche rassemble :
 
-- une image illustrative avec crédit et source ;
+- une image illustrative quand les droits de réutilisation sont vérifiés, avec crédit, auteur, source et licence ;
 - les caractéristiques physiques associées à la référence ;
 - les effets ressentis ;
 - les intentions de conception ;
@@ -39,7 +39,7 @@ Les tags ne sont pas une vérité définitive : ils indiquent une indexation pé
 
 ## Proposer Une Annotation Experte
 
-Dans une fiche, la section `Suggestions expertes` permet de proposer une correction, une nuance, une confirmation ou un ajout.
+Dans une fiche, la section `Suggestions experts` permet de proposer une correction, une nuance, une confirmation ou un ajout.
 
 Une suggestion demande :
 
@@ -55,7 +55,7 @@ L'organisation, l'email de contact et la source courte sont optionnels. L'email 
 
 Le bouton `Soumettre pour validation` envoie la suggestion dans une file privée de modération. Elle ne devient publique qu'après relecture et intégration manuelle dans la version canonique du site.
 
-Le bouton `Enregistrer localement` garde une trace dans le navigateur utilisé. Le bouton `Effacer local` supprime ces traces locales pour la fiche ouverte, ainsi que l'identité mémorisée dans ce navigateur.
+Le bouton `Enregistrer localement` garde une copie privée dans le navigateur utilisé. Si une copie existe, des actions permettent de l'exporter ou de l'effacer pour la fiche ouverte.
 
 ## Données Et Modération
 

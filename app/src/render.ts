@@ -312,24 +312,32 @@ function renderExpertAnnotations(
   return `
     <section class="detail-section expert-annotations">
       <div class="annotation-header">
-        <h3>Suggestions expertes</h3>
-        <div class="annotation-header-actions">
-          <button class="ghost-button annotation-export" type="button" ${annotations.length ? "" : "disabled"}>
-            Exporter traces locales
-          </button>
-          <button class="ghost-button annotation-clear" type="button" data-clear-local-annotations ${annotations.length ? "" : "disabled"}>
-            Effacer local
-          </button>
-        </div>
-      </div>
-
-      <div class="annotation-list">
+        <h3>Suggestions experts</h3>
         ${
-          activeAnnotations.length
-            ? activeAnnotations.map((annotation) => renderExpertAnnotation(annotation)).join("")
-            : `<p class="muted-line">Aucune suggestion locale.</p>`
+          annotations.length
+            ? `
+              <div class="annotation-header-actions">
+                <button class="ghost-button annotation-export" type="button">
+                  Exporter mes suggestions
+                </button>
+                <button class="ghost-button annotation-clear" type="button" data-clear-local-annotations>
+                  Effacer mes suggestions
+                </button>
+              </div>
+            `
+            : ""
         }
       </div>
+
+      ${
+        activeAnnotations.length
+          ? `
+            <div class="annotation-list">
+              ${activeAnnotations.map((annotation) => renderExpertAnnotation(annotation)).join("")}
+            </div>
+          `
+          : ""
+      }
 
       ${
         withdrawnAnnotations.length
@@ -507,7 +515,8 @@ function renderSourceLink(source: string): string {
 function renderImageCredit(reference: ReferenceRecord): string {
   const image = reference.image;
   const source = normalizeExternalHttpUrl(image?.source_url);
-  if (!image || !source) return "";
+  if (!image || !source || !isImageDisplayAllowed(image)) return "";
+  const licenseUrl = normalizeExternalHttpUrl(image.license_url);
 
   return `
     <section class="detail-section image-credit-section">
@@ -515,8 +524,23 @@ function renderImageCredit(reference: ReferenceRecord): string {
       <a class="source-link image-credit-link" href="${escapeAttribute(source)}" target="_blank" rel="noopener noreferrer">
         ${escapeHtml(image.credit)}
       </a>
+      <div class="image-rights">
+        ${image.author ? `<p class="image-rights-line">Auteur : ${escapeHtml(image.author)}</p>` : ""}
+        ${
+          image.license && licenseUrl
+            ? `<p class="image-rights-line">Licence : <a href="${escapeAttribute(licenseUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(image.license)}</a></p>`
+            : image.license
+              ? `<p class="image-rights-line">Licence : ${escapeHtml(image.license)}</p>`
+              : ""
+        }
+        ${image.rights_note ? `<p class="image-rights-line">${escapeHtml(image.rights_note)}</p>` : ""}
+      </div>
     </section>
   `;
+}
+
+function isImageDisplayAllowed(image: ReferenceRecord["image"]): boolean {
+  return Boolean(image && image.rights_status !== "needs-permission");
 }
 
 function renderReferenceTagBlock(state: AppState, label: string, tags: string[], className = ""): string {
@@ -634,8 +658,9 @@ function renderAtmosphereTile(
 ): string {
   const palette = getPalette(reference);
   const classes = className.includes("atmosphere-tile") ? className : `atmosphere-tile ${className}`;
-  const imageUrl =
-    normalizeRelativeAssetUrl(reference.image?.local_url) ?? normalizeExternalHttpUrl(reference.image?.url);
+  const imageUrl = isImageDisplayAllowed(reference.image)
+    ? normalizeRelativeAssetUrl(reference.image?.local_url) ?? normalizeExternalHttpUrl(reference.image?.url)
+    : null;
   if (imageUrl) {
     const detailAlt = className.includes("detail-visual") ? reference.image?.alt : "";
     const hidden = detailAlt ? "" : ` aria-hidden="true"`;

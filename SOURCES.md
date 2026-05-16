@@ -146,6 +146,32 @@ Sources consultées le 16 mai 2026 pour la sixième série d'images :
 - [Wikimedia Commons - Glaskuppel des Reichstagsgebäude Deutscher Bundestag Berlin](https://commons.wikimedia.org/wiki/File:Glaskuppel_des_Reichstagsgeb%C3%A4ude_Deutscher_Bundestag_Berlin.JPG)
 - [Wikimedia Commons - Salle de lecture Bibliotheque Sainte-Genevieve n03](https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg)
 
+Sources consultées le 16 mai 2026 pour la correction qualitative de quelques images :
+
+- [Wikimedia Commons - Therme Vals facade, Vals, Graubünden, Switzerland](https://commons.wikimedia.org/wiki/File:Therme_Vals_facade,_Vals,_Graub%C3%BCnden,_Switzerland_-_20051009.jpg)
+- [Wikimedia Commons - Jean Nouvel - building](https://commons.wikimedia.org/wiki/File:Jean_Nouvel_-_building_(2846996636).jpg)
+- [Wikimedia Commons - Sainte-Marie de la Tourette, Untergeschoss. 1](https://commons.wikimedia.org/wiki/File:Sainte-Marie_de_la_Tourette,_Untergeschoss._1.jpg)
+- [Wikimedia Commons - Louvre Museum Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg)
+- [UNESCO World Heritage Centre - Villa Savoye and gardener's lodge](https://whc.unesco.org/en/documents/140704)
+- [Wikimedia Commons - Seattle U St Ignatius 05](https://commons.wikimedia.org/wiki/File:Seattle_U_St_Ignatius_05.jpg)
+- [Wikimedia Commons - Kansai Airport terminal 1, from sky view](https://commons.wikimedia.org/wiki/File:Kansai_Airport_terminal_1_,from_the_top_of_observation_hall_%22sky_view%22_(16041786233).jpg)
+- [Wikimedia Commons - Bloch Building Nelson-Atkins Museum Kansas City](https://commons.wikimedia.org/wiki/File:Bloch_Building_Nelson-Atkins_Museum_Kansas_City.jpg)
+- [Wikimedia Commons - HEIDAR ALIYEV CENTER WIDE ANGLE](https://commons.wikimedia.org/wiki/File:HEIDAR_ALIYEV_CENTER_WIDE_ANGLE.%D7%96%D7%95%D7%95%D7%99%D7%AA_%D7%A8%D7%97%D7%91%D7%94_%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg)
+- [Wikimedia Commons - MAXXI Museo nazionale delle arti del XXI secolo, Roma, Italy](https://commons.wikimedia.org/wiki/File:MAXXI_Museo_nazionale_delle_arti_del_XXI_secolo,_Roma,_Italy_(Unsplash).jpg)
+
+Sources consultées le 16 mai 2026 pour l'audit des droits des images :
+
+- [Wikimedia Commons - Reusing content outside Wikimedia](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)
+- [Creative Commons - Reusing CC-Licensed Content](https://creativecommons.org/reusing-cc-licensed-content/)
+- [UNESCO World Heritage Centre - license 19](https://whc.unesco.org/en/licenses/19/)
+- [Sites Le Corbusier - legal notice](https://sites-le-corbusier.org/en/legal-notice/)
+- [Le Corbusier World Heritage - legal notices](https://lecorbusier-worldheritage.org/en/legal-notices/)
+- [RPBW - legal notice](https://www.rpbw.com/legal-notice)
+- [Zaha Hadid Architects - terms](https://www.zaha-hadid.com/terms/)
+- [Zaha Hadid Architects - image copyright notice](https://www.zaha-hadid.com/asset_packs/please-note-that-all-images-are-copyrighted-and-cannot-be-reproduced-or-published-without-zaha-hadid-architects-consent/)
+- [Fondation Louis Vuitton - terms of use](https://www.fondationlouisvuitton.fr/en/terms-of-use)
+- [Menil Collection - terms and conditions](https://www.menil.org/terms-and-conditions)
+
 ## Cadre Théorique Sur Les Ambiances
 
 - [Laboratoire AAU - Ambiances Architectures Urbanités](https://aau.archi.fr/) : approche par les dimensions physiques, sociales et sensibles des espaces.

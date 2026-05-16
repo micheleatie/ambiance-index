@@ -40,6 +40,11 @@ export interface ReferenceImage {
   alt: string;
   credit: string;
   source_url: string;
+  author?: string;
+  license?: string;
+  license_url?: string;
+  rights_status?: "open-license" | "limited-license" | "needs-permission";
+  rights_note?: string;
 }
 
 export interface ReferencesDataset {

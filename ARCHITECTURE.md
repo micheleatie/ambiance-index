@@ -4,7 +4,7 @@
 
 Le dépôt contient une base documentaire, des données de départ et un prototype web statique Vite + TypeScript.
 
-Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google Apps Script + Google Sheets comme file de suggestions expertes, sans exposer de données canoniques en écriture directe.
+Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google Apps Script + Google Sheets comme file de suggestions experts, sans exposer de données canoniques en écriture directe.
 
 ## Structure
 
@@ -45,7 +45,7 @@ Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google A
 La future plateforme peut être pensée autour de ces objets :
 
 - `Reference` : bâtiment, lieu, ensemble urbain ou paysage architectural.
-- `ReferenceImage` : image illustrative optionnelle d'une référence, avec URL distante conservée, URL locale optionnelle, texte alternatif, crédit et URL source.
+- `ReferenceImage` : image illustrative optionnelle d'une référence, avec URL distante conservée, URL locale optionnelle, texte alternatif, crédit, URL source, auteur, licence et statut de droits.
 - `Source` : article, page officielle, livre, notice patrimoniale, entretien ou discours expert.
 - `Descriptor` : mot ou expression trouvée dans une source, par exemple `lumière diffuse`, `silence`, `caverneux`.
 - `Rubric` : catégorie contrôlée, par exemple `light_aspect:diffuse` ou `thermal_effect:frais`.
@@ -80,12 +80,12 @@ Fonctions disponibles :
 - image illustrative par référence quand `data/references_seed.json` fournit un objet `image`, en privilégiant `image.local_url` quand une copie locale existe, puis l'URL distante en fallback ; les images de liste sont chargées progressivement et la tuile abstraite reste visible pendant le chargement ou en cas d'échec ;
 - mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
 - séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
-- suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
+- suggestions experts structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme copies locales exportables en JSON ;
 - identité minimale de l'expert pour chaque annotation : nom, fonction ou rôle, organisation et email optionnels, saisis au moment de la contribution et non réutilisés globalement entre les références ;
 - l'email personnel de la créatrice n'est pas publié dans le site ou les données structurées ; les emails saisis dans le formulaire restent des données de contact optionnelles propres aux contributions ;
 - champs obligatoires, limites de longueur, honeypot et limitation locale à 3 soumissions par 10 minutes ;
 - retrait local d'une annotation par son auteur local, conservé comme archive dans l'export plutôt que supprimé définitivement.
-- effacement explicite des traces locales et de l'identité mémorisée dans le navigateur pour la référence ouverte.
+- effacement explicite des copies locales et de l'identité mémorisée dans le navigateur pour la référence ouverte.
 - build statique déployable sur GitHub Pages avec base de production `/ambiance-index/`.
 - les liens de sources sont limités aux URL `http`/`https` avant d'être rendus cliquables.
 
@@ -94,7 +94,8 @@ Fonctions disponibles :
 - Environnement recommandé : Node.js 24 LTS, indiqué dans `.nvmrc`.
 - Installation : `npm install`.
 - Serveur local : `npm run dev`, avec Vite servi depuis `app/` et base locale `/`.
-- Import des images Commons en fichiers locaux : `npm run images:import`, avec copies écrites dans `public/images/references/` et chemins `image.local_url` ajoutés dans `data/references_seed.json`.
+- Import des images Commons en fichiers locaux : `npm run images:import`, avec copies écrites dans `public/images/references/` et chemins `image.local_url` ajoutés dans `data/references_seed.json`. L'option `--ids=id1,id2` permet de rafraîchir seulement quelques références après correction qualitative.
+- Audit des droits des images : `npm run images:audit-rights`, avec ajout optionnel des métadonnées par `-- --write-metadata`. Les images marquées `needs-permission` ne sont pas rendues publiquement.
 - Vérifications : `npm run typecheck` puis `npm run build`.
 - Prévisualisation production : `npm run preview`, avec base `/ambiance-index/`.
 - Déploiement : GitHub Actions construit `dist/` depuis `main` et publie sur GitHub Pages.
@@ -104,7 +105,7 @@ Fonctions disponibles :
 ## Suggestions Publiques Modérées
 
 - L'app reste statique : aucune donnée canonique n'est modifiée directement depuis le navigateur.
-- Le formulaire `Suggestions expertes` poste vers l'URL Apps Script configurée dans `app/src/constants.ts`.
+- Le formulaire `Suggestions experts` poste vers l'URL Apps Script configurée dans `app/src/constants.ts`.
 - L'URL Apps Script est publique par nature, mais elle ne donne accès qu'aux actions exposées par le script déployé.
 - Le script Apps Script vit dans l'interface Google, pas dans le dépôt GitHub.
 - La Google Sheet liée reste privée et sert seulement de file de modération.
@@ -115,7 +116,7 @@ Fonctions disponibles :
 Limites actuelles :
 
 - `data/references_seed.json` contient 120 références indexées dans l'app.
-- Les 120 références disposent d'une première image illustrative avec crédit et source ; les 111 images issues de Wikimedia Commons sont copiées localement dans `public/images/references/`, tandis que 9 images non-Commons restent servies depuis leurs sources externes en attente de remplacement ou d'autorisation.
+- Les 120 références disposent d'une première image illustrative avec crédit et source ; 115 images issues de Wikimedia Commons sont copiées localement dans `public/images/references/`, l'image UNESCO de Villa Savoye est copiée localement avec licence limitée, et 4 images non-Commons sont marquées `needs-permission` donc non affichées en attente de remplacement ou d'autorisation.
 - `data/reference_candidates_100.json` conserve le premier corpus cible et sert maintenant de liste de contrôle complète pour les 100 premières références.
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.

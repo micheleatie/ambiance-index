@@ -18,6 +18,10 @@ const dryRun = args.has("--dry-run");
 const force = args.has("--force");
 const checkOnly = args.has("--check");
 const limit = getNumberArg("--limit");
+const ids = getStringArg("--ids")
+  ?.split(",")
+  .map((id) => id.trim())
+  .filter(Boolean);
 const delayMs = getNumberArg("--delay-ms") ?? 700;
 const timeoutMs = getNumberArg("--timeout-ms") ?? 20_000;
 const execFileAsync = promisify(execFile);
@@ -31,6 +35,11 @@ function getNumberArg(name) {
     throw new Error(`Invalid ${name}: ${value}`);
   }
   return parsed;
+}
+
+function getStringArg(name) {
+  const prefix = `${name}=`;
+  return process.argv.slice(2).find((arg) => arg.startsWith(prefix))?.slice(prefix.length) ?? null;
 }
 
 function sleep(ms) {
@@ -128,7 +137,14 @@ async function main() {
   const commonsReferences = dataset.references.filter((reference) =>
     isCommonsSource(reference.image?.source_url)
   );
-  const selectedReferences = typeof limit === "number" ? commonsReferences.slice(0, limit) : commonsReferences;
+  const idSet = ids ? new Set(ids) : null;
+  const idFilteredReferences = idSet
+    ? commonsReferences.filter((reference) => idSet.has(reference.id))
+    : commonsReferences;
+  const selectedReferences = typeof limit === "number" ? idFilteredReferences.slice(0, limit) : idFilteredReferences;
+  const missingIds = idSet
+    ? ids.filter((id) => !commonsReferences.some((reference) => reference.id === id))
+    : [];
 
   const report = {
     totalReferences: dataset.references.length,
@@ -139,6 +155,10 @@ async function main() {
     updatedMetadata: 0,
     failed: []
   };
+
+  for (const id of missingIds) {
+    report.failed.push({ id, reason: "No Commons-backed reference found for id" });
+  }
 
   if (!dryRun && !checkOnly) {
     await mkdir(imageDir, { recursive: true });

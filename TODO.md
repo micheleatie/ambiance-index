@@ -85,8 +85,13 @@
 - [x] Ajouter des images ou vignettes fiables pour chaque référence.
 - [x] Remplacer l'URL image expirée de Dominus Winery et charger les vignettes progressivement dans la liste.
 - [x] Ajouter l'outil `npm run images:import` pour copier localement les images Wikimedia Commons et préférer `image.local_url` au rendu.
-- [x] Copier localement les 111 images issues de Wikimedia Commons avec `npm run images:import`.
-- [ ] Remplacer ou autoriser explicitement les 9 images non-Commons avant de les copier localement.
+- [x] Copier localement les 115 images issues de Wikimedia Commons avec `npm run images:import`.
+- [x] Copier localement l'image officielle UNESCO de Villa Savoye après remplacement de l'image Commons faible.
+- [x] Ajouter le rafraîchissement ciblé d'images par identifiants et remplacer les images faibles de Therme Vals, Institut du Monde Arabe, Pyramide du Louvre, La Tourette et Villa Savoye.
+- [x] Ajouter un audit reproductible des droits d'images et masquer les images marquées `needs-permission`.
+- [x] Remplacer par des images Commons les cas faciles restants : Chapel of St. Ignatius, Kansai Airport Terminal, Bloch Building, Heydar Aliyev Center et MAXXI.
+- [ ] Remplacer ou autoriser explicitement les 4 images `needs-permission` restantes avant de les réactiver.
+- [ ] Remplacer ou confirmer l'image Therme Vals, dont la licence Commons est ouverte mais sans auteur renseigné dans les métadonnées.
 - [ ] Faire une passe qualitative sur les 120 images pour remplacer les vues trop générales, logos, détails faibles ou cadrages peu lisibles.
 - [ ] Générer automatiquement des pages statiques pour chaque référence depuis `data/references_seed.json`, avec slug stable, titre, description, tags, sources, JSON-LD par référence et entrée dédiée dans `sitemap.xml`.
 - [ ] Vérifier une soumission depuis le site public après redéploiement Apps Script.

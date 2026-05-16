@@ -834,6 +834,23 @@ button {
   font-size: 11px;
 }
 
+.image-rights {
+  display: grid;
+  gap: 4px;
+  margin-top: 7px;
+}
+
+.image-rights-line {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.image-rights-line a {
+  color: var(--soft);
+}
+
 .detail-panel .mini-tags,
 .detail-panel .keyword-row {
   gap: 5px;
@@ -849,6 +866,8 @@ button {
 .expert-annotations {
   display: grid;
   gap: 12px;
+  border-top: 0;
+  padding-top: 8px;
 }
 
 .annotation-header,
