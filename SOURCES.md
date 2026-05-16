@@ -85,7 +85,7 @@ Sources consultées le 16 mai 2026 pour la quatrième série d'images :
 - [Wikimedia Commons - Walt Disney Concert Hall](https://commons.wikimedia.org/wiki/File:Walt_Disney_Concert_Hall,_LA,_CA,_jjron_22.03.2012.jpg)
 - [Wikimedia Commons - Vitra Design Museum](https://commons.wikimedia.org/wiki/File:Vitra_Design_Museum.JPG)
 - [Wikimedia Commons - Tate Modern - Bankside Power Station](https://commons.wikimedia.org/wiki/File:Tate_Modern_-_Bankside_Power_Station.jpg)
-- [Dominus Estate - Architecture](https://www.dominusestate.com/architecture/)
+- [Wikimedia Commons - Dominus Winery Napa Valley](https://commons.wikimedia.org/wiki/File:Dominus_Winery_Napa_Valley.jpg)
 - [Wikimedia Commons - Beijing National Stadium](https://commons.wikimedia.org/wiki/File:Beijing_China_Beijing-National-Stadium-01.jpg)
 - [Wikimedia Commons - Novo MASP](https://commons.wikimedia.org/wiki/File:Novo_MASP.jpg)
 - [Wikimedia Commons - Sesc Pompeia, Lina Bo Bardi](https://commons.wikimedia.org/wiki/File:Sesc_Pompeia,_Lina_Bo_Bardi_%285878450630%29.jpg)

@@ -42,6 +42,8 @@ export interface RenderHandlers {
   selectReference(referenceId: string): void;
 }
 
+const lazyImageRoots = new WeakSet<HTMLElement>();
+
 export function renderApp(state: AppState, els: AppElements, handlers: RenderHandlers): void {
   const results = getFilteredReferences(state);
   if (!results.some((reference) => reference.id === state.selectedReferenceId)) {
@@ -237,6 +239,7 @@ function renderResults(
     const referenceId = button.dataset.referenceId;
     if (referenceId) button.addEventListener("click", () => handlers.selectReference(referenceId));
   });
+  hydrateLazyImages(els.resultsList);
 }
 
 function renderDetail(state: AppState, els: AppElements, results: ReferenceRecord[]): void {
@@ -254,7 +257,7 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
   const subjectiveTags = getReferenceFamilyTags(state, selected, "subjective");
 
   els.detailCard.innerHTML = `
-    ${renderAtmosphereTile(selected, "detail-visual")}
+    ${renderAtmosphereTile(selected, "detail-visual", { deferImage: false })}
     <h2>${escapeHtml(selected.name)}</h2>
     <p class="reference-meta">${escapeHtml(selected.architect_or_period)} · ${escapeHtml(selected.location)} · ${escapeHtml(selected.year)}</p>
 
@@ -558,16 +561,68 @@ function renderTagPill(state: AppState, tag: string, fallbackClass = ""): string
   return `<span class="mini-tag ${fallbackClass}">${escapeHtml(label.rubric)} · ${escapeHtml(label.value)}</span>`;
 }
 
-function renderAtmosphereTile(reference: ReferenceRecord, className = "atmosphere-tile"): string {
+function hydrateLazyImages(root: HTMLElement): void {
+  const loadImage = (image: HTMLImageElement): void => {
+    const src = image.dataset.src;
+    if (!src) return;
+    image.src = src;
+    image.removeAttribute("data-src");
+  };
+
+  const loadNearbyImages = (): void => {
+    const rootRect = root.getBoundingClientRect();
+    const rootStyle = window.getComputedStyle(root);
+    const rootScrolls = rootStyle.overflowY !== "visible" && root.scrollHeight > root.clientHeight + 1;
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || root.clientHeight;
+    const topLimit = rootScrolls ? rootRect.top - 500 : -500;
+    const bottomLimit = rootScrolls ? rootRect.bottom + 500 : viewportHeight + 500;
+
+    root.querySelectorAll<HTMLImageElement>("img[data-src]").forEach((image) => {
+      const tile = image.closest<HTMLElement>(".atmosphere-tile");
+      const rect = (tile ?? image).getBoundingClientRect();
+      if (rect.bottom >= topLimit && rect.top <= bottomLimit) {
+        loadImage(image);
+      }
+    });
+  };
+
+  loadNearbyImages();
+  if (lazyImageRoots.has(root)) return;
+
+  let frame = 0;
+  const scheduleLoad = (): void => {
+    if (frame) return;
+    frame = window.requestAnimationFrame(() => {
+      frame = 0;
+      loadNearbyImages();
+    });
+  };
+
+  root.addEventListener("scroll", scheduleLoad, { passive: true });
+  window.addEventListener("scroll", scheduleLoad, { passive: true });
+  window.addEventListener("resize", scheduleLoad);
+  lazyImageRoots.add(root);
+}
+
+function renderAtmosphereTile(
+  reference: ReferenceRecord,
+  className = "atmosphere-tile",
+  options: { deferImage?: boolean } = {}
+): string {
   const palette = getPalette(reference);
   const classes = className.includes("atmosphere-tile") ? className : `atmosphere-tile ${className}`;
   const imageUrl = normalizeExternalHttpUrl(reference.image?.url);
   if (imageUrl) {
     const detailAlt = className.includes("detail-visual") ? reference.image?.alt : "";
     const hidden = detailAlt ? "" : ` aria-hidden="true"`;
+    const deferImage = options.deferImage ?? true;
+    const sourceAttribute = deferImage
+      ? `data-src="${escapeAttribute(imageUrl)}"`
+      : `src="${escapeAttribute(imageUrl)}"`;
+    const loading = deferImage ? "lazy" : "eager";
     return `
       <span class="${classes} has-image"${hidden}>
-        <img src="${escapeAttribute(imageUrl)}" alt="${escapeAttribute(detailAlt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+        <img ${sourceAttribute} alt="${escapeAttribute(detailAlt)}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" />
       </span>
     `;
   }
