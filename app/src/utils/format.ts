@@ -37,3 +37,14 @@ export function normalizeExternalHttpUrl(value: unknown): string | null {
     return null;
   }
 }
+
+export function normalizeRelativeAssetUrl(value: unknown): string | null {
+  const pathText = String(value ?? "").trim();
+  if (!pathText || pathText.startsWith("//") || pathText.includes("\0")) return null;
+  if (/^[a-z][a-z0-9+.-]*:/i.test(pathText)) return null;
+
+  const normalized = pathText.replace(/^\.?\//, "");
+  if (!normalized || normalized.startsWith("../") || normalized.includes("/../")) return null;
+
+  return normalized;
+}

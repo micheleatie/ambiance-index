@@ -34,7 +34,8 @@ import {
   escapeHtml,
   formatCount,
   formatDateTime,
-  normalizeExternalHttpUrl
+  normalizeExternalHttpUrl,
+  normalizeRelativeAssetUrl
 } from "./utils/format";
 
 export interface RenderHandlers {
@@ -633,7 +634,8 @@ function renderAtmosphereTile(
 ): string {
   const palette = getPalette(reference);
   const classes = className.includes("atmosphere-tile") ? className : `atmosphere-tile ${className}`;
-  const imageUrl = normalizeExternalHttpUrl(reference.image?.url);
+  const imageUrl =
+    normalizeRelativeAssetUrl(reference.image?.local_url) ?? normalizeExternalHttpUrl(reference.image?.url);
   if (imageUrl) {
     const detailAlt = className.includes("detail-visual") ? reference.image?.alt : "";
     const hidden = detailAlt ? "" : ` aria-hidden="true"`;

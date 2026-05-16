@@ -36,6 +36,7 @@ export interface ReferenceRecord {
 
 export interface ReferenceImage {
   url: string;
+  local_url?: string;
   alt: string;
   credit: string;
   source_url: string;

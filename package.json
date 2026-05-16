@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 4173",
     "build": "npm run typecheck && vite build",
+    "images:import": "node scripts/import-reference-images.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4176 --base /ambiance-index/",
     "typecheck": "tsc --noEmit"
   },

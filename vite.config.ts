@@ -9,7 +9,7 @@ const rootSeoFiles = ["sitemap.xml", "robots.txt"];
 export default defineConfig(({ command }) => ({
   root: "app",
   base: command === "serve" ? "/" : "/ambiance-index/",
-  publicDir: false,
+  publicDir: resolve(repoRoot, "public"),
   plugins: [
     {
       name: "copy-root-seo-files",

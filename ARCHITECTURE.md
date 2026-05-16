@@ -45,7 +45,7 @@ Objectif immédiat : utiliser GitHub Pages pour l'interface publique et Google A
 La future plateforme peut être pensée autour de ces objets :
 
 - `Reference` : bâtiment, lieu, ensemble urbain ou paysage architectural.
-- `ReferenceImage` : image illustrative optionnelle d'une référence, avec URL, texte alternatif, crédit et URL source.
+- `ReferenceImage` : image illustrative optionnelle d'une référence, avec URL distante conservée, URL locale optionnelle, texte alternatif, crédit et URL source.
 - `Source` : article, page officielle, livre, notice patrimoniale, entretien ou discours expert.
 - `Descriptor` : mot ou expression trouvée dans une source, par exemple `lumière diffuse`, `silence`, `caverneux`.
 - `Rubric` : catégorie contrôlée, par exemple `light_aspect:diffuse` ou `thermal_effect:frais`.
@@ -77,7 +77,7 @@ Fonctions disponibles :
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
-- image illustrative par référence quand `data/references_seed.json` fournit un objet `image`, chargée progressivement dans la liste pour éviter de déclencher trop de requêtes externes à l'ouverture, avec tuile abstraite visible pendant le chargement ou en cas d'échec ;
+- image illustrative par référence quand `data/references_seed.json` fournit un objet `image`, en privilégiant `image.local_url` quand une copie locale existe, puis l'URL distante en fallback ; les images de liste sont chargées progressivement et la tuile abstraite reste visible pendant le chargement ou en cas d'échec ;
 - mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
 - séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
 - suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;
@@ -94,10 +94,11 @@ Fonctions disponibles :
 - Environnement recommandé : Node.js 24 LTS, indiqué dans `.nvmrc`.
 - Installation : `npm install`.
 - Serveur local : `npm run dev`, avec Vite servi depuis `app/` et base locale `/`.
+- Import des images Commons en fichiers locaux : `npm run images:import`, avec copies écrites dans `public/images/references/` et chemins `image.local_url` ajoutés dans `data/references_seed.json`.
 - Vérifications : `npm run typecheck` puis `npm run build`.
 - Prévisualisation production : `npm run preview`, avec base `/ambiance-index/`.
 - Déploiement : GitHub Actions construit `dist/` depuis `main` et publie sur GitHub Pages.
-- Configuration Vite durable : `root: "app"`, `build.outDir: "../dist"`, base de production `/ambiance-index/`.
+- Configuration Vite durable : `root: "app"`, `build.outDir: "../dist"`, `publicDir` pointant vers le dossier racine `public/`, base de production `/ambiance-index/`.
 - SEO : les métadonnées principales, la balise de vérification Google Search Console et le JSON-LD de la page d'accueil sont dans `app/index.html`; le sitemap canonique et `robots.txt` sont à la racine du dépôt et copiés vers `dist/` au build.
 
 ## Suggestions Publiques Modérées
@@ -114,7 +115,7 @@ Fonctions disponibles :
 Limites actuelles :
 
 - `data/references_seed.json` contient 120 références indexées dans l'app.
-- Les 120 références disposent d'une première image illustrative avec crédit et source ; les URL directes d'images doivent rester vérifiées car certaines sources externes peuvent expirer.
+- Les 120 références disposent d'une première image illustrative avec crédit et source ; les 111 images issues de Wikimedia Commons sont copiées localement dans `public/images/references/`, tandis que 9 images non-Commons restent servies depuis leurs sources externes en attente de remplacement ou d'autorisation.
 - `data/reference_candidates_100.json` conserve le premier corpus cible et sert maintenant de liste de contrôle complète pour les 100 premières références.
 - `data/reference_sensory_enrichment_v1.json` documente les ajouts sensoriels v1, avec des tags contextuels qui devront encore être transformés en citations courtes affichables.
 - `data/reference_design_intentions_v1.json` documente les intentions v1 ; elles doivent rester distinctes des sensations et être renforcées par citations ou annotations expertes.

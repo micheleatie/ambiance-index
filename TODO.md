@@ -84,6 +84,9 @@
 - [x] Continuer l'ajout progressif d'images pour les références 101 à 120, en privilégiant Wikimedia Commons ou les pages officielles avec crédit clair.
 - [x] Ajouter des images ou vignettes fiables pour chaque référence.
 - [x] Remplacer l'URL image expirée de Dominus Winery et charger les vignettes progressivement dans la liste.
+- [x] Ajouter l'outil `npm run images:import` pour copier localement les images Wikimedia Commons et préférer `image.local_url` au rendu.
+- [x] Copier localement les 111 images issues de Wikimedia Commons avec `npm run images:import`.
+- [ ] Remplacer ou autoriser explicitement les 9 images non-Commons avant de les copier localement.
 - [ ] Faire une passe qualitative sur les 120 images pour remplacer les vues trop générales, logos, détails faibles ou cadrages peu lisibles.
 - [ ] Générer automatiquement des pages statiques pour chaque référence depuis `data/references_seed.json`, avec slug stable, titre, description, tags, sources, JSON-LD par référence et entrée dédiée dans `sitemap.xml`.
 - [ ] Vérifier une soumission depuis le site public après redéploiement Apps Script.
