@@ -77,7 +77,7 @@ Fonctions disponibles :
 - thèmes rapides pour tester des combinaisons pédagogiques ;
 - tri par pertinence, nom ou période ;
 - fiche détaillée avec sources ;
-- image illustrative par référence quand `data/references_seed.json` fournit un objet `image`, chargée progressivement dans la liste pour éviter de déclencher trop de requêtes externes à l'ouverture, avec tuile abstraite conservée en fallback ;
+- image illustrative par référence quand `data/references_seed.json` fournit un objet `image`, chargée progressivement dans la liste pour éviter de déclencher trop de requêtes externes à l'ouverture, avec tuile abstraite visible pendant le chargement ou en cas d'échec ;
 - mise en page responsive : trois colonnes sur grand écran, deux colonnes `Références` + `Fiche` aux largeurs intermédiaires avec `Recherche` en panneau superposé repliable, puis pile verticale sur mobile ;
 - séparation en fiche entre caractéristiques physiques, effets ressentis et intentions de conception ;
 - suggestions expertes structurées par rubrique, soumises en arrière-plan vers Google Apps Script puis conservées comme traces locales exportables en JSON ;

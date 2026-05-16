@@ -618,8 +618,8 @@ button {
   background: var(--panel-muted);
 }
 
-.atmosphere-tile.has-image::before,
-.atmosphere-tile.has-image::after {
+.atmosphere-tile.has-image.is-image-loaded::before,
+.atmosphere-tile.has-image.is-image-loaded::after {
   display: none;
 }
 
@@ -630,6 +630,12 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.atmosphere-tile.is-image-loaded img {
+  opacity: 1;
 }
 
 .reference-main {

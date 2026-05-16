@@ -297,6 +297,7 @@ function renderDetail(state: AppState, els: AppElements, results: ReferenceRecor
     ${renderImageCredit(selected)}
     ${renderExpertAnnotations(state, selected, annotations)}
   `;
+  hydrateImageState(els.detailCard);
 }
 
 function renderExpertAnnotations(
@@ -561,7 +562,28 @@ function renderTagPill(state: AppState, tag: string, fallbackClass = ""): string
   return `<span class="mini-tag ${fallbackClass}">${escapeHtml(label.rubric)} · ${escapeHtml(label.value)}</span>`;
 }
 
+function hydrateImageState(root: ParentNode): void {
+  const markLoaded = (image: HTMLImageElement): void => {
+    image.closest<HTMLElement>(".atmosphere-tile")?.classList.add("is-image-loaded");
+  };
+
+  const markFailed = (image: HTMLImageElement): void => {
+    const tile = image.closest<HTMLElement>(".atmosphere-tile");
+    tile?.classList.remove("is-image-loaded");
+    tile?.classList.add("is-image-failed");
+  };
+
+  root.querySelectorAll<HTMLImageElement>(".atmosphere-tile.has-image img").forEach((image) => {
+    if (image.complete && image.naturalWidth > 0) markLoaded(image);
+    if (image.complete && image.currentSrc && image.naturalWidth === 0) markFailed(image);
+    image.addEventListener("load", () => markLoaded(image), { once: true });
+    image.addEventListener("error", () => markFailed(image), { once: true });
+  });
+}
+
 function hydrateLazyImages(root: HTMLElement): void {
+  hydrateImageState(root);
+
   const loadImage = (image: HTMLImageElement): void => {
     const src = image.dataset.src;
     if (!src) return;
@@ -621,7 +643,7 @@ function renderAtmosphereTile(
       : `src="${escapeAttribute(imageUrl)}"`;
     const loading = deferImage ? "lazy" : "eager";
     return `
-      <span class="${classes} has-image"${hidden}>
+      <span class="${classes} has-image"${hidden} style="--tone-a:${palette[0]};--tone-b:${palette[1]};--tone-c:${palette[2]};--tone-d:${palette[3]}">
         <img ${sourceAttribute} alt="${escapeAttribute(detailAlt)}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" />
       </span>
     `;
